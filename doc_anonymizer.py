@@ -1,62 +1,65 @@
-from ollama import chat
+import requests
 import xml.etree.ElementTree as ET
 import os
 
-
 def extract_entities(text):
     """
-    Usa el modelo LLM para identificar entidades nombrables en el texto.
+    Usa el modelo LLM en el servidor para identificar entidades nombrables en el texto.
     """
-    prompt = """
-    Lee el siguiente texto y extrae únicamente el nombre del paciente, sus apellidos y el nombre completo del médico, **sin incluir información adicional ni campos extra**.
-    
-    ### Reglas estrictas:
-    1. **NOMBRE_PACIENTE**: Extrae solo el nombre o nombres del paciente, sin apellidos.
-    2. **APELLIDOS_PACIENTE**: Extrae solo los apellidos del paciente, sin incluir nombres.
-    3. **MEDICO**: Extrae el nombre y los apellidos completos del médico, sin:
-       - Títulos como "Dr.", "Dra.", "Médico".
-       - Servicios médicos ("Servicio de Urología", "Unidad de Cirugía").
-       - Números de colegiado ("NºCol: 46 28 52938").
-       - Campos adicionales como "NOMBRE_COMPLETO_MEDICO".
-    
-    ### Formato de salida (exacto, sin cambios ni caracteres adicionales):
-    NOMBRE_PACIENTE: [Nombre o nombres del paciente]  
-    APELLIDOS_PACIENTE: [Apellidos del paciente únicamente]  
-    MEDICO: [Nombre y apellidos del médico únicamente]  
-    
-    ⚠️ **IMPORTANTE** ⚠️  
-    - **NO devuelvas texto adicional** (títulos, especialidades, hospitales, números de colegiado).  
-    - **NO generes campos extra** como "NOMBRE_COMPLETO_MEDICO".  
-    - **No agregues puntos ni caracteres al final de los apellidos o nombres.**  
-    
-    ### Ejemplos:  
-    #### Ejemplo 1:
-    Texto: "El paciente Ignacio Rico Pedroza fue atendido por el Dr. Ignacio Rubio Tortosa del Servicio de Urología, NºCol: 46 28 52938."
-    Salida esperada:  
-    NOMBRE_PACIENTE: Ignacio  
-    APELLIDOS_PACIENTE: Rico Pedroza  
-    MEDICO: Ignacio Rubio Tortosa  
-    
-    #### Ejemplo 2:
-    Texto: "Francisco Javier Serra Ortega acudió a consulta con el doctor José Antonio Cánovas Ivorra."
-    Salida esperada:  
-    NOMBRE_PACIENTE: Francisco Javier  
-    APELLIDOS_PACIENTE: Serra Ortega  
-    MEDICO: José Antonio Cánovas Ivorra  
-    
-    Texto:
-    """
-    response = chat(
-        model='llama3.2:1b',
-        messages=[
-            {
-                'role': 'user',
-                'content': prompt + text
-            }
-        ]
-    )
+    url = "http://localhost:20201/api/generate"
+    payload = {
+        "model": "llama3.2:1b",
+        "prompt": f"""
+        Lee el siguiente texto y extrae únicamente el nombre del paciente, sus apellidos y el nombre completo del médico, **sin incluir información adicional ni campos extra**.
 
-    return parse_llm_response(response.message.content)
+        ### Reglas estrictas:
+        1. **NOMBRE_PACIENTE**: Extrae solo el nombre o nombres del paciente, sin apellidos.
+        2. **APELLIDOS_PACIENTE**: Extrae solo los apellidos del paciente, sin incluir nombres.
+        3. **MEDICO**: Extrae el nombre y los apellidos completos del médico, sin:
+           - Títulos como "Dr.", "Dra.", "Médico".
+           - Servicios médicos ("Servicio de Urología", "Unidad de Cirugía").
+           - Números de colegiado ("NºCol: 46 28 52938").
+           - Campos adicionales como "NOMBRE_COMPLETO_MEDICO".
+
+        ### Formato de salida (exacto, sin cambios ni caracteres adicionales):
+        NOMBRE_PACIENTE: [Nombre o nombres del paciente]  
+        APELLIDOS_PACIENTE: [Apellidos del paciente únicamente]  
+        MEDICO: [Nombre y apellidos del médico únicamente]  
+
+        ⚠️ **IMPORTANTE** ⚠️  
+        - **NO devuelvas texto adicional** (títulos, especialidades, hospitales, números de colegiado).  
+        - **NO generes campos extra** como "NOMBRE_COMPLETO_MEDICO".  
+        - **No agregues puntos ni caracteres al final de los apellidos o nombres.**  
+
+        ### Ejemplos:  
+        #### Ejemplo 1:
+        Texto: "El paciente Ignacio Rico Pedroza fue atendido por el Dr. Ignacio Rubio Tortosa del Servicio de Urología, NºCol: 46 28 52938."
+        Salida esperada:  
+        NOMBRE_PACIENTE: Ignacio  
+        APELLIDOS_PACIENTE: Rico Pedroza  
+        MEDICO: Ignacio Rubio Tortosa  
+
+        #### Ejemplo 2:
+        Texto: "Francisco Javier Serra Ortega acudió a consulta con el doctor José Antonio Cánovas Ivorra."
+        Salida esperada:  
+        NOMBRE_PACIENTE: Francisco Javier  
+        APELLIDOS_PACIENTE: Serra Ortega  
+        MEDICO: José Antonio Cánovas Ivorra  
+
+        Texto:
+        """,
+        "stream": False
+    }
+    headers = {"Content-Type": "application/json"}
+
+    # Hacer la solicitud POST al servidor local
+    response = requests.post(url, json=payload, headers=headers)
+
+    if response.status_code == 200:
+        # Parsear la respuesta del modelo
+        return parse_llm_response(response.json()['response'])
+    else:
+        raise Exception(f"Error en la petición al servidor: {response.status_code}")
 
 
 def parse_llm_response(response):
