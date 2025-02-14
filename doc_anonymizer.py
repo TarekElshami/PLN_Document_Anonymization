@@ -26,7 +26,7 @@ def extract_entities(text):
         APELLIDOS_PACIENTE: [Apellidos del paciente únicamente]  
         MEDICO: [Nombre y apellidos del médico únicamente]  
 
-        ⚠️ **IMPORTANTE** ⚠️  
+        **IMPORTANTE**
         - **NO devuelvas texto adicional** (títulos, especialidades, hospitales, números de colegiado).  
         - **NO generes campos extra** como "NOMBRE_COMPLETO_MEDICO".  
         - **No agregues puntos ni caracteres al final de los apellidos o nombres.**  
@@ -46,7 +46,7 @@ def extract_entities(text):
         APELLIDOS_PACIENTE: Serra Ortega  
         MEDICO: José Antonio Cánovas Ivorra  
 
-        Texto:
+        Texto: {text}
         """,
         "stream": False
     }
