@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import os
+import re
 
 def extract_entities(text):
     """
@@ -12,68 +13,76 @@ def extract_entities(text):
         "prompt": f"""
         Lee el siguiente texto y extrae únicamente el nombre del paciente, sus apellidos y el nombre completo del médico, **sin incluir información adicional ni campos extra**.
 
-        ### Reglas estrictas:
-        1. **NOMBRE_PACIENTE**: Extrae solo el nombre o nombres del paciente, sin apellidos.
-        2. **APELLIDOS_PACIENTE**: Extrae solo los apellidos del paciente, sin incluir nombres.
-        3. **MEDICO**: Extrae el nombre y los apellidos completos del médico, sin:
-           - Títulos como "Dr.", "Dra.", "Médico".
-           - Servicios médicos ("Servicio de Urología", "Unidad de Cirugía").
-           - Números de colegiado ("NºCol: 46 28 52938").
-           - Campos adicionales como "NOMBRE_COMPLETO_MEDICO".
+        Reglas estrictas:
+        1. NOMBRE_PACIENTE: Extrae solo el nombre o nombres del paciente, sin apellidos ni caracteres adicionales (puntos, comas, etc.).
+        2. APELLIDOS_PACIENTE: Extrae solo los apellidos del paciente, sin nombres ni caracteres adicionales.
+        3. MEDICO: Extrae el nombre y los apellidos completos del médico, sin títulos ("Dr.", "Dra."), servicios médicos, números de colegiado, ni caracteres adicionales.
 
-        ### Formato de salida (exacto, sin cambios ni caracteres adicionales):
+        Formato de salida (exacto, sin cambios ni caracteres adicionales):
         NOMBRE_PACIENTE: [Nombre o nombres del paciente]  
         APELLIDOS_PACIENTE: [Apellidos del paciente únicamente]  
         MEDICO: [Nombre y apellidos del médico únicamente]  
 
-        **IMPORTANTE**
-        - **NO devuelvas texto adicional** (títulos, especialidades, hospitales, números de colegiado).  
-        - **NO generes campos extra** como "NOMBRE_COMPLETO_MEDICO".  
-        - **No agregues puntos ni caracteres al final de los apellidos o nombres.**  
+        IMPORTANTE:
+        - NO devuelvas texto adicional (títulos, especialidades, hospitales, números de colegiado, etc.).
+        - NO generes campos extra como "NOMBRE_COMPLETO_MEDICO".
+        - NO agregues puntos, comas ni espacios innecesarios al final de los nombres o apellidos.
+        - Si no puedes identificar alguna entidad, deja el campo vacío (ejemplo: "NOMBRE_PACIENTE: ").
 
-        ### Ejemplos:  
-        #### Ejemplo 1:
-        Texto: "El paciente Ignacio Rico Pedroza fue atendido por el Dr. Ignacio Rubio Tortosa del Servicio de Urología, NºCol: 46 28 52938."
+        Ejemplos:
+        Ejemplo 1:
+        Texto: "El paciente Juan Hidalgo Manzana fue atendido por el Dr. Tarek Elshami Ahmed del Servicio de Urología, NºCol: 46 28 52938."
         Salida esperada:  
-        NOMBRE_PACIENTE: Ignacio  
-        APELLIDOS_PACIENTE: Rico Pedroza  
-        MEDICO: Ignacio Rubio Tortosa  
+        NOMBRE_PACIENTE: Juan  
+        APELLIDOS_PACIENTE: Hidalgo Manzana  
+        MEDICO: Tarek Elshami Ahmed  
 
-        #### Ejemplo 2:
-        Texto: "Francisco Javier Serra Ortega acudió a consulta con el doctor José Antonio Cánovas Ivorra."
+        Ejemplo 2:
+        Texto: "José Luis Redondo de Oro acudió a consulta con el doctor Luis Enrique de la Fuente."
         Salida esperada:  
-        NOMBRE_PACIENTE: Francisco Javier  
-        APELLIDOS_PACIENTE: Serra Ortega  
-        MEDICO: José Antonio Cánovas Ivorra  
+        NOMBRE_PACIENTE: José Luis  
+        APELLIDOS_PACIENTE: Redondo de Oro  
+        MEDICO: Luis Enrique de la Fuente  
 
-        Texto: {text}
+        Ejemplo 3:
+        Texto: "Paciente sin nombre identificado, atendido por Dra. Paula de Arriba Crespo."
+        Salida esperada:  
+        NOMBRE_PACIENTE:  
+        APELLIDOS_PACIENTE:  
+        MEDICO: Paula de Arriba Crespo
+
+        El texto que debes analizar es el siguiente: {text}
         """,
         "stream": False
     }
     headers = {"Content-Type": "application/json"}
 
-    # Hacer la solicitud POST al servidor local
-    response = requests.post(url, json=payload, headers=headers)
-
-    if response.status_code == 200:
-        # Parsear la respuesta del modelo
+    try:
+        response = requests.post(url, json=payload, headers=headers, timeout=10)  # Timeout de 10 segundos
+        response.raise_for_status()  # Lanza excepción si hay error HTTP
+        print("Respuesta cruda del modelo: \n", response.json()['response'])  # Depuración
         return parse_llm_response(response.json()['response'])
-    else:
-        raise Exception(f"Error en la petición al servidor: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error al conectar con el servidor: {e}")
+        return {'NOMBRE_PACIENTE': '', 'APELLIDOS_PACIENTE': '', 'MEDICO': ''}
 
 
 def parse_llm_response(response):
     """
     Parsea la respuesta del modelo LLM para extraer las entidades nombradas.
     """
-    print(response)
     entities = {
-        'NOMBRE_PACIENTE': None,
-        'APELLIDOS_PACIENTE': None,
-        'MEDICO': None
+        'NOMBRE_PACIENTE': '',
+        'APELLIDOS_PACIENTE': '',
+        'MEDICO': ''
     }
 
+    if not response or not isinstance(response, str):
+        print("Respuesta inválida o vacía del modelo")
+        return entities
+
     for line in response.split('\n'):
+        line = line.strip()
         if line.startswith('NOMBRE_PACIENTE:'):
             entities['NOMBRE_PACIENTE'] = line.replace('NOMBRE_PACIENTE:', '').strip()
         elif line.startswith('APELLIDOS_PACIENTE:'):
@@ -135,6 +144,21 @@ def generate_xml_output(text, entities):
     return xml_str
 
 
+def post_process_output(output):
+    """
+    Post-procesa la salida para eliminar caracteres no deseados y asegurar el formato exacto, preservando puntos de abreviaturas.
+    """
+    if not output or output == 'None':
+        return ''
+    # Eliminar títulos, "NCol", y texto adicional, pero no puntos dentro del nombre
+    cleaned_output = re.sub(r'(Dr\.?|Dra\.?|NCol|NºCol:.*|Servicio.*|\d+.*|\s+$)', '', output).strip()
+    # Eliminar solo el punto final si existe, preservando puntos internos
+    cleaned_output = re.sub(r'\.$', '', cleaned_output)
+    # Asegurar que solo queden letras, espacios entre palabras, y puntos de abreviaturas
+    cleaned_output = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s.]', '', cleaned_output)
+    return cleaned_output
+
+
 def process_xml_files(input_dir, output_dir):
     """
     Procesa los archivos XML usando el modelo LLM.
@@ -162,6 +186,14 @@ def process_xml_files(input_dir, output_dir):
                 # Extraer entidades usando el modelo LLM
                 entities = extract_entities(text)
 
+                # Post-procesar cada entidad individualmente
+                entities = {k: post_process_output(v) for k, v in entities.items()}
+
+                # Imprimir resultado filtrado
+                print(f"NOMBRE_PACIENTE: {entities['NOMBRE_PACIENTE']}")
+                print(f"APELLIDOS_PACIENTE: {entities['APELLIDOS_PACIENTE']}")
+                print(f"MEDICO: {entities['MEDICO']}")
+
                 # Generar nuevo XML
                 output_xml = generate_xml_output(text, entities)
 
@@ -171,6 +203,7 @@ def process_xml_files(input_dir, output_dir):
                     f.write(output_xml)
 
                 print(f"Procesado y guardado: {output_path}")
+                print("*" * 80)
 
             except ET.ParseError as e:
                 print(f"Error de parseo en {filename}: {e}")
