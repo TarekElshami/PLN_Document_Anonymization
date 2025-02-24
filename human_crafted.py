@@ -215,5 +215,5 @@ def process_xml_files(input_dir, output_dir):
 
 if __name__ == "__main__":
     input_directory = 'test/xml'
-    output_directory = 'output/xml'
+    output_directory = 'output/xml/human_crafted'
     process_xml_files(input_directory, output_directory)
