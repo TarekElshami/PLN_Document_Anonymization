@@ -58,7 +58,7 @@ def extract_entities(text):
     headers = {"Content-Type": "application/json"}
 
     try:
-        response = requests.post(url, json=payload, headers=headers, timeout=10)  # Timeout de 10 segundos
+        response = requests.post(url, json=payload, headers=headers, timeout=1000)
         response.raise_for_status()  # Lanza excepción si hay error HTTP
         print("Respuesta cruda del modelo: \n", response.json()['response'])  # Depuración
         return parse_llm_response(response.json()['response'])
@@ -155,7 +155,7 @@ def post_process_output(output):
     # Eliminar solo el punto final si existe, preservando puntos internos
     cleaned_output = re.sub(r'\.$', '', cleaned_output)
     # Asegurar que solo queden letras, espacios entre palabras, y puntos de abreviaturas
-    cleaned_output = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s.]', '', cleaned_output)
+    cleaned_output = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s.-]', '', cleaned_output)
     return cleaned_output
 
 
