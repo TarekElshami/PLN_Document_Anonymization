@@ -166,12 +166,16 @@ def process_xml_files(input_dir, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    for filename in os.listdir(input_dir):
+    xml_files = [f for f in os.listdir(input_dir) if f.endswith('.xml')]
+    total_files = len(xml_files)
+
+    for i, filename in enumerate(xml_files, start=1):
         if filename.endswith('.xml'):
             input_path = os.path.join(input_dir, filename)
             output_path = os.path.join(output_dir, filename)
 
             try:
+                print(f"Procesando archivo {i} de {total_files}: {filename}")
                 # Leer el XML original
                 tree = ET.parse(input_path)
                 root = tree.getroot()
