@@ -2,6 +2,8 @@ import requests
 import xml.etree.ElementTree as ET
 import os
 import re
+import unicodedata
+
 
 def extract_entities(text):
     """
@@ -93,9 +95,87 @@ def parse_llm_response(response):
     return entities
 
 
+def normalize_text(text):
+    """
+    Normaliza el texto eliminando tildes y otros diacríticos.
+    """
+    return ''.join(c for c in unicodedata.normalize('NFD', text) if unicodedata.category(c) != 'Mn')
+
+
+def find_all_matches(text, entities):
+    """
+    Encuentra todas las apariciones de cada entidad en el texto, considerando versiones con y sin tildes.
+    """
+    matches = {
+        'NOMBRE_PACIENTE': [],
+        'APELLIDOS_PACIENTE': [],
+        'MEDICO': []
+    }
+
+    normalized_text = normalize_text(text)  # Texto sin tildes
+
+    for entity, value in entities.items():
+        if value:
+            normalized_value = normalize_text(value)  # Entidad sin tildes
+
+            # Buscar todas las apariciones (sin tildes) en el texto normalizado
+            for match in re.finditer(re.escape(normalized_value), normalized_text, re.IGNORECASE):
+                start_norm, end_norm = match.span()
+
+                # Recuperar la versión exacta del texto original
+                start, end = start_norm, end_norm
+                original_match = text[start:end]  # Extraer texto exacto del documento
+
+                matches[entity].append({
+                    'text': original_match,  # Preserva el texto original con sus tildes
+                    'start': start,
+                    'end': end
+                })
+
+    return matches
+
+
+def resolve_overlaps(matches):
+    """
+    Resuelve solapamientos entre entidades y prioriza la coincidencia más larga.
+    """
+    # Ordenar todas las coincidencias por longitud (de mayor a menor)
+    all_matches = []
+    for entity, entity_matches in matches.items():
+        for match in entity_matches:
+            all_matches.append({
+                'entity': entity,
+                'text': match['text'],
+                'start': match['start'],
+                'end': match['end'],
+                'length': match['end'] - match['start']
+            })
+
+    # Ordenar por longitud (priorizar las coincidencias más largas)
+    all_matches.sort(key=lambda x: x['length'], reverse=True)
+
+    # Seleccionar las coincidencias sin solapamientos
+    selected_matches = []
+    used_positions = set()
+
+    for match in all_matches:
+        overlap = False
+        for pos in range(match['start'], match['end']):
+            if pos in used_positions:
+                overlap = True
+                break
+
+        if not overlap:
+            selected_matches.append(match)
+            for pos in range(match['start'], match['end']):
+                used_positions.add(pos)
+
+    return selected_matches
+
+
 def generate_xml_output(text, entities):
     """
-    Genera el XML con las entidades nombradas y identificadores fijos.
+    Genera el XML con todas las apariciones de las entidades nombradas.
     """
     # Crear el elemento raíz
     meddocan = ET.Element('MEDDOCAN')
@@ -107,49 +187,55 @@ def generate_xml_output(text, entities):
     # Crear el elemento TAGS
     tags_element = ET.SubElement(meddocan, 'TAGS')
 
-    # Añadir las entidades nombradas con identificadores fijos
-    if entities['NOMBRE_PACIENTE']:
-        # Nombre del paciente (T21)
-        name_element = ET.SubElement(tags_element, 'NAME')
-        name_element.set('id', 'T21')
-        name_element.set('start', str(text.find(entities['NOMBRE_PACIENTE'])))
-        name_element.set('end', str(text.find(entities['NOMBRE_PACIENTE']) + len(entities['NOMBRE_PACIENTE'])))
-        name_element.set('text', entities['NOMBRE_PACIENTE'])
-        name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
-        name_element.set('comment', '')
+    # Encontrar todas las apariciones de las entidades
+    matches = find_all_matches(text, entities)
 
-    if entities['APELLIDOS_PACIENTE']:
-        # Apellidos del paciente (T20)
-        name_element = ET.SubElement(tags_element, 'NAME')
-        name_element.set('id', 'T20')
-        name_element.set('start', str(text.find(entities['APELLIDOS_PACIENTE'])))
-        name_element.set('end', str(text.find(entities['APELLIDOS_PACIENTE']) + len(entities['APELLIDOS_PACIENTE'])))
-        name_element.set('text', entities['APELLIDOS_PACIENTE'])
-        name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
-        name_element.set('comment', '')
+    # Resolver solapamientos y priorizar coincidencias
+    resolved_matches = resolve_overlaps(matches)
 
-    if entities['MEDICO']:
-        # Nombre y apellidos del médico (T9)
-        name_element = ET.SubElement(tags_element, 'NAME')
-        name_element.set('id', 'T9')
-        name_element.set('start', str(text.find(entities['MEDICO'])))
-        name_element.set('end', str(text.find(entities['MEDICO']) + len(entities['MEDICO'])))
-        name_element.set('text', entities['MEDICO'])
-        name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
-        name_element.set('comment', '')
-        second_occurrence = text.find(entities['MEDICO'], text.find(entities['MEDICO']) + len(entities['MEDICO']))
-        if second_occurrence != -1:
+    # Asignar identificadores únicos
+    id_counter = 1
+
+    # Contadores para limitar las apariciones
+    paciente_count = 0
+    apellidos_count = 0
+    medico_count = 0
+
+    for match in resolved_matches:
+        if match['entity'] == 'NOMBRE_PACIENTE' and paciente_count < 1:
             name_element = ET.SubElement(tags_element, 'NAME')
-            name_element.set('id', 'T10')
-            name_element.set('start', str(second_occurrence))
-            name_element.set('end', str(second_occurrence + len(entities['MEDICO'])))
-            name_element.set('text', entities['MEDICO'])
-            name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
+            name_element.set('id', f'T{id_counter}')
+            name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
+            id_counter += 1
+            name_element.set('start', str(match['start']))
+            name_element.set('end', str(match['end']))
+            name_element.set('text', match['text'])
             name_element.set('comment', '')
+            paciente_count += 1
 
-    # Convertir el árbol XML a una cadena
+        elif match['entity'] == 'APELLIDOS_PACIENTE' and apellidos_count < 1:
+            name_element = ET.SubElement(tags_element, 'NAME')
+            name_element.set('id', f'T{id_counter}')
+            name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
+            id_counter += 1
+            name_element.set('start', str(match['start']))
+            name_element.set('end', str(match['end']))
+            name_element.set('text', match['text'])
+            name_element.set('comment', '')
+            apellidos_count += 1
+
+        elif match['entity'] == 'MEDICO' and medico_count < 2:
+            name_element = ET.SubElement(tags_element, 'NAME')
+            name_element.set('id', f'T{id_counter}')
+            name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
+            id_counter += 1
+            name_element.set('start', str(match['start']))
+            name_element.set('end', str(match['end']))
+            name_element.set('text', match['text'])
+            name_element.set('comment', '')
+            medico_count += 1
+
     xml_str = ET.tostring(meddocan, encoding='utf-8').decode('utf-8')
-
     return xml_str
 
 
@@ -163,8 +249,6 @@ def post_process_output(output):
     cleaned_output = re.sub(r'(Dr\.?|Dra\.?|NCol|NºCol:.*|Servicio.*|\d+.*|\s+$)', '', output).strip()
     # Eliminar solo el punto final si existe, preservando puntos internos
     cleaned_output = re.sub(r'\.$', '', cleaned_output)
-    # Asegurar que solo queden letras, espacios entre palabras, y puntos de abreviaturas
-    cleaned_output = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s.-]', '', cleaned_output)
     # Eliminar espacios al final de la cadena
     cleaned_output = cleaned_output.rstrip()
     return cleaned_output
@@ -230,5 +314,5 @@ def process_xml_files(input_dir, output_dir):
 
 if __name__ == "__main__":
     input_directory = 'test/xml'
-    output_directory = 'output/xml/human_crafted'
+    output_directory = 'output/xml/quantized_LLaMA_model_nameTAG'
     process_xml_files(input_directory, output_directory)
