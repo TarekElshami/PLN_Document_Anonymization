@@ -156,6 +156,8 @@ def post_process_output(output):
     cleaned_output = re.sub(r'\.$', '', cleaned_output)
     # Asegurar que solo queden letras, espacios entre palabras, y puntos de abreviaturas
     cleaned_output = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s.-]', '', cleaned_output)
+    # Eliminar espacios al final de la cadena
+    cleaned_output = cleaned_output.rstrip()
     return cleaned_output
 
 
