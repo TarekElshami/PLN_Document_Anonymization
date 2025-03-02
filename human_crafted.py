@@ -137,6 +137,15 @@ def generate_xml_output(text, entities):
         name_element.set('text', entities['MEDICO'])
         name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
         name_element.set('comment', '')
+        second_occurrence = text.find(entities['MEDICO'], text.find(entities['MEDICO']) + len(entities['MEDICO']))
+        if second_occurrence != -1:
+            name_element = ET.SubElement(tags_element, 'NAME')
+            name_element.set('id', 'T10')
+            name_element.set('start', str(second_occurrence))
+            name_element.set('end', str(second_occurrence + len(entities['MEDICO'])))
+            name_element.set('text', entities['MEDICO'])
+            name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
+            name_element.set('comment', '')
 
     # Convertir el árbol XML a una cadena
     xml_str = ET.tostring(meddocan, encoding='utf-8').decode('utf-8')
