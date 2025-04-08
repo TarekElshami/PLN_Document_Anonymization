@@ -11,7 +11,7 @@ def extract_entities(text):
     """
     url = "http://localhost:20201/api/generate"
     payload = {
-        "model": "llama3.2:1b",
+        "model": "llama3.3",
         "prompt": f"""
         Lee el siguiente texto y extrae únicamente el nombre del paciente, sus apellidos y el nombre completo del médico, **sin incluir información adicional ni campos extra**.
 
@@ -196,13 +196,8 @@ def generate_xml_output(text, entities):
     # Asignar identificadores únicos
     id_counter = 1
 
-    # Contadores para limitar las apariciones
-    paciente_count = 0
-    apellidos_count = 0
-    medico_count = 0
-
     for match in resolved_matches:
-        if match['entity'] == 'NOMBRE_PACIENTE' and paciente_count < 1:
+        if match['entity'] == 'NOMBRE_PACIENTE':
             name_element = ET.SubElement(tags_element, 'NAME')
             name_element.set('id', f'T{id_counter}')
             name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
@@ -211,9 +206,8 @@ def generate_xml_output(text, entities):
             name_element.set('end', str(match['end']))
             name_element.set('text', match['text'])
             name_element.set('comment', '')
-            paciente_count += 1
 
-        elif match['entity'] == 'APELLIDOS_PACIENTE' and apellidos_count < 1:
+        elif match['entity'] == 'APELLIDOS_PACIENTE':
             name_element = ET.SubElement(tags_element, 'NAME')
             name_element.set('id', f'T{id_counter}')
             name_element.set('TYPE', 'NOMBRE_SUJETO_ASISTENCIA')
@@ -222,9 +216,8 @@ def generate_xml_output(text, entities):
             name_element.set('end', str(match['end']))
             name_element.set('text', match['text'])
             name_element.set('comment', '')
-            apellidos_count += 1
 
-        elif match['entity'] == 'MEDICO' and medico_count < 2:
+        elif match['entity'] == 'MEDICO':
             name_element = ET.SubElement(tags_element, 'NAME')
             name_element.set('id', f'T{id_counter}')
             name_element.set('TYPE', 'NOMBRE_PERSONAL_SANITARIO')
@@ -233,7 +226,6 @@ def generate_xml_output(text, entities):
             name_element.set('end', str(match['end']))
             name_element.set('text', match['text'])
             name_element.set('comment', '')
-            medico_count += 1
 
     xml_str = ET.tostring(meddocan, encoding='utf-8').decode('utf-8')
     return xml_str
@@ -314,5 +306,5 @@ def process_xml_files(input_dir, output_dir):
 
 if __name__ == "__main__":
     input_directory = 'test/xml'
-    output_directory = 'output/xml/quantized_LLaMA_model_nameTAG'
+    output_directory = 'output/xml/best_LLaMA_model_nameTAG'
     process_xml_files(input_directory, output_directory)
