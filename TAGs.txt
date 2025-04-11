@@ -1,0 +1,28 @@
+NOMBRE_SUJETO_ASISTENCIA: Nombre completo del paciente o sujeto asistido, incluyendo tanto nombre(s) como apellido(s), ya sean simples o compuestos. Se consideran todas las formas en que puede aparecer la identificación del paciente, incluyendo solo nombre, solo apellidos, o una combinación de ambos.NOMBRE_PERSONAL_SANITARIO: Nombre del personal médico o sanitario (médicos, enfermeros, farmacéuticos, etc.).
+PROFESION: Profesión del sujeto, anotada como una sola mención si es compuesta. No se incluyen modificadores como “jubilado”.
+HOSPITAL: Nombre de hospitales o centros asistenciales, incluyendo modificadores como “hospital”, “complejo”, etc.
+INSTITUCION: Nombres de instituciones no clasificadas como hospitales o centros de salud. Incluye siglas y alias.
+CALLE: Nombre de la vía y componentes asociados (número, piso, escalera). Incluye abreviaturas tipo “C/”, “Avda.”, etc.
+TERRITORIO: Localidades, provincias, regiones, comarcas, barrios, y otras divisiones territoriales. Incluye códigos postales.
+PAIS: Nombres de países mencionados en cualquier parte del texto.
+CENTRO_SALUD: Nombres de centros de salud.
+EDAD_SUJETO_ASISTENCIA: Edad del paciente, expresada en años, meses, etc.
+FECHAS: Cualquier fecha presente en el texto, independientemente del formato.
+NUMERO_TELEFONO: Números de teléfono, incluidos móviles y buscapersonas.
+NUMERO_FAX: Números que aparecen explícitamente como fax.
+CORREO_ELECTRONICO: Direcciones de correo electrónico, aparezcan o no bajo el campo “email”.
+URL_WEB: Direcciones web o URL.
+ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).
+ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos, contactos, procesos o problemas de salud.
+NUMERO_BENEF_PLAN_SALUD: Número asociado a planes de salud o beneficios médicos.
+IDENTIF_VEHICULOS_NRSERIE_PLACAS: Identificadores de vehículos como matrículas o números de bastidor.
+IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos electrónicos como IP o direcciones MAC.
+IDENTIF_BIOMETRICOS: Identificadores biométricos como huellas dactilares, escáneres de retina, etc.
+ID_SUJETO_ASISTENCIA: Identificadores del paciente como DNI, NHC, NIF, pasaporte, CIPA, o grupo étnico/orientación sexual.
+ID_TITULACION_PERSONAL_SANITARIO: Número de colegiado del personal sanitario.
+ID_EMPLEO_PERSONAL_SANITARIO: Número de empleado asignado al personal sanitario por el hospital.
+OTRO_NUMERO_IDENTIF: Cualquier otro identificador no incluido en categorías anteriores (por ejemplo, carnet de biblioteca).
+SEXO_SUJETO_ASISTENCIA: Sexo del paciente (masculino, femenino, etc.).
+FAMILIARES_SUJETO_ASISTENCIA: Información relacionada con familiares del paciente.
+OTROS_SUJETO_ASISTENCIA: Información adicional que permite identificar al paciente, como lugar de trabajo, tatuajes, etc.
+DIREC_PROT_INTERNET: Direcciones de protocolo de internet como HTTP, FTP, TCP, etc.
