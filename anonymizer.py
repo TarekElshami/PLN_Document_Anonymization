@@ -2,6 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import os
 import tiktoken
+import ast
 
 # Mapeo de etiquetas específicas a categorías generales
 TAG_CATEGORIES = {
@@ -100,14 +101,14 @@ OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la 
 4. Etiquetar múltiples palabras como una sola mención si pertenecen a la misma categoría.
 5. Excluir títulos o prefijos como "Dr.", "Dña." de las etiquetas de nombres.
 6. Anotar todas las fechas, edades, lugares y contactos que puedan identificar al paciente o profesional.
-7. Si no se encuentra una entidad entonces no debes incluirla
+7. Si no se encuentra una entidad entonces no debes mencionarla
+8. No debes inventarte una etiqueta que no esté en esa lista
 
 🧪 Entrada esperada
 Cualquier texto clínico en formato libre.
 
 ✅ Salida esperada
-Devuelve la salida en un **diccionario JSON válido de Python** en una variable llamada annoresult con las siguientes dos claves:
-
+Devuélveme ÚNICAMENTE un JSON válido. Sin explicaciones, sin introducción, sin comentarios y con la siguiente estructura: 
 {{
   "texto_anotado": "Texto clínico con etiquetas <<<ETIQUETA>>>...<</ETIQUETA>>> ya insertadas",
   "entidades": {{
@@ -115,12 +116,12 @@ Devuelve la salida en un **diccionario JSON válido de Python** en una variable 
     "ETIQUETA2": ["valor1", ...]
   }}
 }}
-
+Devuélveme solo el JSON como texto plano, sin comillas invertidas, sin markdown ni delimitadores de código. No uses etiquetas tipo ```json ni ningún bloque de código.
 El texto que debes analizar es este:
  "{texto_clinico}"
 """
 
-MODEL_NAME = "llama3.2:1B"
+MODEL_NAME = "llama3.3"
 
 # Diccionario de límites de contexto por modelo
 MODEL_CONTEXT_LIMITS = {
@@ -130,81 +131,164 @@ MODEL_CONTEXT_LIMITS = {
 
 SAFETY_MARGIN = 0.15  # 15% de margen de seguridad
 
+def get_gbnf_grammar():
+    etiquetas = list(TAG_CATEGORIES.keys())
+    etiquetas_union = " | ".join(f'"{tag}"' for tag in etiquetas)
 
-def check_token_limit(prompt):
+    return f"""
+root ::= '{{' '"texto_anotado":' string ',' '"entidades":' '{{' entidad (',' entidad)* '}}' '}}'
+
+entidad ::= etiqueta ':' '[' valores ']'
+etiqueta ::= {etiquetas_union}
+valores ::= valor (',' valor)*
+valor ::= string
+string ::= '"' chars '"'
+chars ::= char*
+char ::= [^"\\n]
+""".strip()
+
+
+def split_text_by_newline(text, max_safe_tokens):
     """
-    Cuenta tokens con margen de seguridad y muestra métricas detalladas.
-    Devuelve True si está dentro del límite seguro.
+    Divide el texto por saltos de línea para mantener cada fragmento bajo el límite de tokens.
+    Devuelve una lista de fragmentos seguros.
     """
     encoding = tiktoken.get_encoding("cl100k_base")
-    tokens = encoding.encode(prompt)
-    total_tokens = len(tokens)
-    max_tokens = MODEL_CONTEXT_LIMITS.get(MODEL_NAME, 0)
+    lines = text.split('\n')
+    chunks = []
+    current_chunk = []
 
-    # Aplicamos margen de seguridad (15%)
-    safe_max_tokens = int(max_tokens * (1 - SAFETY_MARGIN))
+    print("\n" + "=" * 50)
+    print("Iniciando división del texto en fragmentos...")
+    print(f"Líneas totales: {len(lines)}")
+    print(f"Límite seguro de tokens por fragmento: {max_safe_tokens}")
+    print("=" * 50 + "\n")
 
-    # Informe detallado
-    print("\n" + "═" * 50)
-    print(f"⚡ Modelo: {MODEL_NAME}")
-    print(f"  ► Límite real del modelo: {max_tokens} tokens")
-    print(f"  ► Límite seguro ({SAFETY_MARGIN * 100}% margen): {safe_max_tokens} tokens")
-    print(f"  ► Tamaño real del prompt: {total_tokens} tokens")
-    print(f"  ► Uso del límite real: {total_tokens / max_tokens * 100:.1f}%")
-    print("═" * 50)
+    for i, line in enumerate(lines):
+        temp_chunk = '\n'.join(current_chunk + [line])
+        prompt_with_chunk = PROMPT_BASE.format(texto_clinico=temp_chunk)
+        tokens = encoding.encode(prompt_with_chunk)
 
-    if total_tokens > max_tokens:
-        print("❌ ¡PELIGRO! Has SUPERADO el LÍMITE REAL del modelo".center(50))
-        print("  El prompt será truncado y puede fallar".center(50))
-        return False
-    elif total_tokens > safe_max_tokens:
-        print("⚠️ ¡Atención! Has superado el LÍMITE SEGURO".center(50))
-        print("  El prompt funcionará pero podrías tener resultados inesperados".center(50))
-        return False
-    else:
-        print("✅ Dentro del límite seguro".center(50))
-        return True
+        print(f"Línea {i + 1}: Tokens totales del actual fragmento= {len(tokens)}", end=" | ")
+
+        if len(tokens) < max_safe_tokens:
+            current_chunk.append(line)
+            print("Añadida al fragmento actual")
+        else:
+            if current_chunk:
+                chunks.append('\n'.join(current_chunk))
+                print(f"\n⚠️ Fragmento completado ({len(chunks)} fragmentos hasta ahora)")
+                print(f"Contenido del fragmento:\n{'-' * 30}\n{chunks[-1]}\n{'-' * 30}\n")
+                current_chunk = [line]
+            else:
+                # Línea demasiado larga para el prompt incluso sola
+                chunks.append(line)
+                print(
+                    f"\n⚠️ Línea individual demasiado larga, creando fragmento especial ({len(chunks)} fragmentos hasta ahora)")
+                print(f"Contenido del fragmento:\n{'-' * 30}\n{chunks[-1]}\n{'-' * 30}\n")
+                current_chunk = []
+
+    if current_chunk:
+        chunks.append('\n'.join(current_chunk))
+        print(f"\nÚltimo fragmento completado ({len(chunks)} fragmentos en total)")
+        print(f"Contenido del fragmento:\n{'-' * 30}\n{chunks[-1]}\n{'-' * 30}\n")
+
+    print("\n" + "=" * 50)
+    print(f"División completada. Total de fragmentos creados: {len(chunks)}")
+    print("=" * 50 + "\n")
+
+    return chunks
 
 
 def extract_entities(text):
     """
-    Usa el modelo LLM para:
-    1. Marcar entidades en el texto con tags <<<TAG>>>
-    2. Devolver las entidades en formato clave-valor
+    Procesa el texto con el modelo, dividiéndolo si excede el límite de tokens.
+    Devuelve el texto anotado y todas las entidades combinadas.
     """
+    encoding = tiktoken.get_encoding("cl100k_base")
+    max_tokens = MODEL_CONTEXT_LIMITS.get(MODEL_NAME, 0)
+    safe_max_tokens = int(max_tokens * (1 - SAFETY_MARGIN))
 
-    url = "http://localhost:20201/api/generate"
-    payload = {
-        "model": MODEL_NAME,
-        "prompt": PROMPT_BASE.format(texto_clinico=text),
-        "stream": False
+    prompt = PROMPT_BASE.format(texto_clinico=text)
+    total_tokens = len(encoding.encode(prompt))
+
+    print("\n" + "=" * 50)
+    print("Iniciando extracción de entidades...")
+    print(f"Tokens totales del texto completo: {total_tokens}")
+    print(f"Límite seguro de tokens: {safe_max_tokens}")
+    print("=" * 50 + "\n")
+
+    # Determinar si hay que dividir
+    if total_tokens > safe_max_tokens:
+        print("⚠️ Dividiendo el texto por líneas debido al límite de tokens...")
+        text_parts = split_text_by_newline(text, safe_max_tokens)
+    else:
+        text_parts = [text]
+        print("✅ El texto cabe en un solo fragmento, no es necesario dividir")
+
+    all_tagged = []
+    all_entities = {}
+
+    for idx, part in enumerate(text_parts):
+        print("\n" + "=" * 50)
+        print(f"Procesando fragmento {idx + 1}/{len(text_parts)}")
+        print(f"Contenido del fragmento:\n{'-' * 30}\n{part}\n{'-' * 30}")
+        print("=" * 50 + "\n")
+
+        payload = {
+            "model": MODEL_NAME,
+            "prompt": PROMPT_BASE.format(texto_clinico=part),
+            "stream": False,
+            "grammar": get_gbnf_grammar()
+        }
+
+        try:
+            print("Enviando solicitud al modelo LLM...")
+            response = requests.post("http://localhost:20201/api/generate", json=payload,
+                                     headers={"Content-Type": "application/json"}, timeout=1000)
+            response.raise_for_status()
+            result = response.json()['response']
+
+            print("\n" + "=" * 50)
+            print(f"Respuesta del LLM para fragmento {idx + 1}:")
+            print(f"{'-' * 30}\n{result}\n{'-' * 30}")
+            print("=" * 50 + "\n")
+
+            # Intentamos parsear el JSON del modelo y acumular entidades
+            try:
+                parsed = ast.literal_eval(result)
+                fragment_entities = parsed.get("entidades", {})
+
+                print(f"Entidades encontradas en fragmento {idx + 1}:")
+                for tag, values in fragment_entities.items():
+                    print(f"- {tag}: {values}")
+                    if tag not in all_entities:
+                        all_entities[tag] = set()
+                    all_entities[tag].update(values)
+
+                all_tagged.append(parsed.get("texto_anotado", part))
+            except Exception as parse_error:
+                print(f"⚠️ Error parseando JSON en fragmento {idx + 1}: {parse_error}")
+                print(f"Respuesta cruda del modelo:\n{result}")
+                all_tagged.append(part)
+
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Error al procesar fragmento {idx + 1}: {e}")
+            all_tagged.append(part)
+
+    # Convertimos sets a listas para salida limpia
+    all_entities = {k: list(v) for k, v in all_entities.items()}
+
+    print("\n" + "=" * 50)
+    print("Resumen final de entidades encontradas:")
+    for tag, values in all_entities.items():
+        print(f"- {tag}: {values}")
+    print("=" * 50 + "\n")
+
+    return {
+        'tagged_text': "\n\n".join(all_tagged),
+        'entities': all_entities
     }
-    headers = {"Content-Type": "application/json"}
-
-    # Guardar el prompt generado para referencia
-    with open("prompt.txt", "w", encoding="utf-8") as f:
-        f.write(payload["prompt"])
-
-    check_token_limit(payload["prompt"])
-
-    try:
-        response = requests.post(url, json=payload, headers=headers, timeout=1000)
-        response.raise_for_status()
-
-        llm_output = response.json()['response']
-        print("Respuesta del LLM:\n", llm_output)
-
-        return {
-            'tagged_text': llm_output,
-            'entities': {}
-        }
-
-    except requests.exceptions.RequestException as e:
-        print(f"Error al conectar con el servidor: {e}")
-        return {
-            'tagged_text': text,
-            'entities': {}
-        }
 
 
 def process_xml_files(input_dir, output_dir):
@@ -217,28 +301,42 @@ def process_xml_files(input_dir, output_dir):
             input_path = os.path.join(input_dir, filename)
             output_path = os.path.join(output_dir, filename)
 
-            print(f"\nProcesando archivo: {filename}")
+            print("\n" + "=" * 80)
+            print(f"Procesando archivo: {filename}")
+            print("=" * 80 + "\n")
 
             # Leer XML original
             tree = ET.parse(input_path)
             original_text = tree.find('.//TEXT').text or ""
 
+            print("Texto original extraído del XML:")
+            print(f"{'-' * 30}\n{original_text}\n{'-' * 30}\n")
+
             # Extraer datos (texto marcado + entidades)
             result = extract_entities(original_text)
 
             # Mostrar resultados en consola
-            print("Texto marcado:\n", result['tagged_text'])
+            print("\nTexto marcado final:")
+            print(f"{'-' * 30}\n{result['tagged_text']}\n{'-' * 30}\n")
 
             # Guardar el resultado en un nuevo XML (simplificado)
-            with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(result['tagged_text'])
+            # with open(output_path, 'w', encoding='utf-8') as f:
+            #    f.write(result['tagged_text'])
 
-            print(f"\nResultado guardado en: {output_path}")
+            print(f"\n✅ Resultado guardado en: {output_path}")
             print("*" * 80)
 
         except Exception as e:
-            print(f"Error procesando {filename}: {str(e)}")
+            print(f"❌ Error procesando {filename}: {str(e)}")
 
 
 if __name__ == "__main__":
+    print("\n" + "=" * 80)
+    print("INICIANDO PROCESAMIENTO DE ARCHIVOS XML")
+    print("=" * 80 + "\n")
+
     process_xml_files('test/xml', 'output/xml/quantized_LLaMA_model3.2-1B')
+
+    print("\n" + "=" * 80)
+    print("PROCESAMIENTO COMPLETADO")
+    print("=" * 80 + "\n")
