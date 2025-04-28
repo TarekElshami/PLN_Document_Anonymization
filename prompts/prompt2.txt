@@ -1,0 +1,74 @@
+--- METADATA ---
+fecha: 25-04-2025
+problemas:
+    - No respeta el patrón de etiquetado <<<TAG>>value<<</TAG>>> en su lugar a veces pone <<<TAG>>>value<<<</TAG>>>
+    - A veces considera información sensible aquella que no es
+    - Menciona etiquetas para dejarlas vacias [Persiste]
+    - Etiqueta el nombre del médico con la etiqueta NOMBRE_SUJETO_ASISTENCIA en lugar de NOMBRE_PERSONAL_SANITARIO
+-----------------
+
+Tarea:
+Dado un texto clinico, anota todas las entidades sensibles de acuerdo con las categorías definidas en la guía oficial de anotación de información de salud protegida.
+
+Objetivos
+1. Identificar menciones explícitas de información sensible (ISP) contenidas en un texto médico.
+2. Etiquetar dichas menciones utilizando tags personalizados con la forma:
+<<<ETIQUETA>>>texto<<</ETIQUETA>>>
+3. Extraer las entidades anotadas junto con su categoría.
+
+Etiquetas a utilizar
+Estas etiquetas corresponden a las definiciones oficiales del plan de anotación de información de salud protegida y cubren todas las categorías relevantes:
+
+NOMBRE_SUJETO_ASISTENCIA: Nombre y apellidos del paciente. Incluye iniciales, apodos o motes.
+NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
+FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
+ID_SUJETO_ASISTENCIA: Códigos como NHC, CIPA, DNI, NIF, pasaporte u otros identificadores del paciente.
+ID_TITULACIÓN_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.
+ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos o procesos.
+ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).
+EDAD_SUJETO_ASISTENCIA: Edad del paciente (incluyendo formas como "tres días", "6 años").
+SEXO_SUJETO_ASISTENCIA: Sexo del paciente (incluyendo formas como "varón", "niña", "M", "H").
+FECHAS: Cualquier fecha del calendario (de nacimiento, ingreso, evolución, etc.).
+CALLE: Dirección postal completa, incluyendo tipo de vía, nombre, número, piso, etc.
+TERRITORIO: Ciudad, provincia, código postal, barrio, comarca, o cualquier otra división geográfica.
+PAÍS: País mencionado en el texto.
+CORREO_ELECTRÓNICO: Cualquier dirección de correo electrónico.
+NÚMERO_TELÉFONO: Números de teléfono personales o profesionales.
+NÚMERO_FAX: Números de fax asociados a la atención o el paciente.
+DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
+URL_WEB: Cualquier dirección web o enlace.
+PROFESIÓN: Profesión del paciente o familiares.
+HOSPITAL: Nombres de hospitales o centros sanitarios.
+ID_CENTRO DE SALUD: Nombres de centros de salud o unidades clínicas.
+INSTITUCIÓN: Cualquier otra institución no médica identificable.
+NUMERO_IDENTIF: Otros números de identificación no clasificados.
+IDENTIF_VEHÍCULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
+IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).
+IDENTIF_BIOMÉTRICOS: Huellas, escaneos o cualquier identificador biométrico.
+OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
+
+🧾 Reglas de anotación estrictas
+1. No anotar etiquetas o claves del formulario (como "Nombre:", "Edad:", etc.).
+2. No incluir espacios ni signos de puntuación dentro de las etiquetas.
+3. Una etiqueta por entidad, aunque se repita en el texto.
+4. Etiquetar múltiples palabras como una sola mención si pertenecen a la misma categoría.
+5. Excluir títulos o prefijos como "Dr.", "Dña." de las etiquetas de nombres.
+6. Anotar todas las fechas, edades, lugares y contactos que puedan identificar al paciente o profesional.
+7. Si no se encuentra una entidad entonces no debes mencionarla
+8. No debes inventarte una etiqueta que no esté en esa lista
+
+🧪 Entrada esperada
+Cualquier texto clínico en formato libre.
+
+✅ Salida esperada
+Devuélveme ÚNICAMENTE un JSON válido. Sin explicaciones, sin introducción, sin comentarios y con la siguiente estructura:
+{{
+  "texto_anotado": "Texto clínico con etiquetas <<<ETIQUETA>>>...<</ETIQUETA>>> ya insertadas",
+  "entidades": {{
+    "ETIQUETA1": ["valor1", "valor2", ...],
+    "ETIQUETA2": ["valor1", ...]
+  }}
+}}
+Devuélveme solo el JSON como texto plano, sin comillas invertidas, sin markdown ni delimitadores de código. No uses etiquetas tipo ```json ni ningún bloque de código.
+El texto que debes analizar es este:
+ "{texto_clinico}"
