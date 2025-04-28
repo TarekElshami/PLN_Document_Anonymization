@@ -1,8 +1,10 @@
+from xml.dom import minidom
 import requests
 import xml.etree.ElementTree as ET
 import os
 import tiktoken
 import ast
+import re
 
 # Mapeo de etiquetas específicas a categorías generales
 TAG_CATEGORIES = {
@@ -12,7 +14,6 @@ TAG_CATEGORIES = {
 
     # PROFESSION (Profesión)
     'PROFESION': 'PROFESSION',
-    'PROFESSION': 'PROFESSION',
 
     # LOCATION (Ubicación)
     'HOSPITAL': 'LOCATION',
@@ -66,51 +67,54 @@ Objetivos
 Etiquetas a utilizar
 Estas etiquetas corresponden a las definiciones oficiales del plan de anotación de información de salud protegida y cubren todas las categorías relevantes:
 
-NOMBRE_SUJETO_ASISTENCIA: Nombre y apellidos del paciente. Incluye iniciales, apodos o motes.  
-NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.  
-FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).  
-ID_SUJETO_ASISTENCIA: Códigos como NHC, CIPA, DNI, NIF, pasaporte u otros identificadores del paciente.  
-ID_TITULACIÓN_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.  
-ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos o procesos.  
-ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).  
-EDAD_SUJETO_ASISTENCIA: Edad del paciente (incluyendo formas como "tres días", "6 años").  
-SEXO_SUJETO_ASISTENCIA: Sexo del paciente (incluyendo formas como "varón", "niña", "M", "H").  
-FECHAS: Cualquier fecha del calendario (de nacimiento, ingreso, evolución, etc.).  
-CALLE: Dirección postal completa, incluyendo tipo de vía, nombre, número, piso, etc.  
-TERRITORIO: Ciudad, provincia, código postal, barrio, comarca, o cualquier otra división geográfica.  
-PAÍS: País mencionado en el texto.  
-CORREO_ELECTRÓNICO: Cualquier dirección de correo electrónico.  
-NÚMERO_TELÉFONO: Números de teléfono personales o profesionales.  
-NÚMERO_FAX: Números de fax asociados a la atención o el paciente.  
-DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).  
-URL_WEB: Cualquier dirección web o enlace.  
-PROFESIÓN: Profesión del paciente o familiares.  
-HOSPITAL: Nombres de hospitales o centros sanitarios.  
-ID_CENTRO DE SALUD: Nombres de centros de salud o unidades clínicas.  
-INSTITUCIÓN: Cualquier otra institución no médica identificable.  
-NUMERO_IDENTIF: Otros números de identificación no clasificados.  
-IDENTIF_VEHÍCULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.  
-IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).  
-IDENTIF_BIOMÉTRICOS: Huellas, escaneos o cualquier identificador biométrico.  
+NOMBRE_SUJETO_ASISTENCIA: Solo el nombre y apellidos del paciente. También iniciales, apodos o motes.
+NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
+FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
+ID_SUJETO_ASISTENCIA: Códigos como NHC, CIPA, DNI, NIF, pasaporte u otros identificadores del paciente.
+ID_TITULACION_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.
+ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos o procesos.
+ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).
+EDAD_SUJETO_ASISTENCIA: Edad del paciente (incluyendo formas como "tres días", "6 años").
+SEXO_SUJETO_ASISTENCIA: Sexo del paciente (incluyendo formas como "varón", "niña", "M", "H").
+FECHAS: Cualquier fecha del calendario (de nacimiento, ingreso, evolución, etc.).
+CALLE: Dirección postal completa, incluyendo tipo de vía, nombre, número, piso, etc.
+TERRITORIO: Ciudad, provincia, código postal, barrio, comarca, o cualquier otra división geográfica.
+PAIS: País mencionado en el texto.
+CORREO_ELECTRONICO: Cualquier dirección de correo electrónico.
+NUMERO_TELEFONO: Números de teléfono personales o profesionales.
+NUMERO_FAX: Números de fax asociados a la atención o el paciente.
+DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
+URL_WEB: Cualquier dirección web o enlace.
+PROFESION: Profesión del paciente o familiares.
+HOSPITAL: Nombres de hospitales o centros sanitarios.
+ID_CENTRO DE SALUD: Nombres de centros de salud o unidades clínicas.
+INSTITUCION: Cualquier otra institución no médica identificable.
+NUMERO_IDENTIF: Otros números de identificación no clasificados.
+IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
+IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).
+IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
 🧾 Reglas de anotación estrictas
 1. No anotar etiquetas o claves del formulario (como "Nombre:", "Edad:", etc.).
-2. No incluir espacios ni signos de puntuación dentro de las etiquetas.
+2. No incluir espacios ni signos de puntuación ni tildes dentro de las etiquetas.
 3. Una etiqueta por entidad, aunque se repita en el texto.
-4. Etiquetar múltiples palabras como una sola mención si pertenecen a la misma categoría.
+4. Etiquetar múltiples palabras como una sola mención si pertenecen a la misma categoría y están juntas.
 5. Excluir títulos o prefijos como "Dr.", "Dña." de las etiquetas de nombres.
 6. Anotar todas las fechas, edades, lugares y contactos que puedan identificar al paciente o profesional.
-7. Si no se encuentra una entidad entonces no debes mencionarla
+7. Si una etiqueta no tiene ninguna entidad entonces no debes mencionarla
 8. No debes inventarte una etiqueta que no esté en esa lista
+9. Si ves información sensible que no esté en la lista de etiquetas no debes mencionarla
+10. Si no encuentras ninguna información sensible simplemente devuelve unas entidades vacias y ya
+11. Nunca etiquetar el nombre de médicos o personal sanitario como NOMBRE_SUJETO_ASISTENCIA. Médicos/enfermeros/técnicos deben ir en NOMBRE_PERSONAL_SANITARIO.
 
 🧪 Entrada esperada
 Cualquier texto clínico en formato libre.
 
 ✅ Salida esperada
-Devuélveme ÚNICAMENTE un JSON válido. Sin explicaciones, sin introducción, sin comentarios y con la siguiente estructura: 
+Devuélveme ÚNICAMENTE un JSON válido. Sin explicaciones, sin introducción, sin comentarios y con la siguiente estructura:
 {{
-  "texto_anotado": "Texto clínico con etiquetas <<<ETIQUETA>>>...<</ETIQUETA>>> ya insertadas",
+  "texto_anotado": "Texto clínico con etiquetas <<<ETIQUETA>>>...<<</ETIQUETA>>> ya insertadas",
   "entidades": {{
     "ETIQUETA1": ["valor1", "valor2", ...],
     "ETIQUETA2": ["valor1", ...]
@@ -129,7 +133,50 @@ MODEL_CONTEXT_LIMITS = {
     "llama3.3": 2048
 }
 
-SAFETY_MARGIN = 0.15  # 15% de margen de seguridad
+SAFETY_MARGIN = 0.1  # 10% de margen de seguridad
+
+
+def build_meddocan_xml(original_text, tagged_text):
+    """
+    Construye un XML estilo MEDDOCAN a partir del texto original, el texto anotado y las entidades.
+    """
+
+    # Inicializar XML
+    root = ET.Element("MEDDOCAN")
+    text_elem = ET.SubElement(root, "TEXT")
+    text_elem.text = original_text
+
+    tags_elem = ET.SubElement(root, "TAGS")
+
+    # Buscar entidades en el texto anotado para ubicar sus posiciones reales en el texto original
+    pattern = r"<<<(.*?)>>>(.*?)<<</\1>>>"
+
+
+    for match in re.finditer(pattern, tagged_text):
+        entity_type = match.group(1)
+        entity_text = match.group(2)
+
+        # Mapea a la etiqueta general (e.g., NAME, AGE...)
+        xml_tag = TAG_CATEGORIES.get(entity_type, "WARNING")
+
+        # Encontrar en el texto original (segura para duplicados)
+        try:
+            start = original_text.index(entity_text)
+        except ValueError:
+            print(f"⚠️ No se pudo encontrar '{entity_text}' en el texto original. Saltando esta entidad.")
+            continue
+
+        end = start + len(entity_text)
+
+        ET.SubElement(tags_elem, xml_tag, {
+            "start": str(start),
+            "end": str(end),
+            "text": entity_text,
+            "TYPE": entity_type
+        })
+
+    return ET.tostring(root, encoding="unicode", method="xml")
+
 
 def get_gbnf_grammar():
     etiquetas = list(TAG_CATEGORIES.keys())
@@ -319,9 +366,15 @@ def process_xml_files(input_dir, output_dir):
             print("\nTexto marcado final:")
             print(f"{'-' * 30}\n{result['tagged_text']}\n{'-' * 30}\n")
 
-            # Guardar el resultado en un nuevo XML (simplificado)
-            # with open(output_path, 'w', encoding='utf-8') as f:
-            #    f.write(result['tagged_text'])
+            # Crear XML estilo MEDDOCAN
+            meddocan_xml = build_meddocan_xml(original_text, result['tagged_text'])
+
+            # Embellecer XML si lo deseas
+            pretty_xml = minidom.parseString(meddocan_xml).toprettyxml(indent="  ")
+
+            # Guardar XML en salida
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(pretty_xml)
 
             print(f"\n✅ Resultado guardado en: {output_path}")
             print("*" * 80)
@@ -335,7 +388,7 @@ if __name__ == "__main__":
     print("INICIANDO PROCESAMIENTO DE ARCHIVOS XML")
     print("=" * 80 + "\n")
 
-    process_xml_files('test/xml', 'output/xml/quantized_LLaMA_model3.2-1B')
+    process_xml_files('test/xml', 'output/xml/LLaMA_model3.3')
 
     print("\n" + "=" * 80)
     print("PROCESAMIENTO COMPLETADO")
