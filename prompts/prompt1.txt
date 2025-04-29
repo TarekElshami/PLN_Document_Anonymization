@@ -1,9 +1,13 @@
 --- METADATA ---
 fecha: 24-04-2025
-problemas:
+problemas LLama3.2:1B:
+    - Siempre da la respuesta en un formato diferente cada vez
+    - La respuesta la mayoría de veces está mal
+problemas Llama3.3:
+    - No devuelve la respuesta en el formato exacto esperado
+problemas comunes:
     - Menciona etiquetas para dejarlas vacias
     - Se inventa etiquetas que no están en la lista
-    - No devuelve la respuesta en el formato esperado
 -----------------
 
 Tarea:
