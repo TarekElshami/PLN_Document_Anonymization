@@ -183,7 +183,7 @@ def get_gbnf_grammar():
     etiquetas_union = " | ".join(f'"{tag}"' for tag in etiquetas)
 
     return f"""
-root ::= '{{' '"texto_anotado":' string ',' '"entidades":' '{{' entidad (',' entidad)* '}}' '}}'
+root ::= '{{' '"texto_anotado":' string ',' '"entidades":' '{{' (entidad (',' entidad)*)? '}}' '}}'
 
 entidad ::= etiqueta ':' '[' valores ']'
 etiqueta ::= {etiquetas_union}
