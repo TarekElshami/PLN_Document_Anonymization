@@ -212,6 +212,9 @@ def split_text_by_newline(text, max_safe_tokens):
     print("=" * 50 + "\n")
 
     for i, line in enumerate(lines):
+        if line.strip() == "":
+            continue  # Ignorar líneas vacías
+
         temp_chunk = '\n'.join(current_chunk + [line])
         prompt_with_chunk = PROMPT_BASE.format(texto_clinico=temp_chunk)
         tokens = encoding.encode(prompt_with_chunk)
