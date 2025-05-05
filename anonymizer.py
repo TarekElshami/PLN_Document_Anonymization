@@ -21,7 +21,7 @@ TAG_CATEGORIES = {
     'CALLE': 'LOCATION',
     'TERRITORIO': 'LOCATION',
     'PAIS': 'LOCATION',
-    'CENTRO_SALUD': 'LOCATION',
+    'ID_CENTRO_DE_SALUD': 'LOCATION',
 
     # AGE (Edad)
     'EDAD_SUJETO_ASISTENCIA': 'AGE',
@@ -56,17 +56,14 @@ TAG_CATEGORIES = {
 
 PROMPT_BASE = """
 Tarea:
-Dado un texto clinico, anota todas las entidades sensibles de acuerdo con las categorías definidas en la guía oficial de anotación de información de salud protegida.
+Dado un texto clínico, identifica y anota **todas las entidades de información sensible** (ISP) siguiendo las directrices **estrictas** de la guía oficial de anotación del Plan de Impulso de las Tecnologías del Lenguaje para información de salud protegida.
 
-Objetivos
-1. Identificar menciones explícitas de información sensible (ISP) contenidas en un texto médico.
-2. Etiquetar dichas menciones utilizando tags personalizados con la forma:
-<<<ETIQUETA>>>texto<<</ETIQUETA>>>
-3. Extraer las entidades anotadas junto con su categoría.
+🎯 Objetivos:
+1. Detectar TODAS las menciones de información sensible en el texto.
+2. Etiquetarlas usando esta sintaxis: <<<ETIQUETA>>>texto<<</ETIQUETA>>>
+3. Extraer dichas entidades agrupadas por tipo en un JSON válido.
 
-Etiquetas a utilizar
-Estas etiquetas corresponden a las definiciones oficiales del plan de anotación de información de salud protegida y cubren todas las categorías relevantes:
-
+🔖 CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NI OMITAS)
 NOMBRE_SUJETO_ASISTENCIA: Solo el nombre y apellidos del paciente. También iniciales, apodos o motes.
 NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
 FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
@@ -95,26 +92,45 @@ IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, c
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
-🧾 Reglas de anotación estrictas
-1. No anotar etiquetas o claves del formulario (como "Nombre:", "Edad:", etc.).
-2. No incluir espacios ni signos de puntuación ni tildes dentro de las etiquetas.
-3. Una etiqueta por entidad, aunque se repita en el texto.
-4. Etiquetar múltiples palabras como una sola mención si pertenecen a la misma categoría y están juntas.
-5. Excluir títulos o prefijos como "Dr.", "Dña." de las etiquetas de nombres.
-6. Anotar todas las fechas, edades, lugares y contactos que puedan identificar al paciente o profesional.
-7. Si una etiqueta no tiene ninguna entidad entonces no debes mencionarla
-8. No debes inventarte una etiqueta que no esté en esa lista
-9. Si ves información sensible que no esté en la lista de etiquetas no debes mencionarla
-10. Si no encuentras ninguna información sensible simplemente devuelve unas entidades vacias y ya
-11. Nunca etiquetar el nombre de médicos o personal sanitario como NOMBRE_SUJETO_ASISTENCIA. Médicos/enfermeros/técnicos deben ir en NOMBRE_PERSONAL_SANITARIO.
+⚠️ ACLARACIONES CRÍTICAS (Errores comunes evitables)
+- **Nombres de médicos, enfermeros o personal clínico** deben etiquetarse como `NOMBRE_PERSONAL_SANITARIO`, **nunca** como `NOMBRE_SUJETO_ASISTENCIA`. No incluyas "Dr.", "Dra.", etc., dentro de la etiqueta.
+- Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
+- La **edad o datos de familiares** (ej. "el hermano tiene seis años") deben anotarse como `FAMILIARES_SUJETO_ASISTENCIA`, **no** como edad del paciente.
+- Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
+- **Nunca etiquetes el nombre de un profesional clínico como paciente**.
 
-🧪 Entrada esperada
-Cualquier texto clínico en formato libre.
+⚠️ ERRORES CRÍTICOS A EVITAR:
+1. NUNCA etiquetes "Dr." o "Dra." como parte del nombre del personal sanitario
+2. NUNCA etiquetes un nombre de médico como NOMBRE_SUJETO_ASISTENCIA
+3. NUNCA confundas los datos de un familiar con datos del paciente
+4. NUNCA crees categorías que no estén en la lista como EDAD_FAMILIAR
+5. NUNCA devuelvas "NINGUNA" como etiqueta si no hay entidades
+6. SIEMPRE anota TODAS las menciones de la misma entidad aunque aparezcan varias veces
 
-✅ Salida esperada
-Devuélveme ÚNICAMENTE un JSON válido. Sin explicaciones, sin introducción, sin comentarios y con la siguiente estructura:
+IMPORTANTE: Las etiquetas SIEMPRE deben seguir EXACTAMENTE este formato, sin excepciones:
+<<<ETIQUETA>>>valor<<</ETIQUETA>>>
+- Usa exactamente 3 símbolos < para abrir (<<<)
+- Usa exactamente 3 símbolos > para cerrar (>>>)
+- El cierre SIEMPRE es <<</ETIQUETA>>> con exactamente 3 símbolos < y 3 símbolos >
+- NO uses otras variantes como <<<<, <<</, <<<[/, etc.
+
+🧾 Reglas de anotación (estrictas y actualizadas)
+1. No etiquetes campos de formulario (“Nombre:”, “Edad:”, etc.).
+2. No incluyas signos de puntuación, tildes ni espacios dentro de las etiquetas.
+3. No repitas una entidad si ya está anotada, **salvo si aparece en distintas formas o contextos**.
+4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas.
+5. Elimina títulos o prefijos ("Dr.", "Dña.") **fuera** de la etiqueta.
+6. Toda información sensible debe ser etiquetada si aparece, sin omitir ninguna.
+7. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {{}}`.
+8. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
+9. Sigue las reglas multipalabra, alias, abreviaciones y convenciones de las guías oficiales.
+10. Usa el sentido del contexto para distinguir entidades del paciente vs. familiares.
+
+✅ Salida esperada (formato obligatorio)
+ÚNICAMENTE un **JSON válido**, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:
+
 {{
-  "texto_anotado": "Texto clínico con etiquetas <<<ETIQUETA>>>...<<</ETIQUETA>>> ya insertadas",
+  "texto_anotado": "Texto con etiquetas <<<ETIQUETA>>>...<<</ETIQUETA>>> ya insertadas",
   "entidades": {{
     "ETIQUETA1": ["valor1", "valor2", ...],
     "ETIQUETA2": ["valor1", ...]
@@ -138,35 +154,34 @@ SAFETY_MARGIN = 0.1  # 10% de margen de seguridad
 
 def build_meddocan_xml(original_text, tagged_text):
     """
-    Construye un XML estilo MEDDOCAN a partir del texto original, el texto anotado y las entidades.
+    Construye un XML estilo MEDDOCAN capturando TODAS las entidades, incluso duplicadas.
     """
-
-    # Inicializar XML
     root = ET.Element("MEDDOCAN")
     text_elem = ET.SubElement(root, "TEXT")
     text_elem.text = original_text
-
     tags_elem = ET.SubElement(root, "TAGS")
 
-    # Buscar entidades en el texto anotado para ubicar sus posiciones reales en el texto original
     pattern = r"<<<(.*?)>>>(.*?)<<</\1>>>"
-
+    last_end = 0  # Track para búsquedas incrementales
 
     for match in re.finditer(pattern, tagged_text):
         entity_type = match.group(1)
-        entity_text = match.group(2)
-
-        # Mapea a la etiqueta general (e.g., NAME, AGE...)
+        entity_text = match.group(2).strip()  # Limpiar espacios
         xml_tag = TAG_CATEGORIES.get(entity_type, "WARNING")
 
-        # Encontrar en el texto original (segura para duplicados)
+        # Buscar la entidad DESPUÉS de la última posición registrada
         try:
-            start = original_text.index(entity_text)
+            start = original_text.index(entity_text, last_end)
+            end = start + len(entity_text)
+            last_end = end
         except ValueError:
-            print(f"⚠️ No se pudo encontrar '{entity_text}' en el texto original. Saltando esta entidad.")
+            print(f"⚠️ Entidad no encontrada: '{entity_text}' (posible error de alineación)")
             continue
 
-        end = start + len(entity_text)
+        # Verificar que el texto coincida EXACTAMENTE
+        if original_text[start:end] != entity_text:
+            print(f"⚠️ Discrepancia en: '{entity_text}' vs '{original_text[start:end]}'")
+            continue
 
         ET.SubElement(tags_elem, xml_tag, {
             "start": str(start),
@@ -227,7 +242,7 @@ def split_text_by_newline(text, max_safe_tokens):
         else:
             if current_chunk:
                 chunks.append('\n'.join(current_chunk))
-                print(f"\n⚠️ Fragmento completado ({len(chunks)} fragmentos hasta ahora)")
+                print(f"\nFragmento completado ({len(chunks)} fragmentos hasta ahora)")
                 print(f"Contenido del fragmento:\n{'-' * 30}\n{chunks[-1]}\n{'-' * 30}\n")
                 current_chunk = [line]
             else:
