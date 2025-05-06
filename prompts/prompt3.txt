@@ -3,6 +3,7 @@ fecha: 29-04-2025
 problemas LLama3.2:1B:
     - El formato no lo respeta nunca
 problemas Llama3.3:
+    - No respeta <<<TAG>>>value<<</TAG>>>
     - Hay entidades que pone mal como por ejemplo añadir Dr. al nombre del médico
     - La edad sujeto aistencia a veces me la pone mal, por ejemplo en un texto puede poner 3 años y tres años y sólo reconocería una de esas dos
     - Cuando algo pertenece a la familia, p. ej. edad, lo reconoce mal y se lo pone al paciente

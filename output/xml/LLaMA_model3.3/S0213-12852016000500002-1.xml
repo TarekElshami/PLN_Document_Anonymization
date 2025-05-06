@@ -22,28 +22,25 @@ El paciente se evaluó a los 8 y 15 días y luego a los 2 meses, a los 10 meses 
 Remitido por: Martha Lucia Marín Botero Universidad de Antioquia Facultad de Odontología Calle 64 # 52-59 Medellín. Colombia Correo electrónico: marthaluciamarin@gmail.com
 </TEXT>
   <TAGS>
-    <AGE start="2177" end="2181" text="días" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <WARNING start="1091" end="1093" text="46" TYPE="FECHA"/>
-    <WARNING start="1111" end="1113" text="33" TYPE="FECHA"/>
-    <AGE start="162" end="163" text="3" TYPE="EDAD_SUJETO_ASISTENCIA"/>
     <WARNING start="1091" end="1093" text="46" TYPE="NUMERO_IDENTIF"/>
     <WARNING start="1111" end="1113" text="33" TYPE="NUMERO_IDENTIF"/>
-    <WARNING start="66" end="68" text="44" TYPE="NUMERO_IDENTIF"/>
-    <WARNING start="1171" end="1173" text="45" TYPE="NUMERO_IDENTIF"/>
-    <AGE start="2175" end="2176" text="8" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <WARNING start="1249" end="1251" text="44" TYPE="NUMERO_IDENTIF"/>
+    <WARNING start="3506" end="3508" text="45" TYPE="NUMERO_IDENTIF"/>
+    <AGE start="4966" end="4967" text="8" TYPE="EDAD_SUJETO_ASISTENCIA"/>
     <AGE start="4970" end="4972" text="15" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="62" end="63" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="1022" end="1024" text="10" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="62" end="63" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="62" end="63" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="1100" end="1103" text="mes" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="1022" end="1024" text="10" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <AGE start="70" end="71" text="6" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <WARNING start="279" end="304" text="Martha Lucia Marín Botero" TYPE="NOMBRE"/>
+    <AGE start="4992" end="4993" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5007" end="5009" text="10" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5024" end="5025" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5060" end="5061" text="2" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5062" end="5065" text="mes" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5452" end="5454" text="10" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="5716" end="5720" text="años" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="6041" end="6042" text="6" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <AGE start="6165" end="6169" text="años" TYPE="EDAD_SUJETO_ASISTENCIA"/>
+    <WARNING start="6344" end="6369" text="Martha Lucia Marín Botero" TYPE="NOMBRE_REMITENTE"/>
     <LOCATION start="6370" end="6418" text="Universidad de Antioquia Facultad de Odontología" TYPE="INSTITUCION"/>
-    <LOCATION start="6419" end="6435" text="Calle 64 # 52-59" TYPE="CALLE"/>
-    <WARNING start="95" end="103" text="Medellín" TYPE="CIUDAD"/>
-    <LOCATION start="176" end="184" text="Colombia" TYPE="PAIS"/>
+    <WARNING start="6419" end="6444" text="Calle 64 # 52-59 Medellín" TYPE="DIRECCION"/>
+    <LOCATION start="6446" end="6454" text="Colombia" TYPE="PAIS"/>
     <CONTACT start="6475" end="6501" text="marthaluciamarin@gmail.com" TYPE="CORREO_ELECTRONICO"/>
   </TAGS>
 </MEDDOCAN>

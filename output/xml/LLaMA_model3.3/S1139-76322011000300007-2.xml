@@ -18,22 +18,5 @@ En la exploración física no presentaba datos de deshidratación ni alteracione
 Permaneció en observación durante 20 horas sin presentar nuevas crisis y buena tolerancia a la hidratación oral. En el coprocultivo se detectó rotavirus. Seguimiento posterior sin presentar nuevas crisis y con desarrollo psicomotor normal.
 Remitido por: María del Rosario García Luzardo, saragarlu@telefonica.net
 </TEXT>
-  <TAGS>
-    <NAME start="29" end="33" text="Juan" TYPE="NOMBRE_SUJETO_ASISTENCIA"/>
-    <NAME start="46" end="64" text="Salvador Castañeda" TYPE="NOMBRE_SUJETO_ASISTENCIA"/>
-    <ID start="71" end="78" text="3245806" TYPE="ID_SUJETO_ASISTENCIA"/>
-    <LOCATION start="91" end="111" text="Av/ Herrera Oria, 83" TYPE="CALLE"/>
-    <LOCATION start="135" end="141" text="Madrid" TYPE="TERRITORIO"/>
-    <LOCATION start="147" end="152" text="28030" TYPE="TERRITORIO"/>
-    <DATE start="195" end="205" text="20/02/2013" TYPE="FECHAS"/>
-    <LOCATION start="213" end="219" text="España" TYPE="PAIS"/>
-    <AGE start="227" end="233" text="3 años" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <OTHER start="67" end="68" text="H" TYPE="SEXO_SUJETO_ASISTENCIA"/>
-    <DATE start="261" end="271" text="01/03/2016" TYPE="FECHAS"/>
-    <NAME start="281" end="313" text="María del Rosario García Luzardo" TYPE="NOMBRE_PERSONAL_SANITARIO"/>
-    <ID start="322" end="333" text="28 28 96028" TYPE="ID_TITULACION_PERSONAL_SANITARIO"/>
-    <AGE start="816" end="825" text="seis años" TYPE="EDAD_SUJETO_ASISTENCIA"/>
-    <NAME start="281" end="313" text="María del Rosario García Luzardo" TYPE="NOMBRE_PERSONAL_SANITARIO"/>
-    <WARNING start="1327" end="1351" text="saragarlu@telefonica.net" TYPE="CORREO"/>
-  </TAGS>
+  <TAGS/>
 </MEDDOCAN>

@@ -1,12 +1,11 @@
 --- METADATA ---
-fecha: 05-05-2025
+fecha: 06-05-2025
 problemas LLama3.2:1B:
     -
 problemas Llama3.3:
     - No respeta <<<TAG>>>value<<</TAG>>>
 problemas comunes:
 -----------------
-
 Tarea:
 Dado un texto clínico, identifica y anota **todas las entidades de información sensible** (ISP) siguiendo las directrices **estrictas** de la guía oficial de anotación del Plan de Impulso de las Tecnologías del Lenguaje para información de salud protegida.
 
@@ -44,43 +43,29 @@ IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, c
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
-⚠️ ACLARACIONES CRÍTICAS (Errores comunes evitables)
-- **Nombres de médicos, enfermeros o personal clínico** deben etiquetarse como `NOMBRE_PERSONAL_SANITARIO`, **nunca** como `NOMBRE_SUJETO_ASISTENCIA`. No incluyas "Dr.", "Dra.", etc., dentro de la etiqueta.
-- Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
-- La **edad o datos de familiares** (ej. "el hermano tiene seis años") deben anotarse como `FAMILIARES_SUJETO_ASISTENCIA`, **no** como edad del paciente.
-- Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
-- **Nunca etiquetes el nombre de un profesional clínico como paciente**.
+✅ Principales reglas de anotación:
+    Personal sanitario → Etiquétalo como NOMBRE_PERSONAL_SANITARIO, sin títulos como "Dr." o "Dra." y nunca como NOMBRE_SUJETO_ASISTENCIA.
+    Datos de familiares → Usa FAMILIARES_SUJETO_ASISTENCIA, no lo confundas con datos del paciente tienes que tener en cuenta el contexto.
+    Múltiples formas de una misma entidad (ej. “3 años” y “tres años”) → Etiquétalas todas por separado.
+    Sexo del paciente → Reconoce todas las formas posibles: M, F, varón, mujer, etc.
 
-⚠️ ERRORES CRÍTICOS A EVITAR:
-1. NUNCA etiquetes "Dr." o "Dra." como parte del nombre del personal sanitario
-2. NUNCA etiquetes un nombre de médico como NOMBRE_SUJETO_ASISTENCIA
-3. NUNCA confundas los datos de un familiar con datos del paciente
-4. NUNCA crees categorías que no estén en la lista como EDAD_FAMILIAR
-5. NUNCA devuelvas "NINGUNA" como etiqueta si no hay entidades
-6. SIEMPRE anota TODAS las menciones de la misma entidad aunque aparezcan varias veces
+⚠️ Errores críticos que debes evitar:
+    No te inventes las etiquetas que no vengan arriba
+    No ignores entidades repetidas con diferentes formatos.
+    No devuelvas “NINGUNA” si no hay entidades devuelve:
+    {{
+    "texto_anotado": "Texto",
+    "entidades": {{}}
+    }}
 
-IMPORTANTE: Las etiquetas SIEMPRE deben seguir EXACTAMENTE este formato, sin excepciones:
-<<<ETIQUETA>>>valor<<</ETIQUETA>>>
-- Usa exactamente 3 símbolos < para abrir (<<<)
-- Usa exactamente 3 símbolos > para cerrar (>>>)
-- El cierre SIEMPRE es <<</ETIQUETA>>> con exactamente 3 símbolos < y 3 símbolos >
-- NO uses otras variantes como <<<<, <</, <<<[/, etc.
-
-🧾 Reglas de anotación (estrictas y actualizadas)
-1. No etiquetes campos de formulario (“Nombre:”, “Edad:”, etc.).
-2. No incluyas signos de puntuación, tildes ni espacios dentro de las etiquetas.
-3. No repitas una entidad si ya está anotada, **salvo si aparece en distintas formas o contextos**.
-4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas.
-5. Elimina títulos o prefijos ("Dr.", "Dña.") **fuera** de la etiqueta.
-6. Toda información sensible debe ser etiquetada si aparece, sin omitir ninguna.
-7. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {{}}`.
-8. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
-9. Sigue las reglas multipalabra, alias, abreviaciones y convenciones de las guías oficiales.
-10. Usa el sentido del contexto para distinguir entidades del paciente vs. familiares.
+🧾 Formato obligatorio:
+    Etiquetas deben ir como: <<<ETIQUETA>>>valor<<</ETIQUETA>>>
+        Usa exactamente tres signos < y >.
+        Cierre debe ser exacto, sin variantes.
+    No incluyas puntuación, espacios ni tildes dentro de la etiqueta.
 
 ✅ Salida esperada (formato obligatorio)
 ÚNICAMENTE un **JSON válido**, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:
-
 {{
   "texto_anotado": "Texto con etiquetas <<<ETIQUETA>>>...<<</ETIQUETA>>> ya insertadas",
   "entidades": {{

@@ -5,9 +5,8 @@ import re
 import pandas as pd
 import matplotlib.pyplot as plt
 
-PROMPTS_DIR = "prompts"
 RESULTS_DIR = "results"
-SYSTEM_DIRS = ["systemLlama3_3", "systemLlamaQuantized"]  # Carpetas de sistemas
+SYSTEM_DIRS = ["systemLlama3.3", "systemLlamaQuantized"]  # Carpetas de sistemas
 STATS_FILE = "stats_{}.csv"  # Plantilla para archivos de estadísticas por sistema
 
 def run_evaluation(prompt_name, system_dir):
@@ -76,16 +75,18 @@ def main():
     if not os.path.exists(RESULTS_DIR):
         os.makedirs(RESULTS_DIR)
 
-    prompts = [f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt')]
-    prompts = sorted(prompts)  # Orden alfabético: prompt001.txt, prompt002.txt, etc
-
     for system_dir in SYSTEM_DIRS:
-        system_name = os.path.basename(system_dir)  # Ej: systemLlama3.3 o systemLlamaQuantized
+        system_name = os.path.basename(system_dir)
         all_stats = []
         print(f"\nEvaluando sistema: {system_name}")
 
-        for prompt_file in prompts:
-            prompt_name = os.path.splitext(prompt_file)[0]
+        # Buscar subcarpetas como prompts
+        prompts = sorted([
+            name for name in os.listdir(system_dir)
+            if os.path.isdir(os.path.join(system_dir, name))
+        ])
+
+        for prompt_name in prompts:
             print(f"Evaluando {prompt_name} en {system_name}...")
 
             # Ejecutar evaluación

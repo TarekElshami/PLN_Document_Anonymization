@@ -3,7 +3,7 @@ fecha: 25-04-2025
 problemas LLama3.2:1B:
     - Algunas veces respeta el formato de salida, pero no parece afectado por la gramática y pocas veces da la respuesta correcta
 problemas Llama3.3:
-    - No respeta el patrón de etiquetado <<<TAG>>value<<</TAG>>> en su lugar a veces pone <<<TAG>>>value<<<</TAG>>>
+    - No respeta el patrón de etiquetado <<<TAG>>>value<<</TAG>>> en su lugar a veces pone <<<TAG>>>value<<<</TAG>>>
     - A veces considera información sensible resultados a pruebas clinicas que no se consideran como tal
     - Menciona etiquetas para dejarlas vacias
     - Si una etiqueta tiene dos apariciones seguidas las debe unir, pero en cambio las une aunque no estén seguidas

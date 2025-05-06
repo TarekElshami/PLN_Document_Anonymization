@@ -3,6 +3,7 @@ fecha: 30-04-2025
 problemas LLama3.2:1B:
     -
 problemas Llama3.3:
+    - No respeta <<<TAG>>>value<<</TAG>>>
     - Sigue poniendo el nombre del médico en NOMBRE_SUJETO_ASISTENCIA
     - Me pone de edades todos los periodos de tiempo que ve
     - Me ha reconocido como SEXO_SUJETO_ASISTENCIA la palabra mano en varias pruebas
