@@ -1,20 +1,21 @@
 --- METADATA ---
-fecha: 06-05-2025
+fecha: 07-05-2025
 problemas LLama3.2:1B:
     -
 problemas Llama3.3:
-    - No respeta <<<TAG>>>value<<</TAG>>>
+    -
 problemas comunes:
 -----------------
+
 Tarea:
-Dado un texto clínico, identifica y anota **todas las entidades de información sensible** (ISP) siguiendo las directrices **estrictas** de la guía oficial de anotación del Plan de Impulso de las Tecnologías del Lenguaje para información de salud protegida.
+Dado un texto clínico, identifica y anota **todas las entidades de información sensible protegida** (ISP) siguiendo las directrices **estrictas** de la guía oficial de anotación del Plan de Impulso de las Tecnologías del Lenguaje para información de salud protegida.
 
 🎯 Objetivos:
 1. Detectar TODAS las menciones de información sensible en el texto.
 2. Etiquetarlas usando esta sintaxis: <<<ETIQUETA>>>texto<<</ETIQUETA>>>
 3. Extraer dichas entidades agrupadas por tipo en un JSON válido.
 
-🔖 CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NI OMITAS)
+CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NINGUNA)
 NOMBRE_SUJETO_ASISTENCIA: Solo el nombre y apellidos del paciente. También iniciales, apodos o motes.
 NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
 FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
@@ -35,7 +36,7 @@ DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
 URL_WEB: Cualquier dirección web o enlace.
 PROFESION: Profesión del paciente o familiares.
 HOSPITAL: Nombres de hospitales o centros sanitarios.
-ID_CENTRO DE SALUD: Nombres de centros de salud o unidades clínicas.
+ID_CENTRO_DE_SALUD: Nombres de centros de salud o unidades clínicas.
 INSTITUCION: Cualquier otra institución no médica identificable.
 NUMERO_IDENTIF: Otros números de identificación no clasificados.
 IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
@@ -43,26 +44,20 @@ IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, c
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
-✅ Principales reglas de anotación:
-    Personal sanitario → Etiquétalo como NOMBRE_PERSONAL_SANITARIO, sin títulos como "Dr." o "Dra." y nunca como NOMBRE_SUJETO_ASISTENCIA.
-    Datos de familiares → Usa FAMILIARES_SUJETO_ASISTENCIA, no lo confundas con datos del paciente tienes que tener en cuenta el contexto.
-    Múltiples formas de una misma entidad (ej. “3 años” y “tres años”) → Etiquétalas todas por separado.
-    Sexo del paciente → Reconoce todas las formas posibles: M, F, varón, mujer, etc.
+⚠️ ACLARACIONES
+- Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
+- Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
 
-⚠️ Errores críticos que debes evitar:
-    No te inventes las etiquetas que no vengan arriba
-    No ignores entidades repetidas con diferentes formatos.
-    No devuelvas “NINGUNA” si no hay entidades devuelve:
-    {{
-    "texto_anotado": "Texto",
-    "entidades": {{}}
-    }}
-
-🧾 Formato obligatorio:
-    Etiquetas deben ir como: <<<ETIQUETA>>>valor<<</ETIQUETA>>>
-        Usa exactamente tres signos < y >.
-        Cierre debe ser exacto, sin variantes.
-    No incluyas puntuación, espacios ni tildes dentro de la etiqueta.
+🧾 Reglas de anotación (estrictas y actualizadas)
+1. No incluir dentro de las etiquetas claves del formulario como "Nombre:", "Edad:", etc..
+2. No incluir espacios ni signos de puntuación dentro de las etiquetas.
+3. Debes incluir todas las apariciones de las entidades aunque se repitan
+4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas.
+5. Dejar fuera de las etiquetas títulos o prefijos como "Dr.", "Dña.".
+6. Toda información sensible debe ser etiquetada si aparece, sin omitir ninguna.
+7. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {{}}`.
+8. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
+9. Usa el contexto del documento para distinguir entre entidades del paciente vs. familiares.
 
 ✅ Salida esperada (formato obligatorio)
 ÚNICAMENTE un **JSON válido**, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:

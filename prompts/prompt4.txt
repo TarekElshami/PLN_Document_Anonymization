@@ -45,7 +45,7 @@ DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
 URL_WEB: Cualquier dirección web o enlace.
 PROFESION: Profesión del paciente o familiares.
 HOSPITAL: Nombres de hospitales o centros sanitarios.
-ID_CENTRO DE SALUD: Nombres de centros de salud o unidades clínicas.
+ID_CENTRO_DE_SALUD: Nombres de centros de salud o unidades clínicas.
 INSTITUCION: Cualquier otra institución no médica identificable.
 NUMERO_IDENTIF: Otros números de identificación no clasificados.
 IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
