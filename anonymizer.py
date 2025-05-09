@@ -389,6 +389,81 @@ def process_xml_files(input_dir, output_dir, ollama_port):
             logger.error(f"Error procesando {filename}: {str(e)}")
 
 
+def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name, prompt_text):
+    """Procesa un único archivo XML y devuelve True si se guardó correctamente, False en caso contrario.
+
+    Args:
+        input_file_path (str): Ruta completa al archivo XML de entrada
+        output_dir (str): Directorio de salida donde guardar el resultado
+        ollama_port (str): Puerto de Ollama a utilizar
+        model_name (str): Nombre del modelo a utilizar (debe estar en MODEL_CONTEXT_LIMITS)
+        prompt_text (str): Texto del prompt a utilizar para el procesamiento
+
+    Returns:
+        bool: True si el archivo se procesó y guardó correctamente, False si hubo algún error
+    """
+    try:
+        # Validar que el modelo existe
+        if model_name not in MODEL_CONTEXT_LIMITS:
+            logger.error(f"Modelo '{model_name}' no encontrado en MODEL_CONTEXT_LIMITS")
+            return False
+
+        # Configurar el modelo global para esta ejecución
+        global MODEL_NAME
+        MODEL_NAME = model_name
+
+        # Configurar el prompt base
+        global PROMPT_BASE
+        PROMPT_BASE = prompt_text
+
+        # Crear directorio de salida si no existe
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        logger.info(f"Procesando archivo: {input_file_path}")
+        logger.info(f"Modelo: {model_name}")
+        logger.info(f"Directorio de salida: {output_dir}")
+
+        # Leer XML original
+        tree = ET.parse(input_file_path)
+        original_text = tree.find('.//TEXT').text or ""
+
+        logger.debug("Texto original extraído del XML:")
+        logger.debug(f"{'-' * 30}\n{original_text}\n{'-' * 30}")
+
+        # Extraer datos (texto marcado + entidades)
+        result = extract_entities(original_text, ollama_port)
+
+        logger.debug("\nTexto marcado final:")
+        logger.debug(f"{'-' * 30}\n{result['tagged_text']}\n{'-' * 30}")
+
+        # Crear XML estilo MEDDOCAN
+        meddocan_xml = build_meddocan_xml_from_entities(original_text, result['entities'])
+
+        # Embellecer XML
+        pretty_xml = minidom.parseString(meddocan_xml).toprettyxml(indent="  ")
+
+        # Guardar XML en salida
+        output_filename = os.path.basename(input_file_path)
+        output_path = os.path.join(output_dir, output_filename)
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(pretty_xml)
+
+        logger.info(f"Resultado guardado correctamente en: {output_path}")
+        return True
+
+    except ET.ParseError as e:
+        logger.error(f"Error al parsear XML {input_file_path}: {str(e)}")
+        return False
+    except IOError as e:
+        logger.error(f"Error de E/S al procesar {input_file_path}: {str(e)}")
+        return False
+    except Exception as e:
+        logger.error(f"Error inesperado procesando {input_file_path}: {str(e)}")
+        return False
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Procesador de archivos XML clínicos con Ollama')
     parser.add_argument('--port', type=str, default=DEFAULT_OLLAMA_PORT,
