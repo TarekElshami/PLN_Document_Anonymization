@@ -10,7 +10,6 @@ INPUT_DIR = "test/xml/"
 PROMPTS_DIR = "prompts"
 OLLAMA_PORT = "20201"
 STATE_FILE = "processed_state.json"
-LOG_FILE = "batch_anonymizer.log"
 
 # Modelos a procesar y sus directorios de salida
 MODELS = {
@@ -20,9 +19,12 @@ MODELS = {
 
 # --- Logging ---
 logging.basicConfig(
-    filename=LOG_FILE,
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('batch_anonymizer.log'),
+        # logging.StreamHandler()
+    ]
 )
 logger = logging.getLogger(__name__)
 
