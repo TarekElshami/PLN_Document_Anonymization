@@ -73,7 +73,7 @@ def process_all_prompts():
                     ollama_port=OLLAMA_PORT,
                     model_name=model_name,
                     prompt_text=prompt_text,
-                    use_grammar=use_grammar
+                    usegrammar=use_grammar
                 )
 
                 if success:
