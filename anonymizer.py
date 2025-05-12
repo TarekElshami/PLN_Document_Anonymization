@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('anonymization.log'),
+        logging.FileHandler('logAnonymizer.log'),
         # logging.StreamHandler()
     ]
 )
@@ -410,25 +410,8 @@ def process_xml_files(input_dir, output_dir, ollama_port):
             logger.error(f"Error procesando {filename}: {str(e)}")
 
 
-def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name, prompt_text, usegrammar):
-    """Procesa un único archivo XML y devuelve True si se guardó correctamente, False en caso contrario.
-
-    Args:
-        input_file_path (str): Ruta completa al archivo XML de entrada
-        output_dir (str): Directorio de salida donde guardar el resultado
-        ollama_port (str): Puerto de Ollama a utilizar
-        model_name (str): Nombre del modelo a utilizar (debe estar en MODEL_CONTEXT_LIMITS)
-        prompt_text (str): Texto del prompt a utilizar para el procesamiento
-
-    Returns:
-        bool: True si el archivo se procesó y guardó correctamente, False si hubo algún error
-    """
+def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name, prompt_text, use_grammar, context_size):
     try:
-        # Validar que el modelo existe
-        if model_name not in MODEL_CONTEXT_LIMITS:
-            logger.error(f"Modelo '{model_name}' no encontrado en MODEL_CONTEXT_LIMITS")
-            return False
-
         # Configurar el modelo global para esta ejecución
         global MODEL_NAME
         MODEL_NAME = model_name
@@ -438,7 +421,10 @@ def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name
         PROMPT_BASE = prompt_text
 
         global USE_GRAMMAR
-        USE_GRAMMAR = usegrammar
+        USE_GRAMMAR = use_grammar
+
+        global MODEL_CONTEXT_LIMITS
+        MODEL_CONTEXT_LIMITS[model_name] = context_size
 
         # Crear directorio de salida si no existe
         if not os.path.exists(output_dir):

@@ -1,32 +1,49 @@
 import os
 import json
 import logging
+import configparser
 from tqdm import tqdm
-
 from anonymizer import process_single_xml_file
-
-# --- Configuración ---
-INPUT_DIR = "test/xml/"
-PROMPTS_DIR = "prompts"
-OLLAMA_PORT = "20201"
-STATE_FILE = "processed_state.json"
-
-# Modelos a procesar y sus directorios de salida
-MODELS = {
-    'llama3.3': 'systemLlama3.3',
-    'llama3.2:1B': 'systemLlamaQuantized'
-}
 
 # --- Logging ---
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('batch_anonymizer.log'),
+        logging.FileHandler('logBatch.log'),
         # logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
+
+# --- Cargar configuración ---
+config = configparser.ConfigParser(delimiters=('=',))
+config.optionxform = str
+config.read('batchConfig.ini')
+
+# --- Configuración ---
+INPUT_DIR = config.get('General', 'input_dir')
+PROMPTS_DIR = config.get('General', 'prompts_dir')
+OLLAMA_PORT = config.get('General', 'ollama_port')
+STATE_FILE = config.get('General', 'state_file')
+
+# Modelos a procesar y sus directorios de salida
+MODELS = {key: value for key, value in config.items('Models')}
+
+# Diccionario de límites de contexto por modelo
+MODEL_CONTEXT_LIMITS = {}
+try:
+    for key, value in config.items('ModelContextLimits'):
+        try:
+            MODEL_CONTEXT_LIMITS[key] = int(value)
+            if MODEL_CONTEXT_LIMITS[key] <= 0:
+                raise ValueError(f"El límite de contexto para '{key}' debe ser mayor que 0")
+        except ValueError as e:
+            logger.error(f"Error en la configuración de límites de contexto: {e}")
+            raise SystemExit("Error fatal en la configuración. Deteniendo la ejecución.")
+except configparser.NoSectionError:
+    logger.error("Sección 'ModelContextLimits' no encontrada en batchConfig.ini")
+    raise SystemExit("Error fatal: Sección requerida no encontrada. Deteniendo la ejecución.")
 
 # --- Estado de procesamiento ---
 def load_processed_files():
@@ -73,7 +90,8 @@ def process_all_prompts():
                     ollama_port=OLLAMA_PORT,
                     model_name=model_name,
                     prompt_text=prompt_text,
-                    usegrammar=use_grammar
+                    use_grammar=use_grammar,
+                    context_size=MODEL_CONTEXT_LIMITS.get(model_name)
                 )
 
                 if success:
