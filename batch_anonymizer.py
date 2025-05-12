@@ -43,12 +43,17 @@ def save_processed_files(state):
 def process_all_prompts():
     state = load_processed_files()
     input_files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.xml')]
-    prompt_files = [f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt') and f != 'prompt1.txt']
+    prompt_files = [f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt')]
 
     for prompt_file in prompt_files:
         with open(os.path.join(PROMPTS_DIR, prompt_file), 'r', encoding='utf-8') as f:
-            prompt_text = f.read()
+            full_text = f.read()
+            prompt_text = full_text.split("Tarea:", 1)[-1].strip()
+
         prompt_name = os.path.splitext(prompt_file)[0]
+
+        # Determinar si debe usarse la gramática
+        use_grammar = not prompt_file == 'prompt1.txt'
 
         for model_name, model_dir in MODELS.items():
             output_dir = os.path.join(model_dir, prompt_name)
@@ -67,7 +72,8 @@ def process_all_prompts():
                     output_dir=output_dir,
                     ollama_port=OLLAMA_PORT,
                     model_name=model_name,
-                    prompt_text=prompt_text
+                    prompt_text=prompt_text,
+                    use_grammar=use_grammar
                 )
 
                 if success:

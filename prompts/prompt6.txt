@@ -38,7 +38,7 @@ PROFESION: Profesión del paciente o familiares.
 HOSPITAL: Nombres de hospitales o centros sanitarios.
 ID_CENTRO_DE_SALUD: Nombres de centros de salud o unidades clínicas.
 INSTITUCION: Cualquier otra institución no médica identificable.
-NUMERO_IDENTIF: Otros números de identificación no clasificados.
+OTRO_NUMERO_IDENTIF: Otros números de identificación no clasificados.
 IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
 IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.

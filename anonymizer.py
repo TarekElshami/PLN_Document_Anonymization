@@ -146,6 +146,18 @@ MODEL_CONTEXT_LIMITS = {
 
 SAFETY_MARGIN = 0.1  # 10% de margen de seguridad
 
+USE_GRAMMAR = True
+
+def quitar_tildes(texto):
+    reemplazos = {
+        'á': 'a',
+        'é': 'e',
+        'í': 'i',
+        'ó': 'o',
+        'ú': 'u',
+    }
+    return ''.join(reemplazos.get(c, c) for c in texto)
+
 
 def build_meddocan_xml_from_entities(original_text, entidades_json):
     root = ET.Element("MEDDOCAN")
@@ -153,9 +165,14 @@ def build_meddocan_xml_from_entities(original_text, entidades_json):
     text_elem.text = original_text
     tags_elem = ET.SubElement(root, "TAGS")
 
+    tag_id = 1
+
     for tag, values in entidades_json.items():
-        xml_tag = TAG_CATEGORIES.get(tag, "WARNING")
-        value_counts = Counter(values)  # cuenta cuántas veces se repite cada valor
+        xml_tag = TAG_CATEGORIES.get(tag)
+        if xml_tag is None:
+            tag_sin_tildes = quitar_tildes(tag)
+            xml_tag = TAG_CATEGORIES.get(tag_sin_tildes, "WARNING")
+        value_counts = Counter(values)
 
         for value, count in value_counts.items():
             start_idx = 0
@@ -167,11 +184,13 @@ def build_meddocan_xml_from_entities(original_text, entidades_json):
                     break
                 end = start + len(value)
                 ET.SubElement(tags_elem, xml_tag, {
+                    "id": str(tag_id),
                     "start": str(start),
                     "end": str(end),
                     "text": value,
                     "TYPE": tag
                 })
+                tag_id += 1
                 start_idx = end
                 occurrences += 1
 
@@ -287,11 +306,13 @@ def extract_entities(text, ollama_port):
             "model": MODEL_NAME,
             "prompt": PROMPT_BASE.format(texto_clinico=part),
             "stream": False,
-            "grammar": get_gbnf_grammar(),
             "options": {
                 "num_ctx": max_tokens
             }
         }
+
+        if USE_GRAMMAR:
+            payload["grammar"] = get_gbnf_grammar()
 
         try:
             logger.debug("Enviando solicitud al modelo LLM...")
@@ -389,7 +410,7 @@ def process_xml_files(input_dir, output_dir, ollama_port):
             logger.error(f"Error procesando {filename}: {str(e)}")
 
 
-def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name, prompt_text):
+def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name, prompt_text, usegrammar):
     """Procesa un único archivo XML y devuelve True si se guardó correctamente, False en caso contrario.
 
     Args:
@@ -415,6 +436,9 @@ def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name
         # Configurar el prompt base
         global PROMPT_BASE
         PROMPT_BASE = prompt_text
+
+        global USE_GRAMMAR
+        USE_GRAMMAR = usegrammar
 
         # Crear directorio de salida si no existe
         if not os.path.exists(output_dir):

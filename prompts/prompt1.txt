@@ -26,7 +26,7 @@ NOMBRE_SUJETO_ASISTENCIA: Nombre y apellidos del paciente. Incluye iniciales, ap
 NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
 FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
 ID_SUJETO_ASISTENCIA: Códigos como NHC, CIPA, DNI, NIF, pasaporte u otros identificadores del paciente.
-ID_TITULACIÓN_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.
+ID_TITULACION_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.
 ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos o procesos.
 ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).
 EDAD_SUJETO_ASISTENCIA: Edad del paciente (incluyendo formas como "tres días", "6 años").
@@ -34,20 +34,20 @@ SEXO_SUJETO_ASISTENCIA: Sexo del paciente (incluyendo formas como "varón", "ni�
 FECHAS: Cualquier fecha del calendario (de nacimiento, ingreso, evolución, etc.).
 CALLE: Dirección postal completa, incluyendo tipo de vía, nombre, número, piso, etc.
 TERRITORIO: Ciudad, provincia, código postal, barrio, comarca, o cualquier otra división geográfica.
-PAÍS: País mencionado en el texto.
-CORREO_ELECTRÓNICO: Cualquier dirección de correo electrónico.
-NÚMERO_TELÉFONO: Números de teléfono personales o profesionales.
-NÚMERO_FAX: Números de fax asociados a la atención o el paciente.
+PAIS: País mencionado en el texto.
+CORREO_ELECTRONICO: Cualquier dirección de correo electrónico.
+NUMERO_TELEFONO: Números de teléfono personales o profesionales.
+NUMERO_FAX: Números de fax asociados a la atención o el paciente.
 DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
 URL_WEB: Cualquier dirección web o enlace.
-PROFESIÓN: Profesión del paciente o familiares.
+PROFESION: Profesión del paciente o familiares.
 HOSPITAL: Nombres de hospitales o centros sanitarios.
 ID_CENTRO_DE_SALUD: Nombres de centros de salud o unidades clínicas.
-INSTITUCIÓN: Cualquier otra institución no médica identificable.
-NUMERO_IDENTIF: Otros números de identificación no clasificados.
-IDENTIF_VEHÍCULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
+INSTITUCION: Cualquier otra institución no médica identificable.
+OTRO_NUMERO_IDENTIF: Otros números de identificación no clasificados.
+IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
 IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).
-IDENTIF_BIOMÉTRICOS: Huellas, escaneos o cualquier identificador biométrico.
+IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
 🧾 Reglas de anotación estrictas
