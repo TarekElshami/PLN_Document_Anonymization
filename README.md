@@ -18,7 +18,7 @@
 | DBpedia abstracts*                  | 2015        | Desconocido                   | EN, DE, NL, FR, IT, JA                                                    | PER, ORG, LOC, MISC                       | No     |
 | DAWT*                               | 2016        | Desconocido                   | EN, ES, FR, IT, DE, AR                                                    | PER, ORG, LOC, MISC                       | No     |
 | CANTEMIST*                          | 2020        | 1,000+ textos clínicos        | Español                                                                   | Tumores, morfología                       | Sí     |
-| EMNLP 2014 Shared Task*             | 2014        | Desconocido                   | Nepali-English, Spanish-English, Mandarin-English, Arabic-Arabic dialects | PER, ORG, LOC, MISC                       | No     |
+| EMNLP 2014 Shared Task*             | 2014        | 3060                   | Spanish-English | NER Twitter                    | No     |
 | i2b2-2006                          | 2006        | Desconocido                   | Inglés                                                                    | Enfermedades, diagnostico etc                  | Sí     |
 | i2b2-2014                          | 2014        | 1304                   | Inglés                                                                    | NER y Enfermedades del corazón                   | Sí     |
 | CADEC                              | 2015        | Desconocido                   | Inglés                                                                    | Reacciones adversas a medicamentos  | Sí     |
