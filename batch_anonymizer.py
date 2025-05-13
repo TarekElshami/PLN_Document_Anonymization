@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logBatch.log'),
+        logging.FileHandler('logBatch.log', mode='w')
         # logging.StreamHandler()
     ]
 )
@@ -26,6 +26,17 @@ INPUT_DIR = config.get('General', 'input_dir')
 PROMPTS_DIR = config.get('General', 'prompts_dir')
 OLLAMA_PORT = config.get('General', 'ollama_port')
 STATE_FILE = config.get('General', 'state_file')
+
+# Límite opcional para pruebas
+try:
+    max_files_raw = config.get('General', 'max_files', fallback=None)
+    if max_files_raw is None or max_files_raw.strip() == '' or int(max_files_raw) <= 0:
+        MAX_FILES = None  # Sin límite
+    else:
+        MAX_FILES = int(max_files_raw)
+except (ValueError, configparser.NoOptionError) as e:
+    logger.warning(f"No se pudo interpretar 'max_files': {e}")
+    MAX_FILES = None
 
 # Modelos a procesar y sus directorios de salida
 MODELS = {key: value for key, value in config.items('Models')}
@@ -60,6 +71,8 @@ def save_processed_files(state):
 def process_all_prompts():
     state = load_processed_files()
     input_files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.xml')]
+    if MAX_FILES is not None:
+        input_files = input_files[:MAX_FILES]
     prompt_files = [f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt')]
 
     for prompt_file in prompt_files:
@@ -93,7 +106,6 @@ def process_all_prompts():
                     use_grammar=use_grammar,
                     context_size=MODEL_CONTEXT_LIMITS.get(model_name)
                 )
-
                 if success:
                     state[key] = True
                     save_processed_files(state)

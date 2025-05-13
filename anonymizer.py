@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logAnonymizer.log'),
+        logging.FileHandler('logAnonymizer.log', mode='w')
         # logging.StreamHandler()
     ]
 )
