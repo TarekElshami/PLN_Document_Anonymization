@@ -517,28 +517,15 @@ def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name
         # Extraer datos (texto marcado + entidades)
         result = extract_entities(original_text, ollama_port)
 
-        logger.debug("\nTexto marcado final:")
-        logger.debug(f"{'-' * 30}\n{result['tagged_text']}\n{'-' * 30}")
-
-        # Crear XML estilo MEDDOCAN
-        xml_entities = build_meddocan_xml_from_entities(original_text, result['entities'])
-        xml_anotados = build_meddocan_xml_from_annotated_text(original_text, result['tagged_text'])
-
-        # Embellecer XML
-        pretty_xml_entities = minidom.parseString(xml_entities).toprettyxml(indent="  ")
-        pretty_xml_anotados = minidom.parseString(xml_anotados).toprettyxml(indent="  ")
-
+        # Guardar la respuesta cruda en un archivo .txt
         base_filename = os.path.splitext(os.path.basename(input_file_path))[0]
-        entities_path = os.path.join(entidades_dir, f"{base_filename}_entities.xml")
-        anotados_path = os.path.join(anotados_dir, f"{base_filename}_annotated.xml")
+        output_path = os.path.join(output_dir, f"{base_filename}_llm_response.txt")
 
-        with open(entities_path, "w", encoding="utf-8") as f:
-            f.write(pretty_xml_entities)
-
-        with open(anotados_path, "w", encoding="utf-8") as f:
-            f.write(pretty_xml_anotados)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(str(result))  # Convertimos a string por si result no es texto plano
 
         return True
+
 
     except ET.ParseError as e:
         logger.error(f"Error al parsear XML {input_file_path}: {str(e)}")
