@@ -1,3 +1,4 @@
+import re
 from xml.dom import minidom
 import requests
 import xml.etree.ElementTree as ET
@@ -5,7 +6,7 @@ import os
 import tiktoken
 import ast
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 import logging
 from tqdm import tqdm
 
@@ -141,7 +142,8 @@ DEFAULT_OLLAMA_PORT = "20201"
 # Diccionario de límites de contexto por modelo
 MODEL_CONTEXT_LIMITS = {
     "llama3.2:1B": 2048,
-    "llama3.3": 2048
+    "llama3.3": 2048,
+    "phi4": 2048
 }
 
 SAFETY_MARGIN = 0.1  # 10% de margen de seguridad
@@ -160,6 +162,82 @@ def quitar_tildes(texto):
 
 
 def build_meddocan_xml_from_entities(original_text, entidades_json):
+    root = ET.Element("MEDDOCAN")
+    text_elem = ET.SubElement(root, "TEXT")
+    text_elem.text = original_text
+    tags_elem = ET.SubElement(root, "TAGS")
+
+    tag_id = 1
+
+    for tag, values in entidades_json.items():
+        xml_tag = TAG_CATEGORIES.get(tag)
+        if xml_tag is None:
+            tag_sin_tildes = quitar_tildes(tag)
+            xml_tag = TAG_CATEGORIES.get(tag_sin_tildes, "WARNING")
+        value_counts = Counter(values)
+
+        for value, count in value_counts.items():
+            start_idx = 0
+            occurrences = 0
+
+            while occurrences < count:
+                start = original_text.find(value, start_idx)
+                if start == -1:
+                    break
+                end = start + len(value)
+                ET.SubElement(tags_elem, xml_tag, {
+                    "id": str(tag_id),
+                    "start": str(start),
+                    "end": str(end),
+                    "text": value,
+                    "TYPE": tag
+                })
+                tag_id += 1
+                start_idx = end
+                occurrences += 1
+
+    return ET.tostring(root, encoding="unicode", method="xml")
+
+
+def extract_entities_from_annotated_text(texto_anotado):
+    # Definir los patrones a buscar
+    patrones = [
+        r'<([^>]+)>([^<]+)</\1>',  # <TAG>entidad</TAG>
+        r'<\*([^>]+)>([^<]+)<\*/\1>',  # <*TAG>entidad</*/TAG>
+        r'<\*([^>*]+)\*>([^<]+)<\*/\1\*>',  # <*TAG*>entidad</*/TAG*>
+        r'<<<([^>]+)>>>([^<]+)<<</\1>>>',  # <<<TAG>>>entidad<<</TAG>>>
+    ]
+
+    # Texto original sin anotaciones
+    texto_original = texto_anotado
+
+    # Diccionario para almacenar las entidades extraídas
+    entidades = {}
+
+    # Aplicar cada patrón
+    for patron in patrones:
+        matches = re.finditer(patron, texto_anotado)
+
+        for match in matches:
+            tag = match.group(1)
+            entidad = match.group(2)
+
+            # Agregar al diccionario de entidades
+            if tag not in entidades:
+                entidades[tag] = []
+            entidades[tag].append(entidad)
+
+            # Reemplazar la anotación por solo la entidad en el texto original
+            texto_original = texto_original.replace(match.group(0), entidad)
+
+    return texto_original, entidades
+
+
+def build_meddocan_xml_from_annotated_text(texto_anotado):
+    # Extraer el texto original y las entidades
+    original_text, entidades_json = extract_entities_from_annotated_text(texto_anotado)
+
+    # Construir el XML MEDDOCAN
     root = ET.Element("MEDDOCAN")
     text_elem = ET.SubElement(root, "TEXT")
     text_elem.text = original_text
@@ -426,9 +504,10 @@ def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name
         global MODEL_CONTEXT_LIMITS
         MODEL_CONTEXT_LIMITS[model_name] = context_size
 
-        # Crear directorio de salida si no existe
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
+        entidades_dir = os.path.join(output_dir, "entidades")
+        anotados_dir = os.path.join(output_dir, "anotados")
+        os.makedirs(entidades_dir, exist_ok=True)
+        os.makedirs(anotados_dir, exist_ok=True)
 
         logger.info(f"Procesando archivo: {input_file_path}")
         logger.info(f"Modelo: {model_name}")
@@ -448,19 +527,23 @@ def process_single_xml_file(input_file_path, output_dir, ollama_port, model_name
         logger.debug(f"{'-' * 30}\n{result['tagged_text']}\n{'-' * 30}")
 
         # Crear XML estilo MEDDOCAN
-        meddocan_xml = build_meddocan_xml_from_entities(original_text, result['entities'])
+        xml_entities = build_meddocan_xml_from_entities(original_text, result['entities'])
+        xml_anotados = build_meddocan_xml_from_annotated_text(result['texto_anotado'])
 
         # Embellecer XML
-        pretty_xml = minidom.parseString(meddocan_xml).toprettyxml(indent="  ")
+        pretty_xml_entities = minidom.parseString(xml_entities).toprettyxml(indent="  ")
+        pretty_xml_anotados = minidom.parseString(xml_anotados).toprettyxml(indent="  ")
 
-        # Guardar XML en salida
-        output_filename = os.path.basename(input_file_path)
-        output_path = os.path.join(output_dir, output_filename)
+        base_filename = os.path.splitext(os.path.basename(input_file_path))[0]
+        entities_path = os.path.join(entidades_dir, f"{base_filename}_entities.xml")
+        anotados_path = os.path.join(anotados_dir, f"{base_filename}_annotated.xml")
 
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(pretty_xml)
+        with open(entities_path, "w", encoding="utf-8") as f:
+            f.write(pretty_xml_entities)
 
-        logger.info(f"Resultado guardado correctamente en: {output_path}")
+        with open(anotados_path, "w", encoding="utf-8") as f:
+            f.write(pretty_xml_anotados)
+
         return True
 
     except ET.ParseError as e:

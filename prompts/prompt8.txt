@@ -1,20 +1,9 @@
 --- METADATA ---
-fecha: 07-05-2025
+fecha: 16-05-2025
 problemas LLama3.2:1B:
     -
 problemas Llama3.3:
-    - Sexo: Detección de la M o H correcta
-    - Edad: Parece que sólo detecta una de las apariciones / reconoce cosas que no son
-    - Pais: No pone las dos apariciones y algunas veces lo pone mal
-    - Calle: No la pone como se espera
-    - Territorio: El código postal lo etiqueta con CP en lugar de con TERRITORIO y no pilla todas las apariciones
-    - Hospital: Reconoce hospitales donde no los hay o no pone el nombre completo
-    - NOMBRE_PERSONAL_SANITARIO: Lo pone con dra. dr. o no pone dos apariciones
-    - Profesion: No la reconoce correctamente
-    - Familiares: se deja prácticamente todo
-    - Institución: reconoce los hospitales como instituciones y casi nunca reconoce las instituciones como instituciones
-    - Fechas: Cualquier valor de tiempo lo pone como fecha
-    - Id_aseguramiento: Se deja unas cuantas
+
 problemas comunes:
 -----------------
 
@@ -22,49 +11,47 @@ Tarea:
 Dado un texto clínico, identifica y anota **todas las entidades de información sensible protegida** (ISP) siguiendo las directrices **estrictas** de la guía oficial de anotación del Plan de Impulso de las Tecnologías del Lenguaje para información de salud protegida.
 
 🎯 Objetivos:
-1. Detectar TODAS las menciones de información sensible en el texto.
-2. Etiquetarlas usando esta sintaxis: <<<ETIQUETA>>>texto<<</ETIQUETA>>>
+1. Detectar **ABSOLUTAMENTE TODAS Y CADA UNA de las menciones** de información sensible en el texto, sin omitir ninguna, incluso si se repiten o son semánticamente equivalentes.
+2. Etiquetarlas usando esta sintaxis: <ETIQUETA>texto</ETIQUETA>
 3. Extraer dichas entidades agrupadas por tipo en un JSON válido.
 
 CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NINGUNA)
 NOMBRE_SUJETO_ASISTENCIA: Solo el nombre y apellidos del paciente. También iniciales, apodos o motes.
 NOMBRE_PERSONAL_SANITARIO: Nombre y apellidos de médicos, enfermeros, técnicos u otro personal clínico.
-FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente (edad, parentesco, número).
+FAMILIARES_SUJETO_ASISTENCIA: Nombres, apellidos o datos personales de familiares del paciente  (edad, parentesco textual como "madre", "hermano", número).
 ID_SUJETO_ASISTENCIA: Códigos como NHC, CIPA, DNI, NIF, pasaporte u otros identificadores del paciente.
 ID_TITULACION_PERSONAL_SANITARIO: Número de colegiado o licencia del profesional sanitario.
 ID_CONTACTO_ASISTENCIAL: Identificador de episodios clínicos o procesos.
 ID_ASEGURAMIENTO: Número de afiliación a la seguridad social (NASS).
-EDAD_SUJETO_ASISTENCIA: Edad del paciente (incluyendo formas como "tres días", "6 años").
+EDAD_SUJETO_ASISTENCIA: Edad del paciente. Incluye formas numéricas ('6 años'), textuales ('seis años'), y duraciones que **claramente se refieren a la edad de un paciente** (ej., 'tres días de nacido', '6 meses de edad', 'un mes y medio'). **NO confundir con duraciones de tiempo generales.**
 SEXO_SUJETO_ASISTENCIA: Sexo del paciente (incluyendo formas como "varón", "niña", "M", "H").
-FECHAS: Cualquier fecha del calendario (de nacimiento, ingreso, evolución, etc.).
-CALLE: Dirección postal completa, incluyendo tipo de vía, nombre, número, piso, etc.
+FECHAS: Fechas específicas del calendario (DD/MM/YYYY, Mes Año, año solo, etc.), incluyendo fechas de nacimiento, ingreso, eventos clínicos. **NO etiquetar simples duraciones de tiempo (ej. 'tres meses más tarde', 'durante 6 sesiones') como `FECHAS`.
+CALLE: Nombre de la calle completa, incluyendo tipo de vía, nombre, número, piso, portal, etc.
 TERRITORIO: Ciudad, provincia, código postal, barrio, comarca, o cualquier otra división geográfica.
 PAIS: País mencionado en el texto.
 CORREO_ELECTRONICO: Cualquier dirección de correo electrónico.
-NUMERO_TELEFONO: Números de teléfono personales o profesionales.
+NUMERO_TELEFONO: Sólo el número de teléfono personales o profesionales.
 NUMERO_FAX: Números de fax asociados a la atención o el paciente.
 DIREC_PROT_INTERNET: Direcciones de protocolo de Internet (IP, TCP, SMTP, etc.).
 URL_WEB: Cualquier dirección web o enlace.
 PROFESION: Profesión del paciente o familiares.
-HOSPITAL: Nombres de hospitales o centros sanitarios.
-ID_CENTRO_DE_SALUD: Nombres de centros de salud o unidades clínicas.
-INSTITUCION: Cualquier otra institución no médica identificable.
+HOSPITAL: Nombres **específicos y completos** de hospitales o centros sanitarios
+ID_CENTRO_DE_SALUD: Nombres específicos de centros de salud, ambulatorios o unidades clínicas que no sean hospitales
+INSTITUCION: Cualquier otra institución **específica con nombre propio** no médica identificable (ej. 'Universidad de Antioquia', 'Ministerio de Sanidad', 'Fundación FINAER', nombres de empresas).
 OTRO_NUMERO_IDENTIF: Otros números de identificación no clasificados.
 IDENTIF_VEHICULOS_NRSERIE_PLACAS: Matrículas o números de bastidor de vehículos.
 IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, chip, etc.).
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
-⚠️ ACLARACIONES
-- Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
-- Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
 
 🧾 Reglas de anotación (estrictas y actualizadas)
-1. No incluir dentro de las etiquetas claves del formulario como "Nombre:", "Edad:", etc..
-2. No incluir espacios ni signos de puntuación dentro de las etiquetas.
-3. Debes incluir todas las apariciones de las entidades aunque se repitan
+
+1. Identificar y anotar **TODAS LAS APARICIONES** de cada entidad. No omitas ninguna, incluso si se repiten textualmente o semánticamente.
+2. No incluir dentro de las etiquetas claves del formulario como "Nombre:", "Edad:", etc..
+3. No incluir espacios ni signos de puntuación dentro de las etiquetas.
 4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas.
-5. Dejar fuera de las etiquetas títulos o prefijos como "Dr.", "Dña.".
+5. Debes no incluir titulos como Dr., Dra. o Dña. en ninguna etiqueta
 6. Toda información sensible debe ser etiquetada si aparece, sin omitir ninguna.
 7. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {{}}`.
 8. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
@@ -73,7 +60,7 @@ OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la 
 ✅ Salida esperada (formato obligatorio)
 ÚNICAMENTE un **JSON válido**, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:
 {{
-  "texto_anotado": "Texto con etiquetas <<<ETIQUETA>>>...<<</ETIQUETA>>> ya insertadas",
+  "texto_anotado": "Texto con etiquetas <ETIQUETA>...</ETIQUETA> ya insertadas",
   "entidades": {{
     "ETIQUETA1": ["valor1", "valor2", ...],
     "ETIQUETA2": ["valor1", ...]
