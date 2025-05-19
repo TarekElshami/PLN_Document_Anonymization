@@ -3,7 +3,7 @@ import json
 import logging
 import configparser
 from tqdm import tqdm
-from anonymizer import process_single_xml_file
+import llm_client
 
 # --- Logging ---
 logging.basicConfig(
@@ -97,7 +97,7 @@ def process_all_prompts():
                 if key in state:
                     continue  # Ya procesado
 
-                success = process_single_xml_file(
+                success = llm_client.process_llm_request(
                     input_file_path=input_path,
                     output_dir=output_dir,
                     ollama_port=OLLAMA_PORT,
