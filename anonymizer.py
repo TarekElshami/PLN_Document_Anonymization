@@ -207,7 +207,7 @@ def create_xml_from_tagged_text(tagged_text, original_text):
 
         # Find the entity in the original text near the expected position
         # Allow for some flexibility in positioning to handle spacing differences
-        search_window = 30  # Characters to search around expected position
+        search_window = 50  # Characters to search around expected position
         search_start = max(0, orig_pos - search_window)
         search_end = min(len(original_text), orig_pos + search_window + len(entity))
         search_region = original_text[search_start:search_end]

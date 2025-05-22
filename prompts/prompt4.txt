@@ -53,7 +53,7 @@ IDENTIF_DISPOSITIVOS_NRSERIE: Identificadores de dispositivos médicos (serie, c
 IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
-⚠️ ACLARACIONES CRÍTICAS (Errores comunes evitables)
+⚠️ ACLARACIONES CRÍTICAS
 - **Nombres de médicos, enfermeros o personal clínico** deben etiquetarse como `NOMBRE_PERSONAL_SANITARIO`, **nunca** como `NOMBRE_SUJETO_ASISTENCIA`. No incluyas "Dr.", "Dra.", etc., dentro de la etiqueta.
 - Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
 - La **edad o datos de familiares** (ej. "el hermano tiene seis años") deben anotarse como `FAMILIARES_SUJETO_ASISTENCIA`, **no** como edad del paciente.
