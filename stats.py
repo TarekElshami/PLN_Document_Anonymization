@@ -9,16 +9,28 @@ import tempfile
 
 # Configuración
 RESULTS_DIR = "results"
-MAIN_SYSTEMS = ["systemLlama3.3", "systemLlamaQuantized"]
+MAIN_SYSTEMS = ["procesados_meddocan/systemLlama3.3/entidades/", "procesados_meddocan/systemLlama3.3/etiquetado/",
+                "procesados_meddocan/systemPhi4/entidades/", "procesados_meddocan/systemPhi4/etiquetado/"]
 SYSTEM_WRONG = "systemWrong"
-STATS_FILE = os.path.join(RESULTS_DIR, "stats_{}.csv")
-GRAPH_FILE = os.path.join(RESULTS_DIR, "metrics_{}.png")  # Solo una gráfica
+STATS_FILE = os.path.join(RESULTS_DIR, "stats__{}.csv")
+GRAPH_FILE = os.path.join(RESULTS_DIR, "metrics__{}.png")
 
 
 def run_evaluation(test_dir, system_dir):
     cmd = ["python", "evaluate.py", "i2b2", "ner", test_dir, system_dir]
     result = subprocess.run(cmd, capture_output=True, text=True)
     return result.stdout
+
+
+def sort_by_prompt_number(lst):
+    def extract_number(s):
+        match = re.search(r'(\d+)', s)
+        return int(match.group(1)) if match else float('inf')
+    return sorted(lst, key=extract_number)
+
+
+def sanitize_filename(name):
+    return name.strip("/").replace("/", "_")
 
 
 def parse_evaluation_output(output):
@@ -96,9 +108,8 @@ def prepare_mixed_config(config_dir, expected_files):
 
 def main():
     os.makedirs(RESULTS_DIR, exist_ok=True)
-
-    # Verificar archivos de test
     test_dir = "test/xml/"
+
     if not os.path.exists(test_dir):
         print(f"❌ Error: No existe {test_dir}")
         return
@@ -119,7 +130,8 @@ def main():
         print(f"\n📊 Procesando: {system_name}")
         all_stats = {}
 
-        for config in sorted(os.listdir(system_path)):
+        configs = sort_by_prompt_number(os.listdir(system_path))
+        for config in configs:
             config_dir = os.path.join(system_path, config)
             if not os.path.isdir(config_dir):
                 continue
@@ -137,9 +149,10 @@ def main():
                 shutil.rmtree(mixed_dir)
 
         if all_stats:
-            save_stats(all_stats, system_name)
+            safe_name = sanitize_filename(system_name)
+            save_stats(all_stats, safe_name)
             df = pd.DataFrame.from_dict(all_stats, orient="index").reset_index().rename(columns={"index": "Config"})
-            generar_grafica_unica(df, system_name)
+            generar_grafica_unica(df, safe_name)
 
 
 if __name__ == "__main__":
