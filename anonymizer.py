@@ -2,9 +2,7 @@ import os
 import json
 import ast
 import re
-import unicodedata
 import xml.etree.ElementTree as ET
-from xml.sax.saxutils import escape
 
 
 # Category mapping dictionary

@@ -314,7 +314,7 @@ class LLMClient:
         full_output = "__________________________________________________________________\n\n".join(all_outputs)
 
         logger.info("Procesamiento completado. Preparando salida final.")
-        return full_output  # <-- Ahora solo devolvemos el texto con los separadores
+        return full_output
 
     def process_text_file(self, input_text, output_path=None):
         """
