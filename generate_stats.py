@@ -52,7 +52,7 @@ class MeddocanAnalyzer:
         after = text[end:context_end]
         return f"...{before}>>>{annotated}<<<{after}..."
 
-    def compare_document_annotations(self, gold, system, tag_errors, out_f=None):
+    def compare_document_annotations(self, gold, system, tag_errors, filename, out_f=None): # Añadimos 'filename' aquí
         """Compara las anotaciones de un documento"""
         gold_ann = gold['annotations']
         sys_ann = system['annotations']
@@ -70,7 +70,8 @@ class MeddocanAnalyzer:
                     tag_type = g_ann.get('subtype', g_ann['type'])
                     tag_errors[tag_type]['tp'].append({
                         'text': g_ann['text'],
-                        'position': (g_ann['start'], g_ann['end'])
+                        'position': (g_ann['start'], g_ann['end']),
+                        'document': filename
                     })
                     break
 
@@ -79,7 +80,8 @@ class MeddocanAnalyzer:
                 tag_errors[tag_type]['fp'].append({
                     'text': system['text'][s_ann['start']:s_ann['end']],
                     'system_text': s_ann['text'],
-                    'position': (s_ann['start'], s_ann['end'])
+                    'position': (s_ann['start'], s_ann['end']),
+                    'document': filename
                 })
                 false_positives.append(s_ann)
 
@@ -97,14 +99,15 @@ class MeddocanAnalyzer:
                 tag_errors[tag_type]['fn'].append({
                     'text': gold['text'][g_ann['start']:g_ann['end']],
                     'gold_text': g_ann['text'],
-                    'position': (g_ann['start'], g_ann['end'])
+                    'position': (g_ann['start'], g_ann['end']),
+                    'document': filename
                 })
                 false_negatives.append(g_ann)
 
         # Escribir errores si se proporciona archivo de salida
         if out_f:
             if false_positives or false_negatives:
-                out_f.write("Errors found:\n")
+                out_f.write(f"\nErrors found in document: {filename}\n") # Indicamos el documento
                 if false_positives:
                     out_f.write("\nFalse Positives (System tagged but shouldn't):\n")
                     for fp in false_positives:
@@ -119,7 +122,7 @@ class MeddocanAnalyzer:
                                     f"(pos: {fn['start']}-{fn['end']})\n")
                         out_f.write(f"  Context: '{self.get_context(gold['text'], fn['start'], fn['end'])}'\n")
             else:
-                out_f.write("No errors found in this document.\n")
+                out_f.write(f"No errors found in document: {filename}.\n") # Indicamos el documento
 
         return false_positives, false_negatives
 
@@ -177,8 +180,7 @@ class MeddocanAnalyzer:
                 gold_ann = self.parse_i2b2_annotations(gold_file)
                 sys_ann = self.parse_i2b2_annotations(system_file)
 
-                output_content.append(f"\nDocument: {filename}")
-                output_content.append("-" * 50)
+
 
                 # Count sentences
                 num_sentences = gold_ann['text'].count('.') + gold_ann['text'].count('\n')
@@ -189,9 +191,9 @@ class MeddocanAnalyzer:
                 # Compare annotations
                 if output_file:
                     with open(output_file, 'a') as out_f:
-                        self.compare_document_annotations(gold_ann, sys_ann, tag_errors, out_f)
+                        self.compare_document_annotations(gold_ann, sys_ann, tag_errors, filename, out_f)
                 else:
-                    self.compare_document_annotations(gold_ann, sys_ann, tag_errors)
+                    self.compare_document_annotations(gold_ann, sys_ann, tag_errors, filename)
 
         # Compute metrics
         metrics = self.compute_metrics(tag_errors, tag_sentences)
@@ -263,7 +265,11 @@ class MeddocanAnalyzer:
         # Analizar cada prompt
         for prompt_name, (gold_dir, system_dir) in comparisons.items():
             print(f"Analizando {prompt_name}...")
-            metrics = self.analyze_annotations(gold_dir, system_dir, prompt_name=prompt_name)
+            output_file = Path(output_dir) / f"error_report_{prompt_name.lower().replace(' ', '_')}.txt"
+            if output_file.exists():
+                output_file.unlink()
+
+            metrics = self.analyze_annotations(gold_dir, system_dir, output_file=str(output_file), prompt_name=prompt_name)
             all_metrics[prompt_name] = metrics
             self.save_metrics_to_excel(metrics, output_dir, prompt_name)
 
@@ -344,7 +350,6 @@ class MeddocanAnalyzer:
         plt.tight_layout()
         plt.savefig(Path(output_dir) / 'average_metrics.png', dpi=300, bbox_inches='tight')
         plt.show()
-
         return summary_stats
 
 
