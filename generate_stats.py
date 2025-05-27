@@ -8,6 +8,7 @@ from openpyxl.utils import get_column_letter
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
+import numpy as np
 
 
 class MeddocanAnalyzer:
@@ -17,6 +18,7 @@ class MeddocanAnalyzer:
         self.tag_errors = defaultdict(lambda: {'fp': [], 'fn': [], 'tp': []})
         self.tag_sentences = defaultdict(int)
         self.results = {}
+        self.confusion_matrices = {}
 
     def parse_i2b2_annotations(self, xml_file):
         """Parsea las anotaciones de un archivo XML i2b2"""
@@ -52,8 +54,98 @@ class MeddocanAnalyzer:
         after = text[end:context_end]
         return f"...{before}>>>{annotated}<<<{after}..."
 
-    def compare_document_annotations(self, gold, system, tag_errors, filename, out_f=None): # Añadimos 'filename' aquí
-        """Compara las anotaciones de un documento"""
+    def find_overlapping_annotation(self, gold_ann, system_annotations, tolerance=10):
+        """
+        Encuentra si hay alguna anotación del sistema que se solape con la anotación gold.
+        Retorna la anotación del sistema que más se solape, o None si no hay solapamiento.
+
+        Args:
+            gold_ann: Anotación gold
+            system_annotations: Lista de anotaciones del sistema
+            tolerance: Tolerancia en caracteres para considerar solapamiento
+        """
+        best_match = None
+        best_overlap = 0
+
+        gold_start, gold_end = gold_ann['start'], gold_ann['end']
+
+        for sys_ann in system_annotations:
+            sys_start, sys_end = sys_ann['start'], sys_ann['end']
+
+            # Calcular solapamiento
+            overlap_start = max(gold_start, sys_start)
+            overlap_end = min(gold_end, sys_end)
+
+            if overlap_start < overlap_end:  # Hay solapamiento
+                overlap_size = overlap_end - overlap_start
+                if overlap_size > best_overlap:
+                    best_overlap = overlap_size
+                    best_match = sys_ann
+
+            # También considerar proximidad (dentro de la tolerancia)
+            elif (abs(gold_start - sys_start) <= tolerance or
+                  abs(gold_end - sys_end) <= tolerance or
+                  abs(gold_start - sys_end) <= tolerance or
+                  abs(gold_end - sys_start) <= tolerance):
+                if best_match is None:  # Solo si no hemos encontrado un solapamiento real
+                    best_match = sys_ann
+
+        return best_match
+
+    def build_confusion_matrix_data(self, gold, system, filename):
+        """
+        Construye los datos para la matriz de confusión comparando anotaciones gold vs system
+        """
+        gold_ann = gold['annotations']
+        sys_ann = system['annotations']
+        confusion_data = []
+
+        # Para cada anotación gold, determinar qué predijo el sistema
+        for g_ann in gold_ann:
+            gold_tag = g_ann.get('subtype', g_ann['type'])
+
+            # Buscar coincidencia exacta primero (TP)
+            exact_match = None
+            for s_ann in sys_ann:
+                if (s_ann['start'] == g_ann['start'] and
+                        s_ann['end'] == g_ann['end'] and
+                        s_ann.get('subtype', s_ann['type']) == gold_tag):
+                    exact_match = s_ann
+                    break
+
+            if exact_match:
+                # True Positive
+                predicted_tag = exact_match.get('subtype', exact_match['type'])
+                confusion_data.append({
+                    'gold': gold_tag,
+                    'predicted': predicted_tag,
+                    'type': 'TP',
+                    'document': filename,
+                    'text': g_ann['text'],
+                    'position': (g_ann['start'], g_ann['end'])
+                })
+            else:
+                # Buscar solapamiento o proximidad
+                overlapping_ann = self.find_overlapping_annotation(g_ann, sys_ann, 0)
+
+                if overlapping_ann:
+                    # Clasificación incorrecta (confusión entre tags)
+                    predicted_tag = overlapping_ann.get('subtype', overlapping_ann['type'])
+                    confusion_data.append({
+                        'gold': gold_tag,
+                        'predicted': predicted_tag,
+                        'type': 'CONFUSION',
+                        'document': filename,
+                        'text': g_ann['text'],
+                        'position': (g_ann['start'], g_ann['end']),
+                        'system_text': overlapping_ann['text'],
+                        'system_position': (overlapping_ann['start'], overlapping_ann['end'])
+                    })
+
+        return confusion_data
+
+    def compare_document_annotations(self, gold, system, tag_errors, filename, out_f=None):
+        """Compara las anotaciones de un documento (funcionalidad original mantenida)"""
         gold_ann = gold['annotations']
         sys_ann = system['annotations']
         false_positives = []
@@ -107,7 +199,7 @@ class MeddocanAnalyzer:
         # Escribir errores si se proporciona archivo de salida
         if out_f:
             if false_positives or false_negatives:
-                out_f.write(f"\nErrors found in document: {filename}\n") # Indicamos el documento
+                out_f.write(f"\nErrors found in document: {filename}\n")
                 if false_positives:
                     out_f.write("\nFalse Positives (System tagged but shouldn't):\n")
                     for fp in false_positives:
@@ -122,7 +214,7 @@ class MeddocanAnalyzer:
                                     f"(pos: {fn['start']}-{fn['end']})\n")
                         out_f.write(f"  Context: '{self.get_context(gold['text'], fn['start'], fn['end'])}'\n")
             else:
-                out_f.write(f"No errors found in document: {filename}.\n") # Indicamos el documento
+                out_f.write(f"No errors found in document: {filename}.\n")
 
         return false_positives, false_negatives
 
@@ -159,10 +251,141 @@ class MeddocanAnalyzer:
 
         return metrics
 
+    def create_confusion_matrix(self, confusion_data, prompt_name):
+        """
+        Crea la matriz de confusión a partir de los datos de confusión
+        """
+        # Obtener todos los tags únicos
+        all_tags = set()
+        for item in confusion_data:
+            all_tags.add(item['gold'])
+            all_tags.add(item['predicted'])
+
+        final_tags = sorted(set(
+            item['gold'] for item in confusion_data
+        ).union(
+            item['predicted'] for item in confusion_data
+        ))
+
+        # Crear matriz
+        matrix_size = len(final_tags)
+        confusion_matrix = np.zeros((matrix_size, matrix_size), dtype=int)
+
+        # Llenar la matriz
+        for item in confusion_data:
+            gold_idx = final_tags.index(item['gold'])
+            pred_idx = final_tags.index(item['predicted'])
+            confusion_matrix[gold_idx][pred_idx] += 1
+
+        # Guardar en resultados
+        self.confusion_matrices[prompt_name] = {
+            'matrix': confusion_matrix,
+            'labels': final_tags,
+            'data': confusion_data
+        }
+
+        return confusion_matrix, final_tags
+
+    def plot_confusion_matrix(self, prompt_name, output_dir, save_plot=True):
+        """
+        Crea y opcionalmente guarda el plot de la matriz de confusión
+        """
+        if prompt_name not in self.confusion_matrices:
+            print(f"No confusion matrix data found for {prompt_name}")
+            return None
+
+        matrix_data = self.confusion_matrices[prompt_name]
+        matrix = matrix_data['matrix']
+        labels = matrix_data['labels']
+
+        plt.figure(figsize=(12, 10))
+
+        # Crear heatmap
+        log_matrix = np.log1p(matrix)
+
+        sns.heatmap(log_matrix,
+                    annot=matrix,  # Mostrar los valores reales, no los logaritmos
+                    fmt='d',
+                    cmap='Blues',
+                    xticklabels=labels,
+                    yticklabels=labels,
+                    cbar_kws={'label': 'Número de casos (escala logarítmica)'})
+
+        plt.title(f'Matriz de Confusión - {prompt_name}', fontsize=16, pad=20)
+        plt.xlabel('Predicción del Sistema', fontsize=12)
+        plt.ylabel('Etiqueta Gold (Verdadera)', fontsize=12)
+        plt.xticks(rotation=45, ha='right')
+        plt.yticks(rotation=0)
+
+        # Ajustar layout
+        plt.tight_layout()
+
+        if save_plot:
+            output_path = Path(output_dir) / f'confusion_matrix_{prompt_name.lower().replace(" ", "_")}.png'
+            plt.savefig(output_path, dpi=300, bbox_inches='tight')
+            print(f"Matriz de confusión guardada en: {output_path}")
+
+        plt.show()
+
+        return matrix, labels
+
+    def save_confusion_matrix_to_excel(self, prompt_name, output_dir):
+        """
+        Guarda la matriz de confusión y datos detallados en Excel
+        """
+        if prompt_name not in self.confusion_matrices:
+            print(f"No confusion matrix data found for {prompt_name}")
+            return None
+
+        matrix_data = self.confusion_matrices[prompt_name]
+        matrix = matrix_data['matrix']
+        labels = matrix_data['labels']
+        confusion_data = matrix_data['data']
+
+        # Crear DataFrame de la matriz
+        matrix_df = pd.DataFrame(matrix, index=labels, columns=labels)
+        matrix_df.index.name = 'Gold_Label'
+        matrix_df.columns.name = 'Predicted_Label'
+
+        # Crear DataFrame de datos detallados
+        details_df = pd.DataFrame(confusion_data)
+
+        # Guardar en Excel con múltiples hojas
+        output_path = Path(output_dir) / f'confusion_matrix_{prompt_name.lower().replace(" ", "_")}.xlsx'
+
+        with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
+            # Hoja de la matriz
+            matrix_df.to_excel(writer, sheet_name='Confusion_Matrix')
+
+            # Hoja de detalles
+            details_df.to_excel(writer, sheet_name='Detailed_Data', index=False)
+
+            # Formatear la hoja de la matriz
+            workbook = writer.book
+            matrix_sheet = writer.sheets['Confusion_Matrix']
+
+            # Aplicar formato a la matriz
+            header_font = Font(bold=True, color="FFFFFF")
+            header_fill = PatternFill("solid", fgColor="4F81BD")
+
+            # Formatear headers
+            for cell in matrix_sheet[1]:
+                cell.font = header_font
+                cell.fill = header_fill
+
+            for row in matrix_sheet.iter_rows(min_row=2, max_row=matrix_sheet.max_row,
+                                              min_col=1, max_col=1):
+                for cell in row:
+                    cell.font = header_font
+                    cell.fill = header_fill
+
+        print(f"Matriz de confusión Excel guardada en: {output_path}")
+        return output_path
+
     def analyze_annotations(self, gold_dir, system_dir, output_file=None, prompt_name="System"):
-        """Analiza las anotaciones y genera reporte"""
         tag_errors = defaultdict(lambda: {'fp': [], 'fn': [], 'tp': []})
         tag_sentences = defaultdict(int)
+        all_confusion_data = []
 
         output_content = []
         output_content.append(f"MEDDOCAN Error Analysis Report - {prompt_name}")
@@ -180,23 +403,24 @@ class MeddocanAnalyzer:
                 gold_ann = self.parse_i2b2_annotations(gold_file)
                 sys_ann = self.parse_i2b2_annotations(system_file)
 
-
-
                 # Count sentences
                 num_sentences = gold_ann['text'].count('.') + gold_ann['text'].count('\n')
                 for ann in gold_ann['annotations']:
                     tag_type = ann.get('subtype', ann['type'])
                     tag_sentences[tag_type] += num_sentences
 
-                # Compare annotations
                 if output_file:
                     with open(output_file, 'a') as out_f:
                         self.compare_document_annotations(gold_ann, sys_ann, tag_errors, filename, out_f)
                 else:
                     self.compare_document_annotations(gold_ann, sys_ann, tag_errors, filename)
 
-        # Compute metrics
+                confusion_data = self.build_confusion_matrix_data(gold_ann, sys_ann, filename)
+                all_confusion_data.extend(confusion_data)
+
         metrics = self.compute_metrics(tag_errors, tag_sentences)
+
+        self.create_confusion_matrix(all_confusion_data, prompt_name)
 
         # Store results
         self.results[prompt_name] = {
@@ -208,7 +432,6 @@ class MeddocanAnalyzer:
         return metrics
 
     def save_metrics_to_excel(self, metrics, output_path, prompt_name="System"):
-        """Guarda las métricas en un archivo Excel"""
         tags, precisions, recalls, f1s, leaks = [], [], [], [], []
 
         for tag, values in metrics.items():
@@ -257,7 +480,6 @@ class MeddocanAnalyzer:
         return excel_path
 
     def compare_multiple_prompts(self, comparisons, output_dir="./results"):
-        """Compara múltiples prompts y genera visualizaciones"""
         os.makedirs(output_dir, exist_ok=True)
 
         all_metrics = {}
@@ -269,11 +491,14 @@ class MeddocanAnalyzer:
             if output_file.exists():
                 output_file.unlink()
 
-            metrics = self.analyze_annotations(gold_dir, system_dir, output_file=str(output_file), prompt_name=prompt_name)
+            metrics = self.analyze_annotations(gold_dir, system_dir, output_file=str(output_file),
+                                               prompt_name=prompt_name)
             all_metrics[prompt_name] = metrics
             self.save_metrics_to_excel(metrics, output_dir, prompt_name)
 
-        # Crear DataFrame consolidado
+            self.plot_confusion_matrix(prompt_name, output_dir)
+            self.save_confusion_matrix_to_excel(prompt_name, output_dir)
+
         consolidated_data = []
         for prompt_name, metrics in all_metrics.items():
             for tag, values in metrics.items():
@@ -292,13 +517,11 @@ class MeddocanAnalyzer:
         df_consolidated = pd.DataFrame(consolidated_data)
         df_consolidated.to_excel(Path(output_dir) / "consolidated_metrics.xlsx", index=False)
 
-        # Generar visualizaciones
         self.create_comparison_plots(df_consolidated, output_dir)
 
         return df_consolidated
 
     def create_comparison_plots(self, df, output_dir):
-        """Crea gráficos de comparación"""
         # Configurar estilo
         plt.style.use('default')
         sns.set_palette("husl")
@@ -353,7 +576,7 @@ class MeddocanAnalyzer:
         return summary_stats
 
 
-# Función de conveniencia para uso directo
+# Funciones de conveniencia (funcionalidad original mantenida)
 def analyze_single_prompt(gold_dir, system_dir, output_file=None, prompt_name="System"):
     """Función de conveniencia para analizar un solo prompt"""
     analyzer = MeddocanAnalyzer()
