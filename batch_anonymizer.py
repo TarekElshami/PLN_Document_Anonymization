@@ -73,7 +73,11 @@ def process_all_prompts():
     input_files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.xml')]
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
-    prompt_files = [f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt')]
+
+    prompt_files = ['prompt11.txt']
+    if 'prompt11.txt' not in os.listdir(PROMPTS_DIR):
+        logger.error("Error: 'prompt11.txt' no se encontró en el directorio de prompts.")
+        return
 
     for prompt_file in prompt_files:
         with open(os.path.join(PROMPTS_DIR, prompt_file), 'r', encoding='utf-8') as f:

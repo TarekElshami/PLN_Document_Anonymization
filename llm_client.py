@@ -4,6 +4,8 @@ import tiktoken
 import requests
 import logging
 import json
+import ast
+import time
 
 # Configuración de logging
 logging.basicConfig(
@@ -155,6 +157,7 @@ class LLMClient:
         self.prompt_base = prompt_base
         self.safety_margin = safety_margin
         self.use_grammar = use_grammar
+        self.max_retries = 3
 
         if model_name not in MODEL_CONTEXT_LIMITS:
             raise ValueError(f"Modelo '{model_name}' no encontrado en MODEL_CONTEXT_LIMITS. "
@@ -176,7 +179,6 @@ class LLMClient:
 
         return f"""
             root ::= '{{' '"texto_anotado":' string ',' '"entidades":' '{{' (entidad (',' entidad)*)? '}}' '}}'
-            
             entidad ::= etiqueta ':' '[' valores ']'
             etiqueta ::= {etiquetas_union}
             valores ::= valor (',' valor)*
@@ -247,7 +249,7 @@ class LLMClient:
             text_fragment (str): Fragmento de texto a procesar.
 
         Returns:
-            dict: Resultado del procesamiento (texto anotado y entidades).
+            str: Respuesta cruda del LLM en formato JSON.
         """
         prompt = self.prompt_base.format(texto_clinico=text_fragment)
 
@@ -284,7 +286,7 @@ class LLMClient:
     def extract_entities(self, text):
         """
         Procesa el texto con el modelo, dividiéndolo si excede el límite de tokens.
-        Devuelve la salida directa del LLM con separadores entre fragmentos.
+        Devuelve el texto anotado y todas las entidades combinadas.
         """
         total_tokens = len(self.encoding.encode(self.prompt_base.format(texto_clinico=text)))
 
@@ -299,34 +301,71 @@ class LLMClient:
             text_parts = [text]
             logger.info("El texto cabe en un solo fragmento, no es necesario dividir")
 
-        all_outputs = []
+        all_tagged = []
+        all_entities = {}
 
-        # Procesar cada fragmento
         for idx, part in enumerate(text_parts):
             logger.info(f"Procesando fragmento {idx + 1}/{len(text_parts)}")
+            logger.debug(f"Contenido del fragmento:\n{'-' * 30}\n{part}\n{'-' * 30}")
 
-            # Obtener la respuesta directa del LLM (sin parsear JSON)
-            llm_output = self.query_llm(part)
-            all_outputs.append(llm_output)
+            parsed = None
+            retries = 0
+            while retries < self.max_retries:
+                llm_output = self.query_llm(part)
 
-            logger.debug(f"Salida del LLM para fragmento {idx + 1}:\n{llm_output}")
+                try:
+                    # Use ast.literal_eval for safer parsing of string representations of Python literals
+                    parsed = ast.literal_eval(llm_output)
+                    logger.info(f"JSON parseado exitosamente en el intento {retries + 1} para fragmento {idx + 1}.")
+                    break  # Exit retry loop if successful
+                except Exception as parse_error:
+                    logger.warning(
+                        f"Error parseando JSON en fragmento {idx + 1} (intento {retries + 1}/{self.max_retries}): {parse_error}")
+                    logger.warning(f"Respuesta cruda del modelo:\n{llm_output}")
+                    retries += 1
+                    if retries < self.max_retries:
+                        logger.info(f"Reintentando procesar fragmento {idx + 1} en {2 ** retries} segundos...")
+                        time.sleep(2 ** retries)  # Exponential back-off for retries
+                    else:
+                        logger.error(
+                            f"Fallo al parsear JSON después de {self.max_retries} reintentos para fragmento {idx + 1}. Procesando sin entidades para este fragmento.")
+                        parsed = {"texto_anotado": part,
+                                  "entidades": {}}  # Fallback to original part and empty entities
 
-        full_output = "__________________________________________________________________\n\n".join(all_outputs)
+            fragment_entities = parsed.get("entidades", {})
 
-        logger.info("Procesamiento completado. Preparando salida final.")
-        return full_output
+            logger.info(f"Entidades encontradas en fragmento {idx + 1}:")
+            for tag, values in fragment_entities.items():
+                logger.info(f"- {tag}: {values}")
+                if tag not in all_entities:
+                    all_entities[tag] = set()
+                all_entities[tag].update(values)
+
+            all_tagged.append(parsed.get("texto_anotado", part))
+
+        # Convertimos sets a listas para salida limpia
+        all_entities = {k: list(v) for k, v in all_entities.items()}
+
+        logger.info("Resumen final de entidades encontradas:")
+        for tag, values in all_entities.items():
+            logger.info(f"- {tag}: {values}")
+
+        return {
+            'tagged_text': "\n\n".join(all_tagged),
+            'entities': all_entities
+        }
 
     def process_text_file(self, input_text, output_path=None):
         """
-        Procesa un texto plano y guarda la salida directa del LLM en un archivo.
+        Procesa un texto plano y guarda la salida procesada (JSON) en un archivo.
         """
-        result = self.extract_entities(input_text)  # Ahora result es directamente el texto
+        result = self.extract_entities(input_text)
 
         if output_path:
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(result)  # Escribimos directamente el texto con separadores
-            logger.info(f"Salida del LLM guardada en: {output_path}")
+                json.dump(result, f, ensure_ascii=False, indent=2)
+            logger.info(f"Resultados procesados guardados en: {output_path}")
 
         return result
 
@@ -338,6 +377,7 @@ def process_llm_request(input_file_path, output_dir, ollama_port, model_name, pr
         tree = ET.parse(input_file_path)
         original_text = tree.find('.//TEXT').text or ""
 
+        # Update MODEL_CONTEXT_LIMITS for the current run
         MODEL_CONTEXT_LIMITS[model_name] = context_size
 
         # Configurar el cliente LLM
