@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 # Definir estructuras de datos
 Entity = namedtuple('Entity', ['text', 'start', 'end', 'tag', 'doc_id'])
 MatchResult = namedtuple('MatchResult', ['tp', 'fp', 'fn', 'phase_info'])
-PhaseInfo = namedtuple('PhaseInfo', ['exact_matches', 'inclusion_matches', 'partial_matches', 'groupings'])
+PhaseInfo = namedtuple('PhaseInfo', ['exact_matches', 'inclusion_matches', 'groupings', 'additional_fps'])
 
 class ImprovedEvaluator:
     def __init__(self, margin: float = 0.0, ignore_tags: bool = False, verbose: bool = False):
@@ -20,7 +20,6 @@ class ImprovedEvaluator:
         self.verbose = verbose
         nltk.download('stopwords')
         nltk.download('punkt')
-        nltk.download('punkt_tab')
         self.stopwords = set(stopwords.words('spanish'))
         self.punctuation_pattern = re.compile(r'[^\w\s]', re.UNICODE)
 
@@ -81,6 +80,34 @@ class ImprovedEvaluator:
         """Verifica si la proporción está dentro del margen aceptable."""
         return abs(ratio - 1.0) <= self.margin
 
+
+    def get_non_gold_text(self, sys_text: str, gold_texts: List[str]) -> str:
+        """Obtiene el texto en sys_text que no está cubierto por ninguna gold_text."""
+        covered_ranges = []
+        for gold_text in gold_texts:
+            start = 0
+            while True:
+                pos = sys_text.find(gold_text, start)
+                if pos == -1:
+                    break
+                covered_ranges.append((pos, pos + len(gold_text)))
+                start = pos + len(gold_text)
+
+        covered_ranges.sort()
+        non_gold_text = []
+        last_end = 0
+
+        for start, end in covered_ranges:
+            if start > last_end:
+                non_gold_text.append(sys_text[last_end:start])
+            last_end = max(last_end, end)
+
+        if last_end < len(sys_text):
+            non_gold_text.append(sys_text[last_end:])
+
+        return ' '.join(non_gold_text)
+
+
     def phase1_exact_matches(self, sys_entities: List[Entity], gold_entities: List[Entity]) -> Tuple[
         Set[int], Set[int], List[Tuple[int, int]]]:
         """Fase 1: Encuentra coincidencias exactas."""
@@ -100,30 +127,34 @@ class ImprovedEvaluator:
         return matched_sys, matched_gold, exact_pairs
 
     def phase2_full_inclusion(self, sys_entities: List[Entity], gold_entities: List[Entity],
-                              matched_sys: Set[int], matched_gold: Set[int]) -> Tuple[Set[int], Set[int], List[Dict]]:
-        """Fase 2: Inclusión completa con margen."""
+                              matched_sys: Set[int], matched_gold: Set[int]) -> Tuple[
+        Set[int], Set[int], List[Dict], Set[int]]:
+        """Fase 2: Inclusión completa con margen y FP por texto adicional significativo."""
         inclusion_matched_sys = set()
         inclusion_matched_gold = set()
         groupings = []
+        additional_fps = set()
 
-        # Buscar entidades gold contenidas en entidades sistema
         for i, sys_entity in enumerate(sys_entities):
-            if i in matched_sys:  # Ya emparejada en fase 1
+            if i in matched_sys:
                 continue
 
             contained_gold = []
             for j, gold_entity in enumerate(gold_entities):
                 if (j not in matched_gold and
                         self.is_fully_contained(gold_entity, sys_entity)):
-                    # Verificar etiquetas si no se ignoran
                     if not self.ignore_tags and sys_entity.tag != gold_entity.tag:
                         continue
                     contained_gold.append(j)
 
             if contained_gold:
-                # Calcular proporción de longitudes
                 gold_ents = [gold_entities[j] for j in contained_gold]
                 ratio = self.calculate_length_ratio(gold_ents, sys_entity)
+
+                gold_texts = [e.text for e in gold_ents]
+                additional_text = self.get_non_gold_text(sys_entity.text, gold_texts)
+                normalized_additional = self.normalize_text(additional_text)
+                has_significant_additional = bool(normalized_additional.strip())
 
                 grouping_info = {
                     'sys_idx': i,
@@ -131,43 +162,47 @@ class ImprovedEvaluator:
                     'ratio': ratio,
                     'within_margin': self.is_within_margin(ratio),
                     'sys_entity': sys_entity,
-                    'gold_entities': gold_ents
+                    'gold_entities': gold_ents,
+                    'additional_text': additional_text,
+                    'has_significant_additional': has_significant_additional,
+                    'normalized_additional': normalized_additional
                 }
 
                 if self.is_within_margin(ratio):
                     inclusion_matched_sys.add(i)
                     inclusion_matched_gold.update(contained_gold)
 
+                    if has_significant_additional:
+                        additional_fps.add(i)
+
                 groupings.append(grouping_info)
 
-        return inclusion_matched_sys, inclusion_matched_gold, groupings
+        return inclusion_matched_sys, inclusion_matched_gold, groupings, additional_fps
 
     def evaluate_document(self, sys_entities: List[Entity], gold_entities: List[Entity]) -> MatchResult:
-        """Evalúa un documento usando las tres fases."""
-
-        # Fase 1: Coincidencias exactas
+        """Evalúa un documento con detección de FPs adicionales."""
         matched_sys_p1, matched_gold_p1, exact_pairs = self.phase1_exact_matches(sys_entities, gold_entities)
-
-        # Fase 2: Inclusión completa
-        matched_sys_p2, matched_gold_p2, groupings = self.phase2_full_inclusion(
+        matched_sys_p2, matched_gold_p2, groupings, additional_fps = self.phase2_full_inclusion(
             sys_entities, gold_entities, matched_sys_p1, matched_gold_p1)
 
-        # Combinar matches de ambas fases
         all_matched_sys = matched_sys_p1.union(matched_sys_p2)
         all_matched_gold = matched_gold_p1.union(matched_gold_p2)
 
-        # Calcular métricas
+        # TP: gold entities matched
         tp_count = len(all_matched_gold)
-        fp_count = len(sys_entities) - len(all_matched_sys)
+
+        # FP: system entities not matched + additional text in matched entities
+        fp_count = (len(sys_entities) - len(all_matched_sys)) + len(additional_fps)
+
+        # FN: gold entities not matched
         fn_count = len(gold_entities) - len(all_matched_gold)
 
-        # Crear información de fases
         phase_info = PhaseInfo(
             exact_matches=exact_pairs,
             inclusion_matches=list(zip(matched_sys_p2,
                                        [g['gold_indices'] for g in groupings if g['within_margin']])),
-            partial_matches=[],
-            groupings=groupings
+            groupings=groupings,
+            additional_fps=additional_fps
         )
 
         return MatchResult(tp=tp_count, fp=fp_count, fn=fn_count, phase_info=phase_info)
@@ -179,11 +214,9 @@ class ImprovedEvaluator:
         if hasattr(annotation, 'phi') and annotation.phi:
             for phi in annotation.phi:
                 if hasattr(phi, '__iter__') and len(phi) >= 3:
-                    # Formato BRAT: (tag, start, end)
                     tag, start, end = phi[0], phi[1], phi[2]
                     text = annotation.text[start:end] if annotation.text else ""
                 else:
-                    # Formato i2b2: objeto PHI con métodos
                     tag = getattr(phi, 'TYPE', 'UNKNOWN')
                     start = phi.get_start() if hasattr(phi, 'get_start') else 0
                     end = phi.get_end() if hasattr(phi, 'get_end') else 0
@@ -226,7 +259,8 @@ class ImprovedEvaluator:
         report.append(f"  Entidades Sistema: {len(sys_entities)}")
         report.append(f"  Entidades Gold: {len(gold_entities)}")
         report.append(f"  True Positives: {result.tp}")
-        report.append(f"  False Positives: {result.fp}")
+        report.append(
+            f"  False Positives: {result.fp} (incluye {len(getattr(result.phase_info, 'additional_fps', []))} por texto adicional)")
         report.append(f"  False Negatives: {result.fn}")
 
         metrics = self.calculate_metrics(result.tp, result.fp, result.fn)
@@ -247,13 +281,35 @@ class ImprovedEvaluator:
             report.append(f"\nFASE 2 - AGRUPAMIENTOS:")
             for group in result.phase_info.groupings:
                 status = "✓ ACEPTADO" if group['within_margin'] else "✗ RECHAZADO"
-                report.append(f"  {status} (ratio: {group['ratio']:.3f})")
+                reason = ""
+                if not group['within_margin']:
+                    reason = " (fuera de margen)"
+                elif group['has_significant_additional']:
+                    reason = " (pero con FP adicional)"
+
+                report.append(f"  {status}{reason} (ratio: {group['ratio']:.3f})")
                 report.append(
                     f"    Sistema: [{group['sys_entity'].start}-{group['sys_entity'].end}] '{group['sys_entity'].text}'")
                 for gold_ent in group['gold_entities']:
                     report.append(f"    Gold:    [{gold_ent.start}-{gold_ent.end}] '{gold_ent.text}'")
 
-        # Falsos positivos
+                if group['additional_text']:
+                    report.append(f"    Texto adicional: '{group['additional_text']}'")
+                    if group['has_significant_additional']:
+                        report.append(f"    -> Contiene texto significativo adicional (FP)")
+
+        # Falsos positivos adicionales
+        if hasattr(result.phase_info, 'additional_fps') and result.phase_info.additional_fps:
+            report.append(f"\nFALSOS POSITIVOS ADICIONALES EN AGRUPAMIENTOS ({len(result.phase_info.additional_fps)}):")
+            for i in result.phase_info.additional_fps:
+                sys_ent = sys_entities[i]
+                for group in result.phase_info.groupings:
+                    if group['sys_idx'] == i:
+                        report.append(f"  ✗ [{sys_ent.start}-{sys_ent.end}] '{sys_ent.text}'")
+                        report.append(f"     Texto adicional significativo: '{group['normalized_additional']}'")
+                        break
+
+        # Falsos positivos no emparejados
         matched_sys_indices = set()
         for sys_idx, _ in result.phase_info.exact_matches:
             matched_sys_indices.add(sys_idx)
@@ -261,9 +317,10 @@ class ImprovedEvaluator:
             if group['within_margin']:
                 matched_sys_indices.add(group['sys_idx'])
 
-        fp_entities = [ent for i, ent in enumerate(sys_entities) if i not in matched_sys_indices]
+        fp_entities = [ent for i, ent in enumerate(sys_entities) if
+                       i not in matched_sys_indices and i not in result.phase_info.additional_fps]
         if fp_entities:
-            report.append(f"\nFALSOS POSITIVOS ({len(fp_entities)}):")
+            report.append(f"\nFALSOS POSITIVOS NO EMPAREJADOS ({len(fp_entities)}):")
             for ent in fp_entities:
                 report.append(f"  ✗ [{ent.start}-{ent.end}] '{ent.text}' ({ent.tag})")
 
