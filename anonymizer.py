@@ -4,7 +4,6 @@ import ast
 import re
 import xml.etree.ElementTree as ET
 
-
 # Category mapping dictionary
 TAG_CATEGORIES = {
     # NAME (Nombre)
@@ -55,11 +54,11 @@ TAG_CATEGORIES = {
 
 # Patterns for tagged text - Enhanced to ensure precise extraction
 patterns = [
-    (r'<([^>]+)>([^<]*)</\1>', lambda m: (m.group(1), m.group(2), m.start(2), m.end(2))),  # <TAG>entidad</TAG>
-    (r'<\*([^>]+)>([^<]*)<\*/\1>', lambda m: (m.group(1), m.group(2), m.start(2), m.end(2))),  # <*TAG>entidad</*/TAG>
-    (r'<\*([^>*]+)\*>([^<]*)<\*/\1\*>', lambda m: (m.group(1), m.group(2), m.start(2), m.end(2))),
+    (r'<([^>]+)>([^<]*)</\1>', lambda m: (m.group(1), m.group(2), m.start(), m.end())),  # <TAG>entidad</TAG>
+    (r'<\*([^>]+)>([^<]*)<\*/\1>', lambda m: (m.group(1), m.group(2), m.start(), m.end())),  # <*TAG>entidad</*/TAG>
+    (r'<\*([^>*]+)\*>([^<]*)<\*/\1\*>', lambda m: (m.group(1), m.group(2), m.start(), m.end())),
     # <*TAG*>entidad</*/TAG*>
-    (r'<<<([^>]+)>>>([^<]*)<<</\1>>>', lambda m: (m.group(1), m.group(2), m.start(2), m.end(2)))
+    (r'<<<([^>]+)>>>([^<]*)<<</\1>>>', lambda m: (m.group(1), m.group(2), m.start(), m.end()))
     # <<<TAG>>>entidad<<</TAG>>>
 ]
 
@@ -155,9 +154,87 @@ def create_xml_from_entities(original_text, entities):
     return xml_declaration + xml_content
 
 
+def remove_tags_and_track_positions(tagged_text):
+    """
+    Remove all tags from tagged text and create a mapping between
+    original positions and clean text positions.
+
+    Returns:
+        clean_text (str): Text without tags
+        position_map (list): Maps each position in clean_text to position in tagged_text
+    """
+    clean_text = ""
+    position_map = []
+
+    i = 0
+    while i < len(tagged_text):
+        char = tagged_text[i]
+
+        # Check if we're at the start of a tag
+        if char == '<':
+            # Find the end of the tag
+            tag_end = tagged_text.find('>', i)
+            if tag_end != -1:
+                # Skip the entire tag
+                i = tag_end + 1
+                continue
+
+        # Regular character - add to clean text and track position
+        clean_text += char
+        position_map.append(i)
+        i += 1
+
+    return clean_text, position_map
+
+
+def find_precise_entity_position(original_text, entity, expected_pos, used_positions):
+    """
+    Find the exact position of an entity in the original text, avoiding previously used positions.
+
+    Args:
+        original_text (str): The original text
+        entity (str): The entity to find
+        expected_pos (int): Expected position based on clean text alignment
+        used_positions (set): Set of positions already used for other entities
+
+    Returns:
+        tuple: (start, end) positions or (None, None) if not found
+    """
+    # Find all possible positions for this entity
+    candidates = []
+    start = 0
+
+    while True:
+        pos = original_text.find(entity, start)
+        if pos == -1:
+            break
+
+        end_pos = pos + len(entity)
+
+        # Check if this position overlaps with any used position
+        overlaps = any(
+            (pos < used_end and end_pos > used_start)
+            for used_start, used_end in used_positions
+        )
+
+        if not overlaps:
+            # Calculate distance from expected position
+            distance = abs(pos - expected_pos)
+            candidates.append((distance, pos, end_pos))
+
+        start = pos + 1
+
+    if candidates:
+        # Sort by distance from expected position and return the closest
+        candidates.sort()
+        return candidates[0][1], candidates[0][2]
+
+    return None, None
+
+
 def create_xml_from_tagged_text(tagged_text, original_text):
     """
-    Create XML from tagged text by matching entity positions in the original text.
+    Create XML from tagged text with improved position tracking.
 
     Args:
         tagged_text (str): Text with entity tags
@@ -172,49 +249,43 @@ def create_xml_from_tagged_text(tagged_text, original_text):
     text_elem.text = original_text
     tags_elem = ET.SubElement(root, "TAGS")
 
-    # Find all tagged entities in the tagged text
+    # Remove tags and create position mapping
+    clean_text, position_map = remove_tags_and_track_positions(tagged_text)
+
+    # Find all tagged entities
     all_matches = []
     for pattern, extractor in patterns:
         for match in re.finditer(pattern, tagged_text):
             tag, entity, start_pos, end_pos = extractor(match)
             all_matches.append((start_pos, end_pos, tag, entity, match.group(0)))
 
-    # Sort matches by their position in the tagged text
+    # Sort matches by position in tagged text
     all_matches.sort()
 
-    # Process the original text and tagged text in parallel
-    orig_pos = 0  # Current position in original text
-    tagged_pos = 0  # Current position in tagged text
+    # Track used positions to avoid overlaps
+    used_positions = set()
     tag_id = 1
 
-    for _, _, tag, entity, full_match in all_matches:
-        # Find where this match starts in the tagged text
-        match_start = tagged_text.find(full_match, tagged_pos)
-        if match_start == -1:
-            continue  # Skip if match not found (shouldn't happen)
+    # Process each match
+    for match_start, match_end, tag, entity, full_match in all_matches:
+        # Find where the entity content starts in the tagged text
+        entity_start_in_tagged = tagged_text.find(entity, match_start)
+        if entity_start_in_tagged == -1:
+            continue
 
-        # Calculate how much plain text exists before this tag
-        plain_text_before = tagged_text[tagged_pos:match_start]
+        # Remove all tags up to this point to find the clean position
+        text_before_entity = tagged_text[:entity_start_in_tagged]
+        clean_before, _ = remove_tags_and_track_positions(text_before_entity)
+        expected_pos_in_original = len(clean_before)
 
-        # Advance original position by the same amount of plain text
-        # This keeps the two texts in sync
-        orig_pos += len(plain_text_before)
+        # Find the precise position in original text
+        start_pos, end_pos = find_precise_entity_position(
+            original_text, entity, expected_pos_in_original, used_positions
+        )
 
-        # Move the tagged position to after this match
-        tagged_pos = match_start + len(full_match)
-
-        # Find the entity in the original text near the expected position
-        # Allow for some flexibility in positioning to handle spacing differences
-        search_window = 50  # Characters to search around expected position
-        search_start = max(0, orig_pos - search_window)
-        search_end = min(len(original_text), orig_pos + search_window + len(entity))
-        search_region = original_text[search_start:search_end]
-
-        entity_pos = search_region.find(entity)
-        if entity_pos != -1:
-            # Found the entity within the search window
-            start = search_start + entity_pos
-            end = start + len(entity)
+        if start_pos is not None and end_pos is not None:
+            # Mark this position as used
+            used_positions.add((start_pos, end_pos))
 
             # Get the standardized XML tag category
             xml_tag = TAG_CATEGORIES.get(tag)
@@ -226,55 +297,15 @@ def create_xml_from_tagged_text(tagged_text, original_text):
             # Create a tag element for this entity
             ET.SubElement(tags_elem, xml_tag, {
                 "id": str(tag_id),
-                "start": str(start),
-                "end": str(end),
+                "start": str(start_pos),
+                "end": str(end_pos),
                 "text": entity,
                 "TYPE": tag
             })
 
-            # Update the original position to after this entity
-            orig_pos = start + len(entity)
             tag_id += 1
         else:
-            # If exact match not found, try more aggressive methods
-            # For example, ignoring case, removing extra spaces, etc.
-            normalized_entity = ' '.join(entity.split())  # Normalize spaces
-            normalized_search = ' '.join(search_region.split())
-
-            entity_pos = normalized_search.lower().find(normalized_entity.lower())
-            if entity_pos != -1:
-                # Need to map back to original position
-                start = -1
-                current_pos = 0
-                normalized_pos = 0
-
-                # Map the normalized position back to the original position
-                for i, char in enumerate(search_region):
-                    if not char.isspace() or (i > 0 and search_region[i - 1] != ' ' and char == ' '):
-                        if normalized_pos == entity_pos:
-                            start = search_start + i
-                            break
-                        normalized_pos += 1
-
-                if start != -1:
-                    end = start + len(entity)
-
-                    # Get the standardized XML tag category
-                    xml_tag = TAG_CATEGORIES.get(tag)
-                    if xml_tag is None:
-                        tag_sin_tildes = quitar_tildes(tag)
-                        xml_tag = TAG_CATEGORIES.get(tag_sin_tildes, "WARNING")
-
-                    # Create a tag element for this entity
-                    ET.SubElement(tags_elem, xml_tag, {
-                        "id": str(tag_id),
-                        "start": str(start),
-                        "end": str(end),
-                        "text": entity,
-                        "TYPE": tag
-                    })
-
-                    tag_id += 1
+            print(f"Warning: Could not find precise position for entity '{entity}' with tag '{tag}'")
 
     # Convert the XML tree to a string
     xml_declaration = '<?xml version="1.0" encoding="UTF-8"?>\n'
