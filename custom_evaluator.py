@@ -10,8 +10,10 @@ from nltk.corpus import stopwords
 
 # Definir estructuras de datos
 Entity = namedtuple('Entity', ['text', 'start', 'end', 'tag', 'doc_id'])
-MatchResult = namedtuple('MatchResult', ['tp', 'fp', 'fn', 'phase_info'])
+MatchResult = namedtuple('MatchResult', ['tp', 'fp', 'fn', 'phase_info', 'fn_overlap_stats'])
 PhaseInfo = namedtuple('PhaseInfo', ['exact_matches', 'inclusion_matches', 'groupings', 'additional_fps'])
+FNOverlapStats = namedtuple('FNOverlapStats', ['individual_overlaps', 'max_overlaps', 'distribution'])
+
 
 class ImprovedEvaluator:
     def __init__(self, margin: float = 0.0, ignore_tags: bool = False, verbose: bool = False):
@@ -22,7 +24,6 @@ class ImprovedEvaluator:
         nltk.download('punkt')
         self.stopwords = set(stopwords.words('spanish'))
         self.punctuation_pattern = re.compile(r'[^\w\s]', re.UNICODE)
-
 
     def normalize_text(self, text):
         """Normaliza texto usando NLTK para tokenización y stopwords"""
@@ -42,7 +43,6 @@ class ImprovedEvaluator:
 
         return ' '.join(tokens)
 
-
     def entities_match(self, sys_entity: Entity, gold_entity: Entity) -> bool:
         """Verifica si dos entidades coinciden según el modo de evaluación."""
         # Verificar posición
@@ -59,12 +59,99 @@ class ImprovedEvaluator:
 
         return True
 
-
     def is_fully_contained(self, inner_entity: Entity, outer_entity: Entity) -> bool:
         """Verifica si inner_entity está completamente contenida en outer_entity."""
         return (outer_entity.start <= inner_entity.start and
                 inner_entity.end <= outer_entity.end)
 
+    def calculate_overlap_percentage(self, entity1: Entity, entity2: Entity) -> float:
+        """Calcula el porcentaje de solapamiento entre dos entidades."""
+        # Calcular intersección
+        overlap_start = max(entity1.start, entity2.start)
+        overlap_end = min(entity1.end, entity2.end)
+
+        if overlap_start >= overlap_end:
+            return 0.0
+
+        overlap_length = overlap_end - overlap_start
+        entity1_length = entity1.end - entity1.start
+
+        if entity1_length == 0:
+            return 0.0
+
+        return (overlap_length / entity1_length) * 100
+
+    def analyze_fn_overlaps(self, fn_entities: List[Entity], sys_entities: List[Entity]) -> FNOverlapStats:
+        """Analiza los solapamientos de los False Negatives con las entidades del sistema."""
+        individual_overlaps = []
+        max_overlaps = []
+
+        for fn_entity in fn_entities:
+            fn_overlaps = []
+
+            for sys_entity in sys_entities:
+                # Solo considerar entidades de la misma etiqueta si no ignoramos tags
+                if not self.ignore_tags and fn_entity.tag != sys_entity.tag:
+                    continue
+
+                overlap_pct = self.calculate_overlap_percentage(fn_entity, sys_entity)
+                if overlap_pct > 0:
+                    fn_overlaps.append({
+                        'fn_entity': fn_entity,
+                        'sys_entity': sys_entity,
+                        'overlap_percentage': overlap_pct
+                    })
+
+            individual_overlaps.extend(fn_overlaps)
+
+            # Obtener el máximo solapamiento para este FN
+            if fn_overlaps:
+                max_overlap = max(fn_overlaps, key=lambda x: x['overlap_percentage'])
+                max_overlaps.append({
+                    'fn_entity': fn_entity,
+                    'max_overlap_percentage': max_overlap['overlap_percentage'],
+                    'best_sys_entity': max_overlap['sys_entity']
+                })
+            else:
+                max_overlaps.append({
+                    'fn_entity': fn_entity,
+                    'max_overlap_percentage': 0.0,
+                    'best_sys_entity': None
+                })
+
+        # Crear distribución por rangos
+        distribution = self.create_overlap_distribution([mo['max_overlap_percentage'] for mo in max_overlaps])
+
+        return FNOverlapStats(
+            individual_overlaps=individual_overlaps,
+            max_overlaps=max_overlaps,
+            distribution=distribution
+        )
+
+    def create_overlap_distribution(self, overlap_percentages: List[float]) -> Dict[str, int]:
+        """Crea distribución de solapamientos por rangos de 10%."""
+        ranges = [
+            ("0-10%", 0, 10),
+            ("10-20%", 10, 20),
+            ("20-30%", 20, 30),
+            ("30-40%", 30, 40),
+            ("40-50%", 40, 50),
+            ("50-60%", 50, 60),
+            ("60-70%", 60, 70),
+            ("70-80%", 70, 80),
+            ("80-90%", 80, 90),
+            ("90-100%", 90, 100)
+        ]
+
+        distribution = {range_name: 0 for range_name, _, _ in ranges}
+
+        for pct in overlap_percentages:
+            for range_name, min_val, max_val in ranges:
+                if min_val <= pct < max_val or (pct == 100 and max_val == 100):
+                    distribution[range_name] += 1
+                    break
+
+        return distribution
 
     def calculate_length_ratio(self, gold_entities: List[Entity], sys_entity: Entity) -> float:
         """Calcula la proporción de longitudes entre entidades gold y sistema."""
@@ -79,7 +166,6 @@ class ImprovedEvaluator:
     def is_within_margin(self, ratio: float) -> bool:
         """Verifica si la proporción está dentro del margen aceptable."""
         return abs(ratio - 1.0) <= self.margin
-
 
     def get_non_gold_text(self, sys_text: str, gold_texts: List[str]) -> str:
         """Obtiene el texto en sys_text que no está cubierto por ninguna gold_text."""
@@ -106,7 +192,6 @@ class ImprovedEvaluator:
             non_gold_text.append(sys_text[last_end:])
 
         return ' '.join(non_gold_text)
-
 
     def phase1_exact_matches(self, sys_entities: List[Entity], gold_entities: List[Entity]) -> Tuple[
         Set[int], Set[int], List[Tuple[int, int]]]:
@@ -180,7 +265,7 @@ class ImprovedEvaluator:
         return inclusion_matched_sys, inclusion_matched_gold, groupings, additional_fps
 
     def evaluate_document(self, sys_entities: List[Entity], gold_entities: List[Entity]) -> MatchResult:
-        """Evalúa un documento con detección de FPs adicionales."""
+        """Evalúa un documento con detección de FPs adicionales y análisis de solapamiento de FNs."""
         matched_sys_p1, matched_gold_p1, exact_pairs = self.phase1_exact_matches(sys_entities, gold_entities)
         matched_sys_p2, matched_gold_p2, groupings, additional_fps = self.phase2_full_inclusion(
             sys_entities, gold_entities, matched_sys_p1, matched_gold_p1)
@@ -197,6 +282,12 @@ class ImprovedEvaluator:
         # FN: gold entities not matched
         fn_count = len(gold_entities) - len(all_matched_gold)
 
+        # Obtener FN entities para análisis de solapamiento
+        fn_entities = [ent for i, ent in enumerate(gold_entities) if i not in all_matched_gold]
+
+        # Analizar solapamientos de FNs
+        fn_overlap_stats = self.analyze_fn_overlaps(fn_entities, sys_entities)
+
         phase_info = PhaseInfo(
             exact_matches=exact_pairs,
             inclusion_matches=list(zip(matched_sys_p2,
@@ -205,7 +296,8 @@ class ImprovedEvaluator:
             additional_fps=additional_fps
         )
 
-        return MatchResult(tp=tp_count, fp=fp_count, fn=fn_count, phase_info=phase_info)
+        return MatchResult(tp=tp_count, fp=fp_count, fn=fn_count, phase_info=phase_info,
+                           fn_overlap_stats=fn_overlap_stats)
 
     def extract_entities_from_annotation(self, annotation) -> List[Entity]:
         """Extrae entidades de una anotación."""
@@ -324,19 +416,23 @@ class ImprovedEvaluator:
             for ent in fp_entities:
                 report.append(f"  ✗ [{ent.start}-{ent.end}] '{ent.text}' ({ent.tag})")
 
-        # Falsos negativos
-        matched_gold_indices = set()
-        for _, gold_idx in result.phase_info.exact_matches:
-            matched_gold_indices.add(gold_idx)
-        for group in result.phase_info.groupings:
-            if group['within_margin']:
-                matched_gold_indices.update(group['gold_indices'])
+        # Falsos negativos con análisis de solapamiento
+        if result.fn_overlap_stats.max_overlaps:
+            report.append(
+                f"\nFALSOS NEGATIVOS CON ANÁLISIS DE SOLAPAMIENTO ({len(result.fn_overlap_stats.max_overlaps)}):")
+            for overlap_info in result.fn_overlap_stats.max_overlaps:
+                fn_ent = overlap_info['fn_entity']
+                max_pct = overlap_info['max_overlap_percentage']
+                best_sys = overlap_info['best_sys_entity']
 
-        fn_entities = [ent for i, ent in enumerate(gold_entities) if i not in matched_gold_indices]
-        if fn_entities:
-            report.append(f"\nFALSOS NEGATIVOS ({len(fn_entities)}):")
-            for ent in fn_entities:
-                report.append(f"  ✗ [{ent.start}-{ent.end}] '{ent.text}' ({ent.tag})")
+                if max_pct > 0:
+                    report.append(
+                        f"  ✗ [{fn_ent.start}-{fn_ent.end}] '{fn_ent.text}' ({fn_ent.tag}) - Máximo solapamiento: {max_pct:.1f}%")
+                    report.append(
+                        f"     Mejor match sistema: [{best_sys.start}-{best_sys.end}] '{best_sys.text}' ({best_sys.tag})")
+                else:
+                    report.append(
+                        f"  ✗ [{fn_ent.start}-{fn_ent.end}] '{fn_ent.text}' ({fn_ent.tag}) - Sin solapamiento")
 
         return '\n'.join(report)
 
@@ -401,6 +497,9 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
         total_tp, total_fp, total_fn = 0, 0, 0
         error_reports = []
 
+        # Acumular estadísticas de solapamiento de FN
+        all_fn_overlap_distributions = []
+
         for doc_id in sorted(common_docs):
             gold_ann = gold_annotations[doc_id]
             sys_ann = sys_annotations[doc_id]
@@ -418,6 +517,9 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
             total_fp += result.fp
             total_fn += result.fn
 
+            # Acumular distribuciones de solapamiento
+            all_fn_overlap_distributions.append(result.fn_overlap_stats.distribution)
+
             # Generar reporte de errores
             if output_dir:
                 error_report = evaluator.generate_error_report(doc_id, sys_entities, gold_entities, result)
@@ -430,10 +532,18 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
 
         # Calcular métricas totales
         total_metrics = evaluator.calculate_metrics(total_tp, total_fp, total_fn)
+
+        # Combinar distribuciones de solapamiento de todos los documentos
+        combined_distribution = {}
+        for distribution in all_fn_overlap_distributions:
+            for range_name, count in distribution.items():
+                combined_distribution[range_name] = combined_distribution.get(range_name, 0) + count
+
         all_results[system_name] = {
             'metrics': total_metrics,
             'doc_results': doc_results,
-            'error_reports': error_reports
+            'error_reports': error_reports,
+            'fn_overlap_distribution': combined_distribution
         }
 
         # Mostrar resumen del sistema
@@ -455,7 +565,7 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
                 f.write(f"Margen: {margin:.2%}, Modo: {'RELAJADO' if ignore_tags else 'ESTRICTO'}\n")
                 f.write(''.join(error_reports))
 
-            # Archivo de métricas
+            # Archivo de métricas con estadísticas de solapamiento
             metrics_file = os.path.join(output_dir, f"metrics_{system_name}.txt")
             with open(metrics_file, 'w', encoding='utf-8') as f:
                 f.write(f"MÉTRICAS - SISTEMA: {system_name}\n")
@@ -473,8 +583,24 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
                 f.write(f"  FP: {total_fp}\n")
                 f.write(f"  FN: {total_fn}\n\n")
 
+                # Estadísticas de solapamiento de False Negatives
+                f.write(f"ESTADÍSTICAS DE SOLAPAMIENTO DE FALSE NEGATIVES:\n")
+                f.write(f"{'=' * 50}\n")
+                total_fn_analyzed = sum(combined_distribution.values())
+                if total_fn_analyzed > 0:
+                    f.write(f"Total de FN analizados: {total_fn_analyzed}\n\n")
+                    f.write("Distribución por rangos de solapamiento:\n")
+                    f.write("-" * 40 + "\n")
+                    for range_name in ["0-10%", "10-20%", "20-30%", "30-40%", "40-50%",
+                                       "50-60%", "60-70%", "70-80%", "80-90%", "90-100%"]:
+                        count = combined_distribution.get(range_name, 0)
+                        percentage = (count / total_fn_analyzed) * 100 if total_fn_analyzed > 0 else 0
+                        f.write(f"{range_name:>8}: {count:>4} ({percentage:>5.1f}%)\n")
+                else:
+                    f.write("No hay False Negatives para analizar.\n")
+
                 if verbose:
-                    f.write("Métricas por Documento:\n")
+                    f.write(f"\nMétricas por Documento:\n")
                     f.write("-" * 60 + "\n")
                     for doc_id in sorted(doc_results.keys()):
                         result = doc_results[doc_id]
@@ -485,7 +611,6 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
             print(f"Reportes guardados en: {output_dir}")
 
     return all_results
-
 
 def main():
     """Función principal del script."""
