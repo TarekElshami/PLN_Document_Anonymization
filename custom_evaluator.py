@@ -16,8 +16,7 @@ FNOverlapStats = namedtuple('FNOverlapStats', ['individual_overlaps', 'max_overl
 
 
 class ImprovedEvaluator:
-    def __init__(self, margin: float = 0.0, ignore_tags: bool = False, verbose: bool = False):
-        self.margin = margin
+    def __init__(self, ignore_tags: bool = False, verbose: bool = False):
         self.ignore_tags = ignore_tags
         self.verbose = verbose
         nltk.download('stopwords')
@@ -130,9 +129,10 @@ class ImprovedEvaluator:
         )
 
     def create_overlap_distribution(self, overlap_percentages: List[float]) -> Dict[str, int]:
-        """Crea distribución de solapamientos por rangos de 10%."""
+        """Crea distribución de solapamientos con 0% como categoría separada."""
         ranges = [
-            ("0-10%", 0, 10),
+            ("0%", 0, 0),  # Solo casos exactamente 0%
+            ("0-10%", 0, 10, True),  # >0% pero <10% (True = excluir 0)
             ("10-20%", 10, 20),
             ("20-30%", 20, 30),
             ("30-40%", 30, 40),
@@ -141,58 +141,100 @@ class ImprovedEvaluator:
             ("60-70%", 60, 70),
             ("70-80%", 70, 80),
             ("80-90%", 80, 90),
-            ("90-100%", 90, 100)
+            ("90-100%", 90, 100, False, True)  # Incluye 100%
         ]
 
-        distribution = {range_name: 0 for range_name, _, _ in ranges}
+        # Initialize distribution with all range names
+        distribution = {range_info[0]: 0 for range_info in ranges}
 
         for pct in overlap_percentages:
-            for range_name, min_val, max_val in ranges:
-                if min_val <= pct < max_val or (pct == 100 and max_val == 100):
-                    distribution[range_name] += 1
-                    break
+            for range_info in ranges:
+                range_name = range_info[0]
+                min_val = range_info[1]
+                max_val = range_info[2]
+
+                # Handle different range configurations
+                if range_name == "0%":
+                    if pct == 0:
+                        distribution[range_name] += 1
+                        break
+                elif range_name == "0-10%":
+                    exclude_min = len(range_info) > 3 and range_info[3]
+                    if (pct > 0 if exclude_min else pct >= 0) and pct < max_val:
+                        distribution[range_name] += 1
+                        break
+                elif range_name == "90-100%":
+                    include_max = len(range_info) > 4 and range_info[4]
+                    if pct >= min_val and (pct <= max_val if include_max else pct < max_val):
+                        distribution[range_name] += 1
+                        break
+                else:  # Standard ranges (10-20%, 20-30%, etc.)
+                    if pct >= min_val and pct < max_val:
+                        distribution[range_name] += 1
+                        break
 
         return distribution
 
-    def calculate_length_ratio(self, gold_entities: List[Entity], sys_entity: Entity) -> float:
-        """Calcula la proporción de longitudes entre entidades gold y sistema, ignorando espacios."""
-        gold_total_length = sum(len(self.normalize_text(e.text)) for e in gold_entities)
-        sys_length = len(self.normalize_text(sys_entity.text))
-
-        if sys_length == 0:
-            return float('inf') if gold_total_length > 0 else 1.0
-
-        return gold_total_length / sys_length
-
-    def is_within_margin(self, ratio: float) -> bool:
-        """Verifica si la proporción está dentro del margen aceptable."""
-        return abs(ratio - 1.0) <= self.margin
-
-    def get_non_gold_text(self, sys_text: str, gold_texts: List[str]) -> str:
-        """Obtiene el texto en sys_text que no está cubierto por ninguna gold_text."""
+    def get_uncovered_segments(self, sys_text: str, gold_entities: List[Entity], sys_start: int) -> List[str]:
+        """
+        Obtiene los segmentos de texto del sistema que NO están cubiertos por las entidades gold.
+        Retorna una lista de segmentos de texto no cubiertos.
+        """
+        # Crear lista de rangos cubiertos por entidades gold (ajustados al texto del sistema)
         covered_ranges = []
-        for gold_text in gold_texts:
-            start = 0
-            while True:
-                pos = sys_text.find(gold_text, start)
-                if pos == -1:
-                    break
-                covered_ranges.append((pos, pos + len(gold_text)))
-                start = pos + len(gold_text)
+        for gold_entity in gold_entities:
+            # Ajustar posiciones relativas al inicio de la entidad del sistema
+            relative_start = gold_entity.start - sys_start
+            relative_end = gold_entity.end - sys_start
 
+            # Asegurar que estén dentro del rango del texto del sistema
+            relative_start = max(0, relative_start)
+            relative_end = min(len(sys_text), relative_end)
+
+            if relative_start < relative_end:
+                covered_ranges.append((relative_start, relative_end))
+
+        # Ordenar rangos y fusionar los que se superponen
         covered_ranges.sort()
-        non_gold_text = []
+        merged_ranges = []
+        for start, end in covered_ranges:
+            if merged_ranges and start <= merged_ranges[-1][1]:
+                # Fusionar con el rango anterior
+                merged_ranges[-1] = (merged_ranges[-1][0], max(merged_ranges[-1][1], end))
+            else:
+                merged_ranges.append((start, end))
+
+        # Extraer segmentos no cubiertos
+        uncovered_segments = []
         last_end = 0
 
-        for start, end in covered_ranges:
+        for start, end in merged_ranges:
             if start > last_end:
-                non_gold_text.append(sys_text[last_end:start])
+                # Hay un segmento no cubierto antes de este rango
+                uncovered_segments.append(sys_text[last_end:start])
             last_end = max(last_end, end)
 
+        # Verificar si queda texto no cubierto al final
         if last_end < len(sys_text):
-            non_gold_text.append(sys_text[last_end:])
+            uncovered_segments.append(sys_text[last_end:])
 
-        return ' '.join(non_gold_text)
+        return uncovered_segments
+
+    def analyze_uncovered_segments(self, uncovered_segments: List[str]) -> Tuple[List[str], bool]:
+        """
+        Analiza los segmentos no cubiertos y determina cuáles contienen contenido significativo.
+        Retorna: (segmentos_significativos, tiene_contenido_significativo)
+        """
+        significant_segments = []
+
+        for segment in uncovered_segments:
+            normalized = self.normalize_text(segment)
+            if normalized.strip():  # Si después de normalizar queda algo
+                significant_segments.append(segment.strip())
+
+        has_significant_content = len(significant_segments) > 0
+
+        return significant_segments, has_significant_content
 
     def phase1_exact_matches(self, sys_entities: List[Entity], gold_entities: List[Entity]) -> Tuple[
         Set[int], Set[int], List[Tuple[int, int]]]:
@@ -215,7 +257,11 @@ class ImprovedEvaluator:
     def phase2_full_inclusion(self, sys_entities: List[Entity], gold_entities: List[Entity],
                               matched_sys: Set[int], matched_gold: Set[int]) -> Tuple[
         Set[int], Set[int], List[Dict], Set[int]]:
-        """Fase 2: Inclusión completa con margen y FP por texto adicional significativo."""
+        """
+        Fase 2: Inclusión completa SIN margen.
+        Si una entidad gold está totalmente contenida -> automáticamente válida.
+        Analiza segmentos no cubiertos para detectar FPs adicionales.
+        """
         inclusion_matched_sys = set()
         inclusion_matched_gold = set()
         groupings = []
@@ -235,31 +281,31 @@ class ImprovedEvaluator:
 
             if contained_gold:
                 gold_ents = [gold_entities[j] for j in contained_gold]
-                ratio = self.calculate_length_ratio(gold_ents, sys_entity)
 
-                gold_texts = [e.text for e in gold_ents]
-                additional_text = self.get_non_gold_text(sys_entity.text, gold_texts)
-                normalized_additional = self.normalize_text(additional_text)
-                has_significant_additional = bool(normalized_additional.strip())
+                # Obtener segmentos no cubiertos
+                uncovered_segments = self.get_uncovered_segments(sys_entity.text, gold_ents, sys_entity.start)
+
+                # Analizar si los segmentos contienen contenido significativo
+                significant_segments, has_significant_content = self.analyze_uncovered_segments(uncovered_segments)
 
                 grouping_info = {
                     'sys_idx': i,
                     'gold_indices': contained_gold,
-                    'ratio': ratio,
-                    'within_margin': self.is_within_margin(ratio),
                     'sys_entity': sys_entity,
                     'gold_entities': gold_ents,
-                    'additional_text': additional_text,
-                    'has_significant_additional': has_significant_additional,
-                    'normalized_additional': normalized_additional
+                    'uncovered_segments': uncovered_segments,
+                    'significant_segments': significant_segments,
+                    'has_significant_content': has_significant_content,
+                    'accepted': True  # Siempre se acepta si hay contención total
                 }
 
-                if self.is_within_margin(ratio):
-                    inclusion_matched_sys.add(i)
-                    inclusion_matched_gold.update(contained_gold)
+                # SIEMPRE aceptar si hay contención total (sin margen)
+                inclusion_matched_sys.add(i)
+                inclusion_matched_gold.update(contained_gold)
 
-                    if has_significant_additional:
-                        additional_fps.add(i)
+                # Si hay contenido significativo no cubierto, marcar como FP adicional
+                if has_significant_content:
+                    additional_fps.add(i)
 
                 groupings.append(grouping_info)
 
@@ -292,7 +338,7 @@ class ImprovedEvaluator:
         phase_info = PhaseInfo(
             exact_matches=exact_pairs,
             inclusion_matches=list(zip(matched_sys_p2,
-                                       [g['gold_indices'] for g in groupings if g['within_margin']])),
+                                       [g['gold_indices'] for g in groupings if g['accepted']])),
             groupings=groupings,
             additional_fps=additional_fps
         )
@@ -353,7 +399,7 @@ class ImprovedEvaluator:
         report.append(f"  Entidades Gold: {len(gold_entities)}")
         report.append(f"  True Positives: {result.tp}")
         report.append(
-            f"  False Positives: {result.fp} (incluye {len(getattr(result.phase_info, 'additional_fps', []))} por texto adicional)")
+            f"  False Positives: {result.fp} (incluye {len(getattr(result.phase_info, 'additional_fps', []))} por contenido adicional)")
         report.append(f"  False Negatives: {result.fn}")
 
         metrics = self.calculate_metrics(result.tp, result.fp, result.fn)
@@ -369,37 +415,38 @@ class ImprovedEvaluator:
                 gold_ent = gold_entities[gold_idx]
                 report.append(f"  ✓ [{sys_ent.start}-{sys_ent.end}] '{sys_ent.text}' ({sys_ent.tag})")
 
-        # Fase 2: Agrupamientos
+        # Fase 2: Agrupamientos (todos aceptados)
         if result.phase_info.groupings:
-            report.append(f"\nFASE 2 - AGRUPAMIENTOS:")
+            report.append(f"\nFASE 2 - INCLUSIONES TOTALES:")
             for group in result.phase_info.groupings:
-                status = "✓ ACEPTADO" if group['within_margin'] else "✗ RECHAZADO"
-                reason = ""
-                if not group['within_margin']:
-                    reason = " (fuera de margen)"
-                elif group['has_significant_additional']:
-                    reason = " (pero con FP adicional)"
+                status = "✓ ACEPTADO"
+                if group['has_significant_content']:
+                    status += " (pero con FP adicional por contenido extra)"
 
-                report.append(f"  {status}{reason} (ratio: {group['ratio']:.3f})")
+                report.append(f"  {status}")
                 report.append(
                     f"    Sistema: [{group['sys_entity'].start}-{group['sys_entity'].end}] '{group['sys_entity'].text}'")
                 for gold_ent in group['gold_entities']:
                     report.append(f"    Gold:    [{gold_ent.start}-{gold_ent.end}] '{gold_ent.text}'")
 
-                if group['additional_text']:
-                    report.append(f"    Texto adicional: '{group['additional_text']}'")
-                    if group['has_significant_additional']:
-                        report.append(f"    -> Contiene texto significativo adicional (FP)")
+                if group['significant_segments']:
+                    report.append(f"    Segmentos con contenido significativo:")
+                    for segment in group['significant_segments']:
+                        report.append(f"      - '{segment}'")
 
-        # Falsos positivos adicionales
+        # Falsos positivos adicionales por contenido extra
         if hasattr(result.phase_info, 'additional_fps') and result.phase_info.additional_fps:
-            report.append(f"\nFALSOS POSITIVOS ADICIONALES EN AGRUPAMIENTOS ({len(result.phase_info.additional_fps)}):")
+            report.append(
+                f"\nFALSOS POSITIVOS ADICIONALES POR CONTENIDO EXTRA ({len(result.phase_info.additional_fps)}):")
             for i in result.phase_info.additional_fps:
                 sys_ent = sys_entities[i]
                 for group in result.phase_info.groupings:
                     if group['sys_idx'] == i:
-                        report.append(f"  ✗ [{sys_ent.start}-{sys_ent.end}] '{sys_ent.text}'")
-                        report.append(f"     Texto adicional significativo: '{group['normalized_additional']}'")
+                        report.append(
+                            f"  ✗ [{sys_ent.start}-{sys_ent.end}] '{sys_ent.text}' ({sys_ent.tag})")
+                        report.append(f"     Contenido significativo extra:")
+                        for segment in group['significant_segments']:
+                            report.append(f"       - '{segment}'")
                         break
 
         # Falsos positivos no emparejados
@@ -407,7 +454,7 @@ class ImprovedEvaluator:
         for sys_idx, _ in result.phase_info.exact_matches:
             matched_sys_indices.add(sys_idx)
         for group in result.phase_info.groupings:
-            if group['within_margin']:
+            if group['accepted']:
                 matched_sys_indices.add(group['sys_idx'])
 
         fp_entities = [ent for i, ent in enumerate(sys_entities) if
@@ -462,12 +509,12 @@ def load_annotations(path: str, annotation_class) -> Dict[str, Any]:
     return annotations
 
 
-def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
-                         margin: float = 0.0, ignore_tags: bool = False,
-                         output_dir: Optional[str] = None, verbose: bool = False):
-    """Función principal de evaluación con márgenes."""
+def evaluate_without_margin(gs_path: str, sys_paths: List[str], annotation_class,
+                            ignore_tags: bool = False, output_dir: Optional[str] = None,
+                            verbose: bool = False):
+    """Función principal de evaluación SIN margen."""
 
-    evaluator = ImprovedEvaluator(margin=margin, ignore_tags=ignore_tags, verbose=verbose)
+    evaluator = ImprovedEvaluator(ignore_tags=ignore_tags, verbose=verbose)
 
     # Cargar gold standard
     print(f"Cargando gold standard desde: {gs_path}")
@@ -563,7 +610,7 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
             error_file = os.path.join(output_dir, f"errores_{system_name}.txt")
             with open(error_file, 'w', encoding='utf-8') as f:
                 f.write(f"REPORTE DE ERRORES - SISTEMA: {system_name}\n")
-                f.write(f"Margen: {margin:.2%}, Modo: {'RELAJADO' if ignore_tags else 'ESTRICTO'}\n")
+                f.write(f"Modo: {'RELAJADO' if ignore_tags else 'ESTRICTO'} (SIN MARGEN)\n")
                 f.write(''.join(error_reports))
 
             # Archivo de métricas con estadísticas de solapamiento
@@ -572,7 +619,7 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
                 f.write(f"MÉTRICAS - SISTEMA: {system_name}\n")
                 f.write(f"{'=' * 40}\n")
                 f.write(f"Configuración:\n")
-                f.write(f"  Margen: {margin:.2%}\n")
+                f.write(f"  Evaluación: SIN MARGEN (inclusión total)\n")
                 f.write(
                     f"  Modo: {'RELAJADO (ignora etiquetas)' if ignore_tags else 'ESTRICTO (considera etiquetas)'}\n")
                 f.write(f"  Documentos evaluados: {len(common_docs)}\n\n")
@@ -592,7 +639,7 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
                     f.write(f"Total de FN analizados: {total_fn_analyzed}\n\n")
                     f.write("Distribución por rangos de solapamiento:\n")
                     f.write("-" * 40 + "\n")
-                    for range_name in ["0-10%", "10-20%", "20-30%", "30-40%", "40-50%",
+                    for range_name in ["0%", "0-10%", "10-20%", "20-30%", "30-40%", "40-50%",
                                        "50-60%", "60-70%", "70-80%", "80-90%", "90-100%"]:
                         count = combined_distribution.get(range_name, 0)
                         percentage = (count / total_fn_analyzed) * 100 if total_fn_analyzed > 0 else 0
@@ -615,7 +662,7 @@ def evaluate_with_margin(gs_path: str, sys_paths: List[str], annotation_class,
 
 def main():
     """Función principal del script."""
-    parser = argparse.ArgumentParser(description="Improved MEDDOCAN Margin Evaluator")
+    parser = argparse.ArgumentParser(description="Improved MEDDOCAN Evaluator")
 
     parser.add_argument("format",
                         choices=["i2b2", "brat"],
@@ -625,10 +672,6 @@ def main():
     parser.add_argument("sys_dir",
                         nargs="+",
                         help="Directories or files with system outputs")
-    parser.add_argument("--margin", "-m",
-                        type=float,
-                        default=0.0,
-                        help="Error margin as percentage (e.g., 0.1 for 10%%)")
     parser.add_argument("--ignore-tags",
                         action="store_true",
                         help="Use relaxed evaluation (ignore entity types, only consider spans)")
@@ -640,22 +683,16 @@ def main():
 
     args = parser.parse_args()
 
-    # Validar margen
-    if args.margin < 0 or args.margin > 1:
-        raise ValueError("Margin must be between 0 and 1 (0% to 100%)")
-
     # Mostrar configuración
-    print(f"Running IMPROVED evaluation with margin: {args.margin:.2%}")
     print(f"Evaluation mode: {'RELAXED (ignore tags)' if args.ignore_tags else 'STRICT (consider tags)'}")
     if args.output_errors:
         print(f"Reports will be saved to: {args.output_errors}")
     print()
 
-    evaluate_with_margin(
+    evaluate_without_margin(
         gs_path=args.gs_dir,
         sys_paths=args.sys_dir,
         annotation_class=i2b2Annotation if args.format == "i2b2" else BratAnnotation,
-        margin=args.margin,
         ignore_tags=args.ignore_tags,
         output_dir=args.output_errors,
         verbose=args.verbose
