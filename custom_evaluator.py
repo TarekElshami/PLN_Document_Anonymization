@@ -26,7 +26,7 @@ class ImprovedEvaluator:
         self.punctuation_pattern = re.compile(r'[^\w\s]', re.UNICODE)
 
     def normalize_text(self, text):
-        """Normaliza texto usando NLTK para tokenización y stopwords"""
+        """Normaliza texto usando NLTK para tokenización y stopwords. Elimina espacios finales."""
         if not text:
             return ""
 
@@ -41,7 +41,8 @@ class ImprovedEvaluator:
                   and token.strip()
                   and len(token) > 1]
 
-        return ' '.join(tokens)
+        # Unir sin espacios para longitud exacta sin ruido
+        return ''.join(tokens)
 
     def entities_match(self, sys_entity: Entity, gold_entity: Entity) -> bool:
         """Verifica si dos entidades coinciden según el modo de evaluación."""
@@ -154,7 +155,7 @@ class ImprovedEvaluator:
         return distribution
 
     def calculate_length_ratio(self, gold_entities: List[Entity], sys_entity: Entity) -> float:
-        """Calcula la proporción de longitudes entre entidades gold y sistema."""
+        """Calcula la proporción de longitudes entre entidades gold y sistema, ignorando espacios."""
         gold_total_length = sum(len(self.normalize_text(e.text)) for e in gold_entities)
         sys_length = len(self.normalize_text(sys_entity.text))
 
