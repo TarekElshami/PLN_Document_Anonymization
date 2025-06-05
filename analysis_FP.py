@@ -67,13 +67,37 @@ def procesar_txt(ruta):
     for texto, count in conteo_fp_texto.most_common(15):
         print(f"{texto}: {count}")
 
-    # Gráfica de los tags más frecuentes
+    # Gráfica de los tags más frecuentes (en porcentaje)
     if conteo_tags:
-        etiquetas, valores = zip(*sorted(conteo_tags.items(), key=lambda x: x[1], reverse=True))
+        total = sum(conteo_tags.values())
+        etiquetas, valores_absolutos = zip(*sorted(conteo_tags.items(), key=lambda x: x[1], reverse=True))
+        valores_porcentuales = [v / total * 100 for v in valores_absolutos]
+
         plt.figure(figsize=(12, 6))
-        plt.bar(etiquetas, valores, color='orange')
+        barras = plt.bar(etiquetas, valores_porcentuales, color='orange')
         plt.xticks(rotation=45, ha='right')
         plt.title('Tags con más Falsos Positivos')
+        plt.ylabel('Porcentaje (%)')
+
+        # Añadir valores exactos encima de cada barra
+        for barra, valor in zip(barras, valores_porcentuales):
+            plt.text(barra.get_x() + barra.get_width() / 2, barra.get_height(),
+                     f'{valor:.1f}%', ha='center', va='bottom', fontsize=9)
+
+        plt.tight_layout()
+        plt.show()
+
+
+    # Gráfica del Top 15 FPs más repetidos (valores absolutos)
+    if conteo_fp_texto:
+        top_fp = conteo_fp_texto.most_common(15)
+        etiquetas_fp, valores_fp_abs = zip(*top_fp)
+
+        plt.figure(figsize=(12, 6))
+        barras = plt.bar(etiquetas_fp, valores_fp_abs, color='teal')
+        plt.xticks(rotation=45, ha='right')
+        plt.title('Top 15 Falsos Positivos más Repetidos')
         plt.ylabel('Cantidad')
+
         plt.tight_layout()
         plt.show()
