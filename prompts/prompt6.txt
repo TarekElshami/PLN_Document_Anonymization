@@ -59,7 +59,7 @@ OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la 
 - Cuando haya **varios formatos de una misma entidad** (ej. "3 años" y "tres años"), **anótalos todos** por separado, no ignores duplicados semánticos.
 - Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
 
-🧾 Reglas de anotación (estrictas y actualizadas)
+🧾 Reglas de anotación (estrictas)
 1. No incluir dentro de las etiquetas claves del formulario como "Nombre:", "Edad:", etc..
 2. No incluir espacios ni signos de puntuación dentro de las etiquetas.
 3. Debes incluir todas las apariciones de las entidades aunque se repitan

@@ -45,7 +45,7 @@ IDENTIF_BIOMETRICOS: Huellas, escaneos o cualquier identificador biométrico.
 OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la identificación del paciente y no esté incluida en las categorías anteriores.
 
 
-🧾 Reglas de anotación (estrictas y actualizadas)
+🧾 Reglas de anotación (estrictas)
 
 1. Identificar y anotar **TODAS LAS APARICIONES** de cada entidad. No omitas ninguna, incluso si se repiten textualmente o semánticamente.
 2. No incluir dentro de las etiquetas claves del formulario como "Nombre:", "Edad:", etc..

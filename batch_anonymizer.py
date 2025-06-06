@@ -63,9 +63,11 @@ def load_processed_files():
             return json.load(f)
     return {}
 
+
 def save_processed_files(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2)
+
 
 # --- Procesamiento Principal ---
 def process_all_prompts():
@@ -74,9 +76,17 @@ def process_all_prompts():
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
 
-    prompt_files = ['prompt11.txt']
-    if 'prompt11.txt' not in os.listdir(PROMPTS_DIR):
-        logger.error("Error: 'prompt11.txt' no se encontró en el directorio de prompts.")
+    # Prompts a procesar: prompt8 y prompt11
+    prompt_files = ['prompt8.txt', 'prompt11.txt']
+
+    # Verificar que los archivos de prompt existen
+    missing_prompts = []
+    for prompt_file in prompt_files:
+        if prompt_file not in os.listdir(PROMPTS_DIR):
+            missing_prompts.append(prompt_file)
+
+    if missing_prompts:
+        logger.error(f"Error: Los siguientes archivos de prompt no se encontraron: {missing_prompts}")
         return
 
     for prompt_file in prompt_files:
@@ -114,7 +124,9 @@ def process_all_prompts():
                     state[key] = True
                     save_processed_files(state)
                 else:
-                    logger.error(f"Falló el procesamiento de {input_file} con modelo {model_name} y prompt {prompt_name}")
+                    logger.error(
+                        f"Falló el procesamiento de {input_file} con modelo {model_name} y prompt {prompt_name}")
+
 
 # --- Punto de entrada ---
 if __name__ == "__main__":
