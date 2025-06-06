@@ -142,7 +142,11 @@ DEFAULT_SAFETY_MARGIN = 0.1  # 10% de margen de seguridad
 MODEL_CONTEXT_LIMITS = {
     "llama3.2:1B": 2048,
     "llama3.3": 2048,
-    "phi4": 2048
+    "phi4": 2048,
+    "qwen3:1.7b": 2048,
+    "qwen3:235b": 2048,
+    "deepseek-r1:70b": 2048,
+    "deepseek-r1:1.5b": 2048,
 }
 
 
