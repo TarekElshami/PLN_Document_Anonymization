@@ -76,8 +76,8 @@ def process_all_prompts():
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
 
-    # Prompts a procesar: prompt8 y prompt11
-    prompt_files = ['prompt8.txt', 'prompt11.txt']
+    # Prompts a procesar: prompt11
+    prompt_files = ['prompt11.txt']
 
     # Verificar que los archivos de prompt existen
     missing_prompts = []

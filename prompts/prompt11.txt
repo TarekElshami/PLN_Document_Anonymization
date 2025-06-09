@@ -56,7 +56,7 @@ OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la 
 9. No incluir espacios ni signos de puntuación innecesarios dentro de las etiquetas.
 10. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas, siempre que la entidad sea la misma.
 11. Usar el contexto del documento para distinguir entre entidades del paciente vs. familiares vs. personal sanitario.
-12. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {}`.
+12. **Si no hay entidades sensibles**, devuelve el JSON con `"entidades": {{}}`.
 13. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
 
 ✅ Salida esperada (formato obligatorio)
