@@ -1,3 +1,4 @@
 /.idea
 /test/brat
 /__pycache__
+data/processed
