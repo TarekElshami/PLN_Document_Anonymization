@@ -76,8 +76,11 @@ def process_all_prompts():
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
 
-    # Prompts a procesar: prompt11
-    prompt_files = ['prompt11.txt']
+    # Prompts a procesar: prompt1.txt a prompt11.txt
+    prompt_files = [f'prompt{i}.txt' for i in range(1, 12)]
+
+    # Agregar prompt5.txt para la segunda ejecución con contexto diferente
+    prompt_files.append('prompt5.txt')
 
     # Verificar que los archivos de prompt existen
     missing_prompts = []
@@ -96,18 +99,26 @@ def process_all_prompts():
 
         prompt_name = os.path.splitext(prompt_file)[0]
 
+        # Usar contexto de 8192 para la segunda ejecución de prompt5.txt
+        is_second_prompt5 = prompt_file == 'prompt5.txt' and prompt_files.index(prompt_file) == len(prompt_files) - 1
+        context_size = 8192 if is_second_prompt5 else MODEL_CONTEXT_LIMITS.get('llama3.3')
+
+        # Crear un sufijo para la carpeta de salida en la segunda ejecución de prompt5
+        output_prompt_name = f"{prompt_name}_context8192" if is_second_prompt5 else prompt_name
+
         # Determinar si debe usarse la gramática
         use_grammar = not prompt_file == 'prompt1.txt'
 
         for model_name, model_dir in MODELS.items():
-            output_dir = os.path.join(model_dir, prompt_name)
+            output_dir = os.path.join(model_dir, output_prompt_name)
             os.makedirs(output_dir, exist_ok=True)
 
-            logger.info(f"Procesando con modelo '{model_name}' y prompt '{prompt_name}'")
-            for input_file in tqdm(input_files, desc=f"{model_name}/{prompt_name}"):
+            logger.info(
+                f"Procesando con modelo '{model_name}' y prompt '{output_prompt_name}' con contexto {context_size}")
+            for input_file in tqdm(input_files, desc=f"{model_name}/{output_prompt_name}"):
                 input_path = os.path.join(INPUT_DIR, input_file)
 
-                key = f"{model_name}/{prompt_name}/{input_file}"
+                key = f"{model_name}/{output_prompt_name}/{input_file}"
                 if key in state:
                     continue  # Ya procesado
 
@@ -118,14 +129,14 @@ def process_all_prompts():
                     model_name=model_name,
                     prompt_text=prompt_text,
                     use_grammar=use_grammar,
-                    context_size=MODEL_CONTEXT_LIMITS.get(model_name)
+                    context_size=context_size
                 )
                 if success:
                     state[key] = True
                     save_processed_files(state)
                 else:
                     logger.error(
-                        f"Falló el procesamiento de {input_file} con modelo {model_name} y prompt {prompt_name}")
+                        f"Falló el procesamiento de {input_file} con modelo {model_name} y prompt {output_prompt_name}")
 
 
 # --- Punto de entrada ---

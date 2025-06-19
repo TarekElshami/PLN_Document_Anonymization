@@ -59,6 +59,7 @@ OTROS_SUJETO_ASISTENCIA: Cualquier información adicional que pueda permitir la 
 - La **edad o datos de familiares** (ej. "el hermano tiene seis años") deben anotarse como `FAMILIARES_SUJETO_ASISTENCIA`, **no** como edad del paciente.
 - Reconoce **todas las formas de expresar el sexo** del paciente: M, F, varón, mujer, niño, niña, masculino, femenino…
 - **Nunca etiquetes el nombre de un profesional clínico como paciente**.
+- Debes respetar el patrón de anotado <<<ETIQUETA>>>...<<</ETIQUETA>>>
 
 🧾 Reglas de anotación (estrictas y actualizadas)
 1. No etiquetes campos de formulario (“Nombre:”, “Edad:”, etc.).
