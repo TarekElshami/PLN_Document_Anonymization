@@ -77,10 +77,7 @@ def process_all_prompts():
         input_files = input_files[:MAX_FILES]
 
     # Prompts a procesar: prompt1.txt a prompt11.txt
-    prompt_files = [f'prompt{i}.txt' for i in range(1, 12)]
-
-    # Agregar prompt5.txt para la segunda ejecución con contexto diferente
-    prompt_files.append('prompt5.txt')
+    prompt_files = ['prompt11.txt']
 
     # Verificar que los archivos de prompt existen
     missing_prompts = []
