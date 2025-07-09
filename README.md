@@ -2,7 +2,7 @@
 
 | Nombre/ID                          | Año         | Número de ficheros            | Idioma                                                                    | Tipos de entidades                    | Médico |
 | ---------------------------------- | ----------- | ----------------------------- | ------------------------------------------------------------------------- | ----------------------------------------- | ------ |
-| CoNLL 2002                         | 2002        | Desconocido                   | Español                                                                   | NER                           | No     |
+| CoNLL 2002                         | 2002        | 11758                   | Español                                                                   | NER                           | No     |
 | AnCora                             | 2007        | Desconocido                   | Español                                                                   | NER                    | No     |
 | DEFT Spanish Treebank (LDC2018T01) | 2018        | 174 (114 newswire + 60 forum) | Español                                                                   | NER                           | No     |
 | PANACEA (LAB)                      | 2011        | 1,367,518 frases                   | Español                                                                   | medio ambiente                               | No     |
