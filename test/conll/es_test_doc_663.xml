@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>A finales de julio se producirá el fallo del jurado , compuesto por cinco personas y durante los primeros días de agosto se expondrá una selección de las obras en un local de Jaca , que podría ser dentro de la Ciudadela , anunció .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="176" end="180" text="Jaca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="211" end="220" text="Ciudadela" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Durante la primera sesión se trató sobre la labor que desarrollan las Comisiones Episcopales de Comunicación de Portugal y España , planes pastorales , presencia de la Iglesia en los medios de comunicación social y proyectos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="71" end="109" text="Comisiones Episcopales de Comunicación" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="113" end="121" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="124" end="130" text="España" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="169" end="176" text="Iglesia" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

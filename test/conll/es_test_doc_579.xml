@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En segunda ronda se enfrentará a otra de las cuatro españolas supervivientes de las nueve que comenzaron el torneo madrileño , Gisela Riera , quien desde la fase previa se ha plantado ya en segunda ronda al derrotar hoy sorprendentemente a la eslovaca Karina Habsudova , jugadora 49 del mundo , por 6-3 , 6-7 ( 1-7 ) y 6-4 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="128" end="140" text="Gisela Riera" TYPE="PER" comment=""/>
+    <PER id="T2" start="253" end="269" text="Karina Habsudova" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ejército de Sri Lanka y la guerrilla tamil abrieron un nuevo frente de guerra en la península norteña de Jafna , donde los Tigres de Liberación de la Patria Tamil y las tropas gubernamentales continúan librando sangrientos luchas por el control del lugar .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="25" text="Ejército de Sri Lanka" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="109" end="114" text="Jafna" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="127" end="166" text="Tigres de Liberación de la Patria Tamil" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

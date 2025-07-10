@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La catalana perdió por 7-6 ( 10-8 ) y 7-5 ante Drake , la jugadora 99 del mundo , que tuvo que luchar mucho para deshacerse de Torrens , mientras que Sánchez Lorenzo acusó la altura a la que se disputa el torneo madrileño y perdió por un doble 7-5 ante Sugiyama , tercera cabeza de serie y decimonovena tenista mundial .</TEXT>
+  <TAGS>
+    <PER id="T1" start="48" end="53" text="Drake" TYPE="PER" comment=""/>
+    <PER id="T2" start="128" end="135" text="Torrens" TYPE="PER" comment=""/>
+    <PER id="T3" start="151" end="166" text="Sánchez Lorenzo" TYPE="PER" comment=""/>
+    <PER id="T4" start="254" end="262" text="Sugiyama" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

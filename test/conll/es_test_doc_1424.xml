@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Premio de Periodismo Miguel Delibes nació en 1996 en el marco de la conmemoración del IV centenario de la concesión a Valladolid del título de ciudad y coincidiendo con el congreso &quot; El español. los medios de comunicación &quot; organizado por la APV .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="4" end="39" text="Premio de Periodismo Miguel Delibes" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="122" end="132" text="Valladolid" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="185" end="227" text="&quot; El español. los medios de comunicación &quot;" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="246" end="249" text="APV" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

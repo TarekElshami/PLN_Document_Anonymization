@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>NE9778 , por la siguiente : PRECIOS - CARBURANTES BP SUBE 1 PESETA GASOLEO Y GASOLINAS , EXCEPTO SUPER TRADICIONAL Madrid , 23 may ( EFECOM ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="51" end="53" text="BP" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="116" end="122" text="Madrid" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="134" end="140" text="EFECOM" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La delegación provincial de la Consellería de Educación impidió que una profesora del Instituto de. Carballeira pueda coger la hora diaria de lactancia que le corresponde , según denunció hoy la Confederación Intersindical Galega ( CIG ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="56" text="Consellería de Educación" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="87" end="112" text="Instituto de. Carballeira" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="196" end="230" text="Confederación Intersindical Galega" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="233" end="236" text="CIG" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

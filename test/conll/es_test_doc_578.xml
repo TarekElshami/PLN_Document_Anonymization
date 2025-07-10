@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La barcelonesa , que ocupa el puesto 51 en la clasificación mundial de la WTA y semifinalista esta temporada en Budapest , no dio opción a Raymond en las dos últimas mangas , en las que la superó claramente llegando a dejarla en blanco en la última .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="75" end="78" text="WTA" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="113" end="121" text="Budapest" TYPE="LOC" comment=""/>
+    <PER id="T3" start="140" end="147" text="Raymond" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

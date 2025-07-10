@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La directora del departamento de Márketing de la firma Space Adventures , del estado norteamericano de Virginia , Sarah Dalton , tras subrayar esta posibilidad , manifestó que su empresa ya ofrece viajes &quot; de gravedad cero &quot; , actualmente &quot; accesibles a unos pocos &quot; por sus altos precios , pero que &quot; serán extensibles a la sociedad dentro de pocas décadas cuando , claro está , se economicen los gastos &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="34" end="43" text="Márketing" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="56" end="72" text="Space Adventures" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="104" end="112" text="Virginia" TYPE="LOC" comment=""/>
+    <PER id="T4" start="115" end="127" text="Sarah Dalton" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

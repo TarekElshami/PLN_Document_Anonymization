@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Bajan : Alitalia , Autostrade , Banca Fideuram , Banca Intesa , Banca di Roma , Bipop-Carire , Bnl , Comit , Edison , Enel , Eni , Fiat , Finmeccanica , Generali , Mediaset , Mediobanca , Mediolanum , Monte Paschi , Olivetti , Pirelli , Ras Fraz , Rolo 1474 , Seat Pagine Gialle , San Paolo IMI , Tecnost , Telecom Italia , Tim y Unicredit .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="9" end="17" text="Alitalia" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="20" end="30" text="Autostrade" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="33" end="47" text="Banca Fideuram" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="50" end="62" text="Banca Intesa" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="65" end="78" text="Banca di Roma" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="81" end="93" text="Bipop-Carire" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="96" end="99" text="Bnl" TYPE="ORG" comment=""/>
+    <ORG id="T8" start="102" end="107" text="Comit" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="110" end="116" text="Edison" TYPE="ORG" comment=""/>
+    <ORG id="T10" start="119" end="123" text="Enel" TYPE="ORG" comment=""/>
+    <ORG id="T11" start="126" end="129" text="Eni" TYPE="ORG" comment=""/>
+    <ORG id="T12" start="132" end="136" text="Fiat" TYPE="ORG" comment=""/>
+    <ORG id="T13" start="139" end="151" text="Finmeccanica" TYPE="ORG" comment=""/>
+    <ORG id="T14" start="154" end="162" text="Generali" TYPE="ORG" comment=""/>
+    <ORG id="T15" start="165" end="173" text="Mediaset" TYPE="ORG" comment=""/>
+    <ORG id="T16" start="176" end="186" text="Mediobanca" TYPE="ORG" comment=""/>
+    <ORG id="T17" start="189" end="199" text="Mediolanum" TYPE="ORG" comment=""/>
+    <ORG id="T18" start="202" end="214" text="Monte Paschi" TYPE="ORG" comment=""/>
+    <ORG id="T19" start="217" end="225" text="Olivetti" TYPE="ORG" comment=""/>
+    <ORG id="T20" start="228" end="235" text="Pirelli" TYPE="ORG" comment=""/>
+    <ORG id="T21" start="238" end="246" text="Ras Fraz" TYPE="ORG" comment=""/>
+    <ORG id="T22" start="249" end="258" text="Rolo 1474" TYPE="ORG" comment=""/>
+    <ORG id="T23" start="261" end="279" text="Seat Pagine Gialle" TYPE="ORG" comment=""/>
+    <ORG id="T24" start="282" end="295" text="San Paolo IMI" TYPE="ORG" comment=""/>
+    <ORG id="T25" start="298" end="305" text="Tecnost" TYPE="ORG" comment=""/>
+    <ORG id="T26" start="308" end="322" text="Telecom Italia" TYPE="ORG" comment=""/>
+    <ORG id="T27" start="325" end="328" text="Tim" TYPE="ORG" comment=""/>
+    <ORG id="T28" start="331" end="340" text="Unicredit" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

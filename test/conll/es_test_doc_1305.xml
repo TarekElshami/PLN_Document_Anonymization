@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alemán , junto con el presidente del Banco Interamericano de Desarrollo ( BID ) , Enrique Iglesias y el secretario general de la Organización de Estados Americanos ( OEA ) , César Gaviria , inauguraron hoy en Washington dos días de reuniones del Grupo Consultivo para la Reconstrucción. Transformación de Nicaragua .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Alemán" TYPE="PER" comment=""/>
+    <ORG id="T2" start="38" end="72" text="Banco Interamericano de Desarrollo" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="75" end="78" text="BID" TYPE="ORG" comment=""/>
+    <PER id="T4" start="83" end="99" text="Enrique Iglesias" TYPE="PER" comment=""/>
+    <ORG id="T5" start="130" end="164" text="Organización de Estados Americanos" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="167" end="170" text="OEA" TYPE="ORG" comment=""/>
+    <PER id="T7" start="175" end="188" text="César Gaviria" TYPE="PER" comment=""/>
+    <LOC id="T8" start="210" end="220" text="Washington" TYPE="LOC" comment=""/>
+    <ORG id="T9" start="247" end="315" text="Grupo Consultivo para la Reconstrucción. Transformación de Nicaragua" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

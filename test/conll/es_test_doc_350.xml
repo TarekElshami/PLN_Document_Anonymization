@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De esa forma , los quince miembros del máximo órgano de decisión de la ONU respaldan a Annan , quien ayer, lunes , expresó su deseo de reforzar la Fuerza de Interposición en el Líbano ( UNIFIL ) hasta que cuente con casi 8.000 &quot; cascos azules &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="72" end="75" text="ONU" TYPE="ORG" comment=""/>
+    <PER id="T2" start="88" end="93" text="Annan" TYPE="PER" comment=""/>
+    <ORG id="T3" start="148" end="184" text="Fuerza de Interposición en el Líbano" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="187" end="193" text="UNIFIL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

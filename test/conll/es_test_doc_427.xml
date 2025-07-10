@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las doctoras en Ciencias Químicas y profesoras de la Politécnica de Huesca , Pilar Chamorro y Elena Floris , criticaron hoy la mala política de descentralización realizada por la Universidad de Zaragoza , basada en la repetición de titulaciones .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="17" end="34" text="Ciencias Químicas" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="54" end="75" text="Politécnica de Huesca" TYPE="ORG" comment=""/>
+    <PER id="T3" start="78" end="92" text="Pilar Chamorro" TYPE="PER" comment=""/>
+    <PER id="T4" start="95" end="107" text="Elena Floris" TYPE="PER" comment=""/>
+    <ORG id="T5" start="180" end="203" text="Universidad de Zaragoza" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los alumnos del campus de Huesca , añadió , no perciben los mismos servicios que en la capital aragonesa , ya que las infraestructuras son deficitarias y algunos centros , como la Escuela de Estudios Empresariales , que cuenta con 1.500 alumnos , están en una situación de provisionalidad e inseguridad inadmisible desde hace años .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="27" end="33" text="Huesca" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="181" end="214" text="Escuela de Estudios Empresariales" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

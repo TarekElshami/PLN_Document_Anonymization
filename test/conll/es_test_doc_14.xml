@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por Mario Etchart Sydney ( Australia ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="5" end="18" text="Mario Etchart" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="25" text="Sydney" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="28" end="37" text="Australia" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="51" end="54" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gisela Riera ( ESP ) a Karina Habsudova ( SVK ) por 6-3 , 6-7 ( 1-7 ) y 6-4 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="13" text="Gisela Riera" TYPE="PER" comment=""/>
+    <LOC id="T2" start="16" end="19" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T3" start="24" end="40" text="Karina Habsudova" TYPE="PER" comment=""/>
+    <LOC id="T4" start="43" end="46" text="SVK" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

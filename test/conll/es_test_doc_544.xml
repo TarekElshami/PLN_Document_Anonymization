@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un total de 78 personalidades danesas , entre deportistas , artistas , jueces y altos funcionarios ministeriales , se habían congregado en el palacio de Amalienborg , residencia de la Reina , para agradecer la condecoración que se les otorgó por diversos méritos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="143" end="165" text="palacio de Amalienborg" TYPE="LOC" comment=""/>
+    <PER id="T2" start="185" end="190" text="Reina" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

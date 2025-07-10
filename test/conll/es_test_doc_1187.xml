@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En una operación realizada por la Policía Federal hace tres años para expulsar a los cerca de 10.000 &quot; garimpeiros &quot; que trabajaban en diferentes reservas del norte de Mato Grosso y el sur de Rondonia , las autoridades descubrieron que los mineros habían montado verdaderas ciudades dentro de la reserva de Vale do Guaporé .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="35" end="50" text="Policía Federal" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="169" end="180" text="Mato Grosso" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="193" end="201" text="Rondonia" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="308" end="323" text="Vale do Guaporé" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>SRI LANKA - LUCHAS PROBLEMAS TECNICOS IMPIDEN LA REANUDACION DEL JUICIO DE LOCKERBIE Camp Zeist ( Holanda ) , ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="SRI LANKA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="76" end="85" text="LOCKERBIE" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="86" end="96" text="Camp Zeist" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="99" end="106" text="Holanda" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="113" end="116" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

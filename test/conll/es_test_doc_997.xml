@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ministro de Hacienda ha anunciado hoy que &quot; el Gobierno va a adoptar en las próximas semanas nuevas medidas para seguir liberalizando esta distribución , de forma que tengamos en España un auténtico mercado y que los operadores de éste compitan entre si &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="4" end="24" text="Ministro de Hacienda" TYPE="PER" comment=""/>
+    <ORG id="T2" start="51" end="59" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="183" end="189" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

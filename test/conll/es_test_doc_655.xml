@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ayuntamiento , con el apoyo de la Federación , facilitará el acceso de las personas con discapacidades a los recursos formativos municipales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="16" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="38" end="48" text="Federación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

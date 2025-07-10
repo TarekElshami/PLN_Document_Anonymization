@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los seis púgiles elegidos son Manuel Julio ( 48 kgs . ) , Johnny Pérez ( 51 kgs . ) , Carlos Mesa ( 54 kgs . ) , Juan Urango ( 63.5 kgs . ) , Fulgencio Zúñiga ( 71 kgs . ) y Edison Miranda ( 75 kgs . ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="31" end="43" text="Manuel Julio" TYPE="PER" comment=""/>
+    <PER id="T2" start="59" end="71" text="Johnny Pérez" TYPE="PER" comment=""/>
+    <PER id="T3" start="87" end="98" text="Carlos Mesa" TYPE="PER" comment=""/>
+    <PER id="T4" start="114" end="125" text="Juan Urango" TYPE="PER" comment=""/>
+    <PER id="T5" start="143" end="159" text="Fulgencio Zúñiga" TYPE="PER" comment=""/>
+    <PER id="T6" start="175" end="189" text="Edison Miranda" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

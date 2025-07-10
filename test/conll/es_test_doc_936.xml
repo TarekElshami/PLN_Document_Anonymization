@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>SIERRA LEONA / GOLPE - Freetown - Tropas leales al gobierno de Sierra Leona frustraron un intento de golpe de Estado .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="13" text="SIERRA LEONA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="24" end="32" text="Freetown" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="64" end="76" text="Sierra Leona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Cerca de 160 ciclistas pertenecientes a una veintena de equipos vascos , de otros lugares del Estado y Europa participarán el día 27 de mayo en la Clásica Internacional Alto Nervión , de la élite sub 23 , que ha sido organizada por la Sociedad Deportiva Kalero de Basauri .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="95" end="101" text="Estado" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="104" end="110" text="Europa" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="148" end="182" text="Clásica Internacional Alto Nervión" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="236" end="261" text="Sociedad Deportiva Kalero" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="265" end="272" text="Basauri" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Hacienda , Cristóbal Montoro , ha declarado hoy que &quot; el Gobierno pide que nadie se aproveche de las circunstancias , porque una cosa es que existan razones objetivas para los aumentos de precios y otra que se puedan producir abusos de las petroleras &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="24" text="Hacienda" TYPE="MISC" comment=""/>
+    <PER id="T2" start="27" end="44" text="Cristóbal Montoro" TYPE="PER" comment=""/>
+    <ORG id="T3" start="73" end="81" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

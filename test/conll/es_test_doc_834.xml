@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Guardia Civil ha detenido a cuatro ciudadanos rumanos acusados de extorsionar mediante agresiones físicas a compatriotas que tienen trabajos legales en la Playa de Palma , según informaron hoy fuentes de la Comandancia de Palma .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="17" text="Guardia Civil" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="159" end="173" text="Playa de Palma" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="211" end="222" text="Comandancia" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="226" end="231" text="Palma" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Destacaron las pérdidas de las aseguradoras como Allianz , que bajó un 7 por ciento hasta los 374,26 euros , tras ser rebajada su categoría por analistas del banco Goldman Sachs .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="50" end="57" text="Allianz" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="165" end="178" text="Goldman Sachs" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

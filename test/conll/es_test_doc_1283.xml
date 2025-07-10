@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los asistentes al acto recordaron de manera emotiva a Luis Sánchez Polack , &quot; quien seguro en estos momentos nos estará observando desde arriba , si es que no está jugando a los chinos en la corte celestial &quot; , señaló Blanco .</TEXT>
+  <TAGS>
+    <PER id="T1" start="55" end="74" text="Luis Sánchez Polack" TYPE="PER" comment=""/>
+    <PER id="T2" start="219" end="225" text="Blanco" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

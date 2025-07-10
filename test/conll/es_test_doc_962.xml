@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Langreo ( Asturias ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="8" text="Langreo" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="11" end="19" text="Asturias" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="33" end="36" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

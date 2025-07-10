@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En Africa oriental se han señalado casos de coinfección , entre otros países , en Etiopía ( 74 ) , Kenia ( 15 ) , Yibuti ( 10 ) y Sudán ( 3 ) , mientras que en norte se conocen 20 enfermos en Argelia y cuatro en Marruecos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="4" end="10" text="Africa" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="83" end="90" text="Etiopía" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="100" end="105" text="Kenia" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="115" end="121" text="Yibuti" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="131" end="136" text="Sudán" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="193" end="200" text="Argelia" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="213" end="222" text="Marruecos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

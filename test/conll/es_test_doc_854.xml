@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La marcha entre Astorga y Mérida es una de las actividades que cada año lleva a cabo la Asociación Deportiva de Trabajadores de Firestone , que se creó el pasado año para organizar una marcha similar entre Basauri y Santiago de Compostela .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="24" text="Astorga" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="27" end="33" text="Mérida" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="89" end="138" text="Asociación Deportiva de Trabajadores de Firestone" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="207" end="214" text="Basauri" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="217" end="239" text="Santiago de Compostela" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

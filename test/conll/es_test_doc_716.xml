@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ciudad Real es la provincia en que más docentes se jubilarán - un total de 64 - , seguida de Toledo con 62 , Albacete con 56 , Cuenca con 25 y Guadalajara con 16 .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="12" text="Ciudad Real" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="94" end="100" text="Toledo" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="110" end="118" text="Albacete" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="128" end="134" text="Cuenca" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="144" end="155" text="Guadalajara" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

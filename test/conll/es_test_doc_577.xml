@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La tenista española Angeles Montolio protagonizó hoy la primera sorpresa del Abierto de España Villa de Madrid al eliminar a la cuarta cabeza de serie , la estadounidense Lisa Raymond , por 5-7 , 6-3 y 6-0 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="21" end="37" text="Angeles Montolio" TYPE="PER" comment=""/>
+    <MISC id="T2" start="78" end="111" text="Abierto de España Villa de Madrid" TYPE="MISC" comment=""/>
+    <PER id="T3" start="172" end="184" text="Lisa Raymond" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

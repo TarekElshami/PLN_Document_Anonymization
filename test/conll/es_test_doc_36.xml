@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por otra parte , el presidente provincial de ASAJA animó a la participación en la manifestación convocada el sábado en Madrid en protesta por la subida en un 73 por ciento en un año del precio del gasóleo agrícola , el incremento en el precio del abono y las bajas pensiones que reciben los agricultores .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="46" end="51" text="ASAJA" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="120" end="126" text="Madrid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

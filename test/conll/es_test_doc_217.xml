@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gil y José Araujo , miembro de la plataforma , coincidieron en afirmar que en los últimos incidentes de astilleros de Cádiz &quot; no hubo ningún portavoz detenido &quot; , por lo que consideraron que el procesamiento de Vegara y García &quot; es la forma que tiene Cádiz de reprimir el movimiento asociativo &quot; del Campo de Gibraltar .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="4" text="Gil" TYPE="PER" comment=""/>
+    <PER id="T2" start="7" end="18" text="José Araujo" TYPE="PER" comment=""/>
+    <LOC id="T3" start="119" end="124" text="Cádiz" TYPE="LOC" comment=""/>
+    <PER id="T4" start="212" end="218" text="Vegara" TYPE="PER" comment=""/>
+    <PER id="T5" start="221" end="227" text="García" TYPE="PER" comment=""/>
+    <LOC id="T6" start="252" end="257" text="Cádiz" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="301" end="319" text="Campo de Gibraltar" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

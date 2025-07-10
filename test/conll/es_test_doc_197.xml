@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La secretaria de Estado de Presupuestos , Elvira Rodríguez , reiteró que el objetivo de inflación se mantiene en el dos por ciento tanto para el año 2000 como para el 2001 , dijeron a EFE fuentes del Ministerio de Hacienda .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="18" end="40" text="Estado de Presupuestos" TYPE="MISC" comment=""/>
+    <PER id="T2" start="43" end="59" text="Elvira Rodríguez" TYPE="PER" comment=""/>
+    <ORG id="T3" start="185" end="188" text="EFE" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="201" end="223" text="Ministerio de Hacienda" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

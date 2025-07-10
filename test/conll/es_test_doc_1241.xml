@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En total están afectados o con riesgo de contaminación , 26 municipios de l'Alt Empordá , 17 del Baix Empordá , 10 del Gironés y 5 del Pla de l'Estany .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="75" end="88" text="l'Alt Empordá" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="98" end="110" text="Baix Empordá" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="120" end="127" text="Gironés" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="136" end="151" text="Pla de l'Estany" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

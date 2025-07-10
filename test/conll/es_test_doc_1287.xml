@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Uno de los hoteles es el NH Jousten , de cuatro estrellas , construido en 1928 , que ha sido rehabilitado manteniendo su significado emblemático ; cuenta con 81 habitaciones y cinco suites , y se encuentra ubicado junto a la Bolsa de Comercio y al nuevo Puerto Madero .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="26" end="36" text="NH Jousten" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="226" end="243" text="Bolsa de Comercio" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="255" end="268" text="Puerto Madero" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

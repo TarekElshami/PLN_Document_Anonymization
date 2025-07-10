@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE - Cantabria Barcelona , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="7" end="16" text="Cantabria" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="17" end="26" text="Barcelona" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="38" end="41" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

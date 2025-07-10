@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Luis Mendoza , directivo de la Federación Riojana de Fútbol y del Comité Riojano de Entrenadores , aseguró a Efe que &quot; cualquier actividad que redunde en la enseñanza de los entrenadores de fútbol es positiva para la evolución de este deporte &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="13" text="Luis Mendoza" TYPE="PER" comment=""/>
+    <ORG id="T2" start="32" end="60" text="Federación Riojana de Fútbol" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="67" end="97" text="Comité Riojano de Entrenadores" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="110" end="113" text="Efe" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

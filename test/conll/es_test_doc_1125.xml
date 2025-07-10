@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En declaraciones a los periodistas , Pacheco ha afirmado que es un &quot; auténtico despilfarro &quot; excluir a Menacho de la delegación del Gobierno en Cádiz , que ocupará José Antonio Gómez Periñán .</TEXT>
+  <TAGS>
+    <PER id="T1" start="38" end="45" text="Pacheco" TYPE="PER" comment=""/>
+    <PER id="T2" start="104" end="111" text="Menacho" TYPE="PER" comment=""/>
+    <ORG id="T3" start="133" end="141" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="145" end="150" text="Cádiz" TYPE="LOC" comment=""/>
+    <PER id="T5" start="165" end="191" text="José Antonio Gómez Periñán" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

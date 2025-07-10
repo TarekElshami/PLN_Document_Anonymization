@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Orden de juego de mañana miércoles del Abierto de España , del WTA Tour y dotado con 170.000 dólares en premios , que se disputa en el Club de Campo Villa de Madrid .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="40" end="57" text="Abierto de España" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="64" end="72" text="WTA Tour" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="136" end="165" text="Club de Campo Villa de Madrid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

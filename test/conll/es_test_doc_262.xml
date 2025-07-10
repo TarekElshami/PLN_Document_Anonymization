@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La última conferencia de las jornadas correrá a cargo de Santiago Coca , y llevará el título &quot; El Entrenamiento: una experiencia de vida &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="58" end="71" text="Santiago Coca" TYPE="PER" comment=""/>
+    <MISC id="T2" start="94" end="139" text="&quot; El Entrenamiento: una experiencia de vida &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

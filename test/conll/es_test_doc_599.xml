@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los frescos del Coreto del Pilar de Zaragoza , el primer gran encargo que recibió Goya , fue , según afirmó el matrimonio , la labor de restauración más complicada ya que , &quot; aparte de estar repintada , está situada en el techo , por lo que la postura de trabajo era muy incómoda &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="45" text="Coreto del Pilar de Zaragoza" TYPE="LOC" comment=""/>
+    <PER id="T2" start="83" end="87" text="Goya" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

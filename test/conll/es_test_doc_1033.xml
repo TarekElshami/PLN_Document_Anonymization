@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También le informó de diversas actuaciones sobre vías verdes entre Villanueva , Logrosán y Guadalupe y entre El Casar y Arroyo de Malpartida , y de la posibilidad de firmar un convenio de colaboración para establecer una oficina de Turismo en Granadilla .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="68" end="78" text="Villanueva" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="81" end="89" text="Logrosán" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="92" end="101" text="Guadalupe" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="110" end="118" text="El Casar" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="121" end="141" text="Arroyo de Malpartida" TYPE="LOC" comment=""/>
+    <MISC id="T6" start="233" end="240" text="Turismo" TYPE="MISC" comment=""/>
+    <LOC id="T7" start="244" end="254" text="Granadilla" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

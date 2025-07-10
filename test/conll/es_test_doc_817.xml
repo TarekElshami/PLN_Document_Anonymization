@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Paolo Svoldelli ( ITA - Saeco ) m. t. .16 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Paolo Svoldelli" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="ITA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="25" end="30" text="Saeco" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

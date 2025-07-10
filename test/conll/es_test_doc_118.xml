@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La plantilla espanyolista volverá a trabajar mañana por la mañana en el centro de fútbol del complejo La Manga Club , mientras que las tardes van dirigidas a la recuperación de los futbolistas , según apuntó Carlos Lorenzano , preparador físico del club .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="103" end="116" text="La Manga Club" TYPE="LOC" comment=""/>
+    <PER id="T2" start="209" end="225" text="Carlos Lorenzano" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

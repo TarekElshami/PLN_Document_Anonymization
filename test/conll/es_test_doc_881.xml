@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la acusación , esos albaneses fueron miembros de la guerrilla separatista del Ejército de Liberación de Kosovo ( UCK ) , disuelta y desmilitarizada tras el despliegue de la Fuerza para Kosovo ( KFOR ) en la región en junio pasado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="85" end="117" text="Ejército de Liberación de Kosovo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="120" end="123" text="UCK" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="180" end="198" text="Fuerza para Kosovo" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="201" end="205" text="KFOR" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

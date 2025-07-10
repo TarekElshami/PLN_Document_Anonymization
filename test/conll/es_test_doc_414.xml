@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sobre las 12.30 hora local ( 16.30 GMT ) el promedio Dow Jones de Industriales , el más importante de Wall Street , perdía 36,33 puntos , o un 0,34 por ciento , hasta los 10.506,22 , después de que el lunes cerrase con una pérdida de 84,30 .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="54" end="79" text="Dow Jones de Industriales" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="103" end="114" text="Wall Street" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

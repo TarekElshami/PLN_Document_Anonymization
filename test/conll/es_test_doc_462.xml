@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Me queda un año de contrato en Valladolid , pero si allí no cuentan conmigo me gustaría quedarme en el Elche .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="34" end="44" text="Valladolid" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="106" end="111" text="Elche" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

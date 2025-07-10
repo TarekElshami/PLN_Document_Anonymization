@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la información facilitada hoy por la Jefatura Superior de Policía , A. B. , de 31 años y de nacionalidad argelina , fue detenido después de que los dependientes de una tienda de telefonía móvil comprobaran que la tarjeta de crédito con la que intentaba pagar el teléfono que había elegido - valorado en 135.000 pesetas - estaba anulada por robo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="72" text="Jefatura Superior de Policía" TYPE="ORG" comment=""/>
+    <PER id="T2" start="75" end="80" text="A. B." TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

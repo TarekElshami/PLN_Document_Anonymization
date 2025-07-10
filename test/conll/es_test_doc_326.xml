@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los trabajadores de la empresa Panasonic de Celrá mantienen la jornada de huelga prevista para mañana como protesta contra el despido de 10 compañeros , al no llegar a ningún acuerdo en la reunión mantenida hoy entre el comité de empresa y la dirección en la Delegación de Trabajo de Gerona .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="41" text="Panasonic" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="45" end="50" text="Celrá" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="260" end="291" text="Delegación de Trabajo de Gerona" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

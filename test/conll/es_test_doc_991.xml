@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Subidas semejantes se han registrado en otros países de la UE , como es el caso de Portugal , que ha experimentado incrementos de entre un 10,5. un 13,6 por ciento en sus precios , lo mismo que Italia , Francia y el Reino Unido , país este último que tiene los precios más caros de Europa , pero también uno de los sueldos más altos , por lo que la repercusión en el bolsillo de los usuarios es menor .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="60" end="62" text="UE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="84" end="92" text="Portugal" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="195" end="201" text="Italia" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="204" end="211" text="Francia" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="217" end="228" text="Reino Unido" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="283" end="289" text="Europa" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

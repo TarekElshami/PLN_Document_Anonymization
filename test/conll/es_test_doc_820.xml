@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Serguey Honchar ( UCR - Liquigas ) a 3:48 .19 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Serguey Honchar" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="UCR" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="25" end="33" text="Liquigas" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

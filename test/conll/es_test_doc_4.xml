@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los clientes pueden utilizar el portal &quot; viajesydestinos.com &quot; , que el pasado año recibió ya más de medio millón de visitas de Internautas , para consultar tarifas de billetes de transporte , plazas hoteleras o paquetes turísticos , aunque la venta final corre siempre a cargo de una agencia de viajes , explicó el responsable de Savia Amadeus .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="42" end="61" text="viajesydestinos.com" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="129" end="140" text="Internautas" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="332" end="345" text="Savia Amadeus" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

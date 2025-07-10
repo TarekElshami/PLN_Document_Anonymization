@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La última tenista española eliminada hoy fue la canaria María Luisa Serna , quien no pudo superar a la colombiana Fabiola Zuluaga , que confirmó el buen estado de forma demostrado la semana pasada al alcanzar las semifinales en Roma .</TEXT>
+  <TAGS>
+    <PER id="T1" start="57" end="74" text="María Luisa Serna" TYPE="PER" comment=""/>
+    <PER id="T2" start="115" end="130" text="Fabiola Zuluaga" TYPE="PER" comment=""/>
+    <LOC id="T3" start="229" end="233" text="Roma" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

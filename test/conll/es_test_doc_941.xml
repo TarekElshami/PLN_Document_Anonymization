@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>SERBIA - APATIA - Belgrado - La población serbia juega a las cartas con una baraja en la que los líderes pintan corazones , bastos ...</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="7" text="SERBIA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="19" end="27" text="Belgrado" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

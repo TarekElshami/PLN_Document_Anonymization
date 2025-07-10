@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Elche ( Alicante ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="6" text="Elche" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="9" end="17" text="Alicante" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="31" end="34" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

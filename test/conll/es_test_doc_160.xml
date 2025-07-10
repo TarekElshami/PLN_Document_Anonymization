@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Plan interinstitucional por el empleo se firmará el próximo viernes , entre el Gobierno Vasco , las tres Diputaciones vascas y la asociación de municipios Eudel , un plan en el que la Diputación alavesa ha pedido que se incluya al INEM &quot; como un agente activo &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="4" end="8" text="Plan" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="83" end="97" text="Gobierno Vasco" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="109" end="121" text="Diputaciones" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="159" end="164" text="Eudel" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="188" end="198" text="Diputación" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="235" end="239" text="INEM" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según Marimon , por el hecho de ser miembro de la UE , se permite la posibilidad de aplicar exenciones o reducciones del impuesto aplicable a los hidrocarburos utilizados en el sector agrario y pesquero .</TEXT>
+  <TAGS>
+    <PER id="T1" start="7" end="14" text="Marimon" TYPE="PER" comment=""/>
+    <ORG id="T2" start="51" end="53" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

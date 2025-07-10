@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gil recordó que los procesados &quot; sólo actuaron de portavoces &quot; de las más de 5.000 personas que participaron en las manifestaciones contra la instalación de la interconexión eléctrica entre España y Marruecos en febrero de 1997 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="4" text="Gil" TYPE="PER" comment=""/>
+    <LOC id="T2" start="191" end="197" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="200" end="209" text="Marruecos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

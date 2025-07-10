@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El doctor Philippe Desjeux , especialista de la OMS , explicó a EFE que las ciudades de España donde se han registrado más casos de doble infección son Barcelona , Madrid , Sevilla y Granada .</TEXT>
+  <TAGS>
+    <PER id="T1" start="11" end="27" text="Philippe Desjeux" TYPE="PER" comment=""/>
+    <ORG id="T2" start="49" end="52" text="OMS" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="65" end="68" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="89" end="95" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="153" end="162" text="Barcelona" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="165" end="171" text="Madrid" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="174" end="181" text="Sevilla" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="184" end="191" text="Granada" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

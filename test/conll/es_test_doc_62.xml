@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El árbitro , Florentino Feliciano , concedió hoy a Chile un plazo de catorce meses. nueve días. partir del doce de enero de 2000 , la fecha de aprobación de la sentencia por parte de la OMC , para el cambio de legislación .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="34" text="Florentino Feliciano" TYPE="PER" comment=""/>
+    <ORG id="T2" start="52" end="57" text="Chile" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="187" end="190" text="OMC" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

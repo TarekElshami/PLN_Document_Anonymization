@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>No obstante no todos los precios son tan altos , ya que las estaciones de servicio de los hipermercados Eroski , Capabo , AlCampo , Makro y Continente , venden algunos carburantes hasta nueve pesetas por litro más barato que los fijados por los principales operadores en el mercado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="105" end="111" text="Eroski" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="114" end="120" text="Capabo" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="123" end="130" text="AlCampo" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="133" end="138" text="Makro" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="141" end="151" text="Continente" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Manuel Segura manifestó que confía en que todo el esfuerzo que ha invertido en abrir el museo revierta en beneficio de Daroca y su comarca , fuertemente deprimida económicamente en los últimos años .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Manuel Segura" TYPE="PER" comment=""/>
+    <LOC id="T2" start="120" end="126" text="Daroca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

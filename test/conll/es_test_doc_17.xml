@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El debut de la selección paraguaya en Australia se producirá el viernes 9 de junio en el Sydney Football Stadium , mientras que el segundo partido se jugará el lunes 12 de junio en el estadio Gabba de Brisbane , y el tercero en el nuevo estadio Colonial de Melbourne , el jueves 15 de junio .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="39" end="48" text="Australia" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="90" end="113" text="Sydney Football Stadium" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="185" end="210" text="estadio Gabba de Brisbane" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="238" end="267" text="estadio Colonial de Melbourne" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

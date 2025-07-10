@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EL EJERCITO ISRAELI EVACUO SU CUARTEL GENERAL EN ZONA OCUPADA Beirut ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="63" end="69" text="Beirut" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="72" end="75" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

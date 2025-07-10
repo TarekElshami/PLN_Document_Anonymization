@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La segunda edición de FiraGran , el salón de la gente mayor de Cataluña , que tendrá lugar del. al. de julio en el Moll de la Fusta de Barcelona , espera la visita de más de 200.000 visitantes , según fuentes de la organización .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="23" end="31" text="FiraGran" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="64" end="72" text="Cataluña" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="116" end="145" text="Moll de la Fusta de Barcelona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

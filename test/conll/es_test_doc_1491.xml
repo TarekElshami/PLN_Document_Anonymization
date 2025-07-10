@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Igualmente , Rodríguez Cancho se suma a algunas iniciativas , por las que se solicita que se declaren exentas de tributación por lRPF las rentas procedentes de ayudas públicas al estudio y , también , las becas de investigación que reciben los licenciados universitarios o titulados , que realizan sus estudios de postgrado , doctorado o especialización en la Universidad de Extremadura .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="30" text="Rodríguez Cancho" TYPE="PER" comment=""/>
+    <MISC id="T2" start="130" end="134" text="lRPF" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="361" end="387" text="Universidad de Extremadura" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

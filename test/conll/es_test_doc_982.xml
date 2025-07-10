@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Pista central : A partir de las 12:00 horas ( 10:00 gmt ) : Gala León ( ESP , 8 ) - Rita Grande ( ITA ) Virginia Ruano ( ESP ) - Amy Frazier ( USA , 2 ) Iva Majoli ( CRO ) - Kristina Brandi ( USA , 7 ) No antes de las 17:00 horas ( 15:00 gmt ) : Mary Pierce ( FRA , 1 ) - Germana di Natale ( ITA ) - Pista 2 : A partir de las 12:00 horas ( 10:00 gmt ) : Gisela Riera ( ESP ) - Angeles Montolio ( ESP ) Ai Sugiyama ( JAP , 3 ) - Paola Zuluaga ( COL ) Lisa Raymond ( USA ) / Rennae Stubbs ( AUS ) - Lenka Cenkova ( CZE ) / Katarzyna Straczy ( POL ) Gala León / María Antonia Sánchez Lorenzo ( ESP ) - Virginia Ruano ( ESP ) / Paola Suárez ( ARG ) - Pista 3 : A partir de las 12:00 horas ( 10:00 gmt ) : Nicole Pratt ( AUS ) - Paola Suárez ( ARG , 6 ) Maureen Drake ( CAN ) - Assa Carlsson ( SWE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="61" end="70" text="Gala León" TYPE="PER" comment=""/>
+    <LOC id="T2" start="73" end="76" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T3" start="85" end="96" text="Rita Grande" TYPE="PER" comment=""/>
+    <LOC id="T4" start="99" end="102" text="ITA" TYPE="LOC" comment=""/>
+    <PER id="T5" start="105" end="119" text="Virginia Ruano" TYPE="PER" comment=""/>
+    <LOC id="T6" start="122" end="125" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T7" start="130" end="141" text="Amy Frazier" TYPE="PER" comment=""/>
+    <LOC id="T8" start="144" end="147" text="USA" TYPE="LOC" comment=""/>
+    <PER id="T9" start="154" end="164" text="Iva Majoli" TYPE="PER" comment=""/>
+    <LOC id="T10" start="167" end="170" text="CRO" TYPE="LOC" comment=""/>
+    <PER id="T11" start="175" end="190" text="Kristina Brandi" TYPE="PER" comment=""/>
+    <LOC id="T12" start="193" end="196" text="USA" TYPE="LOC" comment=""/>
+    <PER id="T13" start="247" end="258" text="Mary Pierce" TYPE="PER" comment=""/>
+    <LOC id="T14" start="261" end="264" text="FRA" TYPE="LOC" comment=""/>
+    <PER id="T15" start="273" end="290" text="Germana di Natale" TYPE="PER" comment=""/>
+    <LOC id="T16" start="293" end="296" text="ITA" TYPE="LOC" comment=""/>
+    <PER id="T17" start="355" end="367" text="Gisela Riera" TYPE="PER" comment=""/>
+    <LOC id="T18" start="370" end="373" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T19" start="378" end="394" text="Angeles Montolio" TYPE="PER" comment=""/>
+    <LOC id="T20" start="397" end="400" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T21" start="403" end="414" text="Ai Sugiyama" TYPE="PER" comment=""/>
+    <LOC id="T22" start="417" end="420" text="JAP" TYPE="LOC" comment=""/>
+    <PER id="T23" start="429" end="442" text="Paola Zuluaga" TYPE="PER" comment=""/>
+    <LOC id="T24" start="445" end="448" text="COL" TYPE="LOC" comment=""/>
+    <PER id="T25" start="451" end="463" text="Lisa Raymond" TYPE="PER" comment=""/>
+    <LOC id="T26" start="466" end="469" text="USA" TYPE="LOC" comment=""/>
+    <PER id="T27" start="474" end="487" text="Rennae Stubbs" TYPE="PER" comment=""/>
+    <LOC id="T28" start="490" end="493" text="AUS" TYPE="LOC" comment=""/>
+    <PER id="T29" start="498" end="511" text="Lenka Cenkova" TYPE="PER" comment=""/>
+    <LOC id="T30" start="514" end="517" text="CZE" TYPE="LOC" comment=""/>
+    <PER id="T31" start="522" end="539" text="Katarzyna Straczy" TYPE="PER" comment=""/>
+    <LOC id="T32" start="542" end="545" text="POL" TYPE="LOC" comment=""/>
+    <PER id="T33" start="548" end="557" text="Gala León" TYPE="PER" comment=""/>
+    <PER id="T34" start="560" end="589" text="María Antonia Sánchez Lorenzo" TYPE="PER" comment=""/>
+    <LOC id="T35" start="592" end="595" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T36" start="600" end="614" text="Virginia Ruano" TYPE="PER" comment=""/>
+    <LOC id="T37" start="617" end="620" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T38" start="625" end="637" text="Paola Suárez" TYPE="PER" comment=""/>
+    <LOC id="T39" start="640" end="643" text="ARG" TYPE="LOC" comment=""/>
+    <PER id="T40" start="702" end="714" text="Nicole Pratt" TYPE="PER" comment=""/>
+    <ORG id="T41" start="717" end="720" text="AUS" TYPE="ORG" comment=""/>
+    <PER id="T42" start="725" end="737" text="Paola Suárez" TYPE="PER" comment=""/>
+    <ORG id="T43" start="740" end="743" text="ARG" TYPE="ORG" comment=""/>
+    <PER id="T44" start="750" end="763" text="Maureen Drake" TYPE="PER" comment=""/>
+    <LOC id="T45" start="766" end="769" text="CAN" TYPE="LOC" comment=""/>
+    <PER id="T46" start="774" end="787" text="Assa Carlsson" TYPE="PER" comment=""/>
+    <LOC id="T47" start="790" end="793" text="SWE" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

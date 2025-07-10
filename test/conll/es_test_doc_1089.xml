@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La nota predominante entre los valores ligados a las nuevas tecnologías fue la desigualdad y cerraron con pérdidas Web Tech ( -7,40% ) , Finmatica ( -6,07% ) y San Faustino ( -2,75% ) , mientras que subieron Tiscali ( +2,08% ) y e. Biscom ( +1,86% ) También realizaron una buena actuación Acea ( +4,48% ) , la Empresa Municipal romana de la Energía. el Ambiente y Hdp ( +4,21% ) , Holding de Participaciones Industriales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="116" end="124" text="Web Tech" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="138" end="147" text="Finmatica" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="161" end="173" text="San Faustino" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="209" end="216" text="Tiscali" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="233" end="239" text="Biscom" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="290" end="294" text="Acea" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="311" end="362" text="Empresa Municipal romana de la Energía. el Ambiente" TYPE="ORG" comment=""/>
+    <ORG id="T8" start="365" end="368" text="Hdp" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="382" end="421" text="Holding de Participaciones Industriales" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

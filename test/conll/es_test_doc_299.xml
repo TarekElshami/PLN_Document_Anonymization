@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>CCOO denunció hoy al Ayuntamiento por adjudicar el servicio de ayuda a domicilio a dos empresas , el Grupo Eulen y ASISPA , que &quot; están provocando el deterioro de este servicio social &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="5" text="CCOO" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="22" end="34" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="102" end="113" text="Grupo Eulen" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="116" end="122" text="ASISPA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

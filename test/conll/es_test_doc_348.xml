@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; El Consejo de Seguridad suscribe plenamente los requisitos previstos por el secretario general para confirmar el cumplimiento , por todas las partes implicadas , de la resolución 425 de la ONU &quot; , asegura el texto de la declaración presidencial .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="6" end="26" text="Consejo de Seguridad" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="171" end="185" text="resolución 425" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="192" end="195" text="ONU" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

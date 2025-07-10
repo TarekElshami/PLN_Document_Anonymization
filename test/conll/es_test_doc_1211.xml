@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según Dalton , el siguiente paso , que podría darse en el plazo de tres. cinco años , será el viaje suborbital - a unos cien kilómetros de la Tierra - , cuya duración será de 30. 90 minutos y costará cerca de 98.000 dólares , más de dieciséis millones de pesetas al cambio actual .</TEXT>
+  <TAGS>
+    <PER id="T1" start="7" end="13" text="Dalton" TYPE="PER" comment=""/>
+    <MISC id="T2" start="143" end="149" text="Tierra" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

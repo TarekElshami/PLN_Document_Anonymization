@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>García Aranda presentó a la prensa el sistema Amadeus , que utilizan la mayor parte de las agencias de viajes españolas para reservar billetes de avión o tren , así como plazas de hotel , y que ahora pueden utilizar también los usuarios finales a través de Internet .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="García Aranda" TYPE="PER" comment=""/>
+    <MISC id="T2" start="47" end="54" text="Amadeus" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="258" end="266" text="Internet" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

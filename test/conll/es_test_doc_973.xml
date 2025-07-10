@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ibarrondo , que compareció en rueda de prensa junto al juntero Mikel Mintegi , recordó que el 21 de febrero la Cámara alavesa aprobó una moción en la que uno de los puntos , que obtuvo el respaldo de todas las formaciones políticas salvo el del PP , denunciaba la prórroga hasta el 2011 , y solicitaba recurrir dicha concesión .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="10" text="Ibarrondo" TYPE="PER" comment=""/>
+    <PER id="T2" start="64" end="77" text="Mikel Mintegi" TYPE="PER" comment=""/>
+    <ORG id="T3" start="112" end="118" text="Cámara" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="246" end="248" text="PP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

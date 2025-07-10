@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El plan de prevención y corrección de la contaminación por nitratos en Catalunya ha sido presentado hoy en Girona y contempla la construcción de 4 plantas de tratamiento de purines y de buscar soluciones alternativas a los municipios gerundenses afectados .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="72" end="81" text="Catalunya" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="108" end="114" text="Girona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

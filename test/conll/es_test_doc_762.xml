@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El vicepresidente primero del Ejecutivo autonómico , José Manuel Fernández Santiago , se refirió así , en declaraciones a Efe , a la denuncia del PSOE de que la Junta les impide acceder a documentación sobre 800 expedientes de gasto corriente , para lo que mañana se personarán en la Consejería de Economía para ver los informes que han solicitado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="31" end="40" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <PER id="T2" start="54" end="84" text="José Manuel Fernández Santiago" TYPE="PER" comment=""/>
+    <ORG id="T3" start="123" end="126" text="Efe" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="147" end="151" text="PSOE" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="162" end="167" text="Junta" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="285" end="307" text="Consejería de Economía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

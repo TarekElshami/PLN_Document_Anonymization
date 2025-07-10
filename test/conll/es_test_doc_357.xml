@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , el Consejo &quot; acoge con beneplácito la decisión del secretario general de enviar , y de inmediato , a la región a su enviado especial para velar para lograr el compromiso de las partes interesadas de cooperar plenamente con las Naciones Unidas &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="13" end="20" text="Consejo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="237" end="252" text="Naciones Unidas" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

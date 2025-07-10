@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La llegada al poder de Racan y del presidente croata , Stipe Mesic , tras una década de Gobierno nacionalista del difunto Franjo Tudjman , ha mejorado sustancialmente las relaciones de Croacia con Occidente .</TEXT>
+  <TAGS>
+    <PER id="T1" start="24" end="29" text="Racan" TYPE="PER" comment=""/>
+    <PER id="T2" start="56" end="67" text="Stipe Mesic" TYPE="PER" comment=""/>
+    <ORG id="T3" start="89" end="97" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T4" start="123" end="137" text="Franjo Tudjman" TYPE="PER" comment=""/>
+    <ORG id="T5" start="186" end="193" text="Croacia" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="198" end="207" text="Occidente" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

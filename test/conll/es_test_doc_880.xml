@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ayer , 143 albaneses de la ciudad de Djakovica ( oeste de Kosovo ) fueron condenados por el juzgado serbio de Nis a penas de entre 7 y 13 años de cárcel , bajo las acusaciones de terrorismo y atentados contra la Policía y el Ejército yugoslavos durante los bombardeos de la OTAN contra Yugoslavia , en la primavera de 1999 .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="38" end="47" text="Djakovica" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="59" end="65" text="Kosovo" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="111" end="114" text="Nis" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="213" end="220" text="Policía" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="226" end="234" text="Ejército" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="275" end="279" text="OTAN" TYPE="ORG" comment=""/>
+    <LOC id="T7" start="287" end="297" text="Yugoslavia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

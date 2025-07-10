@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En su primera edición , el premio fue para Fernando Lázaro Carreter , ex director de la Real Academia Española , por un artículo de la serie &quot; El dardo en la palabra &quot; publicado en el diario ABC .</TEXT>
+  <TAGS>
+    <PER id="T1" start="44" end="68" text="Fernando Lázaro Carreter" TYPE="PER" comment=""/>
+    <ORG id="T2" start="89" end="111" text="Real Academia Española" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="142" end="168" text="&quot; El dardo en la palabra &quot;" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="192" end="195" text="ABC" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

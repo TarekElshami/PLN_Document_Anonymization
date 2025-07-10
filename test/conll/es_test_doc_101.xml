@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Serrat , que dijo que su nuevo disco se llamará &quot; Tarrés Serrat &quot; anunció que mañana grabará en Buenos Aires la música del tango &quot; El último organito &quot; con Mederos y Suárez Paz .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Serrat" TYPE="PER" comment=""/>
+    <MISC id="T2" start="49" end="66" text="&quot; Tarrés Serrat &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="97" end="109" text="Buenos Aires" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="130" end="152" text="&quot; El último organito &quot;" TYPE="MISC" comment=""/>
+    <PER id="T5" start="157" end="164" text="Mederos" TYPE="PER" comment=""/>
+    <PER id="T6" start="167" end="177" text="Suárez Paz" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

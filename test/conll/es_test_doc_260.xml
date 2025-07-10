@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>A las 16.00 . e , en el Hotel Ciudad de Logroño , estos dos entrenadores moderarán una charla-coloquio con los asistentes y , a continuación , Carlos Alvarez pronunciará una conferencia sobre ' Cantidad .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="25" end="48" text="Hotel Ciudad de Logroño" TYPE="LOC" comment=""/>
+    <PER id="T2" start="144" end="158" text="Carlos Alvarez" TYPE="PER" comment=""/>
+    <MISC id="T3" start="193" end="205" text="' Cantidad ." TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

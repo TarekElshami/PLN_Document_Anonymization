@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La dirección y los trabajadores de Eurovestir , empresa que cuenta con centros de producción en Olite y Caparroso , alcanzaron hoy un acuerdo para &quot; liquidar ordenadamente la empresa &quot; , un proceso que se producirá de forma gradual y que tiene entre sus principales objetivos la futura recuperación del máximo número de puestos de trabajo de las dos factorías .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="36" end="46" text="Eurovestir" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="97" end="102" text="Olite" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="105" end="114" text="Caparroso" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

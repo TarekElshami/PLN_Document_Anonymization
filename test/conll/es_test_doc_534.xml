@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El sindicato califica las palabras de Núria de Gispert de provocación y falta de consideración hacia el colectivo de profesionales de los centros de la Dirección General de Atención. la Infancia y denuncia la carencia de equipamientos y recursos humanos en los centros catalanes .</TEXT>
+  <TAGS>
+    <PER id="T1" start="39" end="55" text="Núria de Gispert" TYPE="PER" comment=""/>
+    <ORG id="T2" start="153" end="195" text="Dirección General de Atención. la Infancia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

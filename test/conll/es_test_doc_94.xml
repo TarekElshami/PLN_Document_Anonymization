@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El paseo irá hasta el complejo de ocio Naturávila , propiedad de la Diputación , y la inversión ascenderá a 450 millones de pesetas .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="40" end="50" text="Naturávila" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="69" end="79" text="Diputación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

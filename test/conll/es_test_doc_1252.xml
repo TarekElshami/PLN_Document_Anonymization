@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En este sentido , en la presentación de este Plan de actuación , el conseller de Medio Ambiente , Felip Puig , ha querido dejar claro que Catalunya es la única Comunidad Autónoma de todo el Estado que tiene en funcionamiento un Plan de Actuación y que cumple todo los requisitos de la directiva Europea sobre la gestión del agua .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="46" end="50" text="Plan" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="82" end="96" text="Medio Ambiente" TYPE="MISC" comment=""/>
+    <PER id="T3" start="99" end="109" text="Felip Puig" TYPE="PER" comment=""/>
+    <LOC id="T4" start="139" end="148" text="Catalunya" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="161" end="179" text="Comunidad Autónoma" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="191" end="197" text="Estado" TYPE="ORG" comment=""/>
+    <MISC id="T7" start="229" end="246" text="Plan de Actuación" TYPE="MISC" comment=""/>
+    <MISC id="T8" start="296" end="303" text="Europea" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

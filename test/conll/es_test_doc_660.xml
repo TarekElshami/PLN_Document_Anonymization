@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Marcén destacó el interés de &quot; Sancho Ramírez &quot; por la catalogación de las bordas de Navasa , núcleo rural de Jaca , así como el &quot; Manifiesto por el respeto. la arquitectura popular de la montaña &quot; que han hecho público este mes y que han trasladado a más de cuarenta asociaciones , así como al Gobierno de Aragón y la edición de 1.000 pegatinas en las que se reivindica su defensa .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Marcén" TYPE="PER" comment=""/>
+    <ORG id="T2" start="30" end="48" text="&quot; Sancho Ramírez &quot;" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="86" end="92" text="Navasa" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="111" end="115" text="Jaca" TYPE="LOC" comment=""/>
+    <MISC id="T5" start="130" end="198" text="&quot; Manifiesto por el respeto. la arquitectura popular de la montaña &quot;" TYPE="MISC" comment=""/>
+    <ORG id="T6" start="296" end="314" text="Gobierno de Aragón" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El consejero de Agricultura. Medio Ambiente , Alejandro Alonso , anunció hoy que Alcázar de San Juan ( Ciudad Real ) acogerá una cata de vinos comentada en el Día de la Región .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="17" end="44" text="Agricultura. Medio Ambiente" TYPE="MISC" comment=""/>
+    <PER id="T2" start="47" end="63" text="Alejandro Alonso" TYPE="PER" comment=""/>
+    <LOC id="T3" start="82" end="101" text="Alcázar de San Juan" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="104" end="115" text="Ciudad Real" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ayuntamiento de Amorebieta invertirá 80 millones en un campo de fútbol de hierba natural en el barrio de Larrea , que permita impulsar la práctica del fútbol base en el municipio vizcaíno , anunció hoy la alcaldesa , Begoña Azarloza .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="30" text="Ayuntamiento de Amorebieta" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="99" end="115" text="barrio de Larrea" TYPE="LOC" comment=""/>
+    <PER id="T3" start="221" end="236" text="Begoña Azarloza" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

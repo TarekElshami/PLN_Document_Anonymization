@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La unión temporal de empresas que utiliza las carreteras provinciales de Atanzón y Aldeanueva para ejecutar las obras del AVE comenzó hoy a depositar los avales de la fianza que la Diputación Provincial le exige para garantizar el arreglo posterior de estas vías .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="74" end="81" text="Atanzón" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="84" end="94" text="Aldeanueva" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="123" end="126" text="AVE" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="182" end="203" text="Diputación Provincial" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

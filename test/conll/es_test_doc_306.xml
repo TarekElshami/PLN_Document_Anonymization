@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Así lo manifestó hoy , en declaraciones a Efe , el presidente del Comité de Empresa de Antibióticos de León , José Antonio Carro , quien informó de que , de los 635 trabajadores censados en la empresa en León , votaron 545 , el 85,8 por ciento de la plantilla .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="43" end="46" text="Efe" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="67" end="108" text="Comité de Empresa de Antibióticos de León" TYPE="ORG" comment=""/>
+    <PER id="T3" start="111" end="129" text="José Antonio Carro" TYPE="PER" comment=""/>
+    <LOC id="T4" start="205" end="209" text="León" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

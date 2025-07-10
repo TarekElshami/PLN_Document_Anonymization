@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Directivos de los equipos de baloncesto Básquet Inca y Menorca Básquet negociaron hoy con el presidente de Sa Nostra , Miquel Capellá , la posibilidad de que esta entidad aporte fondos que garanticen la viabilidad de los proyectos de ambos clubes en la LEB ( Liga Española de Baloncesto ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="41" end="53" text="Básquet Inca" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="56" end="71" text="Menorca Básquet" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="108" end="117" text="Sa Nostra" TYPE="ORG" comment=""/>
+    <PER id="T4" start="120" end="134" text="Miquel Capellá" TYPE="PER" comment=""/>
+    <MISC id="T5" start="254" end="257" text="LEB" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="260" end="287" text="Liga Española de Baloncesto" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

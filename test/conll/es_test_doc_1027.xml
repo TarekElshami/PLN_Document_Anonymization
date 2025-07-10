@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El consejero extremeño de Obras Públicas , Eduardo Alvarado , dijo hoy que el ministro de Medio Ambiente , Jaume Matas , se ha comprometido a desbloquear el &quot; desencuentro &quot; entre la Junta de Extremadura y la Confederación Hidrográfica del Tajo en temas de depuración .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="27" end="41" text="Obras Públicas" TYPE="MISC" comment=""/>
+    <PER id="T2" start="44" end="60" text="Eduardo Alvarado" TYPE="PER" comment=""/>
+    <MISC id="T3" start="91" end="105" text="Medio Ambiente" TYPE="MISC" comment=""/>
+    <PER id="T4" start="108" end="119" text="Jaume Matas" TYPE="PER" comment=""/>
+    <ORG id="T5" start="184" end="204" text="Junta de Extremadura" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="210" end="245" text="Confederación Hidrográfica del Tajo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Menacho se incorporará a su puesto como profesor de instituto en su localidad natal de Olvera y anunció que en sus ratos libres seguirá trabajando desde la presidencia del partido con el objeto de &quot; luchar por estas ideas &quot; , por lo que empezará visitando todas las agrupaciones locales del PSOE en la provincia , algo - precisó - a lo que &quot; me voy dedicar de lleno &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Menacho" TYPE="PER" comment=""/>
+    <LOC id="T2" start="88" end="94" text="Olvera" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="292" end="296" text="PSOE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

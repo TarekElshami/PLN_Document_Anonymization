@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El programa , estructurado en las áreas de trabajo &quot; Formación Profesional. Módulos de garantía social &quot; , &quot; Centro de Día &quot; y &quot; Observatorio &quot; , pretende ser la alternativa educativa y de inserción sociolaboral para jóvenes del colectivo de adolescentes inmigrantes de vida independiente de entre 16 y 18 años , que han llegado a España sin la compañía de sus familias .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="52" end="105" text="&quot; Formación Profesional. Módulos de garantía social &quot;" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="108" end="125" text="&quot; Centro de Día &quot;" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="128" end="144" text="&quot; Observatorio &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="332" end="338" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

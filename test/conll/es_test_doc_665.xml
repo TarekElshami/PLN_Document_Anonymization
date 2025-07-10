@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los patrocinadores de este certamen son el Departamento de Cultura. Turismo del Gobierno de Aragón y la candidatura Jaca 2010 , cuyo director , Manuel Fonseca , aseguró que el proyecto &quot; pretende hacer un programa cultural ligado a Jaca porque en el mismo tiene que haber un capítulo dedicado a cuestiones culturales &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="99" text="Departamento de Cultura. Turismo del Gobierno de Aragón" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="117" end="126" text="Jaca 2010" TYPE="MISC" comment=""/>
+    <PER id="T3" start="145" end="159" text="Manuel Fonseca" TYPE="PER" comment=""/>
+    <LOC id="T4" start="233" end="237" text="Jaca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

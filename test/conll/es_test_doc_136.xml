@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Días después de su detención , se recuperó una cuarta tarjeta - también falsificada - que encontraron los operarios de la empresa de limpieza de Granada , Inagra , al vaciar el contenedor de vidrio al que A. B. arrojó el bolso cuando fue localizado por los agentes .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="146" end="153" text="Granada" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="156" end="162" text="Inagra" TYPE="ORG" comment=""/>
+    <PER id="T3" start="206" end="211" text="A. B." TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

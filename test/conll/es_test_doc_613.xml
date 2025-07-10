@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Valentín señaló a Efe que en su petición ha incluido los datos por comunidades autónomas , por provincias , por hospitales y por patologías , así como su desglose por tramos temporales .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Valentín" TYPE="PER" comment=""/>
+    <ORG id="T2" start="19" end="22" text="Efe" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

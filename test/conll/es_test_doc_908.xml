@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte Raimundo González Carballo , concejal de Tráfico , minimizó el altercado e indicó que &quot; para el Gobierno municipal del BNG no hay distinciones entre funcionarios y el resto de los ciudadanos y , por tanto , si la gerente aparcó en zona prohibida , está justificada la denuncia de la Policía Local y la actuación de la grúa &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="40" text="Raimundo González Carballo" TYPE="PER" comment=""/>
+    <MISC id="T2" start="55" end="62" text="Tráfico" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="110" end="118" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="133" end="136" text="BNG" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="297" end="310" text="Policía Local" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

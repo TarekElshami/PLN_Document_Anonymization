@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las otras dos grandes , Cepsa y BP , así como el resto de las petroleras que operan en España , &quot; vamos a remolque de las decisiones que toma el líder del mercado &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="25" end="30" text="Cepsa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="33" end="35" text="BP" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="88" end="94" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

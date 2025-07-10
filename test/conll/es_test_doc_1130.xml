@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ERC ha esgrimido hoy un informe de un instituto adscrito a la Generalitat que señala que en Cataluña el coste de la vida es un 6% más caro que la media estatal para reiterar la demanda de que el gobierno catalán establezca una ayuda anual para las pensiones no contributivas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="ERC" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="63" end="74" text="Generalitat" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="93" end="101" text="Cataluña" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

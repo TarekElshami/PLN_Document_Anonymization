@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Agricultura, Pesca. Alimentación , Miguel Arias Cañete , figura entre los asistentes que esta previsto acudan mañana al Teatro Real a la entrega de este galardon , organizado por el Consejo Regulador Vinos de Madrid con el fin &quot; de fomentar la competitividad entre las bodegas acogidas a la Denominación &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="48" text="Agricultura, Pesca. Alimentación" TYPE="MISC" comment=""/>
+    <PER id="T2" start="51" end="70" text="Miguel Arias Cañete" TYPE="PER" comment=""/>
+    <LOC id="T3" start="136" end="147" text="Teatro Real" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="198" end="231" text="Consejo Regulador Vinos de Madrid" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="307" end="319" text="Denominación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

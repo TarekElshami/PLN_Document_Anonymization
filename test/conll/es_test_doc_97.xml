@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El cantautor español Joan Manuel Serrat ha iniciado en Uruguay la grabación de varios temas musicales , que proseguirá en Argentina , para su próximo disco , que se llamará &quot; Tarrés Serrat &quot; y será editado en octubre .</TEXT>
+  <TAGS>
+    <PER id="T1" start="22" end="40" text="Joan Manuel Serrat" TYPE="PER" comment=""/>
+    <LOC id="T2" start="56" end="63" text="Uruguay" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="123" end="132" text="Argentina" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="174" end="191" text="&quot; Tarrés Serrat &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En esta presentación turística participan la Asociación Turismo de Lisboa , la Junta de Turismo de Costa de Estoril , la Cámara Municipal de Sintra , la Cámara Municipal de Mafra y las regiones de Turismo de Costa Azul , Leiria/Fatima , del Oeste , Ribatejo y Templarios .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="46" end="74" text="Asociación Turismo de Lisboa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="80" end="116" text="Junta de Turismo de Costa de Estoril" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="122" end="148" text="Cámara Municipal de Sintra" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="154" end="179" text="Cámara Municipal de Mafra" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="198" end="219" text="Turismo de Costa Azul" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="222" end="235" text="Leiria/Fatima" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="242" end="247" text="Oeste" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="250" end="258" text="Ribatejo" TYPE="LOC" comment=""/>
+    <LOC id="T9" start="261" end="271" text="Templarios" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

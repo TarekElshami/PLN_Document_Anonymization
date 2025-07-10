@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De acuerdo con la Consultoría Interdisciplinaria en Desarrollo ( CID/Gallup ) , va en picado la popularidad de Moscoso , que ha cumplido los primeros nueve meses en el poder de su mandato de cinco años , tras haber descendido 28 puntos porcentuales de enero. mayo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="63" text="Consultoría Interdisciplinaria en Desarrollo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="66" end="76" text="CID/Gallup" TYPE="ORG" comment=""/>
+    <PER id="T3" start="112" end="119" text="Moscoso" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

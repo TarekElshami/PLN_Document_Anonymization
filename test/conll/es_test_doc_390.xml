@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La asamblea de accionistas está prevista para el próximo 26 de junio en Mendavia ( Navarra ) en primera convocatoria y un día después en segunda convocatoria y en ella , el consejo de administración también someterá la aprobación de las cuentas anuales de la bodega .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="73" end="81" text="Mendavia" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="84" end="91" text="Navarra" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

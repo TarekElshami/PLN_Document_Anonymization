@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El delantero brasileño Romario de Souza pretende intensificar el proceso de recuperación de la lesión que sufrió en el tobillo izquierdo para que el seleccionador Wanderley Luxemburgo le convoque para el partido ante Perú , el próximo día 4 de junio en Lima por las eliminatorias mundialistas .</TEXT>
+  <TAGS>
+    <PER id="T1" start="24" end="40" text="Romario de Souza" TYPE="PER" comment=""/>
+    <PER id="T2" start="164" end="184" text="Wanderley Luxemburgo" TYPE="PER" comment=""/>
+    <ORG id="T3" start="218" end="222" text="Perú" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="254" end="258" text="Lima" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

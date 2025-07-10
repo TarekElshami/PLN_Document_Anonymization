@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El trabajo de Teresa Grasa y Carlos Barboza , una pareja formada en la Escuela de Bellas Artes de Madrid y en el Instituto de Restauración de Roma , comenzó en el año 1979 cuando el director del Instituto Central de Restauración de Madrid , Gonzalo Perales , les encarga restaurar las pinturas murales de Goya en la Cartuja zaragozana de Aula Dei .</TEXT>
+  <TAGS>
+    <PER id="T1" start="15" end="27" text="Teresa Grasa" TYPE="PER" comment=""/>
+    <PER id="T2" start="30" end="44" text="Carlos Barboza" TYPE="PER" comment=""/>
+    <ORG id="T3" start="72" end="105" text="Escuela de Bellas Artes de Madrid" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="114" end="147" text="Instituto de Restauración de Roma" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="196" end="239" text="Instituto Central de Restauración de Madrid" TYPE="ORG" comment=""/>
+    <PER id="T6" start="242" end="257" text="Gonzalo Perales" TYPE="PER" comment=""/>
+    <LOC id="T7" start="306" end="310" text="Goya" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="317" end="324" text="Cartuja" TYPE="LOC" comment=""/>
+    <LOC id="T9" start="339" end="347" text="Aula Dei" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

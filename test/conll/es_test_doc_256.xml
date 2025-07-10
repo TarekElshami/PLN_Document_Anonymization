@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los entrenadores de fútbol Xavier Azkargorta y el ex guardameta José Manuel Ochotorena serán dos de los ponentes de las III Jornadas Técnicas de Actualización para entrenadores , organizadas por el comité riojano de entrenadores de fútbol , que se celebrarán en Logroño el próximo viernes. sábado .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="28" end="45" text="Xavier Azkargorta" TYPE="MISC" comment=""/>
+    <PER id="T2" start="65" end="87" text="José Manuel Ochotorena" TYPE="PER" comment=""/>
+    <MISC id="T3" start="121" end="159" text="III Jornadas Técnicas de Actualización" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="263" end="270" text="Logroño" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

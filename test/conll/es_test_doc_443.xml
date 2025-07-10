@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Barcelona también contará en los partidos en los que se decidirá el título con el estadounidense Derrick Alston , aquejado también de problemas en la espalda durante la serie ante el Tau .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="13" text="Barcelona" TYPE="ORG" comment=""/>
+    <PER id="T2" start="101" end="115" text="Derrick Alston" TYPE="PER" comment=""/>
+    <ORG id="T3" start="187" end="190" text="Tau" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

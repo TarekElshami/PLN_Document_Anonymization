@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El siguiente paso , a un mínimo de diez años vista , apuntó Dalton , será la construcción de hoteles espaciales , iniciativa en la que ya trabaja la Agencia Nacional de Desarrollo Espacial de Japón ( NASDA ) , cuyo investigador especial Patrick Collins lamentó hoy la falta de iniciativa inversora en este sentido .</TEXT>
+  <TAGS>
+    <PER id="T1" start="61" end="67" text="Dalton" TYPE="PER" comment=""/>
+    <ORG id="T2" start="150" end="198" text="Agencia Nacional de Desarrollo Espacial de Japón" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="201" end="206" text="NASDA" TYPE="ORG" comment=""/>
+    <PER id="T4" start="238" end="253" text="Patrick Collins" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También en el sector telefónico destacaron Tecnost ( +8,21 por ciento ) , Olivetti ( +6,61% ) , Tim ( +4,55 ) y Telecom Italia ( +0,77 por ciento ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="51" text="Tecnost" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="75" end="83" text="Olivetti" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="97" end="100" text="Tim" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="113" end="127" text="Telecom Italia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Putin , que la semana pasada reafirmó los intereses geopolíticos de Moscú en Asia Central , en la frontera sur de la CEI , habló con Lukashenko sobre medidas de seguridad en el oeste , donde se afronta la expansión de la OTAN , dijeron a EFE fuentes oficiosas en Minsk .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Putin" TYPE="PER" comment=""/>
+    <ORG id="T2" start="69" end="74" text="Moscú" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="78" end="90" text="Asia Central" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="118" end="121" text="CEI" TYPE="ORG" comment=""/>
+    <PER id="T5" start="134" end="144" text="Lukashenko" TYPE="PER" comment=""/>
+    <ORG id="T6" start="222" end="226" text="OTAN" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="239" end="242" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T8" start="264" end="269" text="Minsk" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

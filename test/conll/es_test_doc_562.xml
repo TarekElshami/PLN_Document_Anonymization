@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La consejera de Servicios Sociales , Pilar Martínez , acompañó hoy al ministro británico de Seguridad Social , Alister Darling , en su visita al Centro de Actividades Pedagógicas &quot; Tomillo &quot; , para analizar la situación actual del proyecto &quot; Menores Inmigrantes de Vida Independiente &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="35" text="Servicios Sociales" TYPE="ORG" comment=""/>
+    <PER id="T2" start="38" end="52" text="Pilar Martínez" TYPE="PER" comment=""/>
+    <MISC id="T3" start="93" end="109" text="Seguridad Social" TYPE="MISC" comment=""/>
+    <PER id="T4" start="112" end="127" text="Alister Darling" TYPE="PER" comment=""/>
+    <ORG id="T5" start="146" end="179" text="Centro de Actividades Pedagógicas" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="180" end="191" text="&quot; Tomillo &quot;" TYPE="ORG" comment=""/>
+    <MISC id="T7" start="241" end="286" text="&quot; Menores Inmigrantes de Vida Independiente &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

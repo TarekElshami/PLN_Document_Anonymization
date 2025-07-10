@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La inmobiliaria Vallehermoso ha adquirido en Pamplona un solar con una superficie aproximada de 6.000 metros cuadrados para llevar a cabo una promoción de viviendas en la que invertirá más de mil millones de pesetas , según informó la empresa en un comunicado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="29" text="Vallehermoso" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="46" end="54" text="Pamplona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

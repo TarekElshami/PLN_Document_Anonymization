@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ivan Parra ( COL - Vitalicio ) a 3:23 .14 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Ivan Parra" TYPE="PER" comment=""/>
+    <LOC id="T2" start="14" end="17" text="COL" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="20" end="29" text="Vitalicio" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

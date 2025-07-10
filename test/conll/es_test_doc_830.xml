@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Mañana , los ocho obispos y presbíteros volverán a celebrar misa en la Basílica de Santa María de Guadalupe , para proseguir después con las sesiones de estudio , donde el arzobispo de Mérida-Badajoz Antonio Montero Moreno expondrá el tema &quot; Evangelización. medios de comunicación social &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="72" end="108" text="Basílica de Santa María de Guadalupe" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="186" end="200" text="Mérida-Badajoz" TYPE="LOC" comment=""/>
+    <PER id="T3" start="201" end="223" text="Antonio Montero Moreno" TYPE="PER" comment=""/>
+    <MISC id="T4" start="241" end="290" text="&quot; Evangelización. medios de comunicación social &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

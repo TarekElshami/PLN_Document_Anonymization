@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La familia Segura cuenta con establecimientos pasteleros en Daroca , Calamocha , Cariñena y dos tiendas más en Zaragoza capital .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="4" end="18" text="familia Segura" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="61" end="67" text="Daroca" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="70" end="79" text="Calamocha" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="82" end="90" text="Cariñena" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="112" end="120" text="Zaragoza" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

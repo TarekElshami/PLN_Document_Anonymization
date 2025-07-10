@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Aunque en el Museo no se venderán las especialidades pasteleras que han dado fama a esta familia , como las rosquillas de Daroca , los ruejicos , las trenzas de la mora o los moscatelicos de Cariñena , los Segura confían en poder distribuirlos en breve entre los visitantes gracias a la instalación de un puesto de venta .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="14" end="19" text="Museo" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="123" end="129" text="Daroca" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="192" end="200" text="Cariñena" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="207" end="213" text="Segura" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

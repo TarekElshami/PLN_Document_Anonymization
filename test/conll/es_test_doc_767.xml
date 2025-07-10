@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El vicepresidente primero de la Junta incidió en que la Comunidad tiene un sistema de control parlamentario mucho más eficaz que el de otras autonomías , y apuntó que &quot; cada tres meses la Junta envía su liquidación presupuestaria &quot; a las Cortes .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="33" end="38" text="Junta" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="57" end="66" text="Comunidad" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="189" end="194" text="Junta" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="239" end="245" text="Cortes" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gracias a una Licencia Papal , Teresa Grasa se convirtió , junto con la Infanta Isabel , en la segunda mujer del siglo que ingresó en el recinto .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="15" end="29" text="Licencia Papal" TYPE="MISC" comment=""/>
+    <PER id="T2" start="32" end="44" text="Teresa Grasa" TYPE="PER" comment=""/>
+    <PER id="T3" start="73" end="87" text="Infanta Isabel" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Mesa del Pacto por el Empleo fue constituida hace tres años para el fomento de la economía de esta provincia , y desde sus comienzos su presidencia siempre ha recaído en la Diputación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="32" text="Mesa del Pacto por el Empleo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="177" end="187" text="Diputación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

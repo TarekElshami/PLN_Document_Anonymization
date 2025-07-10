@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Se desconocen las causas del accidente en el que resultaron heridos graves varios de los pasajeros que fueron ingresados en un hospital de Mumbai , según fuentes policiales .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="140" end="146" text="Mumbai" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

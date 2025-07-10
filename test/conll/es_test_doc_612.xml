@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La portavoz del PSOE en la Comisión de Sanidad del Congreso , Matilde Valentín , ha solicitado hoy al Ministerio de Sanidad. Consumo información detallada sobre las listas de espera en el Insalud , tanto en consultas externas como en intervenciones quirúrgicas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="21" text="PSOE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="28" end="60" text="Comisión de Sanidad del Congreso" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="63" end="79" text="Matilde Valentín" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="103" end="133" text="Ministerio de Sanidad. Consumo" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="189" end="196" text="Insalud" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

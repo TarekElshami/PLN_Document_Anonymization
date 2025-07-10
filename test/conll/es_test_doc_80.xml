@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En declaraciones a Efe , Menéndez puntualizó que los términos del acuerdo suscrito por el Gobierno regional y los sindicatos UGT y CCOO , &quot; no vulneran &quot; la libre competencia de las empresas ni tiene carácter &quot; excluyente &quot; a la hora de adjudicar contratos públicos a aquellas con mayor plantilla fija o discapacitados contratados .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="23" text="Efe" TYPE="ORG" comment=""/>
+    <PER id="T2" start="26" end="34" text="Menéndez" TYPE="PER" comment=""/>
+    <ORG id="T3" start="91" end="99" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="126" end="129" text="UGT" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="132" end="136" text="CCOO" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

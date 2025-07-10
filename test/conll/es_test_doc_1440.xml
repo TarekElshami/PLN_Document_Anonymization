@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La policía ha detenido en Madrid a J. A. A. , de 42 años , acusado de haber violado a una mujer de 39 años a la que , según la denuncia , estuvo a punto de asfixiar con una manta que le puso sobre la cabeza , y que fue condenado en Ibiza por violar y asfixiar a una joven de 19 años en 1987 .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="27" end="33" text="Madrid" TYPE="LOC" comment=""/>
+    <PER id="T2" start="36" end="44" text="J. A. A." TYPE="PER" comment=""/>
+    <LOC id="T3" start="233" end="238" text="Ibiza" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

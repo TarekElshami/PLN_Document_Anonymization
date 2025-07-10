@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un grupo de 32 trabajadores de Bridgestone-Firestone en las fábricas de Basauri , Burgos y Puente San Miguel realizarán en el última semana de mayo una marcha en bicicleta de montaña por la llamada &quot; Ruta de la Plata &quot; entre las localidades de Astorga y Mérida .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="53" text="Bridgestone-Firestone" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="73" end="80" text="Basauri" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="83" end="89" text="Burgos" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="92" end="109" text="Puente San Miguel" TYPE="LOC" comment=""/>
+    <MISC id="T5" start="199" end="219" text="&quot; Ruta de la Plata &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T6" start="245" end="252" text="Astorga" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="255" end="261" text="Mérida" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

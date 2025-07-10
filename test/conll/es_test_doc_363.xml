@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE alg jla/rt Por Valeri Sharónov Minsk , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="20" end="35" text="Valeri Sharónov" TYPE="PER" comment=""/>
+    <LOC id="T2" start="36" end="41" text="Minsk" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="53" end="56" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

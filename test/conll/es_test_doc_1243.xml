@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El director general de Planificación Ambiental de la Generalitat , Pere Torres , ha explicado las soluciones previstas para garantizar el suministro de agua potable .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="65" text="Planificación Ambiental de la Generalitat" TYPE="ORG" comment=""/>
+    <PER id="T2" start="68" end="79" text="Pere Torres" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En el mismo sentido , el subdelegado de la Junta en el Campo de Gibraltar , Rafael España , afirmó hoy en Algeciras ( Cádiz ) que las competencias en Asuntos Sociales transferidas a la Administración autonómica no contemplan el pago de estas inhumaciones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="49" text="Junta" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="56" end="74" text="Campo de Gibraltar" TYPE="LOC" comment=""/>
+    <PER id="T3" start="77" end="90" text="Rafael España" TYPE="PER" comment=""/>
+    <LOC id="T4" start="107" end="116" text="Algeciras" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="119" end="124" text="Cádiz" TYPE="LOC" comment=""/>
+    <MISC id="T6" start="151" end="167" text="Asuntos Sociales" TYPE="MISC" comment=""/>
+    <ORG id="T7" start="186" end="200" text="Administración" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

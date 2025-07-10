@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Finalmente , Juan Luis Pedrosa , portavoz del PP , quien en su anterior etapa como alcalde fue el que contrató a Carlota Alvarez Basso para la gerencia del Palacio de Congresos , anunció que mañana ofrecerá una rueda de prensa por este asunto , que inscribió en &quot; una maniobra del Gobierno del BNG para desembarazarse de una empleada municipal que miran con recelo &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="31" text="Juan Luis Pedrosa" TYPE="PER" comment=""/>
+    <ORG id="T2" start="47" end="49" text="PP" TYPE="ORG" comment=""/>
+    <PER id="T3" start="114" end="135" text="Carlota Alvarez Basso" TYPE="PER" comment=""/>
+    <ORG id="T4" start="157" end="177" text="Palacio de Congresos" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="282" end="290" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="295" end="298" text="BNG" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

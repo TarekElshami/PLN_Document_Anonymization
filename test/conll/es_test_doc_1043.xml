@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>LIBANO - ISRAEL AUMENTAN CHOQUES GUERRILLEROS LIBANESES Y SOLDADOS ISRAELIES Jerusalén ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="7" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="10" end="16" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="78" end="87" text="Jerusalén" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="90" end="93" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

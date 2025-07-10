@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La coinfección de leishmaniosis y sida &quot; es una nueva enfermedad extremadamente grave &quot; y cada vez más frecuente cuyo número de casos &quot; debería seguir aumentando en los próximos años &quot; , según la OMS Las coinfecciones son consideradas &quot; una amenaza real , en particular en el sudeste de Europa &quot; y de los 1.700 primeros casos notificados a la OMS en 33 países hasta 1998 , 1.440 procedían de esta región .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="197" end="200" text="OMS" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="288" end="294" text="Europa" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="344" end="347" text="OMS" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

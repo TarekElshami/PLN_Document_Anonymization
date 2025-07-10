@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los hechos fueron descubiertos a raíz de una intervención de la Policía Local de Llucmajor , que el pasado sábado , alrededor de las diez de la mañana , fue requerida para desplazarse a la zona que limita entre s'Arenal , puesto que un hombre acaba de ser víctima de una brutal paliza .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="65" end="78" text="Policía Local" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="82" end="91" text="Llucmajor" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="212" end="220" text="s'Arenal" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

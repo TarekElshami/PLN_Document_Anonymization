@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , el secretario provincial del PSOE de Cádiz , Francisco Vázquez , que valoró la gestión de Menacho como &quot; brillante &quot; , hizo una &quot; llamada a la sensatez &quot; y pidió que &quot; nadie ponga en crisis una organización &quot; por la ocupación de unos cargos u otros .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="45" end="58" text="PSOE de Cádiz" TYPE="ORG" comment=""/>
+    <PER id="T2" start="61" end="78" text="Francisco Vázquez" TYPE="PER" comment=""/>
+    <PER id="T3" start="106" end="113" text="Menacho" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

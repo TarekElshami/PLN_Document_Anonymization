@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El diputado del PP insistió en que el Gobierno del PP ha combatido el terrorismo &quot; siempre desde la Ley &quot; y pidió al ex secretario general del PSOE que compare ese respeto con algunos episodios de la etapa de Gobierno del PSOE &quot; algunos de ellos recientemente sentenciados en los tribunales &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="19" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="39" end="47" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="52" end="54" text="PP" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="101" end="104" text="Ley" TYPE="MISC" comment=""/>
+    <ORG id="T5" start="144" end="148" text="PSOE" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="210" end="218" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="223" end="227" text="PSOE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

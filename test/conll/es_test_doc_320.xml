@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La merienda que se servirá irá acompañada de un gran pastel de 120 kilos y estará amenizada por Rudy Ventura , con la orquesta de Indrid. Llorens Grup .</TEXT>
+  <TAGS>
+    <PER id="T1" start="97" end="109" text="Rudy Ventura" TYPE="PER" comment=""/>
+    <MISC id="T2" start="131" end="151" text="Indrid. Llorens Grup" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

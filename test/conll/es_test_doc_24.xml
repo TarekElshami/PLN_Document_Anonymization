@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De acuerdo a lo informado por la Federación Australiana de Fútbol ( SA ) , el portero Mark Bosnich ( Manchester United , Inglaterra ) ; los mediocampistas Paul Okon ( Fiorentina , Italia ) , Stan Lazaridis ( Birmingham City , Inglaterra ) y Danny Tiatto ( Manchester City , Inglaterra ) ; el defensa Kevin Muscat ( Wolverhampton Wanderers , Inglaterra ) , y los delanteros Paul Agostino ( 1860 Munich , Alemania ) y David Zdrilich ( SSV Ulm , Alemania ) , han confirmado su presencia para la serie ante Paraguay .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="66" text="Federación Australiana de Fútbol" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="69" end="71" text="SA" TYPE="ORG" comment=""/>
+    <PER id="T3" start="87" end="99" text="Mark Bosnich" TYPE="PER" comment=""/>
+    <ORG id="T4" start="102" end="119" text="Manchester United" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="122" end="132" text="Inglaterra" TYPE="LOC" comment=""/>
+    <PER id="T6" start="156" end="165" text="Paul Okon" TYPE="PER" comment=""/>
+    <ORG id="T7" start="168" end="178" text="Fiorentina" TYPE="ORG" comment=""/>
+    <LOC id="T8" start="181" end="187" text="Italia" TYPE="LOC" comment=""/>
+    <PER id="T9" start="192" end="206" text="Stan Lazaridis" TYPE="PER" comment=""/>
+    <ORG id="T10" start="209" end="224" text="Birmingham City" TYPE="ORG" comment=""/>
+    <LOC id="T11" start="227" end="237" text="Inglaterra" TYPE="LOC" comment=""/>
+    <PER id="T12" start="242" end="254" text="Danny Tiatto" TYPE="PER" comment=""/>
+    <ORG id="T13" start="257" end="272" text="Manchester City" TYPE="ORG" comment=""/>
+    <LOC id="T14" start="275" end="285" text="Inglaterra" TYPE="LOC" comment=""/>
+    <PER id="T15" start="301" end="313" text="Kevin Muscat" TYPE="PER" comment=""/>
+    <ORG id="T16" start="316" end="339" text="Wolverhampton Wanderers" TYPE="ORG" comment=""/>
+    <LOC id="T17" start="342" end="352" text="Inglaterra" TYPE="LOC" comment=""/>
+    <PER id="T18" start="374" end="387" text="Paul Agostino" TYPE="PER" comment=""/>
+    <LOC id="T19" start="395" end="401" text="Munich" TYPE="LOC" comment=""/>
+    <LOC id="T20" start="404" end="412" text="Alemania" TYPE="LOC" comment=""/>
+    <PER id="T21" start="417" end="431" text="David Zdrilich" TYPE="PER" comment=""/>
+    <ORG id="T22" start="434" end="441" text="SSV Ulm" TYPE="ORG" comment=""/>
+    <LOC id="T23" start="444" end="452" text="Alemania" TYPE="LOC" comment=""/>
+    <ORG id="T24" start="504" end="512" text="Paraguay" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

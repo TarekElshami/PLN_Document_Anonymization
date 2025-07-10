@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Durante la Semana Santa la Policía detuvo a otro individuo por unos hechos similares , por lo que la Jefatura Superior sospecha de la existencia de una red internacional dedicada a la falsificación de tarjetas de crédito y ha abierto una investigación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="28" end="35" text="Policía" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="102" end="119" text="Jefatura Superior" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

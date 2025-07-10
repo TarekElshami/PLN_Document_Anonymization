@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Lukashenko , quien gobierna con mano dura y se opone a la ampliación de la OTAN al este , hace poco amenazó a Occidente con crear una agrupación militar ruso-bielorrusa de 300.000 soldados , en respuesta al acercamiento de la Alianza a su país .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Lukashenko" TYPE="PER" comment=""/>
+    <ORG id="T2" start="76" end="80" text="OTAN" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="111" end="120" text="Occidente" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="227" end="234" text="Alianza" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

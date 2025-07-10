@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El lehendakari visitará el bosque de Oma ( Vizcaya ) pintado por Agustín Ibarrola y dañado por radicales la pasada semana , según anunció hoy el portavoz del ejecutivo autónomo , Josu Jon Imaz .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="28" end="41" text="bosque de Oma" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="44" end="51" text="Vizcaya" TYPE="LOC" comment=""/>
+    <PER id="T3" start="66" end="82" text="Agustín Ibarrola" TYPE="PER" comment=""/>
+    <PER id="T4" start="180" end="193" text="Josu Jon Imaz" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

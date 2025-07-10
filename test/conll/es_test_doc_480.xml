@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los tres jóvenes , que han negado los hechos y afirman que su abuela delira debido a la gran cantidad de medicamentos que toma , se encuentran internados en un centro especial de protección a cargo de los Servicios Sociales del Principado , a la espera de que el Juzgado de Menores decida sobre su situación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="206" end="239" text="Servicios Sociales del Principado" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="264" end="282" text="Juzgado de Menores" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

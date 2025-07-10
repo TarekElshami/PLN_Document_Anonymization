@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>José Cora recibió a las cinco de la tarde a Antón Masa , presidente de la APDR y otros miembros del colectivo ecologista , quienes expusieron sus razones para demandar el cierre y traslado de ambas fábricas .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="10" text="José Cora" TYPE="PER" comment=""/>
+    <PER id="T2" start="45" end="55" text="Antón Masa" TYPE="PER" comment=""/>
+    <ORG id="T3" start="75" end="79" text="APDR" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

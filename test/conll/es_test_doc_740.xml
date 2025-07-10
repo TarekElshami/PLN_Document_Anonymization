@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gil Lázaro lamentó que un ex presidente del Gobierno &quot; aventure valoraciones tan frívolas &quot; y que , ante un tema tan delicado , &quot; se sitúe en una actitud políticamente irresponsable &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Gil Lázaro" TYPE="PER" comment=""/>
+    <ORG id="T2" start="45" end="53" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

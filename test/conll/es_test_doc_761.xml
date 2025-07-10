@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Junta de Castilla. León cree que el PSOE &quot; se está situando fuera del Reglamento &quot; de las Cortes y de las &quot; reglas del juego &quot; con su actitud de querer someter a su control todos los gastos corrientes de la Comunidad , labor que realiza tanto el Tribunal de Cuentas como la Intervención de cada consejería .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="27" text="Junta de Castilla. León" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="40" end="44" text="PSOE" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="74" end="84" text="Reglamento" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="94" end="100" text="Cortes" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="211" end="220" text="Comunidad" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="250" end="269" text="Tribunal de Cuentas" TYPE="ORG" comment=""/>
+    <MISC id="T7" start="278" end="290" text="Intervención" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

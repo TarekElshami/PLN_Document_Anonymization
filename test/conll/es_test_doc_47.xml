@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según Alvarez Rendueles , el estado financiero del grupo , que calificó de &quot; satisfactorio &quot; , garantiza el cumplimento del plan industrial aprobado hace tres años por Arbed y que cifra las inversiones a realizar en 160.000 millones de pesetas , 30.000 millones más de los comprometidos inicialmente .</TEXT>
+  <TAGS>
+    <PER id="T1" start="7" end="24" text="Alvarez Rendueles" TYPE="PER" comment=""/>
+    <ORG id="T2" start="169" end="174" text="Arbed" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

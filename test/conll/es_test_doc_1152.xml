@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Consejería de Agricultura. Pesca de la Junta de Andalucía confirma que continúa la &quot; paralización &quot; del mercado del aceite de oliva , con escasas operaciones en Jaén y precios sostenidos en Córdoba , según indica en su último Boletín Semanal de Información Agraria .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="36" text="Consejería de Agricultura. Pesca" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="43" end="61" text="Junta de Andalucía" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="165" end="169" text="Jaén" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="194" end="201" text="Córdoba" TYPE="LOC" comment=""/>
+    <MISC id="T5" start="230" end="268" text="Boletín Semanal de Información Agraria" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

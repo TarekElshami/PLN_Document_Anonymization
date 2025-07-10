@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Fuentes del Consejo Misionero Indigenista ( CIMI , vinculado a la Iglesia Católica ) indicaron a EFE que las informaciones no han podido ser confirmadas , pero que los agentes federales y los funcionarios de la Funai ya viajaron a la región y preparan un operativo para expulsar a los invasores de la zona .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="13" end="42" text="Consejo Misionero Indigenista" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="45" end="49" text="CIMI" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="67" end="83" text="Iglesia Católica" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="98" end="101" text="EFE" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="212" end="217" text="Funai" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

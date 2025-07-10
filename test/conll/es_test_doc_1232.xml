@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El negocio del continuo se animó por las operaciones en bloque , entre las que destacó una de Endesa por valor de 25.390 millones de pesetas , y el volumen ascendió a 316.246 millones de pesetas ( 1.900 millones de euros ) , de los que Telefónica movió cerca de 75.000 millones y Endesa , sin contar el bloque , otros 54.000 millones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="95" end="101" text="Endesa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="237" end="247" text="Telefónica" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="281" end="287" text="Endesa" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El claustro extraordinario de la Universidad de Barcelona ( UB ) ha votado hoy por mayoría una moción a favor de la reducción del gasto destinado a la investigación en tecnología militar en España .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="58" text="Universidad de Barcelona" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="61" end="63" text="UB" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="191" end="197" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

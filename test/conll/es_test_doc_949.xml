@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las coinfecciones son consideradas &quot; una amenaza real , en particular en el sudeste de Europa &quot; y de los 1.700 primeros casos notificados a la OMS en 33 países hasta 1998 , 1.440 procedían de esta región .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="77" end="94" text="sudeste de Europa" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="144" end="147" text="OMS" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

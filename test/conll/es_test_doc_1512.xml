@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La información recuerda que la CAN , formada por Bolivia , Colombia , Ecuador , Perú y Venezuela , y China firmaron el 30 de marzo pasado un acuerdo por el que se estableció un Mecanismo de Consulta Política. Cooperación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="35" text="CAN" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="50" end="57" text="Bolivia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="60" end="68" text="Colombia" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="71" end="78" text="Ecuador" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="81" end="85" text="Perú" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="88" end="97" text="Venezuela" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="102" end="107" text="China" TYPE="ORG" comment=""/>
+    <MISC id="T8" start="178" end="221" text="Mecanismo de Consulta Política. Cooperación" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

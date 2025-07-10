@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según informaciones procedentes de la región y que aún no han podido ser confirmadas por la Funai , el enfrentamiento ocurrió en la tarde del lunes en la jurisdicción del municipio de Comodoro , a 560 kilómetros de Cuiabá y en medio de la Amazonía .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="93" end="98" text="Funai" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="185" end="193" text="Comodoro" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="216" end="222" text="Cuiabá" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="240" end="248" text="Amazonía" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

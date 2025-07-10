@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Estas serán las vías de comunicación más cortas de Hungría , que carece de salida al mar , con el Adriático .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="52" end="59" text="Hungría" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="99" end="108" text="Adriático" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

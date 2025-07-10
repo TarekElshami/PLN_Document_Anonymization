@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las compañías tecnológicas se tomaron hoy un respiro y después de varias sesiones de pérdidas cosecharon algunas ganancias que llevaron al selectivo del mercado continuo español , el Ibex-35 , a recuperarse algo y cerrar con una subida del 0,52 por ciento , en línea con el resto de Europa .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="184" end="191" text="Ibex-35" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="284" end="290" text="Europa" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

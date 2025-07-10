@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La diputada socialista explicó que ha realizado esta solicitud en vista de las declaraciones efectuadas ayer por la ministra de Sanidad. Consumo , Celia Villalobos , &quot; quien dijo que los datos referidos a las listas de espera no eran una cuestión interesante &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="129" end="145" text="Sanidad. Consumo" TYPE="MISC" comment=""/>
+    <PER id="T2" start="148" end="164" text="Celia Villalobos" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esparza hizo pública su dimisión en el transcurso de una reunión que los parlamentarios vascos del PSE-EE habían acordado celebrar en Bergara en solidaridad con el edil , que el pasado martes volvió a ser amenazado en varias pintadas aparecidas en el municipio .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Esparza" TYPE="PER" comment=""/>
+    <ORG id="T2" start="100" end="106" text="PSE-EE" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="135" end="142" text="Bergara" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las primeras versiones conocidas por la Policía Nacional Civil guatemalteca ( PNC ) indican que la aeronave cayó sobre una casa de la aldea Tahuexco , de Santo Domingo Suchitepéquez , a unos 175 kilómetros de la capital del país centroamericano .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="41" end="63" text="Policía Nacional Civil" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="79" end="82" text="PNC" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="141" end="149" text="Tahuexco" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="155" end="182" text="Santo Domingo Suchitepéquez" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

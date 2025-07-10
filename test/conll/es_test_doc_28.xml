@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Talavera de la Reina ( Toledo ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="21" text="Talavera de la Reina" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="24" end="30" text="Toledo" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="44" end="47" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

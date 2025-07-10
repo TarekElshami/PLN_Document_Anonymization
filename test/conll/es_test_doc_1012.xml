@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según informaron fuentes próximas a Llauradó , éste ya ha alquilado un local como sede para su candidatura , ubicado en la confluencia de la Rambla Cataluña con la calle Diputación de Barcelona , que dispone de unos 1.000 metros cuadrados y estará dotado con unas 25 líneas telefónicas .</TEXT>
+  <TAGS>
+    <PER id="T1" start="37" end="45" text="Llauradó" TYPE="PER" comment=""/>
+    <LOC id="T2" start="142" end="157" text="Rambla Cataluña" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="165" end="194" text="calle Diputación de Barcelona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

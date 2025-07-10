@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras su firma , el plan será remitido al Parlamento para su debate .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="42" end="52" text="Parlamento" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

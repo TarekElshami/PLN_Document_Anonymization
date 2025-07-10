@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las autoridades de Guatemala aún no han precisado las características de la avioneta , pero aseguran que es colombiana por la matrícula , con las siglas LCA .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="20" end="29" text="Guatemala" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="154" end="157" text="LCA" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

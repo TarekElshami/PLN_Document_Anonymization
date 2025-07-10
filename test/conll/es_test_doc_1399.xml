@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Con Summers , Rato repasó la situación financiera internacional y ambos coincidieron en la necesidad de que los países europeos tengan un crecimiento sólido al nivel de Estados Unidos para favorecer a la prosperidad de todos los países .</TEXT>
+  <TAGS>
+    <PER id="T1" start="5" end="12" text="Summers" TYPE="PER" comment=""/>
+    <PER id="T2" start="15" end="19" text="Rato" TYPE="PER" comment=""/>
+    <ORG id="T3" start="170" end="184" text="Estados Unidos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

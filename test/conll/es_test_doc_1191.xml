@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El primer ministro croata , Ivica Racan , estrechó en Budapest las relaciones con la vecina Hungría , con la que firmó acuerdos para viajar sin pasaporte y apuntaló proyectos de rutas de comunicación , a cambio del apoyo magiar ante la Unión Europea ( UE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="29" end="40" text="Ivica Racan" TYPE="PER" comment=""/>
+    <LOC id="T2" start="55" end="63" text="Budapest" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="93" end="100" text="Hungría" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="237" end="250" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="253" end="255" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras las primeras investigaciones la Policía comprobó que una de las tarjetas se había utilizado días antes para alquilar un vehículo en Málaga y que , el ciudadano francés que aparecía como titular de las mismas había denunciado en abril la desaparición de su carné de conducir y de su pasaporte .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="45" text="Policía" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="138" end="144" text="Málaga" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

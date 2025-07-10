@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ayala , en declaraciones a EFE , ha dicho que &quot; estamos en un mercado dificilísimo , dado que la OPEP no ha aumentado la producción en la cuantía que demanda el sector , por lo que salvo que se produzca un milagro , de aquí al verano es de esperar que se produzcan tensiones en los precios &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Ayala" TYPE="PER" comment=""/>
+    <ORG id="T2" start="28" end="31" text="EFE" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="98" end="102" text="OPEP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Agradable porque todo mi entorno familiar respira ya tranquilo y desagradable porque dejo de hacer una labor que consideraba importante , como bien lo saben todos mis amigos , tanto del PSE como del PNV y EA , y EH &quot; , señaló .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="187" end="190" text="PSE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="200" end="203" text="PNV" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="206" end="208" text="EA" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="213" end="215" text="EH" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

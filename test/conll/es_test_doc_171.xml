@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También el Ejército israelí contaba a media tarde de hoy con sólo siete posiciones fortificadas en el sur del Líbano .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="12" end="20" text="Ejército" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="111" end="117" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

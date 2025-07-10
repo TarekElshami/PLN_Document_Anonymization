@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según dijo , &quot; casi todos &quot; los agricultores y ganaderos de Toledo se beneficiarán tras el fallo del Tribunal Supremo porque &quot; en épocas como la vendimia y la aceituna se contratan obreros aunque se trate de una explotación familiar &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="61" end="67" text="Toledo" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="102" end="118" text="Tribunal Supremo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

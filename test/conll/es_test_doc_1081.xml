@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El mercado milanés comenzó con aumento de la demanda , en línea con otros mercados europeos , y luego la mantuvo durante toda la jornada sin dejarse influir hoy por la incertidumbre dominante en Wall Street , que transmitió su debilidad a Londres , París y Fráncfort .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="196" end="207" text="Wall Street" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="240" end="247" text="Londres" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="250" end="255" text="París" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="258" end="267" text="Fráncfort" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

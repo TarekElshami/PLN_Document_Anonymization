@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según ERC , un pensionista catalán debería recibir 39.554 pesetas al mes para equiparar su pensión con las 37.280 pesetas que recibe el beneficiario medio de pensiones no contributivas del resto de España .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="7" end="10" text="ERC" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="199" end="205" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

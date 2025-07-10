@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta apuesta económica permitirá diseñar una estrategia comercial cuyo objetivo es situar Oleastrum como la primera marca de Cataluña .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="91" end="100" text="Oleastrum" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="126" end="134" text="Cataluña" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

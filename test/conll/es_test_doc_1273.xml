@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Periodistas como Luis del Olmo y Alfonso Ussía y humoristas como Antonio Mingote , Antonio Ozores , Enma Ozores y Antonio Fraguas &quot; Forges &quot; se dieron cita hoy en un acto de homenaje al fallecido Luis Sánchez Polack , &quot; alias &quot; Tip , en el que se presentó el libro que Pilar Blanco ha escrito sobre él .</TEXT>
+  <TAGS>
+    <PER id="T1" start="18" end="31" text="Luis del Olmo" TYPE="PER" comment=""/>
+    <PER id="T2" start="34" end="47" text="Alfonso Ussía" TYPE="PER" comment=""/>
+    <PER id="T3" start="66" end="81" text="Antonio Mingote" TYPE="PER" comment=""/>
+    <PER id="T4" start="84" end="98" text="Antonio Ozores" TYPE="PER" comment=""/>
+    <PER id="T5" start="101" end="112" text="Enma Ozores" TYPE="PER" comment=""/>
+    <PER id="T6" start="115" end="130" text="Antonio Fraguas" TYPE="PER" comment=""/>
+    <PER id="T7" start="131" end="141" text="&quot; Forges &quot;" TYPE="PER" comment=""/>
+    <PER id="T8" start="197" end="216" text="Luis Sánchez Polack" TYPE="PER" comment=""/>
+    <PER id="T9" start="229" end="232" text="Tip" TYPE="PER" comment=""/>
+    <PER id="T10" start="270" end="282" text="Pilar Blanco" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

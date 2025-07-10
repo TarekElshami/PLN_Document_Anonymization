@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los funerales se celebraron esta tarde en la capilla del hospital municipal de Ecija con la asistencia de la subdelegada del Gobierno en Sevilla , Rocío Roche , el alcalde de Ecija , Julián Alvarez ( PA ) , y varios concejales , y durante los mismos se vivieron escenas de dolor , especialmente a la salida de los féretros de la iglesia .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="80" end="85" text="Ecija" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="126" end="134" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="138" end="145" text="Sevilla" TYPE="LOC" comment=""/>
+    <PER id="T4" start="148" end="159" text="Rocío Roche" TYPE="PER" comment=""/>
+    <LOC id="T5" start="176" end="181" text="Ecija" TYPE="LOC" comment=""/>
+    <PER id="T6" start="184" end="198" text="Julián Alvarez" TYPE="PER" comment=""/>
+    <ORG id="T7" start="201" end="203" text="PA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

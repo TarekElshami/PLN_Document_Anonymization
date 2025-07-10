@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Racan y Orban otorgaron &quot; gran valor simbólico &quot; para otros Estados de la región el acuerdo firmado por sus países , que permitirá a sus ciudadanos viajar sin pasaporte , sólo con el documento de identidad .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Racan" TYPE="PER" comment=""/>
+    <PER id="T2" start="9" end="14" text="Orban" TYPE="PER" comment=""/>
+    <ORG id="T3" start="61" end="68" text="Estados" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En la segunda sesión , se debatió sobre la presencia audiovisual de la Iglesia en Portugal y España en los finales del siglo XX , así como nuevos proyectos para la sociedad cada vez mas secularizada del siglo XXI .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="72" end="79" text="Iglesia" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="83" end="91" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="94" end="100" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Del País Vasco , asistirán , entre otros , el Caja Rural y el Cafés Baqué , mientras que del resto de Europa vendrán los suizos Mephisto-Romers y G.. Mita Medic , el francés CC Oloron y los italianos Team Parolin Fis y Sintofarm .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="5" end="15" text="País Vasco" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="47" end="57" text="Caja Rural" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="63" end="74" text="Cafés Baqué" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="103" end="109" text="Europa" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="129" end="144" text="Mephisto-Romers" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="147" end="161" text="G.. Mita Medic" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="175" end="184" text="CC Oloron" TYPE="ORG" comment=""/>
+    <ORG id="T8" start="201" end="217" text="Team Parolin Fis" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="220" end="229" text="Sintofarm" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

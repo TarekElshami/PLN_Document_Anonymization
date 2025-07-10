@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Posteriormente , las Comisiones Episcopales de Comunicación de Portugal y España , elaborarán y presentarán las conclusiones , con lo que concluirá este encuentro de Guadalupe .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="22" end="60" text="Comisiones Episcopales de Comunicación" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="64" end="72" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="75" end="81" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="167" end="176" text="Guadalupe" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

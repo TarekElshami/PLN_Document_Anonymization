@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ETIOPIA - ERITREA - Addis Abeba - Con los violentos ataques lanzados hoy contra las posiciones de Eritrea en el frente central de la frontera común , Etiopía confía en llevar a buen término la ofensiva militar iniciada hace 12 días contra su vecina del norte . por Afework Wolde Gaber PERU - ELECCIONES - OEA - Lima - La misión de observadores de la Organización de Estados Americanos presenta hoy su informe final sobre la etapa previa a la segunda vuelta electoral en Perú , prevista para este domingo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="8" text="ETIOPIA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="11" end="18" text="ERITREA" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="21" end="32" text="Addis Abeba" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="99" end="106" text="Eritrea" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="151" end="158" text="Etiopía" TYPE="ORG" comment=""/>
+    <PER id="T6" start="266" end="285" text="Afework Wolde Gaber" TYPE="PER" comment=""/>
+    <LOC id="T7" start="286" end="290" text="PERU" TYPE="LOC" comment=""/>
+    <ORG id="T8" start="306" end="309" text="OEA" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="351" end="385" text="Organización de Estados Americanos" TYPE="ORG" comment=""/>
+    <LOC id="T10" start="471" end="475" text="Perú" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sin embargo , la revista colegial Alféizar , del Colegio Oficial de Aparejadores. Arquitectos Técnicos de Burgos , ha sido distinguida con una mención honorífica en este apartado , por la constante difusión en sus páginas de temas relacionados con la prevención de los riesgos laborales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="35" end="43" text="Alféizar" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="50" end="103" text="Colegio Oficial de Aparejadores. Arquitectos Técnicos" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="107" end="113" text="Burgos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

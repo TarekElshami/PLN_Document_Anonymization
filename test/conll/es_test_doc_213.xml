@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Una treintena de asociaciones que integran la plataforma de apoyo a Antonio Vegara y Nieves García , procesados por desórdenes públicos cometidos en Tarifa ( Cádiz ) durante las protestas contra la instalación del cable , promoverán actos y concentraciones en solidaridad con ellos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="69" end="83" text="Antonio Vegara" TYPE="PER" comment=""/>
+    <PER id="T2" start="86" end="99" text="Nieves García" TYPE="PER" comment=""/>
+    <LOC id="T3" start="150" end="156" text="Tarifa" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="159" end="164" text="Cádiz" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los responsables del establecimiento alertaron a la Policía , que tuvo que perseguir al comprador porque huyó al advertir la presencia de los agentes , que consiguieron detenerlo unas calles más abajo cuando arrojaba un bolso al interior de un contenedor de vidrio .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="53" end="60" text="Policía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

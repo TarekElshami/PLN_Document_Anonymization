@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , la evolución de Alston ha sido más positiva que la de Dueñas y su estado físico ha mejorado desde que concluyeron las semifinales de la ACB .</TEXT>
+  <TAGS>
+    <PER id="T1" start="26" end="32" text="Alston" TYPE="PER" comment=""/>
+    <PER id="T2" start="64" end="70" text="Dueñas" TYPE="PER" comment=""/>
+    <MISC id="T3" start="146" end="149" text="ACB" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

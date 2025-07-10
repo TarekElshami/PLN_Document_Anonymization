@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , Racan indicó que su Gobierno confía en recibir más ayuda financiera para localizar y eliminar más de un millón de minas aún activas y sembradas en su territorio desde la guerra de independencia ( 1991 ) y que &quot; representan un continuo peligro para la población &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="10" end="15" text="Racan" TYPE="PER" comment=""/>
+    <ORG id="T2" start="30" end="38" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 23.00 GMT ) BRASIL - TELECOMUNICACIONES - Sao Paulo ( Brasil ) - El presidente del Grupo Telefónica en Brasil , Fernando Xavier Ferreira , presenta hoy el balance de la empresa un año. medio después de convertirse en la mayor operadora del país .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="21" text="BRASIL" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="45" end="54" text="Sao Paulo" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="57" end="63" text="Brasil" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="86" end="102" text="Grupo Telefónica" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="106" end="112" text="Brasil" TYPE="LOC" comment=""/>
+    <PER id="T6" start="115" end="139" text="Fernando Xavier Ferreira" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

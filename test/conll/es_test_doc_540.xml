@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Fabiola Zuluaga ( COL ) a Magüi Serna ( ESP ) por 4-6 , 6-4 y 6-3 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Fabiola Zuluaga" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="COL" TYPE="LOC" comment=""/>
+    <PER id="T3" start="27" end="38" text="Magüi Serna" TYPE="PER" comment=""/>
+    <LOC id="T4" start="41" end="44" text="ESP" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,44 @@
+--- METADATA ---
+fecha: 10/07/2025
+problemas LLama3.2:1B:
+    -
+problemas Llama3.3:
+
+problemas comunes:
+-----------------
+
+Tarea:
+Dado un texto, identifica y anota todas las entidades nombradas siguiendo las directrices estrictas del esquema de anotación CoNLL-2003.
+
+Objetivos:
+1. Detectar ABSOLUTAMENTE TODAS Y CADA UNA de las menciones de entidades nombradas en el texto, sin omitir ninguna, incluso si se repiten o son semánticamente equivalentes.
+2. Etiquetarlas usando esta sintaxis: <ETIQUETA>texto</ETIQUETA>
+3. Extraer dichas entidades agrupadas por tipo en un JSON válido.
+
+CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NINGUNA):
+- PER: Personas. Nombres de individuos específicos (ej. "Ekeus", "Juan Pérez", "Angela Merkel").
+- LOC: Localizaciones. Ciudades, países, regiones, ríos, montañas, etc. (ej. "Baghdad", "España", "Andes").
+- ORG: Organizaciones. Instituciones, empresas, organismos, gobiernos (ej. "ONU", "Google", "Ministerio de Salud").
+- MISC: Entidades nombradas específicas que no encajan en las otras tres: eventos, productos, obras, gentilicios, etc. (ej. "olimpiadas", "iPhone", "argentino").
+
+Reglas de anotación (CRÍTICAS):
+1. No incluir prefijos, títulos ni claves dentro de las etiquetas (ej. no incluir "Sr.", "Dr.", etc.).
+2. Anotar TODAS las apariciones de cada entidad. No omitir repeticiones.
+3. No incluir espacios ni signos de puntuación innecesarios dentro de las etiquetas.
+4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas.
+5. Usar el contexto del documento para clasificar correctamente entre PER, LOC, ORG y MISC.
+6. Si no hay entidades nombradas, devuelve el JSON con "entidades": {{}}
+7. No generar etiquetas nuevas ni marcar datos que no figuren en la lista de categorías.
+
+Salida esperada (formato obligatorio):
+ÚNICAMENTE un JSON válido, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:
+{{
+  "texto_anotado": "Texto con etiquetas <ETIQUETA>...</ETIQUETA> ya insertadas",
+  "entidades": {{
+    "ETIQUETA1": ["valor1", "valor2", ...],
+    "ETIQUETA2": ["valor1", ...]
+  }}
+}}
+
+El texto que debes analizar es este:
+"{texto_clinico}"

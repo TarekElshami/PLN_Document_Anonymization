@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las solicitudes deben presentarse hasta el 15 de noviembre en el registro de la Dirección General de Trabajo , según el modelo que aparece en el BOC del 22 de mayo junto a la convocatoria , informó hoy el Gobierno Regional en una nota de prensa .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="81" end="109" text="Dirección General de Trabajo" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="146" end="149" text="BOC" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="206" end="223" text="Gobierno Regional" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

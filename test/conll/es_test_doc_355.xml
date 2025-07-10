@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; El Consejo de Seguridad comparte los puntos de vista de la opinión del secretario general de que es fundamental que los Estados y las demás partes interesadas hagan lo que les corresponde para calmar la situación &quot; , agrega el texto .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="6" end="26" text="Consejo de Seguridad" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="123" end="130" text="Estados" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El nuevo &quot; número uno &quot; del Kremlin asistió en Minsk a una cumbre de la Unión Aduanera , que une a Rusia con Bielorrusia , Kazajistán , Kirguizia y Tayikistán , los cuatro de los doce países comunitarios más estrechamente vinculados a Moscú .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="36" text="Kremlin" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="48" end="53" text="Minsk" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="73" end="87" text="Unión Aduanera" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="100" end="105" text="Rusia" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="110" end="121" text="Bielorrusia" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="124" end="134" text="Kazajistán" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="137" end="146" text="Kirguizia" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="149" end="159" text="Tayikistán" TYPE="LOC" comment=""/>
+    <ORG id="T9" start="236" end="241" text="Moscú" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

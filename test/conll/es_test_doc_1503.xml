@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El mercado de valores de Zúrich se situó en la jornada de hoy en valores positivos , animado por la ligera subida del Nasdaq y el Dow Jones en Wall Street .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="26" end="32" text="Zúrich" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="119" end="125" text="Nasdaq" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="131" end="140" text="Dow Jones" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="144" end="155" text="Wall Street" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

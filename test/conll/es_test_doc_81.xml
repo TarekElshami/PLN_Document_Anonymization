@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Unión Europea , prosiguió , &quot; debería preocuparse por fomentar la estabilidad en el empleo y luchar contra los elevados índices de siniestralidad laboral que , en el caso de España , son sangrientos &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="17" text="Unión Europea" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="178" end="184" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

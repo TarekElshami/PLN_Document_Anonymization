@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Imaz reitero su llamamiento a que cese la violencia de todo tipo , a que ETA declare una tregua y a que EH se comprometa a defender exclusivamente a través de vías políticas su proyecto &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="5" text="Imaz" TYPE="PER" comment=""/>
+    <ORG id="T2" start="74" end="77" text="ETA" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="105" end="107" text="EH" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

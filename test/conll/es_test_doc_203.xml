@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El conjunto maño está a expensas de que el Real Madrid caiga derrotado contra el Valencia para clasificarse para la Liga de Campeones , lo que va a provocar una inusual situación de que alguien desee que pierda su hermano , situación que mañana se producirá en el estadio Saint Denis , de París .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="55" text="Real Madrid" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="82" end="90" text="Valencia" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="117" end="134" text="Liga de Campeones" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="265" end="284" text="estadio Saint Denis" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="290" end="295" text="París" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

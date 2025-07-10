@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En marzo de este año , Chile y la Unión Europea acordaron ampliar al 31 de mayo de este año el plazo de tiempo que se daba al árbitro para que examinara los aspectos legales de la cuestión .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="29" text="Chile" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="35" end="48" text="Unión Europea" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

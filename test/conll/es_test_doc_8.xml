@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En declaraciones a Efe , el alcalde de Arévalo , Francisco León ( PSOE ) , lamentó la &quot; tardanza &quot; de la Consejería de Fomento en la entrega de las llaves de las viviendas a sus legítimos propietarios ya que han transcurrido más de dos meses desde que se resolviera el concurso de adjudicación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="23" text="Efe" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="40" end="47" text="Arévalo" TYPE="LOC" comment=""/>
+    <PER id="T3" start="50" end="64" text="Francisco León" TYPE="PER" comment=""/>
+    <ORG id="T4" start="67" end="71" text="PSOE" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="106" end="127" text="Consejería de Fomento" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

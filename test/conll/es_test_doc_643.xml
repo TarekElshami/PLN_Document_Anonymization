@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Es desconocida la postura de los cuatro ediles del Grupo Mixto procedentes del GIL y encabezados por el actual alcalde provisional , Juan Jesús Sánchez , que dejaron esta formación por discrepar con el ex alcalde .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="52" end="63" text="Grupo Mixto" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="80" end="83" text="GIL" TYPE="ORG" comment=""/>
+    <PER id="T3" start="134" end="152" text="Juan Jesús Sánchez" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

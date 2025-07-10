@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El primer ministro croata ofreció la posibilidad de que la empresa petrolera húngara MOL participe en la privatización de la croata INA , después de que ésta se reestructure .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="86" end="89" text="MOL" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="133" end="136" text="INA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

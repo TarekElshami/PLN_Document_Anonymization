@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El vicepresidente segundo y ministro español de Economía , Rodrigo Rato , se mostró hoy partidario de aumentar la competencia entre las empresas petroleras , pero no de reducir los impuestos sobre la gasolina .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="49" end="57" text="Economía" TYPE="MISC" comment=""/>
+    <PER id="T2" start="60" end="72" text="Rodrigo Rato" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

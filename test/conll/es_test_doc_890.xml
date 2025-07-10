@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según informa hoy el periódico The New York Times , los líderes de la Federación de Médicos. Dentistas hicieron hace varias semanas un llamamiento a sus asociados para que boicoteen los productos de Merck .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="50" text="The New York Times" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="71" end="103" text="Federación de Médicos. Dentistas" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="200" end="205" text="Merck" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

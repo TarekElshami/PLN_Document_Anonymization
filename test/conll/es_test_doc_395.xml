@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la consultora , que también hizo su estudio para el Canal 2 de la televisión local , el 51 por ciento de los entrevistados consideró que Moscoso no ha cumplido sus promesas electorales , mientras que un 36 por ciento afirmó que sí lo ha hecho .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="59" end="66" text="Canal 2" TYPE="ORG" comment=""/>
+    <PER id="T2" start="144" end="151" text="Moscoso" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

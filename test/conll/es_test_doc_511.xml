@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE rc2305001850 Barcelona , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="18" end="27" text="Barcelona" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="39" end="42" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente ruso , Vladímir Putin , abordó el problema de la defensa colectiva en la Comunidad de Estados Independientes ( CEI ) en una reunión en Minsk con su colega bielorruso , Alexandr Lukashenko , cuyo país ha emprendido la reunificación con Rusia .</TEXT>
+  <TAGS>
+    <PER id="T1" start="22" end="36" text="Vladímir Putin" TYPE="PER" comment=""/>
+    <ORG id="T2" start="88" end="123" text="Comunidad de Estados Independientes" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="126" end="129" text="CEI" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="150" end="155" text="Minsk" TYPE="LOC" comment=""/>
+    <PER id="T5" start="183" end="202" text="Alexandr Lukashenko" TYPE="PER" comment=""/>
+    <LOC id="T6" start="250" end="255" text="Rusia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

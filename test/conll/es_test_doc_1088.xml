@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los otros valores del grupo Fiat acabaron mejor , Ifi , la caja fuerte del grupo , subió un 1,74 por ciento , mientras que Ifil , la financiera , cerró con beneficios del 5,15 por ciento .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="33" text="Fiat" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="51" end="54" text="Ifi" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="124" end="128" text="Ifil" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

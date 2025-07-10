@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Así lo explicó a los periodistas el portavoz del grupo mixto , Francisco Robles , quien indicó que se crearán dos espacios distintos en el despacho &quot; mediante un tabique o paneles &quot; y dijo no tener &quot; ningún inconveniente &quot; en compartir oficina con quienes fueron sus compañeros en el Consejo de Gobierno .</TEXT>
+  <TAGS>
+    <PER id="T1" start="64" end="80" text="Francisco Robles" TYPE="PER" comment=""/>
+    <ORG id="T2" start="285" end="304" text="Consejo de Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

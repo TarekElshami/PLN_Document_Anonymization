@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta reunión ocurre en medio de rumores sobre corrupción en el Gobierno de aquel país centroamericano .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="64" end="72" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

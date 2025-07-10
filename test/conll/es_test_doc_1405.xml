@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La vicecanciller federal dijo que recibió &quot; positiva , pero no eufóricamente &quot; el reconocimiento público que efectuó hoy Guterres sobre los contactos que mantiene en su calidad de presidente este semestre de la Unión Europea ( UE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="122" end="130" text="Guterres" TYPE="PER" comment=""/>
+    <ORG id="T2" start="212" end="225" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="228" end="230" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Suben : AEM , Alleanza y Fiat .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="9" end="12" text="AEM" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="15" end="23" text="Alleanza" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="26" end="30" text="Fiat" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

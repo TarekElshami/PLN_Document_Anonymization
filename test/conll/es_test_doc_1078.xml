@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El mercado de valores de Milán cerró la sesión de hoy, martes , con una subida del 2,18 por ciento de su índice Mibtel , que se situó en los 30.418 puntos , 648 más que en la jornada precedente .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="26" end="31" text="Milán" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="113" end="119" text="Mibtel" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

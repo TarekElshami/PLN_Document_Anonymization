@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Javier Gil , uno de los portavoces de la plataforma y miembro del grupo ecologista Agaden , explicó hoy en rueda de prensa que plantearán mociones ante los ayuntamientos , la Mancomunidad de Municipios del Campo de Gibraltar y la Diputación Provincial de Cádiz , que continuarán con la recogida de firmas , y que organizarán diversas concentraciones en apoyo a los procesados .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Javier Gil" TYPE="PER" comment=""/>
+    <ORG id="T2" start="84" end="90" text="Agaden" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="176" end="225" text="Mancomunidad de Municipios del Campo de Gibraltar" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="231" end="261" text="Diputación Provincial de Cádiz" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

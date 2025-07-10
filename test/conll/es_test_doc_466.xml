@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El delegado del Gobierno andaluz en Cádiz , Francisco Menacho , achacó su cese en este puesto , decidido hoy por el Consejo de Gobierno , al hecho de pertenecer a una familia del PSOE de Cádiz encabezada por el presidente de la Diputación provincial , Rafael Román .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="25" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="37" end="42" text="Cádiz" TYPE="LOC" comment=""/>
+    <PER id="T3" start="45" end="62" text="Francisco Menacho" TYPE="PER" comment=""/>
+    <ORG id="T4" start="117" end="136" text="Consejo de Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="180" end="193" text="PSOE de Cádiz" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="229" end="239" text="Diputación" TYPE="ORG" comment=""/>
+    <PER id="T7" start="253" end="265" text="Rafael Román" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

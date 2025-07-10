@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El alcalde apuntó que la Junta Local de Seguridad acordó la intervención de la Policía Local y la Guardia Civil para &quot; candar y precintar &quot; la vivienda en un momento en que los integrantes de la familia no se encontraban en su interior .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="26" end="50" text="Junta Local de Seguridad" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="80" end="93" text="Policía Local" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="99" end="112" text="Guardia Civil" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

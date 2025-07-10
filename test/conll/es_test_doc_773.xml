@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , cuenta con dos puertos de montaña de segunda categoría , el Alto de Barrerilla ( km 86,4 ) y Bikotx Gane ( km 126,8 ) , y otros dos de tercera categoría , como son el Alto de Garate en Llodio 8km 43,4 ) y el Alto de Zaratamo ( km 151,9 ) Patrocinada por los Ayuntamientos de Basauri , Etxebarri , Zaratamo y distintas firmas privadas , la prueba se desarrollará con un presupuesto de 6 millones .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="70" end="88" text="Alto de Barrerilla" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="103" end="114" text="Bikotx Gane" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="177" end="191" text="Alto de Garate" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="195" end="201" text="Llodio" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="218" end="234" text="Alto de Zaratamo" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="268" end="281" text="Ayuntamientos" TYPE="ORG" comment=""/>
+    <LOC id="T7" start="285" end="292" text="Basauri" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="295" end="304" text="Etxebarri" TYPE="LOC" comment=""/>
+    <LOC id="T9" start="307" end="315" text="Zaratamo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

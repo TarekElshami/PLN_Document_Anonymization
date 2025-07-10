@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Así lo explicó hoy en rueda de prensa el presidente del colectivo , Mariano Marcén , quien recordó que esta iniciativa se incluye dentro de la campaña en favor de la arquitectura popular iniciada el pasado año cuando presentaron un proyecto Leader junto a &quot; Amigos de Serrablo &quot; para obtener fondos comunitarios para la restauración del patrimonio del Pirineo aragonés .</TEXT>
+  <TAGS>
+    <PER id="T1" start="69" end="83" text="Mariano Marcén" TYPE="PER" comment=""/>
+    <MISC id="T2" start="242" end="248" text="Leader" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="257" end="279" text="&quot; Amigos de Serrablo &quot;" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="353" end="360" text="Pirineo" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

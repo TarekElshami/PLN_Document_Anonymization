@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los visitantes también participarán en ruedas de negocios empresariales promovidas por el Ministerio peruano de Relaciones Exteriores y la Cámara de Comercio de Lima .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="91" end="101" text="Ministerio" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="113" end="134" text="Relaciones Exteriores" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="140" end="166" text="Cámara de Comercio de Lima" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

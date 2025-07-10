@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El comité lanzó el mensaje tras la petición de ciertos sectores al ministro de Economía británico , Gordon Brown , a que invierta en la compra de euros los 33.000 millones de dólares ganados en la subasta celebrada para la concesión de cinco licencias de telefonía móvil .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="80" end="88" text="Economía" TYPE="MISC" comment=""/>
+    <PER id="T2" start="101" end="113" text="Gordon Brown" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

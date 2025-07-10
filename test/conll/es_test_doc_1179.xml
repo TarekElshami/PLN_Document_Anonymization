@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Fuentes de la gubernamental Fundación Nacional del Indio ( Funai ) en Cuiabá , capital del estado de Mato Grosso , confirmaron hoy a EFE que un grupo de agentes de la Policía Federal y de antropólogos de la Funai viajó a la reserva indígena para investigar los hechos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="57" text="Fundación Nacional del Indio" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="60" end="65" text="Funai" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="71" end="77" text="Cuiabá" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="102" end="113" text="Mato Grosso" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="134" end="137" text="EFE" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="168" end="183" text="Policía Federal" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="208" end="213" text="Funai" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

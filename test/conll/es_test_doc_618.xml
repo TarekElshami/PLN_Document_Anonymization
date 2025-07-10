@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según Valentín , los parámetros que utiliza Sanidad para ofrecer los datos sobre listas de espera , con conceptos como el de demora media , deberían ser cambiados , al tiempo que abogó por un análisis exhaustivo de las razones por las cuales se produce demora en cada servicio .</TEXT>
+  <TAGS>
+    <PER id="T1" start="7" end="15" text="Valentín" TYPE="PER" comment=""/>
+    <MISC id="T2" start="45" end="52" text="Sanidad" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

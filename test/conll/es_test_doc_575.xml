@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE RS-c Madrid , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="10" end="16" text="Madrid" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="28" end="31" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

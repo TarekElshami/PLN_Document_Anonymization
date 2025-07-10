@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ibarrondo consideró que el PP &quot; ha despreciado la representación de los alaveses , ha hecho dejación de los intereses de Alava , y defiende el interés particular de los accionistas &quot; de la autopista A-68 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="10" text="Ibarrondo" TYPE="PER" comment=""/>
+    <ORG id="T2" start="28" end="30" text="PP" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="122" end="127" text="Alava" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="200" end="204" text="A-68" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

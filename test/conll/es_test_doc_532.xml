@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En un comunicado , CCOO ha afirmado que la agresión de un alumno a una educadora en el centro de menores El Segre &quot; no es un hecho aislado &quot; , como declaró la consellera de Justicia , Núria de Gispert , el pasado viernes .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="24" text="CCOO" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="106" end="114" text="El Segre" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="174" end="182" text="Justicia" TYPE="MISC" comment=""/>
+    <PER id="T4" start="185" end="201" text="Núria de Gispert" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

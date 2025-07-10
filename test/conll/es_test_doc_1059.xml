@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Etiopía , que rechazó las propuestas de alto el fuego de la Unión Europea ( UE ) y de la Organización para la Unidad Africana ( OUA ) , lanzó hoy un nuevo ataque por sorpresa en el frente central después de que su Ejército afianzara las posiciones en el oeste eritreo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="8" text="Etiopía" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="61" end="74" text="Unión Europea" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="77" end="79" text="UE" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="90" end="126" text="Organización para la Unidad Africana" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="129" end="132" text="OUA" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="215" end="223" text="Ejército" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Yo sé que en estos momentos lo que los consumidores piden al Gobierno es que aumente la presencia de la oferta en la venta de gasolinas , ya sea por más presencia de gasolineras en grandes superficies o por mayor facilidad a las cooperativas para vender gasolinas , y lo vamos a hacer &quot; , dijo Rato a la prensa .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="64" end="72" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T2" start="297" end="301" text="Rato" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

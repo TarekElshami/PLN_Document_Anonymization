@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Para el dirigente del PP &quot; es paradójico que estas ayudas o becas las reciban , como condición necesaria , estudiantes a postgraduados a efectos educativos y laborales , que son inactivos a nivel EPA y no cotizan en la Seguridad Social , pero , a efectos fiscales , sean considerados trabajadores normales &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="23" end="25" text="PP" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="197" end="200" text="EPA" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="220" end="236" text="Seguridad Social" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

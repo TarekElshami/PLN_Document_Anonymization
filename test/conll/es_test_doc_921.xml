@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Destacó que Málaga cuenta con dos servicios de cirugía cardiovascular , uno en el Carlos Haya y otro en el Hospital Clínico Universitario , y que se derivan las intervenciones menores al centro privado concertado Hospital Pascual , además de la posibilidad de desviarlas a otras provincias o al extranjero .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="13" end="19" text="Málaga" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="83" end="94" text="Carlos Haya" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="108" end="138" text="Hospital Clínico Universitario" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="214" end="230" text="Hospital Pascual" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

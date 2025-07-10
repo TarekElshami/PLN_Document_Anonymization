@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El entrenador del Espanyol indicó : &quot; siempre apuesto por mi equipo y pobre del entrenador que no lo haga , pues tendrá buena parte del partido perdido &quot; y matizó que &quot; entre mi equipo y el Atlético no hay diferencias en el aspecto físico , aunque tal vez sé las haya en el psicológico &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="27" text="Espanyol" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="191" end="199" text="Atlético" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

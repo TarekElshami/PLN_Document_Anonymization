@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>RUSIA - CEI - Minsk - Vladímir Putin , se reúne con líderes de la comunidad postsoviética y plantea la necesidad de extender la cooperación económica a la defensa .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="6" text="RUSIA" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="9" end="12" text="CEI" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="15" end="20" text="Minsk" TYPE="LOC" comment=""/>
+    <PER id="T4" start="23" end="37" text="Vladímir Putin" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

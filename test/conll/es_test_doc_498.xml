@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El patronato de la residencia de ancianos &quot; Valle del Caudal &quot; , el único centro geriátrico de carácter público existente en Mieres , dio hoy luz verde al proyecto de reforma de las instalaciones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="43" end="63" text="&quot; Valle del Caudal &quot;" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="126" end="132" text="Mieres" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

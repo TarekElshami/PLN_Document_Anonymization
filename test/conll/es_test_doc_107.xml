@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La plantilla del Espanyol ha realizado esta mañana el primer entrenamiento en la concentración que comenzó ayer lunes en las instalaciones del complejo La Manga Club , situado en la localidad murciana de Los Belones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="26" text="Espanyol" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="153" end="166" text="La Manga Club" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="205" end="216" text="Los Belones" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El cruce de acusaciones se produce después de que el concejal de Asuntos Sociales de Algeciras , Eulogio Rodríguez ( PP ) , reconociera el jueves que el consistorio adeuda tres millones de pesetas a las funerarias porque carece de recursos suficientes para afrontar el pago de estos numerosos sepelios .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="66" end="95" text="Asuntos Sociales de Algeciras" TYPE="MISC" comment=""/>
+    <PER id="T2" start="98" end="115" text="Eulogio Rodríguez" TYPE="PER" comment=""/>
+    <ORG id="T3" start="118" end="120" text="PP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

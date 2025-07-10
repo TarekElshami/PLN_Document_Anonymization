@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El oficial confirmó que varios guerrilleros del grupo integrista libanés Hizbulá ( Partido de Dios ) murieron y otros resultaron heridos cuando intentaron conquistar la posición de Karkom , en la región oeste de la llamada &quot; zona de seguridad &quot; , de la que esta madrugada comenzó a retirarse de forma acelerada el Ejército israelí .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="74" end="81" text="Hizbulá" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="84" end="99" text="Partido de Dios" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="182" end="188" text="Karkom" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="315" end="323" text="Ejército" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

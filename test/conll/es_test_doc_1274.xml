@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La periodista Pilar Blanco , productora de Luis del Olmo en su programa radiofónico &quot; Protagonistas &quot; , conoció a Tip en el espacio de Onda Cero &quot; El Debate sobre Estado de la Nación &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="15" end="27" text="Pilar Blanco" TYPE="PER" comment=""/>
+    <PER id="T2" start="44" end="57" text="Luis del Olmo" TYPE="PER" comment=""/>
+    <MISC id="T3" start="85" end="102" text="&quot; Protagonistas &quot;" TYPE="MISC" comment=""/>
+    <PER id="T4" start="115" end="118" text="Tip" TYPE="PER" comment=""/>
+    <ORG id="T5" start="136" end="145" text="Onda Cero" TYPE="ORG" comment=""/>
+    <MISC id="T6" start="146" end="185" text="&quot; El Debate sobre Estado de la Nación &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

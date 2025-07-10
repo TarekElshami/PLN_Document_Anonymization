@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Bará Torres , edil del BNG , dijo sobre que el actual gobierno municipal vaya a prescindir de los servicios de Carlota Alvarez que &quot; ése es un asunto que deberemos estudiar detenidamente &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="12" text="Bará Torres" TYPE="PER" comment=""/>
+    <ORG id="T2" start="24" end="27" text="BNG" TYPE="ORG" comment=""/>
+    <PER id="T3" start="112" end="127" text="Carlota Alvarez" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

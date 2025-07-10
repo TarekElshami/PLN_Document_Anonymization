@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , el Pleno tomará la decisión de encargar a los arquitectos César Cubillas y Luis Castillo la redacción del proyecto de construcción del Centro Cultural Concha Espina , que supondrá una inversión de entre 800. 900 millones de pesetas .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="13" end="18" text="Pleno" TYPE="MISC" comment=""/>
+    <PER id="T2" start="68" end="82" text="César Cubillas" TYPE="PER" comment=""/>
+    <PER id="T3" start="85" end="98" text="Luis Castillo" TYPE="PER" comment=""/>
+    <LOC id="T4" start="145" end="174" text="Centro Cultural Concha Espina" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

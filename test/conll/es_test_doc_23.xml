@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además de Méndez y Cardozo , dos de los cinco futbolistas nominados al premio que se otorga al mejor jugador de la liga nacional - nominación hecha por los propios jugadores del torneo - Farina podrá contar con varios de los Socceroos que juegan en el exterior .</TEXT>
+  <TAGS>
+    <PER id="T1" start="11" end="17" text="Méndez" TYPE="PER" comment=""/>
+    <PER id="T2" start="20" end="27" text="Cardozo" TYPE="PER" comment=""/>
+    <PER id="T3" start="188" end="194" text="Farina" TYPE="PER" comment=""/>
+    <ORG id="T4" start="226" end="235" text="Socceroos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

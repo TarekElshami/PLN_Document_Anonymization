@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al retirarse de Kosovo las fuerzas yugoslavas , las autoridades trasladaron a otros penales de Serbia a unos 2.000 presos albaneses , acusados o sentenciados por terrorismo y separatismo , de los que en torno a un millar han sido puestos en libertad .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="23" text="Kosovo" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="96" end="102" text="Serbia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

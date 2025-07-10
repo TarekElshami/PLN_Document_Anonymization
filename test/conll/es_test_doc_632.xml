@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ayuntamiento pretende que el patio sea utilizado en horario escolar por los alumnos de Larrea .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="16" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="91" end="97" text="Larrea" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

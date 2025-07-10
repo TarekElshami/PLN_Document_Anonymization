@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De acuerdo con fuentes locales , los dos líderes decidieron que uno de los asuntos centrales de la reunión de mañana sobre Seguridad Colectiva será las medidas a adoptar para &quot; garantizar la seguridad de la Unión ruso-bielorrusa como frontera occidental de la CEI &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="124" end="143" text="Seguridad Colectiva" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="208" end="229" text="Unión ruso-bielorrusa" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="261" end="264" text="CEI" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

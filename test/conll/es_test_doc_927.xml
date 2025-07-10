@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ARGENTINA - PROTESTAS - Buenos Aires - Por primera vez , representantes de la Iglesia católica apoyan las protestas del ala dura del sindicalismo argentino en contra de las políticas de ajuste recomendadas por los organismos de crédito internacionales .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="ARGENTINA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="25" end="37" text="Buenos Aires" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="79" end="86" text="Iglesia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

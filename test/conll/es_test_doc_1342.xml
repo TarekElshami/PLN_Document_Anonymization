@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras entregar este comunicado al secretario general del PSE-EE de Guipúzcoa , Manuel Huertas , Esparza destacó que ha &quot; luchado &quot; por las libertades de Euskadi , tanto social como políticamente , y que por ello deja su cargo &quot; con la cabeza bien alta &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="57" end="63" text="PSE-EE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="67" end="76" text="Guipúzcoa" TYPE="LOC" comment=""/>
+    <PER id="T3" start="79" end="93" text="Manuel Huertas" TYPE="PER" comment=""/>
+    <PER id="T4" start="96" end="103" text="Esparza" TYPE="PER" comment=""/>
+    <ORG id="T5" start="153" end="160" text="Euskadi" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

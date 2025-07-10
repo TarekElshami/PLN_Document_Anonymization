@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El arquitecto Rafael Moneo calcula que para finales del año 2.002 podrá estar terminado el aparcamiento subterráneo que construirá en el centro de Avila y que se completará con la reforma urbanística de la popular plaza del Mercado Grande con la construcción de nuevos edificios .</TEXT>
+  <TAGS>
+    <PER id="T1" start="15" end="27" text="Rafael Moneo" TYPE="PER" comment=""/>
+    <LOC id="T2" start="148" end="153" text="Avila" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="215" end="239" text="plaza del Mercado Grande" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

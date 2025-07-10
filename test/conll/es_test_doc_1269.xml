@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El alcalde de Ecija anunció que el próximo jueves el Ayuntamiento celebrará un pleno en el que se presentará una propuesta de condena de los hechos y el reconocimiento a la labor de las fuerzas de seguridad y bomberos , además de estudiar otorgar algún reconocimiento o condecoración a los agentes que intervinieron .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="20" text="Ecija" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="54" end="66" text="Ayuntamiento" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Mañana, miércoles , a los cinco presidentes congregados en Minsk se les sumará el líder de Armenia , otro país aliado de Rusia , para celebrar juntos una cumbre más , esta vez de los seis Estados signatarios del Tratado de Defensa Colectiva ( TDC ) de la CEI .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="60" end="65" text="Minsk" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="92" end="99" text="Armenia" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="122" end="127" text="Rusia" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="189" end="196" text="Estados" TYPE="ORG" comment=""/>
+    <MISC id="T5" start="213" end="241" text="Tratado de Defensa Colectiva" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="244" end="247" text="TDC" TYPE="MISC" comment=""/>
+    <ORG id="T7" start="256" end="259" text="CEI" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

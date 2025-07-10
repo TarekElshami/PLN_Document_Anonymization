@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Fráncfort ( RFA ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="Fráncfort" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="13" end="16" text="RFA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="30" end="33" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

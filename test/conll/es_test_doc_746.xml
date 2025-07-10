@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El antiguo presidente de Flandes y actual responsable de la Asamblea de Regiones de Europa , Luc Van den Brande , y el secretario de Estado para la Regionalización de Italia , Vannino Chiti , serán otros de los participantes en este congreso que organiza el Gobierno Vasco .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="26" end="33" text="Flandes" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="61" end="91" text="Asamblea de Regiones de Europa" TYPE="ORG" comment=""/>
+    <PER id="T3" start="94" end="112" text="Luc Van den Brande" TYPE="PER" comment=""/>
+    <ORG id="T4" start="134" end="174" text="Estado para la Regionalización de Italia" TYPE="ORG" comment=""/>
+    <PER id="T5" start="177" end="190" text="Vannino Chiti" TYPE="PER" comment=""/>
+    <ORG id="T6" start="259" end="273" text="Gobierno Vasco" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

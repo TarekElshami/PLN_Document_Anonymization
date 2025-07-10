@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un 77% de los alumnos de Enseñanza Secundaria Obligatoria ( ESO ) de los Institutos de Langreo quieren que durante el próximo curso académico se imparta la asignatura de asturiano en sus centros , tal como revela una encuesta realizada por Xunta Moza , dada a conocer hoy por la asociación juvenil defensora de la lengua autóctona .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="26" end="58" text="Enseñanza Secundaria Obligatoria" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="61" end="64" text="ESO" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="74" end="84" text="Institutos" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="88" end="95" text="Langreo" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="241" end="251" text="Xunta Moza" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

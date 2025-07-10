@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ante la posibilidad de que CiU rechace apoyar la demanda republicana para aplazar esta cuestión al debate de los presupuestos de la Generalitat del 2001 , Huguet ha señalado que la propuesta podría aprobarse ya , aunque ERC &quot; será tozuda como una mula y lo volveremos a presentar si nos lo rechazan &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="28" end="31" text="CiU" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="133" end="144" text="Generalitat" TYPE="ORG" comment=""/>
+    <PER id="T3" start="156" end="162" text="Huguet" TYPE="PER" comment=""/>
+    <ORG id="T4" start="221" end="224" text="ERC" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

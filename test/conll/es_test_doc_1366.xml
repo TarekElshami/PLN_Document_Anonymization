@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Quien convoca a los futbolistas de la selección no es Romario y tampoco son los médicos del Vasco da Gama .</TEXT>
+  <TAGS>
+    <PER id="T1" start="57" end="64" text="Romario" TYPE="PER" comment=""/>
+    <ORG id="T2" start="95" end="108" text="Vasco da Gama" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Apuntó que el profesorado en Huesca tiene una media de edad inferior a la de los campus de Zaragoza y agregó que algunos docentes viven en Huesca , mientras que otros tienen tareas tanto en Huesca como en Zaragoza .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="30" end="36" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="92" end="100" text="Zaragoza" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="140" end="146" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="191" end="197" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="206" end="214" text="Zaragoza" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro Fortún aseguró que el Gobierno está dispuesto a dialogar con los campesinos y anunció el inicio del trabajo de cinco comisiones mixtas del Gobierno y la Confederación Sindical Unica de Trabajadores Campesinos de Bolivia , pactadas cuando se dio fin al estado de sitio , el mes pasado .</TEXT>
+  <TAGS>
+    <PER id="T1" start="13" end="19" text="Fortún" TYPE="PER" comment=""/>
+    <ORG id="T2" start="35" end="43" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="152" end="160" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="166" end="232" text="Confederación Sindical Unica de Trabajadores Campesinos de Bolivia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

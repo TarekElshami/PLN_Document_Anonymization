@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Iglesias dijo que Nicaragua , por primera vez en muchas décadas , logra encaminarse simultáneamente hacia la democracia política , el crecimiento económico y la justicia social , que son esenciales para el mantenimiento de la paz .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Iglesias" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="28" text="Nicaragua" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

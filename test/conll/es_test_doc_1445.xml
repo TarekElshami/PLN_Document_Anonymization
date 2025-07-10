@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la denuncia , la mujer se encontraba en una discoteca de la plaza de Colón con dos amigas cuando un hombre la invitó a una copa y , aunque ella no aceptó , cuando salieron estaba en la puerta y se ofreció a llevar a las tres en su coche .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="67" end="81" text="plaza de Colón" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

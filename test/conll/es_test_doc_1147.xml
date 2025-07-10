@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alonso , que mantuvo un encuentro con los medios de comunicación en Tomelloso ( Ciudad Real ) antes de asistir a la reunión del Consejo Rector del Instituto de la Vid. el Vino ( IVICAM ) , explicó que esta cata estará organizada por la Asociación de Enólogos de Castilla-La Mancha y la Consejería de Agricultura , con motivo del Día de la Región .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Alonso" TYPE="PER" comment=""/>
+    <LOC id="T2" start="69" end="78" text="Tomelloso" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="81" end="92" text="Ciudad Real" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="129" end="176" text="Consejo Rector del Instituto de la Vid. el Vino" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="179" end="185" text="IVICAM" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="237" end="281" text="Asociación de Enólogos de Castilla-La Mancha" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="287" end="312" text="Consejería de Agricultura" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente francés , Jacques Chirac , aseguró que esta colaboración será &quot; cada día más fuerte &quot; y &quot; España siempre tendrá todo nuestro apoyo en este campo &quot; , lo que corroboró su primer ministro , Lionel Jospin , al señalar la &quot; total solidaridad &quot; de Francia en esta materia y su compromiso por hacer &quot; más eficaz &quot; la cooperación policial y judicial .</TEXT>
+  <TAGS>
+    <PER id="T1" start="25" end="39" text="Jacques Chirac" TYPE="PER" comment=""/>
+    <ORG id="T2" start="105" end="111" text="España" TYPE="ORG" comment=""/>
+    <PER id="T3" start="202" end="215" text="Lionel Jospin" TYPE="PER" comment=""/>
+    <ORG id="T4" start="257" end="264" text="Francia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

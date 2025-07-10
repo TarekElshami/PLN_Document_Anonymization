@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Antón Gómez , portavoz de la Confederación Intersindical Galega-Ensino expresó su &quot; indignación &quot; por este hecho y dijo que la delegación de Educación incumple la legislación laboral , al obligar a una trabajadora a recuperar las horas de permiso de lactancia .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="12" text="Antón Gómez" TYPE="PER" comment=""/>
+    <ORG id="T2" start="30" end="71" text="Confederación Intersindical Galega-Ensino" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="142" end="151" text="Educación" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

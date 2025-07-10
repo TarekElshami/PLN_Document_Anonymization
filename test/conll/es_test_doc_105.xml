@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La cotización de las acciones españolas en la Bolsa de valores de París , fue hoy, martes , la siguiente : ACTUAL VARIACION TELEFONICA 20,66 euros + 0,63% BANCO POPULAR no cotizó - La Manga , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="47" end="52" text="Bolsa" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="67" end="72" text="París" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="125" end="135" text="TELEFONICA" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="156" end="169" text="BANCO POPULAR" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="182" end="190" text="La Manga" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="202" end="205" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

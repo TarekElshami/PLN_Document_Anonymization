@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Vallehermoso , la única inmobiliaria española que forma parte del índice Ibex-35 , obtuvo en el primer trimestre de este año unos beneficios antes de impuestos de 4.711 millones de pesetas , un 32,5 por ciento más que en el ejercicio precedente .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="13" text="Vallehermoso" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="74" end="81" text="Ibex-35" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Rusia , a su vez , rechaza la intención de sus vecinos bálticos ( Estonia , Letonia y Lituania ) de entrar en la OTAN , aunque Putin , preocupado por sus relaciones con Occidente , evitó apoyar la iniciativa militarista de Lukashenko .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="6" text="Rusia" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="67" end="74" text="Estonia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="77" end="84" text="Letonia" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="87" end="95" text="Lituania" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="114" end="118" text="OTAN" TYPE="ORG" comment=""/>
+    <PER id="T6" start="128" end="133" text="Putin" TYPE="PER" comment=""/>
+    <MISC id="T7" start="170" end="179" text="Occidente" TYPE="MISC" comment=""/>
+    <PER id="T8" start="224" end="234" text="Lukashenko" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

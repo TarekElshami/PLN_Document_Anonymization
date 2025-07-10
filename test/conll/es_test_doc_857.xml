@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El oro registró hoy, martes , las siguientes cotizaciones en los principales mercados europeos : Ciudad Valor Unidad Valor anterior - Bruselas 9.816 Euros / lingote 9.953 Fráncfort 9.720 Euros / kg 9.810 Londres 274,05 Dólares / onza 275,05 París 9.680 Euros / kg 9.830 Milán s-d Euros / gr s-d Zúrich 15.150 Francos suizos / kg 15.225 s/d = sin datos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="135" end="143" text="Bruselas" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="172" end="181" text="Fráncfort" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="205" end="212" text="Londres" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="242" end="247" text="París" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="271" end="276" text="Milán" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="296" end="302" text="Zúrich" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

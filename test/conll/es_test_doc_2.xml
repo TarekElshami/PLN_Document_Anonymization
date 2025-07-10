@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las reservas &quot; on line &quot; de billetes aéreos a través de Internet aumentaron en España un 300 por ciento en el primer trimestre de este año con respecto al mismo período de 1999 , aseguró hoy Iñigo García Aranda , responsable de comunicación de Savia Amadeus .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="57" end="65" text="Internet" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="80" end="86" text="España" TYPE="LOC" comment=""/>
+    <PER id="T3" start="192" end="211" text="Iñigo García Aranda" TYPE="PER" comment=""/>
+    <ORG id="T4" start="245" end="258" text="Savia Amadeus" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

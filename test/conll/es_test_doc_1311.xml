@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Las legiones de pobres y desempleados están allí , impacientes esperando , abandonados y sin esperanzas , por años , por siglos y quizás no resistan más la amargura de las insensibles medicinas , los indefinidos aplazamientos y la gravosa carga de los ajustes &quot; indicó Alemán , en una clara referencia a los prolongados estudios técnicos que se realizan para otorgar ayuda a Nicaragua .</TEXT>
+  <TAGS>
+    <PER id="T1" start="272" end="278" text="Alemán" TYPE="PER" comment=""/>
+    <ORG id="T2" start="378" end="387" text="Nicaragua" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

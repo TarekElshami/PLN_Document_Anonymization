@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Fuera de ambas alianzas dentro de la CEI , económica y militar , quedan las antiguas repúblicas soviéticas reacias al hegemonismo ruso , que hacen guiños a Occidente y a otras potencias regionales , a pesar de los deseos de Putin de recobrarlos para la órbita de Moscú .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="41" text="CEI" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="157" end="166" text="Occidente" TYPE="MISC" comment=""/>
+    <PER id="T3" start="225" end="230" text="Putin" TYPE="PER" comment=""/>
+    <LOC id="T4" start="264" end="269" text="Moscú" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

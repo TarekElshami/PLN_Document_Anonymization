@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Federación Nacional de Asociaciones de Transporte de España ( Fenadismer ) ha convocado una reunión el próximo jueves para analizar la situación y , según su secretario general , Juan José Gil , estudiar posibles movilizaciones del sector para conseguir que los precios bajen .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="63" text="Federación Nacional de Asociaciones de Transporte de España" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="66" end="76" text="Fenadismer" TYPE="ORG" comment=""/>
+    <PER id="T3" start="183" end="196" text="Juan José Gil" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

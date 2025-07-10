@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al premio , dotado con un millón de pesetas por Caja España y una escultura de Cristóbal Gabarrón , pueden presentarse trabajos publicados entre el. de diciembre de 1999. el 30 de noviembre de 2000 , que se refieran a la importancia que tiene para los medios de comunicación el uso , extensión y pervivencia del español , informó hoy la APV .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="49" end="60" text="Caja España" TYPE="ORG" comment=""/>
+    <PER id="T2" start="80" end="98" text="Cristóbal Gabarrón" TYPE="PER" comment=""/>
+    <ORG id="T3" start="338" end="341" text="APV" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

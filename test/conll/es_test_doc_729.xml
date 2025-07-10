@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Portugal estará representado con todas sus regiones en la feria de turismo interior INTUR 2000 , que se celebrará en Valladolid del 23 al 26 del próximo mes de noviembre , dijo hoy a Efe el coordinador de la Oficina turística lusa en España , Joao Sebastiao .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="9" text="Portugal" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="85" end="95" text="INTUR 2000" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="118" end="128" text="Valladolid" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="184" end="187" text="Efe" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="209" end="216" text="Oficina" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="235" end="241" text="España" TYPE="LOC" comment=""/>
+    <PER id="T7" start="244" end="258" text="Joao Sebastiao" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

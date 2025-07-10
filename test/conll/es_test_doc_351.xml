@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La misión de estos soldados internacionales será la de verificar el completo repliegue de Israel y ayudar a las autoridades del Líbano en la imposición de la ley y el orden en la zona .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="91" end="97" text="Israel" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="129" end="135" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

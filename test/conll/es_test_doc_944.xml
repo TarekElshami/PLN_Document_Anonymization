@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE Ginebra , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="5" end="12" text="Ginebra" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="24" end="27" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

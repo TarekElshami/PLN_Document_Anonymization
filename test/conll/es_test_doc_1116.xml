@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ciclista italiano Iván Quaranta ( Mobilvetta ) vencedor de la décima etapa , comentó que le tiene tomada la medida a su compatriota Mario Cipollini y una vez más , la segunda en este Giro y cuarta en la historia de la carrera , le volvió a sorprender .</TEXT>
+  <TAGS>
+    <PER id="T1" start="22" end="35" text="Iván Quaranta" TYPE="PER" comment=""/>
+    <ORG id="T2" start="38" end="48" text="Mobilvetta" TYPE="ORG" comment=""/>
+    <PER id="T3" start="136" end="151" text="Mario Cipollini" TYPE="PER" comment=""/>
+    <MISC id="T4" start="187" end="191" text="Giro" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

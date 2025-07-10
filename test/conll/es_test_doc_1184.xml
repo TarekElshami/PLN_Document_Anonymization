@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La reserva Vale do Guaporé , ubicada al norte de Mato Grosso y al sur del estado amazónico de Rondonia , tiene 242 hectáreas , está habitada por 550 indios de cinco etnias diferentes y se la disputan tanto madereros , debido a que alberga maderas de gran valor , como colonos y &quot; garimpeiros &quot; ( buscadores de oro y piedras preciosas ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="12" end="27" text="Vale do Guaporé" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="50" end="61" text="Mato Grosso" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="95" end="103" text="Rondonia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente de la organización empresarial , José María Cuevas , explicó esta mañana que la semana que viene se reunirá con el secretario general de UGT , Cándido Méndez , y el próximo 1 de junio los sindicatos y el propio Cuevas serán recibidos por el presidente del Gobierno , José María Aznar , para presentarle individualmente sus propuestas para el diálogo social .</TEXT>
+  <TAGS>
+    <PER id="T1" start="48" end="65" text="José María Cuevas" TYPE="PER" comment=""/>
+    <ORG id="T2" start="152" end="155" text="UGT" TYPE="ORG" comment=""/>
+    <PER id="T3" start="158" end="172" text="Cándido Méndez" TYPE="PER" comment=""/>
+    <PER id="T4" start="226" end="232" text="Cuevas" TYPE="PER" comment=""/>
+    <ORG id="T5" start="271" end="279" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T6" start="282" end="298" text="José María Aznar" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

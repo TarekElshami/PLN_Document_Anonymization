@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En automóviles , Volkswagen ganó un muy modesto 0,09 por ciento hasta los 44,72 euros al no percibirse nuevas ideas para este grupo en la junta de accionistas celebrada hoy en Hamburgo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="28" text="Volkswagen" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="177" end="185" text="Hamburgo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

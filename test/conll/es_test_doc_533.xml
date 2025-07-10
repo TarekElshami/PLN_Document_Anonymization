@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las fuentes sindicales han denunciado una agresión similar en un centro de Girona , unas amenazas con arma blanca en otro centro de Tarragona y algunos educadores contusionados en Barcelona durante la Semana Santa como los principales argumentos para apoyar su tesis y responder a las declaraciones de De Gispert .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="76" end="82" text="Girona" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="133" end="142" text="Tarragona" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="181" end="190" text="Barcelona" TYPE="LOC" comment=""/>
+    <PER id="T4" start="303" end="313" text="De Gispert" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

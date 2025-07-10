@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , la Confederación Española de Transporte de Mercancías , reivindica la creación de un gasóleo profesional igual para todos los transportistas europeos , ya que a juicio de su secretario general , Javier de Mauricio , &quot; no se trata de un hecho aislado en España &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="69" text="Confederación Española de Transporte de Mercancías" TYPE="ORG" comment=""/>
+    <PER id="T2" start="211" end="229" text="Javier de Mauricio" TYPE="PER" comment=""/>
+    <LOC id="T3" start="269" end="275" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

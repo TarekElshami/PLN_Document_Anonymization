@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La grúa municipal tuvo que retirar hoy el coche de la directora gerente del Palacio de Cultura de Pontevedra , Carlota Alvarez Basso , con ella dentro porque se negó a abandonar el automóvil , que estaba mal estacionado .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="77" end="95" text="Palacio de Cultura" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="99" end="109" text="Pontevedra" TYPE="LOC" comment=""/>
+    <PER id="T3" start="112" end="133" text="Carlota Alvarez Basso" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El trabajo galardonado por el jurado de los premios , en el que están representados técnicos , empresarios , sindicatos y medios de comunicación , se titula Sistema de Gestión de Prevención de Riesgos Laborales en una empresa constructora , Sus autores son las alumnas María Inmaculada González Paniagua y Esther Barrantes Palencia , dirigidas por Luis Damián Ramos Pereira y tuteladas por José Julián Carmona .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="158" end="239" text="Sistema de Gestión de Prevención de Riesgos Laborales en una empresa constructora" TYPE="MISC" comment=""/>
+    <PER id="T2" start="270" end="304" text="María Inmaculada González Paniagua" TYPE="PER" comment=""/>
+    <PER id="T3" start="307" end="332" text="Esther Barrantes Palencia" TYPE="PER" comment=""/>
+    <PER id="T4" start="349" end="374" text="Luis Damián Ramos Pereira" TYPE="PER" comment=""/>
+    <PER id="T5" start="391" end="410" text="José Julián Carmona" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

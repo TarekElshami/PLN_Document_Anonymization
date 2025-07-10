@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Valladolid acogió hoy una presentación de la oferta turística de Lisboa y el Valle del Tajo , que forma parte de una promoción de esta zona lusa en el norte de España .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="11" text="Valladolid" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="66" end="72" text="Lisboa" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="78" end="92" text="Valle del Tajo" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="161" end="167" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

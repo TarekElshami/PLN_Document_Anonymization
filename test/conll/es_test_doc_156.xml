@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según el SUP , la conversión en Jefatura Superior de Policía de la comisaría melillense supondría el aumento de los 400 funcionarios actuales en plantilla a 500 &quot; con destino definitivo y especializados &quot; y &quot; evitaría parches como las comisiones de servicio &quot; - grupos de unos 15 funcionarios que vienen a Melilla durante un mes y que &quot; desconocen la idiosincrasia de la ciudad &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="10" end="13" text="SUP" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="33" end="61" text="Jefatura Superior de Policía" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="307" end="314" text="Melilla" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

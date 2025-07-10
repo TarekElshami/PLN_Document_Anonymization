@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ayuntamiento de Algeciras ( Cádiz ) se quejó recientemente de que no dispone de fondos para asumir estos gastos y el subdelegado del Gobierno en Cádiz , Miguel Osuna , afirmó que debería ser la administración autonómica quien los pagara .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="29" text="Ayuntamiento de Algeciras" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="32" end="37" text="Cádiz" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="137" end="145" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="149" end="154" text="Cádiz" TYPE="LOC" comment=""/>
+    <PER id="T5" start="157" end="169" text="Miguel Osuna" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

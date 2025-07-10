@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ejército israelí evacuó esta tarde su cuartel general de Marjayun en la denominada &quot; zona de seguridad &quot; del sur del Líbano , que ha mantenido bajo ocupación militar durante más de 22 años , informaron a EFE fuentes de la Seguridad libanesa .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="12" text="Ejército" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="61" end="69" text="Marjayun" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="121" end="127" text="Líbano" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="208" end="211" text="EFE" TYPE="ORG" comment=""/>
+    <MISC id="T5" start="226" end="235" text="Seguridad" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

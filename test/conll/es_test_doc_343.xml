@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El contrabajo está inspirada en un relato del mismo título del escritor alemán Patrick Süskind , cuya obra más conocida es la novela El Perfume , y está dirigida por José Pascual .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="1" end="14" text="El contrabajo" TYPE="MISC" comment=""/>
+    <PER id="T2" start="80" end="95" text="Patrick Süskind" TYPE="PER" comment=""/>
+    <MISC id="T3" start="134" end="144" text="El Perfume" TYPE="MISC" comment=""/>
+    <PER id="T4" start="167" end="179" text="José Pascual" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

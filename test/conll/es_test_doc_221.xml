@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Gobierno Vasco &quot; se felicita de que el PSE/EE defienda el diálogo entre todos los partidos &quot; , según explicó hoy el portavoz , Josu Jon Imaz , y recordó que coincide con la posición defendida por el lehendakari .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="18" text="Gobierno Vasco" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="43" end="49" text="PSE/EE" TYPE="ORG" comment=""/>
+    <PER id="T3" start="131" end="144" text="Josu Jon Imaz" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Comité de Empresa está formado por seis delegados de UGT , 4 de USO , 3 de CC.OO , 2 de CSI-CSIF y 2 de STIL .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="21" text="Comité de Empresa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="57" end="60" text="UGT" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="68" end="71" text="USO" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="79" end="84" text="CC.OO" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="92" end="100" text="CSI-CSIF" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="108" end="112" text="STIL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

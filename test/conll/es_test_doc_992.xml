@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las mismas fuentes negaron la posibilidad de que las petroleras pacten los precios y señalaron que si hay coincidencia es porque en España sólo operan tres grandes compañías , una de ellas Repsol , que controla el 45 por ciento del mercado y que es la que marca la línea a seguir .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="133" end="139" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="190" end="196" text="Repsol" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

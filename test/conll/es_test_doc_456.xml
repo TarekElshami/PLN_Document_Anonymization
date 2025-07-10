@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La plantilla del Elche ha recibido con cierto escepticismo y mucha sorpresa el anuncio hecho por Diego Quiles , consejero delegado de la entidad , relativas a que los problemas económicos pueden impedir que para la próxima temporada se pueda contar con un equipo con aspiraciones de ascenso .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="23" text="Elche" TYPE="ORG" comment=""/>
+    <PER id="T2" start="98" end="110" text="Diego Quiles" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

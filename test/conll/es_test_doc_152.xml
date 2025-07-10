@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Sindicato Unificado de Policía de Melilla reclamó hoy la conversión de la Comisaría Provincial en Jefatura Superior de Policía con capacidad para disponer de personal especializado para &quot; controlar mejor la frontera &quot; , ya que &quot; es necesario que estén preparados ante la presión constante que hay &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="34" text="Sindicato Unificado de Policía" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="38" end="45" text="Melilla" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="78" end="98" text="Comisaría Provincial" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="102" end="130" text="Jefatura Superior de Policía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Al estar distantes de Barcelona , también está distante el sentimiento de euforia .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="25" end="34" text="Barcelona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>VENEZUELA - ELECCIONES PUTIN ABOGA POR REFORZAR EL PESO DE LA COMUNIDAD POSTSOVIETICA Minsk ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="VENEZUELA" TYPE="LOC" comment=""/>
+    <PER id="T2" start="24" end="29" text="PUTIN" TYPE="PER" comment=""/>
+    <LOC id="T3" start="87" end="92" text="Minsk" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="95" end="98" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

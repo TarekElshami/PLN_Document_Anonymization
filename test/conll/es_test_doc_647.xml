@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Herrera explicó que su decisión la adoptará en el pleno cuando vea si Ledesma se presenta como candidato a alcalde , lo que entendería como una ruptura de su acuerdo con IU para la moción de censura .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Herrera" TYPE="PER" comment=""/>
+    <PER id="T2" start="71" end="78" text="Ledesma" TYPE="PER" comment=""/>
+    <ORG id="T3" start="171" end="173" text="IU" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

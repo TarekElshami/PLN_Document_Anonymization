@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De esta forma , el Ibex-35 avanzó 53,80 puntos , el 0,52 por ciento , hasta situarse en 10.380,10 puntos , con lo que intenta recuperar de nuevo el nivel psicológico de los 10.500 perdidos ayer , mientras que el general de Madrid ganó 4,70 enteros , el 0,49 por ciento , hasta quedar en 956,76 puntos , que le permite salir del mínimo anual marcado en la anterior sesión .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="20" end="27" text="Ibex-35" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="224" end="230" text="Madrid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

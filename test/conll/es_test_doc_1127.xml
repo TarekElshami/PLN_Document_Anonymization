@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente de la Diputación de Cádiz , Rafael Román ( PSOE ) , expresó su sorpresa por el cese de Menacho y destacó que ha hecho una &quot; excelente &quot; gestión al frente de la Junta de Andalucía .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="21" end="40" text="Diputación de Cádiz" TYPE="ORG" comment=""/>
+    <PER id="T2" start="43" end="55" text="Rafael Román" TYPE="PER" comment=""/>
+    <ORG id="T3" start="58" end="62" text="PSOE" TYPE="ORG" comment=""/>
+    <PER id="T4" start="102" end="109" text="Menacho" TYPE="PER" comment=""/>
+    <ORG id="T5" start="175" end="193" text="Junta de Andalucía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

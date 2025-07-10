@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La denominación de origen Vinos de Madrid cumple este año su décimo aniversario , informó el Consejo Regulador de la D. O. , que mañana entregrará los premios &quot; Viña de Madrid 2000 &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="27" end="42" text="Vinos de Madrid" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="94" end="123" text="Consejo Regulador de la D. O." TYPE="ORG" comment=""/>
+    <MISC id="T3" start="160" end="183" text="&quot; Viña de Madrid 2000 &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

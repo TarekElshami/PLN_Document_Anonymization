@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La propietaria de los animales , Herminia Bran , que reside en Goiás , cerca de Lalín , comentó a EFE que una vecina le regaló la gata , que se encontraba preñada .</TEXT>
+  <TAGS>
+    <PER id="T1" start="34" end="47" text="Herminia Bran" TYPE="PER" comment=""/>
+    <LOC id="T2" start="64" end="69" text="Goiás" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="81" end="86" text="Lalín" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="99" end="102" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

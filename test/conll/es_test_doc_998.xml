@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De igual modo se ha manifestado el vicepresidente primero del Gobierno , Mariano Rajoy , quien aseguró hoy que el Ejecutivo prepara reformas estructurales para fortalecer la libre competencia y confió en que el Tribunal de Defensa de la Competencia determine si existe algún tipo de acuerdo entre las petroleras españolas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="63" end="71" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T2" start="74" end="87" text="Mariano Rajoy" TYPE="PER" comment=""/>
+    <ORG id="T3" start="115" end="124" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="212" end="249" text="Tribunal de Defensa de la Competencia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

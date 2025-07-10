@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE vm tc/jad Cádiz , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="20" text="Cádiz" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="32" end="35" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

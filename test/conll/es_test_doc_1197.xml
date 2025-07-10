@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El país será admitido en la Asociación para la Paz de la OTAN , durante la reunión ministerial que esta organización celebrará mañana y el jueves en Florencia ( norte de Italia ) , y está en camino la negociación de un acuerdo de asociación con la UE .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="62" text="Asociación para la Paz de la OTAN" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="150" end="159" text="Florencia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="171" end="177" text="Italia" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="249" end="251" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El columnista del diario El País Vicente Verdú , el también periodista de este rotativo Alex Grijelmo y Jesús Marchamalo , de RNE , que recibió el año pasado el premio por un trabajo publicado en La Tribuna de Canarias han sido los otros ganadores .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="26" end="33" text="El País" TYPE="ORG" comment=""/>
+    <PER id="T2" start="34" end="47" text="Vicente Verdú" TYPE="PER" comment=""/>
+    <PER id="T3" start="89" end="102" text="Alex Grijelmo" TYPE="PER" comment=""/>
+    <PER id="T4" start="105" end="121" text="Jesús Marchamalo" TYPE="PER" comment=""/>
+    <ORG id="T5" start="127" end="130" text="RNE" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="197" end="219" text="La Tribuna de Canarias" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

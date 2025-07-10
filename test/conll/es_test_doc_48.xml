@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En 1999 , Aceralia invirtió 47.711 millones de pesetas con destino a proyectos como la nueva línea de galvanizado de Avilés o la readaptación del Sínter de Gijón , en el caso de las instalaciones asturianas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="11" end="19" text="Aceralia" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="118" end="124" text="Avilés" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="147" end="162" text="Sínter de Gijón" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

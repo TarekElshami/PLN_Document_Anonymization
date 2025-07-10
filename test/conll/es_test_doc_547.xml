@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Algunos testigos afirman que el modesto Laudrup buscó a propósito una puerta escondida , pero el jefe de la Casa Real , Soeren Haslund-Christensen , tiene otra opinión , según escribe hoy el diario de Copenhague &quot; BT &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="41" end="48" text="Laudrup" TYPE="PER" comment=""/>
+    <ORG id="T2" start="109" end="118" text="Casa Real" TYPE="ORG" comment=""/>
+    <PER id="T3" start="121" end="147" text="Soeren Haslund-Christensen" TYPE="PER" comment=""/>
+    <LOC id="T4" start="202" end="212" text="Copenhague" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="213" end="219" text="&quot; BT &quot;" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

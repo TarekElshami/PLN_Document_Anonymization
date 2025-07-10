@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El coordinador de Comunicación del PP , Manuel Rodríguez Cancho , aboga porque las tasas universitarias no se incrementen por encima de IPC , &quot; ante la previsible subida de tasas universitarias , que se esta manejando por parte de los responsables educativos regionales y universitarios &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="38" text="Comunicación del PP" TYPE="ORG" comment=""/>
+    <PER id="T2" start="41" end="64" text="Manuel Rodríguez Cancho" TYPE="PER" comment=""/>
+    <MISC id="T3" start="137" end="140" text="IPC" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

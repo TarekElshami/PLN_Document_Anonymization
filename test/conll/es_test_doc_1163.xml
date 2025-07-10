@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por último , el sábado se celebrará una excursión a la ermita para los alumnos de tercero de educación primaria y el domingo se celebrará el Gran Juego de la Oca en la plaza del Ayuntamiento .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="142" end="162" text="Gran Juego de la Oca" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="169" end="191" text="plaza del Ayuntamiento" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

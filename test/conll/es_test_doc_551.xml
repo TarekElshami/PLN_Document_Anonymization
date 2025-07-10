@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Considero un gran honor que la Reina sepa lo que he prestado durante mi carrera futbolística en nombre de Dinamarca , pero también estoy satisfecho por el deporte nacional &quot; , dijo Laudrup .</TEXT>
+  <TAGS>
+    <PER id="T1" start="34" end="39" text="Reina" TYPE="PER" comment=""/>
+    <LOC id="T2" start="109" end="118" text="Dinamarca" TYPE="LOC" comment=""/>
+    <PER id="T3" start="184" end="191" text="Laudrup" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

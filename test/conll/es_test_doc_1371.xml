@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Romario , quien se ha sometido en los últimos días a un trabajo de fisioterapia , sostuvo que &quot; lo ideal &quot; sería que pudiera participar en el clásico que su equipo jugará el próximo domingo ante el Flamengo y cuyo vencedor tendrá amplias posibilidades de alzarse con la segunda vuelta del campeonato del estado de Río de Janeiro .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Romario" TYPE="PER" comment=""/>
+    <ORG id="T2" start="199" end="207" text="Flamengo" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="315" end="329" text="Río de Janeiro" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

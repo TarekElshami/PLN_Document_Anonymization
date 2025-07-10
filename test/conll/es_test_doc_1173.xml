@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al menos 16 personas resultaron muertas y 54 heridas al caer hoy, martes , desde un puente a un barranco el autobús en el que viajaban en el estado occidental indio de Maharastra , informó la agencia estatal PTI .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="169" end="179" text="Maharastra" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="209" end="212" text="PTI" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

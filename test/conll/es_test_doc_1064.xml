@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>FIYI - GOLPE EJERCITO Y GUERRILLA TAMIL ABREN NUEVO FRENTE DE GUERRA Nueva Delhi ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="5" text="FIYI" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="70" end="81" text="Nueva Delhi" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="84" end="87" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El pasado 8 de mayo la empresa Matsushita Eléctric España. S.A. , ( Panasonic ) con sede en Celrá , despidió a 10 trabajadores argumentando los malos resultados económicos del año pasado , razón que el comité de empresa se negó a aceptar .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="64" text="Matsushita Eléctric España. S.A." TYPE="ORG" comment=""/>
+    <ORG id="T2" start="69" end="78" text="Panasonic" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="93" end="98" text="Celrá" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

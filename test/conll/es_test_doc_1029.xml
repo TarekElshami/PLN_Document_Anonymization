@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alvarado señaló que &quot; en principio es suficiente &quot; la voluntad del titular de Medio Ambiente de cumplir los compromisos adquiridos por el Ministerio en la anterior Legislatura y señaló que está seguro de que Matas va a agilizar muchos de los asuntos hidráulicos de interés para Extremadura .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Alvarado" TYPE="PER" comment=""/>
+    <MISC id="T2" start="79" end="93" text="Medio Ambiente" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="139" end="149" text="Ministerio" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="165" end="176" text="Legislatura" TYPE="MISC" comment=""/>
+    <PER id="T5" start="209" end="214" text="Matas" TYPE="PER" comment=""/>
+    <ORG id="T6" start="279" end="290" text="Extremadura" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

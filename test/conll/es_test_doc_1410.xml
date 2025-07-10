@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El líder de los Verdes , Alexander van der Bellen , afirmó que se trata de &quot; una señal &quot; de que los Catorce reflexionan sobre sus sanciones , pero instó a ser precavidos a la hora de hacer interpretaciones dado que el Gobierno belga dice no haber sido contactado sobre este tema , recordó .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="23" text="Verdes" TYPE="ORG" comment=""/>
+    <PER id="T2" start="26" end="50" text="Alexander van der Bellen" TYPE="PER" comment=""/>
+    <ORG id="T3" start="101" end="108" text="Catorce" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="219" end="227" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

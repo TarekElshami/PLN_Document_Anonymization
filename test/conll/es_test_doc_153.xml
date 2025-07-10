@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El secretario de Organización del SUP , Julián Millán , denunció la retirada de la Unidad de Intervención Policial ( UIP ) que hasta ahora estaba de modo permanente en la ciudad y explicó que si en Melilla existiese una Jefatura Superior podría abrir una UIP fija &quot; que estuviese siempre alerta ante cualquier posible altercado , porque la frontera es un problema y se producen roces a diario &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="38" text="Organización del SUP" TYPE="ORG" comment=""/>
+    <PER id="T2" start="41" end="54" text="Julián Millán" TYPE="PER" comment=""/>
+    <ORG id="T3" start="84" end="115" text="Unidad de Intervención Policial" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="118" end="121" text="UIP" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="199" end="206" text="Melilla" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="221" end="238" text="Jefatura Superior" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="256" end="259" text="UIP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

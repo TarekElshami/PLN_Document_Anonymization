@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En una rueda de prensa al término de dos días de visita oficial , Orban destacó hoy que su país está dispuesto a dar &quot; toda la ayuda posible a Croacia par acelerar su proceso de integración en los organismos internacionales europeos y en la OTAN &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="67" end="72" text="Orban" TYPE="PER" comment=""/>
+    <ORG id="T2" start="144" end="151" text="Croacia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="242" end="246" text="OTAN" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

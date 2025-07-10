@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ivan Gotti ( ITA - Polti ) a 1:55 .10 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Ivan Gotti" TYPE="PER" comment=""/>
+    <LOC id="T2" start="14" end="17" text="ITA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="20" end="25" text="Polti" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

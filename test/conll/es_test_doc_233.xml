@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Bernal destacó que , a pesar del compromiso de Iglesias en remitir al parlamento el proyecto de Ley de Lenguas &quot; hace ya meses &quot; , y en atender la diversidad cultural y lingüística de Aragón , &quot; la realidad es que el proyecto sigue sin llegar &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Bernal" TYPE="PER" comment=""/>
+    <PER id="T2" start="48" end="56" text="Iglesias" TYPE="PER" comment=""/>
+    <MISC id="T3" start="97" end="111" text="Ley de Lenguas" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="185" end="191" text="Aragón" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

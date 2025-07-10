@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Menacho explicó en rueda de prensa que no discute la decisión del consejero de Gobernación , Alfonso Perales , e informó de que renunció al ofrecimiento que éste le ha hecho de ocupar en Sevilla una Dirección General porque &quot; el objetivo era quitarme de aquí &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Menacho" TYPE="PER" comment=""/>
+    <ORG id="T2" start="80" end="91" text="Gobernación" TYPE="ORG" comment=""/>
+    <PER id="T3" start="94" end="109" text="Alfonso Perales" TYPE="PER" comment=""/>
+    <LOC id="T4" start="188" end="195" text="Sevilla" TYPE="LOC" comment=""/>
+    <MISC id="T5" start="200" end="217" text="Dirección General" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El solar se encuentra en el barrio de San Jorge , en la calle Doctor Alexandre Fleming , dentro de la zona incluida en el plan urbanístico de recuperación de la ribera del Arga y construcción de un parque fluvial .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="29" end="48" text="barrio de San Jorge" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="57" end="87" text="calle Doctor Alexandre Fleming" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="173" end="177" text="Arga" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

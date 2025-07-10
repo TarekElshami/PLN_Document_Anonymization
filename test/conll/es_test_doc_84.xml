@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Maru Menéndez reiteró que el objetivo del acuerdo es &quot; fomentar la seguridad en el empleo &quot; y anunció que &quot; reclamaremos a través de la Confederación Europea de Sindicatos &quot; para que la Unión Europea se manifieste en defensa del Pacto por la Estabilidad .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Maru Menéndez" TYPE="PER" comment=""/>
+    <ORG id="T2" start="137" end="172" text="Confederación Europea de Sindicatos" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="187" end="200" text="Unión Europea" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="230" end="254" text="Pacto por la Estabilidad" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

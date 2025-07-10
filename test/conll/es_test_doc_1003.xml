@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También el secretario general de la Asociación Española de Operadores de Productos Petrolíferos , Aurelio Ayala , ha negado la existencia de cualquier tipo de acuerdos sobre los precios , afirmando que únicamente es la cotización internacional la que pone de acuerdo a todos los países .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="37" end="96" text="Asociación Española de Operadores de Productos Petrolíferos" TYPE="ORG" comment=""/>
+    <PER id="T2" start="99" end="112" text="Aurelio Ayala" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al acto de entrega también asistirán los consejeros de Medio Ambiente y Sanidad de la Comunidad de Madrid , Carlos Mayor Oreja e Ignacio Echaniz , respectivamente , y el viceconsejero de Economía. Empleo , Adolfo Cazorla , además del responsable del Consejo Regulador , Félix Martínez .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="56" end="70" text="Medio Ambiente" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="73" end="80" text="Sanidad" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="87" end="106" text="Comunidad de Madrid" TYPE="ORG" comment=""/>
+    <PER id="T4" start="109" end="127" text="Carlos Mayor Oreja" TYPE="PER" comment=""/>
+    <PER id="T5" start="130" end="145" text="Ignacio Echaniz" TYPE="PER" comment=""/>
+    <MISC id="T6" start="188" end="204" text="Economía. Empleo" TYPE="MISC" comment=""/>
+    <PER id="T7" start="207" end="221" text="Adolfo Cazorla" TYPE="PER" comment=""/>
+    <ORG id="T8" start="251" end="268" text="Consejo Regulador" TYPE="ORG" comment=""/>
+    <PER id="T9" start="271" end="285" text="Félix Martínez" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

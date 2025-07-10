@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>LOCKERBIE - JUICIO CHAVEZ PIDE AYUDA A GOBIERNO DE EEUU PARA SALVAR LOS COMICIOS Caracas ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="LOCKERBIE" TYPE="LOC" comment=""/>
+    <PER id="T2" start="20" end="26" text="CHAVEZ" TYPE="PER" comment=""/>
+    <ORG id="T3" start="40" end="48" text="GOBIERNO" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="52" end="56" text="EEUU" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="82" end="89" text="Caracas" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="92" end="95" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

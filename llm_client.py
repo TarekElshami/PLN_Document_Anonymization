@@ -19,7 +19,12 @@ logger = logging.getLogger(__name__)
 
 # Mapeo de etiquetas específicas a categorías generales
 TAG_CATEGORIES = {
+    'PER': 'PER',
+    'MISC': 'MISC',
+    'ORG': 'ORG',
+    'LOC': 'LOC',
     # NAME (Nombre)
+
     'NOMBRE_SUJETO_ASISTENCIA': 'NAME',
     'NOMBRE_PERSONAL_SANITARIO': 'NAME',
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El consejero se reunió hoy con el Consejo Rector del IVICAM , en un encuentro en el que se abordó la aplicación de la nueva OCM del Vino y los diferentes reglamentos comunitarios que la están desarrollando , además de temas relacionados con el funcionamiento del instituto y su presupuesto para el año 2001 .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="35" end="49" text="Consejo Rector" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="54" end="60" text="IVICAM" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="125" end="137" text="OCM del Vino" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los responsables de Xunta Moza manifestaron su sorpresa por la respuesta de los estudiantes , especialmente de los institutos de Sama , donde recibieron facilidades de la dirección y obtuvieron 344 firmas entre 405 alumnos , y de Ciaño , donde , a pesar de las trabas de la dirección , consiguieron 125 firmas entre algo más de 300 alumnos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="21" end="31" text="Xunta Moza" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="130" end="134" text="Sama" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="231" end="236" text="Ciaño" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

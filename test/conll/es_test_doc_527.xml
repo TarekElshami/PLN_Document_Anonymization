@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En el apartado de Obras , los concejales debatirán la solicitud a los Fondos de Cohesión de la Unión Europea de una ayuda de 485 millones de pesetas , para ejecutar un proyecto de renovación integral de la red de abastecimiento de agua a la ciudad que supondrá la inversión hasta el año 2006 de unos 700 millones .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="19" end="24" text="Obras" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="71" end="109" text="Fondos de Cohesión de la Unión Europea" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

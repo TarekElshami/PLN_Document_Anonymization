@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La sesión , que se desarrollará a partir de las 19.30 horas para permitir la participación de los vecinos al final del Pleno , servirá para aprobar bonificaciones del 20, 40. 60 por ciento en el IAE de 1999 a 42 comercios ubicados en la calle La Llama , que suponen 70 licencias fiscales , y por las cuales las arcas municipales dejarán de ingresar alrededor de dos millones de pesetas .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="120" end="125" text="Pleno" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="196" end="199" text="IAE" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="238" end="252" text="calle La Llama" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

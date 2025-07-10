@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un equipo de la Escuela Universitaria de Arquitectura Técnica de Extremadura ha obtenido el Premio Nacional de Seguridad en la Construcción , en el apartado destinado a la iniciativa universitaria , según un comunicado del Consejo General de la Arquitectura Técnica de España .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="62" text="Escuela Universitaria de Arquitectura Técnica" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="66" end="77" text="Extremadura" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="93" end="140" text="Premio Nacional de Seguridad en la Construcción" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="224" end="276" text="Consejo General de la Arquitectura Técnica de España" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

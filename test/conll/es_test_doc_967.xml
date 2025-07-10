@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Se ratificó en las denuncias y se remitió a los Servicios Sociales municipales &quot; que tienen constancia de la situación que se vivía en la casa porque hubo varias denuncias antes de acudir a la Policía &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="49" end="67" text="Servicios Sociales" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="194" end="201" text="Policía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

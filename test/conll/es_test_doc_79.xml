@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La secretaria ejecutiva de UGT de Madrid , Maru Menéndez , expresó hoy la &quot; indignación &quot; de su sindicato ante la decisión de la Unión Europea de considerar que el acuerdo de Estabilidad del Empleo vulnera la libertad de competencia , y anunció que reclamarán a través de la Confederación Europea de Sindicatos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="28" end="31" text="UGT" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="35" end="41" text="Madrid" TYPE="LOC" comment=""/>
+    <PER id="T3" start="44" end="57" text="Maru Menéndez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="130" end="143" text="Unión Europea" TYPE="ORG" comment=""/>
+    <MISC id="T5" start="176" end="198" text="Estabilidad del Empleo" TYPE="MISC" comment=""/>
+    <ORG id="T6" start="276" end="311" text="Confederación Europea de Sindicatos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

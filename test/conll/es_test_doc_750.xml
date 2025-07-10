@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Muñoa opinó que Europa no podrá construirse &quot; ignorando a las regiones &quot; , ya que , &quot; si éstas se apartan voluntariamente , tal unión no existirá &quot; , porque &quot; el escalón de las regiones constituye el nivel político más importante para la Europa del mañana &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Muñoa" TYPE="PER" comment=""/>
+    <LOC id="T2" start="17" end="23" text="Europa" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="239" end="245" text="Europa" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

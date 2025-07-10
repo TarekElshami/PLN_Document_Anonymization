@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Jesús Alique aseguró a los representantes del GIF que la Diputación seguirá defendiendo los intereses de los pueblos afectados por las obras del AVE y les conminó a contactar con los alcaldes de todos ellos para hacer una recopilación de los daños sufridos por las infraestructuras municipales a causa de dichos trabajos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="13" text="Jesús Alique" TYPE="PER" comment=""/>
+    <ORG id="T2" start="47" end="50" text="GIF" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="58" end="68" text="Diputación" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="146" end="149" text="AVE" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

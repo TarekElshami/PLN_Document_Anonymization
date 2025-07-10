@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El representante de la Unión Europea ( UE ) para la Política Exterior y de Seguridad Común , Javier Solana , expresó hoy, martes , su consternación por el hecho de que los más elementales principios del imperio de la ley fueron violados en el juicio de un tribunal serbio contra 143 albano-kosovares .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="37" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="40" end="42" text="UE" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="53" end="70" text="Política Exterior" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="76" end="91" text="Seguridad Común" TYPE="MISC" comment=""/>
+    <PER id="T5" start="94" end="107" text="Javier Solana" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

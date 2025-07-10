@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Se trata , añadió Antón Gómez , de &quot; un trato discriminatorio por parte de la Administración que inculca la ley &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="19" end="30" text="Antón Gómez" TYPE="PER" comment=""/>
+    <ORG id="T2" start="79" end="93" text="Administración" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

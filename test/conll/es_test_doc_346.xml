@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Consejo de Seguridad de la ONU respaldó hoy de forma enérgica las gestiones del secretario general de esa organización , Kofi Annan , en el sur del Líbano , al tiempo que solicitó a las partes que ejerzan la &quot; máxima moderación &quot; a fin de garantizar el cabal cumplimiento de la resolución 425 .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="34" text="Consejo de Seguridad de la ONU" TYPE="ORG" comment=""/>
+    <PER id="T2" start="125" end="135" text="Kofi Annan" TYPE="PER" comment=""/>
+    <LOC id="T3" start="152" end="158" text="Líbano" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="282" end="296" text="resolución 425" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

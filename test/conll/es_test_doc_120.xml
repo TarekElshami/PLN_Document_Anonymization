@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También vamos a estudiar al Atlético de Madrid , que en sus últimas visitas a Oviedo y a Palma de Mallorca ha experimentado una notable mejoría en su juego .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="47" text="Atlético de Madrid" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="79" end="85" text="Oviedo" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="90" end="107" text="Palma de Mallorca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

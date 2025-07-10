@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La declaración presidencial del Consejo de Seguridad pide a las partes la &quot; cooperación &quot; con UNIFIL .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="33" end="53" text="Consejo de Seguridad" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="95" end="101" text="UNIFIL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

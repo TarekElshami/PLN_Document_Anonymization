@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El accidente tuvo lugar hacia las 03.30 hora local ( 22.00 GMT lunes ) en la población de Kalambani , mientras el vehículo se dirigía a Mumbay ( antiguo Bombay ) , la capital de Maharastra , desde la población de Devgad .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="91" end="100" text="Kalambani" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="137" end="143" text="Mumbay" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="154" end="160" text="Bombay" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="179" end="189" text="Maharastra" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="214" end="220" text="Devgad" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

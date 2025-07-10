@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El propio Michael ha mantenido silencio al respecto , aunque se mostró muy conmovido por la distinción cuando recibió la comunicación de la Corte .</TEXT>
+  <TAGS>
+    <PER id="T1" start="11" end="18" text="Michael" TYPE="PER" comment=""/>
+    <ORG id="T2" start="141" end="146" text="Corte" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

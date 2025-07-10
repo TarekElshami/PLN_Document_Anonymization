@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFE . cm/lc ( Con fotografía ) Montevideo , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="32" end="42" text="Montevideo" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="54" end="57" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

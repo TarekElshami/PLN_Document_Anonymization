@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Grupo Mixto no puede presentar candidato , ya que sólo pueden serlo los que encabezaron listas que concurrieron a los comicios .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="15" text="Grupo Mixto" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El técnico australiano no podrá contar con la estrella del Leeds United de Inglaterra , Harry Kewell ; con el goleador y mejor jugador de la liga escocesa , Mark Viduka ( Celtic ) , y los defensas del Glasgow Rangers , Craig Moore y Tony Vidmar .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="60" end="72" text="Leeds United" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="76" end="86" text="Inglaterra" TYPE="LOC" comment=""/>
+    <PER id="T3" start="89" end="101" text="Harry Kewell" TYPE="PER" comment=""/>
+    <PER id="T4" start="158" end="169" text="Mark Viduka" TYPE="PER" comment=""/>
+    <ORG id="T5" start="172" end="178" text="Celtic" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="202" end="217" text="Glasgow Rangers" TYPE="ORG" comment=""/>
+    <PER id="T7" start="220" end="231" text="Craig Moore" TYPE="PER" comment=""/>
+    <PER id="T8" start="234" end="245" text="Tony Vidmar" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

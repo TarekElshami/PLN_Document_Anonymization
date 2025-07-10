@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Primera ronda : Paola Suárez ( ARG , 6 ) venció a Erika de Lone ( USA ) por 6-2 y 6-4 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="17" end="29" text="Paola Suárez" TYPE="PER" comment=""/>
+    <LOC id="T2" start="32" end="35" text="ARG" TYPE="LOC" comment=""/>
+    <PER id="T3" start="51" end="64" text="Erika de Lone" TYPE="PER" comment=""/>
+    <LOC id="T4" start="67" end="70" text="USA" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

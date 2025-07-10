@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>España señaló en un comunicado que el subdelegado del Gobierno en Cádiz &quot; escurre el bulto una vez más &quot; , y explicó que son los ayuntamientos los que deben asumir esos gastos , según recoge la Ley de Bases de Régimen Local y el reglamento de Policía Sanitaria Mortuaria .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="España" TYPE="PER" comment=""/>
+    <ORG id="T2" start="55" end="63" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="67" end="72" text="Cádiz" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="195" end="224" text="Ley de Bases de Régimen Local" TYPE="MISC" comment=""/>
+    <ORG id="T5" start="244" end="271" text="Policía Sanitaria Mortuaria" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

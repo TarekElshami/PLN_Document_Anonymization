@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Solana expresa su confianza en que el Tribunal Supremo , al que los abogados de los acusados apelarán , se guiará por la legalidad y no por argumentos políticos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Solana" TYPE="PER" comment=""/>
+    <ORG id="T2" start="39" end="55" text="Tribunal Supremo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

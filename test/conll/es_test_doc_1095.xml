@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los gobiernos de España y Francia se comprometieron hoy a abrir una nueva etapa en la que intensificarán su cooperación en la lucha antiterrorista , en una Cumbre bilateral que sirvió también para reafirmar la voluntad de ambos países por cumplir los plazos previstos para las conexiones transpirenaicas .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="18" end="24" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="27" end="34" text="Francia" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="157" end="163" text="Cumbre" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

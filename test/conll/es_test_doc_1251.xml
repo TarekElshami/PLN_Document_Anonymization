@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por otra parte , hace unas semanas la Unión Europea abrió un expediente contra el Estado español por incumplimiento de las medidas de control del agua .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="39" end="52" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="83" end="89" text="Estado" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

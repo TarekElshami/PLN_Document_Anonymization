@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La espectativa de los aficionados australianos está centrada en la presencia del portero del club Velez Sarfield de Argentina , José Luis Chilavert , considerado uno de los mejores del mundo , y quien , de acuerdo a los organizadores de la gira del equipo sudamericano , ha confirmado su actuación ante los Socceroos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="99" end="126" text="Velez Sarfield de Argentina" TYPE="ORG" comment=""/>
+    <PER id="T2" start="129" end="148" text="José Luis Chilavert" TYPE="PER" comment=""/>
+    <ORG id="T3" start="308" end="317" text="Socceroos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente del Comité de Empresa ( UGT ) consideró positivo este preacuerdo , &quot; aprobado de forma mayoritaria , ya que el resultado supone más de un cincuenta por ciento del total de la plantilla &quot; , aunque reconoció que &quot; hay cuestiones que no son satisfactorias .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="36" text="Comité de Empresa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="39" end="42" text="UGT" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

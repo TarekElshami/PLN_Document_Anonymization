@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El mencionado informe del Instituto de Estudios Autonómicos de la Generalitat , elaborado por Guillem López Casanovas , exdecano de la facultad de Económicas de la Universidad Pompeu Fabra , coincide con el diagnóstico de ERC sobre la peor capacidad adquisitiva de Cataluña respecto del resto de España debido a la inflación acumulada y al mayor coste de la vivienda y de la vida en general .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="27" end="78" text="Instituto de Estudios Autonómicos de la Generalitat" TYPE="ORG" comment=""/>
+    <PER id="T2" start="95" end="118" text="Guillem López Casanovas" TYPE="PER" comment=""/>
+    <ORG id="T3" start="136" end="158" text="facultad de Económicas" TYPE="ORG" comment=""/>
+    <PER id="T4" start="165" end="189" text="Universidad Pompeu Fabra" TYPE="PER" comment=""/>
+    <ORG id="T5" start="223" end="226" text="ERC" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="266" end="274" text="Cataluña" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="297" end="303" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

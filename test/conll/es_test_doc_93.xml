@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Moneo confió en que antes de final de año pueda contratarse la obra del apracmiento , que albergará 240 plazas en dos plantas Por otra parte , el titular de Fomento presentó hoy el proyecto para realizar un paseo en la entrada de la ciudad por la carretera C-505 ( Avila - Las Rozas ) y la AV-503 ( Avila - Cebreros ) , que sale de ella , de tal modo que la actual carretera tenga amplias aceras y un carril bici .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Moneo" TYPE="PER" comment=""/>
+    <MISC id="T2" start="158" end="165" text="Fomento" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="258" end="263" text="C-505" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="266" end="271" text="Avila" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="274" end="283" text="Las Rozas" TYPE="LOC" comment=""/>
+    <MISC id="T6" start="291" end="297" text="AV-503" TYPE="MISC" comment=""/>
+    <LOC id="T7" start="300" end="305" text="Avila" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="308" end="316" text="Cebreros" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Gran Consejo de Jefes de Fiyi condenó hoy la sublevación dirigida por el empresario local George Speight y respaldó por unanimidad a la actual Constitución y al presidente del país , Kamisese Mara .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="25" text="Gran Consejo de Jefes" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="29" end="33" text="Fiyi" TYPE="LOC" comment=""/>
+    <PER id="T3" start="94" end="108" text="George Speight" TYPE="PER" comment=""/>
+    <LOC id="T4" start="147" end="159" text="Constitución" TYPE="LOC" comment=""/>
+    <PER id="T5" start="187" end="200" text="Kamisese Mara" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

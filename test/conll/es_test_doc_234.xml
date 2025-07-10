@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El portavoz de CHA recordó que , además de ser uno de los acuerdos de coalición del Gobierno de Aragón , la propia Ley de Patrimonio de Aragón obliga al Ejecutivo a regular por ley las lenguas de Aragón para garantizar su protección , enseñanza y el derecho de los hablantes .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="16" end="19" text="CHA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="85" end="103" text="Gobierno de Aragón" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="116" end="143" text="Ley de Patrimonio de Aragón" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="154" end="163" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="197" end="203" text="Aragón" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

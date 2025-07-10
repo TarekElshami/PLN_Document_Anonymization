@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En las conclusiones de la cumbre destaca también el encargo de ambos gobiernos a la comisión intergubernamental sobre transportes para que evalúe la fecha de entrada en servicio de las conexiones previstas para el tren de alta velocidad entre Perpignan y Figueras y por carretera por el túnel del Somport , con el deseo de que se cumplan los plazos , que prevén su funcionamiento en 2004 .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="244" end="253" text="Perpignan" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="256" end="264" text="Figueras" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="288" end="305" text="túnel del Somport" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

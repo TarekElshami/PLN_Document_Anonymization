@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El hombre violó a la chica , la asfixió y dejó su cadáver junto a la catedral , en el barrio de D'Alt Vila , y en el juicio posterior , en el que los informes psiquiátricos consideraron alterado al acusado , fue condenado a más de diez años de cárcel .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="97" end="107" text="D'Alt Vila" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Pacheco criticó la forma en la que se está configurando el gobierno andaluz y dijo que el ejecutivo del PP &quot; está dando una clara lección &quot; a la Junta , ya que la estructura política del equipo de Aznar se constituyó en un corto período de tiempo mientras que en Andalucía se va &quot; pasito a pasito &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Pacheco" TYPE="PER" comment=""/>
+    <ORG id="T2" start="105" end="107" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="146" end="151" text="Junta" TYPE="ORG" comment=""/>
+    <PER id="T4" start="198" end="203" text="Aznar" TYPE="PER" comment=""/>
+    <LOC id="T5" start="264" end="273" text="Andalucía" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

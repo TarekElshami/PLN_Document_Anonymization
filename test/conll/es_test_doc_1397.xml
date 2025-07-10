@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Rato subrayó &quot; el convencimiento del Gobierno español de que Europa necesita una moneda estable y fuerte &quot; , y dijo que esa depreciación del euro &quot; tiene que ver con cuestiones como la diferencia de crecimiento ( de la Unión Europea ) con EEUU &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="5" text="Rato" TYPE="PER" comment=""/>
+    <ORG id="T2" start="38" end="46" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="62" end="68" text="Europa" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="220" end="233" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="240" end="244" text="EEUU" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

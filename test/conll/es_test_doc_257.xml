@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Junto a Azkargorta , ex seleccionador de Bolivia y Chile y antiguo entrenador del Espanyol , y Ochotorena , serán ponentes de estas jornadas el profesor de la Escuela Nacional de Entrenadores Santiago Coca , el licenciado en Ciencias de la Actividad Física , Carlos Alvarez , y los entrenadores riojanos Daniel Lapresa y Javier Arana .</TEXT>
+  <TAGS>
+    <PER id="T1" start="9" end="19" text="Azkargorta" TYPE="PER" comment=""/>
+    <ORG id="T2" start="42" end="49" text="Bolivia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="52" end="57" text="Chile" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="83" end="91" text="Espanyol" TYPE="ORG" comment=""/>
+    <PER id="T5" start="96" end="106" text="Ochotorena" TYPE="PER" comment=""/>
+    <ORG id="T6" start="160" end="206" text="Escuela Nacional de Entrenadores Santiago Coca" TYPE="ORG" comment=""/>
+    <MISC id="T7" start="226" end="257" text="Ciencias de la Actividad Física" TYPE="MISC" comment=""/>
+    <PER id="T8" start="260" end="274" text="Carlos Alvarez" TYPE="PER" comment=""/>
+    <PER id="T9" start="305" end="319" text="Daniel Lapresa" TYPE="PER" comment=""/>
+    <PER id="T10" start="322" end="334" text="Javier Arana" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

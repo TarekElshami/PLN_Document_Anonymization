@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sin embargo , el jugador del conjunto aragonés se ha quedado sólo contra el resto de la familia Helguera , que desea que Iván gane la Copa de Europa , algo que comprende por lo que supone proclamarse mejor equipo del continente .</TEXT>
+  <TAGS>
+    <PER id="T1" start="89" end="105" text="familia Helguera" TYPE="PER" comment=""/>
+    <PER id="T2" start="122" end="126" text="Iván" TYPE="PER" comment=""/>
+    <MISC id="T3" start="135" end="149" text="Copa de Europa" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

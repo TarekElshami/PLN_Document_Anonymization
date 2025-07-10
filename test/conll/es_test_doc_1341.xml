@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En el mismo escrito , el concejal socialista expresa su agradecimiento a los grupos municipales de PNV y EA por el &quot; comportamiento &quot; que han tenido hacia él &quot; en todo momento &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="100" end="103" text="PNV" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="106" end="108" text="EA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

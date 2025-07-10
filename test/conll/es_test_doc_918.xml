@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El delegado de la Consejería de Salud en Málaga , José Luis Marcos , aseguró por su parte que existen &quot; medios suficientes &quot; en esta provincia &quot; para atender las patologías cardiacas , tanto programadas como urgentes &quot; , y transmitió a las personas en lista de espera su &quot; confianza &quot; en el personal sanitario .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="38" text="Consejería de Salud" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="42" end="48" text="Málaga" TYPE="LOC" comment=""/>
+    <PER id="T3" start="51" end="67" text="José Luis Marcos" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

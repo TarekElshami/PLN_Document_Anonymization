@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sindicatos y dirección de empresa de Antibióticos suscribirán mañana en León el preacuerdo alcanzado el pasado día 16 entre ambas partes , después de que el 61,46 por ciento de los votantes aprobaran hoy en referéndum en la capital leonesa este principio de acuerdo , frente al 31,92 que votó en contra .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="50" text="Antibióticos" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="73" end="77" text="León" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

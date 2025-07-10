@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Jan Hruska ( CZE - Vitalicio ) a 3:38 .15 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Jan Hruska" TYPE="PER" comment=""/>
+    <LOC id="T2" start="14" end="17" text="CZE" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="20" end="29" text="Vitalicio" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

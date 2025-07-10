@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Santiago Blanco ( ESP - Vitalicio ) a 4:10 EFE fr/jap/lmpg/ Guadalupe ( Cáceres ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Santiago Blanco" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="ESP" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="25" end="34" text="Vitalicio" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="44" end="47" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="61" end="70" text="Guadalupe" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="73" end="80" text="Cáceres" TYPE="LOC" comment=""/>
+    <ORG id="T7" start="94" end="97" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

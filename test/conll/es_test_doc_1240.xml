@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La presencia de un exceso de nitratos en los acuíferos de 58 pueblos de 4 comarcas de Girona , de los cuales en 23 el agua no es potable , preocupa desde hace meses tanto a los afectados como al Gobierno de la Generalitat , así como a grupos políticos y ecologistas .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="87" end="93" text="Girona" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="196" end="222" text="Gobierno de la Generalitat" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

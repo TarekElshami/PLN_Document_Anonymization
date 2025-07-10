@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El SS&amp;P500 , que tiene en cuenta 500 empresas , perdía 7,61 puntos , equivalentes a un 0,54 por ciento , hasta los 1.393,11 y el New York Stock Exchange , que incluye los valores de la bolsa tradicional de Wall Street , caía por su parte 0,93 puntos o un 0,15 por ciento hasta los 633,99 .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="4" end="11" text="SS&amp;P500" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="130" end="153" text="New York Stock Exchange" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="207" end="218" text="Wall Street" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Este programa denominado &quot; Formación ocupacional de adolescentes inmigrantes de vida independiente. realización de estudios sobre su situación en la Comunidad de Madrid &quot; está subvencionado por el Instituto Madrileño del Menor. la Familia , dependiente de la Consejería de Servicios Sociales , con cerca de 18 millones de pesetas para este año .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="26" end="171" text="&quot; Formación ocupacional de adolescentes inmigrantes de vida independiente. realización de estudios sobre su situación en la Comunidad de Madrid &quot;" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="198" end="239" text="Instituto Madrileño del Menor. la Familia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="260" end="292" text="Consejería de Servicios Sociales" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

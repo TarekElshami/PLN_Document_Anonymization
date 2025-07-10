@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La situación en Europa era similar a la de España y París ganó un 0,89 por ciento , Londres un 0,85 por ciento y Fráncfort un 0,21 por ciento .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="23" text="Europa" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="44" end="50" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="53" end="58" text="París" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="85" end="92" text="Londres" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="114" end="123" text="Fráncfort" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

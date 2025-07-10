@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Resaltó , en este sentido , la importancia de las relaciones transfronterizas entre los distintos territorios de la UE y dijo que , si el objetivo es que &quot; Europa sea una unión y no una yuxtaposición de estados miembros , no pueden existir las fronteras naturales y menos aún en aquellos lugares donde a ambos lados de éstas existe una comunidad natural , como es el caso de Euskadi &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="117" end="119" text="UE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="157" end="163" text="Europa" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="376" end="383" text="Euskadi" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

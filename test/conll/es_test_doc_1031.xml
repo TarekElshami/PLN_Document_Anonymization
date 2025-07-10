@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Entre ellos citó los encauzamientos pendientes en poblaciones como Villafranca , Quintana y Puebla de la Calzada ; el saneamiento y depuración de las aguas en zonas que dependen de la Cuenca del Tajo ; y el abastecimiento de Azuaga dependiente de las presas de Llerena y Los Molinos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="68" end="79" text="Villafranca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="82" end="90" text="Quintana" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="93" end="113" text="Puebla de la Calzada" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="185" end="200" text="Cuenca del Tajo" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="226" end="232" text="Azuaga" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="262" end="269" text="Llerena" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="272" end="283" text="Los Molinos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

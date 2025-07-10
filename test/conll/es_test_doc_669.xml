@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Gobierno ( Interior ) de Bolivia , Guillermo Fortún , admitió hoy la posibilidad de brotes de violencia en las zonas de producción de coca , en el centro del país , si no se ofrecen alternativas a la erradicación de esa planta que los traficantes destinan a la elaboración de droga .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="16" end="24" text="Gobierno" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="27" end="35" text="Interior" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="41" end="48" text="Bolivia" TYPE="LOC" comment=""/>
+    <PER id="T4" start="51" end="67" text="Guillermo Fortún" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

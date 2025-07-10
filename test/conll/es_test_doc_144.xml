@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los Premios Nacionales de Seguridad , instituidos hace más de una década por la máxima institución profesional de los aparejadores y arquitectos técnicos , ha correspondido también a la Fundación Laboral de la Construcción , en su apartado de formación , y a Canal Sur Televisión , en la categoría destinada a los medios de comunicación .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="5" end="36" text="Premios Nacionales de Seguridad" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="187" end="223" text="Fundación Laboral de la Construcción" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="260" end="280" text="Canal Sur Televisión" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

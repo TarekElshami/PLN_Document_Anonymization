@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Problemas técnicos en el sistema informático empleado en el proceso obligaron hoy a aplazar 24 horas la reanudación del juicio contra los dos libios acusados de perpetrar el atentado contra un avión de Pan Am sobre Lockerbie ( Reino Unido ) en 1988 .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="203" end="209" text="Pan Am" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="216" end="225" text="Lockerbie" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="228" end="239" text="Reino Unido" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

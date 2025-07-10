@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Millán dijo que ante esta situación de &quot; presión fronteriza constante &quot; el grupo de reacción especial de la Policía Nacional está permanentemente en las aduanas &quot; cuando su misión no es ésa &quot; , y denunció que un policía nacional puede revisar a diario más de 2.000 documentos de identidad , &quot; con lo que cuando lleva vistos mil , ya no es capaz de diferenciarlos de un sello &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Millán" TYPE="PER" comment=""/>
+    <ORG id="T2" start="109" end="125" text="Policía Nacional" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

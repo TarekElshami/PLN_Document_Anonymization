@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En su balance de la situación interna , Fortún precisó su optimismo por que Bolivia &quot; no sufrirá grandes problemas &quot; en el futuro inmediato como consecuencia de la erradicación de los cultivos de coca y de la represión a las mafias de narcotraficantes .</TEXT>
+  <TAGS>
+    <PER id="T1" start="41" end="47" text="Fortún" TYPE="PER" comment=""/>
+    <LOC id="T2" start="77" end="84" text="Bolivia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

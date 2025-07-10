@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En un comunicado difundido en Bruselas , Solana subraya que se trata de un signo más del completo desprecio del régimen del presidente yugoslavo , Slobodan Milosevic , por los principios básicos de las democracias modernas , la independencia del poder judicial y el derecho a un juicio justo y de responsabilidad individual .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="31" end="39" text="Bruselas" TYPE="LOC" comment=""/>
+    <PER id="T2" start="42" end="48" text="Solana" TYPE="PER" comment=""/>
+    <PER id="T3" start="148" end="166" text="Slobodan Milosevic" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

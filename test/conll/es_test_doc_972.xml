@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente de EA en Alava , Manuel Ibarrondo , denunció que el gobierno foral del PP-UA no ha recurrido la prórroga de la concesión de la autopista A-68 por parte del Gobierno español a la concesionaria , tal. como se lo habían exigido las Juntas Generales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="20" text="EA" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="24" end="29" text="Alava" TYPE="LOC" comment=""/>
+    <PER id="T3" start="32" end="48" text="Manuel Ibarrondo" TYPE="PER" comment=""/>
+    <ORG id="T4" start="86" end="91" text="PP-UA" TYPE="ORG" comment=""/>
+    <MISC id="T5" start="152" end="156" text="A-68" TYPE="MISC" comment=""/>
+    <ORG id="T6" start="171" end="179" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="244" end="260" text="Juntas Generales" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

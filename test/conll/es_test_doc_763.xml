@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Con esta actitud de trabajar fuera del cauce parlamentario , el PSOE , a juicio del vicepresidente primero de la Junta , &quot; abandona cualquier intento de oposición constructiva y se sitúa fuera del Reglamento de la Cámara , con un intento de ponerse en lugar de las instituciones y para volver a reproducir un debate sobre el gasto que no les ha dado resultado anteriormente &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="65" end="69" text="PSOE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="114" end="119" text="Junta" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="198" end="208" text="Reglamento" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="215" end="221" text="Cámara" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Museo de la Pastelería de Daroca , que se ubicará en la calle Santa Lucía , es fruto de la iniciativa privada , en concreto del esfuerzo de Manuel Segura , un artesano pastelero que representa a una saga familiar y que ha destinado una importante inversión - cerca de 19 millones de pesetas - a sacarlo adelante .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="26" text="Museo de la Pastelería" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="30" end="36" text="Daroca" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="60" end="77" text="calle Santa Lucía" TYPE="LOC" comment=""/>
+    <PER id="T4" start="144" end="157" text="Manuel Segura" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

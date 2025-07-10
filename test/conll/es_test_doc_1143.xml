@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La proliferación de consejerías y viceconsejerías y de grupos parlamentarios - hay siete con representación en la Asamblea - ha hecho que se ocupen todos las oficinas disponibles en el Palacio de la Asamblea , por lo que el Gobierno se plantea incluso volver a trasladar algunas áreas a otras instalaciones públicas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="115" end="123" text="Asamblea" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="186" end="208" text="Palacio de la Asamblea" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="225" end="233" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

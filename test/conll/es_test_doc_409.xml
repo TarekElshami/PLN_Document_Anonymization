@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Una vez finalizada la reunión , Sebastián Penya , del Básquet Inca , dijo que &quot; se conversó mucho sobre el tema , pero aún no se llegó a nada concreto &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="33" end="48" text="Sebastián Penya" TYPE="PER" comment=""/>
+    <ORG id="T2" start="55" end="67" text="Básquet Inca" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

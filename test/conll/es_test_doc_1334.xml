@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFECOM jjv/as-cbr.fch San Sebastián , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="7" text="EFECOM" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="23" end="36" text="San Sebastián" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="48" end="51" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

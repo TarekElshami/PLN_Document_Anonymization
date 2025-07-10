@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Departamento de Bienestar Social , miembro del Comité Organizador de FiraGran , tendrá un espacio donde informará sobre programas y servicios dirigidos a las personas mayores de Cataluña .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="36" text="Departamento de Bienestar Social" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="51" end="81" text="Comité Organizador de FiraGran" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="182" end="190" text="Cataluña" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

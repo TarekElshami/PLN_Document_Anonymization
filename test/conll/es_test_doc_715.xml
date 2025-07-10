@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En total serán 201 docentes de Primaria y 22 de Secundaria , con más de 35 años de servicios a la formación de alumnos en Castilla-La Mancha , los que se jubilen en esa fecha .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="32" end="40" text="Primaria" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="49" end="59" text="Secundaria" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="123" end="141" text="Castilla-La Mancha" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

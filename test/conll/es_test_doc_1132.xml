@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ERC propugna que en el período de 4 años , los titulares de pensiones o subsidios puedan recuperar el poder adquisitivo perdido en los últimos años a causa del diferencial del coste de la vida en Cataluña y que , pasado este período , la Generalitat estipule una ayuda anual que salve el diferencial del IPC catalán con el del resto de España .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="4" text="ERC" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="197" end="205" text="Cataluña" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="239" end="250" text="Generalitat" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="305" end="308" text="IPC" TYPE="MISC" comment=""/>
+    <LOC id="T5" start="337" end="343" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

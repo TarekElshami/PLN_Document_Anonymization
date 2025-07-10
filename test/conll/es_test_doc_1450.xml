@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los agentes encargados de la investigación comprobaron que el automóvil figuraba a nombre de un anciano de 80 años aunque era utilizado habitualmente por su hijo , J. A. A. , según confirmó una hermana del sospechoso , que declaró también que éste padece transtornos psíquicos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="165" end="173" text="J. A. A." TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

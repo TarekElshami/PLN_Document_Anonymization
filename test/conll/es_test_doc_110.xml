@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La principal novedad del día fue , precisamente , la utilización del esférico que se empleará en la próxima Eurocopa de Bélgica y Holanda .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="109" end="117" text="Eurocopa" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="121" end="128" text="Bélgica" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="131" end="138" text="Holanda" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

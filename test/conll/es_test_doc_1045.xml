@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En la primera jornada de la evacuación acelerada israelí del sur del Líbano , tras dos días de retirada lenta y en relativa calma , hoy se produjo un escalonamiento de los choques entre soldados de Israel y guerrilleros libaneses , en los que murieron varios de éstos últimos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="70" end="76" text="Líbano" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="199" end="205" text="Israel" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

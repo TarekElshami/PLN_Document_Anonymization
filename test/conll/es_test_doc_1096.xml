@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El jefe del Gobierno , José María Aznar , dijo en conferencia de prensa en el Palacio de la Magdalena de Santander , sede de esta XIII Cumbre Hispano-francesa , que en las relaciones &quot; excepcionalmente buenas &quot; entre ambos países se abre ahora una &quot; nueva etapa &quot; en la que se utilizarán con mayor &quot; vigor &quot; todas las posibilidades de la cooperación contra el terrorismo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="13" end="21" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T2" start="24" end="40" text="José María Aznar" TYPE="PER" comment=""/>
+    <LOC id="T3" start="79" end="115" text="Palacio de la Magdalena de Santander" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="131" end="159" text="XIII Cumbre Hispano-francesa" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

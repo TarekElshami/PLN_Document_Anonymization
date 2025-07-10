@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Representantes e la Asociación para la Defensa de la Ría de Pontevedra ( APDR ) entregaron esta tarde en las oficinas del Valedor do Pobo más de cuatro mil postales de ciudadanos de la comarca para acreditar su rechazo a la permanencia de las fábricas de &quot; Celulosas &quot; y &quot; Elnosa &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="21" end="71" text="Asociación para la Defensa de la Ría de Pontevedra" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="74" end="78" text="APDR" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="110" end="138" text="oficinas del Valedor do Pobo" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="256" end="269" text="&quot; Celulosas &quot;" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="272" end="282" text="&quot; Elnosa &quot;" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Pendientes : - SIERRA LEONA / R. UNIDO - Londres - El Gobierno británico se dispone a anunciar hoy un cambio en su política hacia Sierra Leona , que se espera consistirá en un apoyo logístico y el suministro de armas al Ejercito de dicho país para combatir a las fuerzas rebeldes .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="16" end="28" text="SIERRA LEONA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="31" end="39" text="R. UNIDO" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="42" end="49" text="Londres" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="55" end="63" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="131" end="143" text="Sierra Leona" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="221" end="229" text="Ejercito" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

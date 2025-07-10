@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>VENEZUELA - ELECCIONES - Caracas - Hugo Chávez ha pedido ayuda al Gobierno estadounidense para que puedan celebrarse las elecciones del domingo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="VENEZUELA" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="26" end="33" text="Caracas" TYPE="LOC" comment=""/>
+    <PER id="T3" start="36" end="47" text="Hugo Chávez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="67" end="75" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

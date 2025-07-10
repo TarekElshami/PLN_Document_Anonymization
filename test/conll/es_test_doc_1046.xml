@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>LIBANO - ISRAEL / ENFRENTAMIENTOS PERU : OBSERVADORES NACIONALES SE RETIRAN DE PROCESO ELECTORAL Lima ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="7" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="10" end="16" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="35" end="39" text="PERU" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="98" end="102" text="Lima" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="105" end="108" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

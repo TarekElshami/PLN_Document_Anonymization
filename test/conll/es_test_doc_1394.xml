@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Economía aseguró en Washington que &quot; el Gobierno pondrá en marcha todas las medidas necesarias para reducir las tensiones de los precios para hacer mayor la competencia &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="24" text="Economía" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="36" end="46" text="Washington" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="56" end="64" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La amenaza del extremismo religioso en Asia Central ofrece a Rusia la oportunidad de recuperar su presencia en esta región estratégica , donde Estados Unidos ha sentado su influencia en los últimos cinco años .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="40" end="52" text="Asia Central" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="62" end="67" text="Rusia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="144" end="158" text="Estados Unidos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

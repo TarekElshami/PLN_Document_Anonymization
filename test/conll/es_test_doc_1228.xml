@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También aportaron su granito de arena las eléctricas , entre las que brilló REE , que con un 5,56 por ciento fue de las mayores subidas del continuo , Endesa ganó un 1,23 por ciento e Iberdrola un 1,34 por ciento .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="77" end="80" text="REE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="152" end="158" text="Endesa" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="185" end="194" text="Iberdrola" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

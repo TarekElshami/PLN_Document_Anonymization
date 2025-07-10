@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Jan Svorada ( CZE - Lampre ) m. t. .3 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="12" text="Jan Svorada" TYPE="PER" comment=""/>
+    <LOC id="T2" start="15" end="18" text="CZE" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="21" end="27" text="Lampre" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

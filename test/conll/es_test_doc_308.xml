@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por lo tanto , &quot; el preacuerdo queda refrendado y mañana por la tarde , después de reunirnos ambas partes por la mañana , se firmará el acuerdo , con la asistencia del presidente-delegado del Grupo Italiano Montedison , Carlos Frau &quot; , dijo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="193" end="218" text="Grupo Italiano Montedison" TYPE="ORG" comment=""/>
+    <PER id="T2" start="221" end="232" text="Carlos Frau" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

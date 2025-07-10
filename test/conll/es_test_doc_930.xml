@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 19.30 GMT ) EEUU - ESPAÑA - Washington - El vicepresidente segundo y ministro de Economía español , Rodrigo Rato , se entrevista hoy con el secretario del Tesoro de EEUU , Lawrence Summers , el presidente de la Reserva Federal , Alan Greenspan , y director gerente del FMI , Horst Kohler .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="19" text="EEUU" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="22" end="28" text="ESPAÑA" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="31" end="41" text="Washington" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="84" end="92" text="Economía" TYPE="MISC" comment=""/>
+    <PER id="T5" start="103" end="115" text="Rodrigo Rato" TYPE="PER" comment=""/>
+    <MISC id="T6" start="158" end="164" text="Tesoro" TYPE="MISC" comment=""/>
+    <LOC id="T7" start="168" end="172" text="EEUU" TYPE="LOC" comment=""/>
+    <PER id="T8" start="175" end="191" text="Lawrence Summers" TYPE="PER" comment=""/>
+    <MISC id="T9" start="214" end="229" text="Reserva Federal" TYPE="MISC" comment=""/>
+    <PER id="T10" start="232" end="246" text="Alan Greenspan" TYPE="PER" comment=""/>
+    <ORG id="T11" start="272" end="275" text="FMI" TYPE="ORG" comment=""/>
+    <PER id="T12" start="278" end="290" text="Horst Kohler" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

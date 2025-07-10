@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Herrera , que dimitió el pasado 3 de mayo e impidió que se presentara una moción de censura contra él por IU y PP , baraja apoyar al candidato de Izquierda Unida al descartar en principio volver a ser candidato a alcalde , pese. que podía serlo legalmente .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Herrera" TYPE="PER" comment=""/>
+    <ORG id="T2" start="107" end="109" text="IU" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="112" end="114" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="147" end="162" text="Izquierda Unida" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

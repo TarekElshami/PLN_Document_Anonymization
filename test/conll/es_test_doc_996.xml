@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De Palacio ha afirmado que la Comisión vigila la &quot; sorprendente &quot; coincidencia de los precios de los carburantes en España en las diferentes estaciones de servicio que parece que &quot; se mantiene aun la época de intervención en la que había un precio fijo &quot; , postura apoyada por el Comisario Europeo de Competencia , Mario Monti .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="De Palacio" TYPE="PER" comment=""/>
+    <ORG id="T2" start="31" end="39" text="Comisión" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="117" end="123" text="España" TYPE="LOC" comment=""/>
+    <PER id="T4" start="281" end="313" text="Comisario Europeo de Competencia" TYPE="PER" comment=""/>
+    <PER id="T5" start="316" end="327" text="Mario Monti" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>EFECOM jf.fch Pamplona , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="7" text="EFECOM" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="15" end="23" text="Pamplona" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="35" end="38" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

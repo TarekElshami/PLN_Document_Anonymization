@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El pleno del Ayuntamiento de Casares ( Málaga ) elegirá mañana a su nuevo alcalde con la incertidumbre sobre si será Juan Sánchez ( IU-LV-CA ) , Diego Ledesma ( PP ) o Francisco Herrera , del Grupo Independiente Liberal ( GIL ) , los tres candidatos posibles tras la dimisión de este último .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="14" end="37" text="Ayuntamiento de Casares" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="40" end="46" text="Málaga" TYPE="LOC" comment=""/>
+    <PER id="T3" start="118" end="130" text="Juan Sánchez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="133" end="141" text="IU-LV-CA" TYPE="ORG" comment=""/>
+    <PER id="T5" start="146" end="159" text="Diego Ledesma" TYPE="PER" comment=""/>
+    <ORG id="T6" start="162" end="164" text="PP" TYPE="ORG" comment=""/>
+    <PER id="T7" start="169" end="186" text="Francisco Herrera" TYPE="PER" comment=""/>
+    <ORG id="T8" start="193" end="220" text="Grupo Independiente Liberal" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="223" end="226" text="GIL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Manzano , que llegó al Valladolid el pasado mes de junio para sustituir a Sergio Kresic , consiguió que el equipo finalizara la liga en la octava posición con catorce victorias , once empates y trece derrotas , empatado a 53 puntos con el séptimo clasificado , el Celta de Vigo .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Manzano" TYPE="PER" comment=""/>
+    <LOC id="T2" start="24" end="34" text="Valladolid" TYPE="LOC" comment=""/>
+    <PER id="T3" start="75" end="88" text="Sergio Kresic" TYPE="PER" comment=""/>
+    <ORG id="T4" start="265" end="278" text="Celta de Vigo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

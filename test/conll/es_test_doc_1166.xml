@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El portavoz del grupo parlamentario catalán en el Senado , Francesc Xavier Marimón , ha presentado una moción en el Senado en la que insta al Gobierno a establecer medidas compensatorias para el sector agrario y pesquero por el encarecimiento del precio del gasoil .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="51" end="57" text="Senado" TYPE="ORG" comment=""/>
+    <PER id="T2" start="60" end="83" text="Francesc Xavier Marimón" TYPE="PER" comment=""/>
+    <ORG id="T3" start="117" end="123" text="Senado" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="143" end="151" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

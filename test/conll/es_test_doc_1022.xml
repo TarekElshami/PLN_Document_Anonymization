@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Respecto a la responsabilidad del Ejecutivo en esta subida , Montoro declaró que el impuesto sobre el petróleo es fijo , ya que se mide sobre el valor , por lo que si las petroleras no subieran el valor entonces el Estado no recaudaría más y recalcó que &quot; el Gobierno no está subiendo los impuestos sobre el petróleo , no tiene esa intención &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="35" end="44" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <PER id="T2" start="62" end="69" text="Montoro" TYPE="PER" comment=""/>
+    <ORG id="T3" start="216" end="222" text="Estado" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="260" end="268" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

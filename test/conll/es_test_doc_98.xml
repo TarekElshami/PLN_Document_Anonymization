@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Ese disco será un manojo de canciones que forman el patrimonio sentimental de mi vida , esas que canta uno cuando está entre amigos , donde la sinceridad y el vino andan con las puertas abiertas &quot; , afirmó el cantautor catalán al diario &quot; El Observador &quot; de Montevideo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="240" end="257" text="&quot; El Observador &quot;" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="261" end="271" text="Montevideo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

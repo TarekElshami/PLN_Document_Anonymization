@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La sección sindical de CC.OO. en el Departamento de Justicia ha denunciado hoy más agresiones de alumnos a educadores en centros dependientes de esta consellería para explicar que &quot; no es un hecho aislado &quot; lo acaecidos la semana pasada en Lleida .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="30" text="CC.OO." TYPE="ORG" comment=""/>
+    <ORG id="T2" start="37" end="61" text="Departamento de Justicia" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="241" end="247" text="Lleida" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Departamento de Medio Ambiente de la Generalitat invertirá 5.500 millones de pesetas para combatir la contaminación del agua por exceso de nitratos en las comarcas de Girona .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="52" text="Departamento de Medio Ambiente de la Generalitat" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="171" end="177" text="Girona" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

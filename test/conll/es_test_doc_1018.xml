@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En declaraciones a Telecinco , Montoro manifestó respecto a la nueva subida de los precios de la gasolina que &quot; ha habido un aumento muy importante del precio internacional del petróleo que se ha agravado con un pérdida del valor del euro , lo que repercute en el coste de productos básicos como los carburantes &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="29" text="Telecinco" TYPE="ORG" comment=""/>
+    <PER id="T2" start="32" end="39" text="Montoro" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

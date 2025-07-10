@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , el secretario general de la ONU ha exigido a Israel que desmantele por completo su milicia aliada del Ejército del Sur del Líbano y la puesta en libertad de los prisioneros libaneses detenidos en la prisión de al-Khiam .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="41" text="ONU" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="55" end="61" text="Israel" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="112" end="139" text="Ejército del Sur del Líbano" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="209" end="228" text="prisión de al-Khiam" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

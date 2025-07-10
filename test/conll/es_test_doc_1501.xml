@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La bolsa de Zúrich cerró su sesión de hoy, martes , con una alza de 114,0 puntos , que situó el índice general SMI ( Swiss Market Index ) en 7.825,7 puntos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="13" end="19" text="Zúrich" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="112" end="115" text="SMI" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="118" end="136" text="Swiss Market Index" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Moreno Di Biase ( ITA - Cantina ) m. t. 12 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Moreno Di Biase" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="ITA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="25" end="32" text="Cantina" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

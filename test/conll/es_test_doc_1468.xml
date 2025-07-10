@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Manuel Segura explicó a EFE que la idea de crear este Museo de la Pastelería ha sido la ilusión de su vida , un proyecto que pensaba poner en práctica cuando se jubilara .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Manuel Segura" TYPE="PER" comment=""/>
+    <ORG id="T2" start="25" end="28" text="EFE" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="55" end="77" text="Museo de la Pastelería" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

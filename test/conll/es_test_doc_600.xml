@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La exposición &quot; Goya frente al muro &quot; , que se completa con imágenes de la cúpula Regina Martyrum , y con las pechinas con cuatro de los &quot; Santos Padres &quot; de Remolinos , pretende ayudar a comprender la genialidad de uno de pintores más destacados de la historia .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="15" end="38" text="&quot; Goya frente al muro &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="76" end="98" text="cúpula Regina Martyrum" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="138" end="155" text="&quot; Santos Padres &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="159" end="168" text="Remolinos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

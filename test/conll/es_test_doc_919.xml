@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Marcos replicó de esta forma en rueda de prensa a la denuncia del jefe del Servicio de Cirugía Cardiovascular del Hospital Carlos Haya de Málaga , Norberto González de Vega , quien aseguró al diario &quot; Sur &quot; que cuatro pacientes cardiacos que estaban en lista de espera han fallecido por la falta de recursos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Marcos" TYPE="PER" comment=""/>
+    <ORG id="T2" start="76" end="110" text="Servicio de Cirugía Cardiovascular" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="115" end="135" text="Hospital Carlos Haya" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="139" end="145" text="Málaga" TYPE="LOC" comment=""/>
+    <PER id="T5" start="148" end="173" text="Norberto González de Vega" TYPE="PER" comment=""/>
+    <ORG id="T6" start="200" end="207" text="&quot; Sur &quot;" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

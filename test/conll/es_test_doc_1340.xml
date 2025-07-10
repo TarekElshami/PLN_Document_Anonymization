@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alvaro Esparza leyó la nota que esta mañana entregó a la secretaria del Ayuntamiento , en la que asegura que &quot; la decisión adoptada se basa , fundamentalmente , en la falta de libertad y democracia para ejercer y desarrollar libremente el cargo y la gestión &quot; que le fue encomendad en las urnas y que los ciudadanos de Bergara le otorgaron &quot; en su libre ejercicio democrático &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="15" text="Alvaro Esparza" TYPE="PER" comment=""/>
+    <ORG id="T2" start="73" end="85" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="320" end="327" text="Bergara" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

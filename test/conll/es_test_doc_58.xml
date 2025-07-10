@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La disputa entre la Unión Europea y Chile se inició en diciembre de 1997 cuando la UE denunció ante la OMC que la política impositiva de Chile para con las bebidas alcohólicas era discriminatoria para los alcoholes importados en favor del pisco de producción local .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="21" end="34" text="Unión Europea" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="37" end="42" text="Chile" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="84" end="86" text="UE" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="104" end="107" text="OMC" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="138" end="143" text="Chile" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La venta anticipada de localidades para las dos representaciones que ofrecerá el actor Rafael Alvarez , &quot; El Brujo &quot; , de la obra &quot; El contrabajo &quot; , de Patrick Süskind , comenzará mañana miércoles a las 20:00 horas en la sala Trajano de Mérida .</TEXT>
+  <TAGS>
+    <PER id="T1" start="88" end="102" text="Rafael Alvarez" TYPE="PER" comment=""/>
+    <MISC id="T2" start="105" end="117" text="&quot; El Brujo &quot;" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="131" end="148" text="&quot; El contrabajo &quot;" TYPE="MISC" comment=""/>
+    <PER id="T4" start="154" end="169" text="Patrick Süskind" TYPE="PER" comment=""/>
+    <LOC id="T5" start="223" end="235" text="sala Trajano" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="239" end="245" text="Mérida" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

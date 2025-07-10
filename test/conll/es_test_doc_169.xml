@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En respuesta , soldados israelíes dispararon a los atacantes desde helicópteros , así como con tanques y cañones , y poco después el grupo pro iraní Hizbulá lanzó cohetes &quot; Katiusha &quot; contra Galilea , en el norte de Israel , que cayeron en terreno abierto y no causaron víctimas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="150" end="157" text="Hizbulá" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="174" end="182" text="Katiusha" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="192" end="199" text="Galilea" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="217" end="223" text="Israel" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El preacuerdo refrendado garantiza la nueva empresa de Vitaminas Vitatene en León , que supondrá una inversión de 4.500 millones de pesetas , &quot; ya que mañana mismo los directivos de la empresa anunciarán la fecha del inicio de esta nueva fábrica &quot; , según Carro , que aseguró que los trabajadores pediremos que sea de &quot; inmediato &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="56" end="74" text="Vitaminas Vitatene" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="78" end="82" text="León" TYPE="LOC" comment=""/>
+    <PER id="T3" start="257" end="262" text="Carro" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

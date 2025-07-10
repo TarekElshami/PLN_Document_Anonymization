@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los restos mortales de José Pérez Cequera , nacido en Ecija pero afincado en Madrid , fueron trasladados hacia la capital de España para ser inhumados , mientras que los de Andrés Hiniesta , fueron enterrados en el cementerio municipal ecijano .</TEXT>
+  <TAGS>
+    <PER id="T1" start="24" end="42" text="José Pérez Cequera" TYPE="PER" comment=""/>
+    <LOC id="T2" start="55" end="60" text="Ecija" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="78" end="84" text="Madrid" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="126" end="132" text="España" TYPE="LOC" comment=""/>
+    <PER id="T5" start="174" end="189" text="Andrés Hiniesta" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

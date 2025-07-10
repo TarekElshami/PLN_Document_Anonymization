@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Unos 2.400 milicianos del ESL y sus familiares huyeron del sur del Líbano y ya se encuentran en Israel , pero en el paso fronterizo de Fatma-Metula había esta tarde una larga cola de cientos de libaneses esperando entrar en este país , donde el procedimiento es lento ; la tensión , grande , y las imágenes , desgarradoras .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="27" end="30" text="ESL" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="68" end="74" text="Líbano" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="97" end="103" text="Israel" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="136" end="148" text="Fatma-Metula" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

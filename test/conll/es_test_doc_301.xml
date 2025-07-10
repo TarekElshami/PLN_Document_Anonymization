@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En opinión de CCOO , el Ayuntamiento parece que &quot; valora &quot; que estas empresas &quot; mantengan irregularidades en la Seguridad Social , incumplan la Ley de Prevención de Riesgos Laborales , provoquen la precariedad en el empleo con un volumen ilegal de horas extras , además de retrasarse en el pago de las nóminas &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="15" end="19" text="CCOO" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="25" end="37" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="113" end="129" text="Seguridad Social" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="145" end="183" text="Ley de Prevención de Riesgos Laborales" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

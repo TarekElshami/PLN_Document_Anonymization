@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ISRAEL - LIBANO / LIBERACION - Beirut - Los israelíes podrían finalizar en dos días su evacuación del sur del Líbano .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="7" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="10" end="16" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="32" end="38" text="Beirut" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="111" end="117" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

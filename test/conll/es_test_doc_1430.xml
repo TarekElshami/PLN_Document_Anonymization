@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La mayor subida en este segmento fue la protagonizada por Tecnocom , que ganó el 4,33 por ciento , seguido de Terra , que lo hizo el 2,85 por ciento , y TPI que bajó el 1 por ciento .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="59" end="67" text="Tecnocom" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="111" end="116" text="Terra" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="154" end="157" text="TPI" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

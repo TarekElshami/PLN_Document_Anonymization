@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las otras dos tenistas españolas que se mantienen en el cuadro son las madrileñas Gala León , que jugó ayer , y Virginia Ruano , que hoy logró el pase para la segunda ronda al derrotar a su compatriota Ana Isabel Medina , una joven jugadora valenciana que demostró que tiene un gran porvenir .</TEXT>
+  <TAGS>
+    <PER id="T1" start="83" end="92" text="Gala León" TYPE="PER" comment=""/>
+    <PER id="T2" start="113" end="127" text="Virginia Ruano" TYPE="PER" comment=""/>
+    <PER id="T3" start="203" end="220" text="Ana Isabel Medina" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

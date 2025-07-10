@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las primeras actuaciones contra el exceso de nitratos , previstas en un plazo de entre. y. meses , serán en los municipios de Albons , Cabanes , La Pera , Ventalló y Vilademat .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="127" end="133" text="Albons" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="136" end="143" text="Cabanes" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="146" end="153" text="La Pera" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="156" end="164" text="Ventalló" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="167" end="176" text="Vilademat" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

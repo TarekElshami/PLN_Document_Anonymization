@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La mayoría de los que opinaron a favor de la gestión de Moscoso son los miembros del Partido Arnulfista ( PA ) , en el poder y fundado después de la muerte en 1988 del fallecido esposo de la gobernante , el tres veces presidente y las tres derrocado Arnulfo Arias Madrid , de quien toma el nombre .</TEXT>
+  <TAGS>
+    <PER id="T1" start="57" end="64" text="Moscoso" TYPE="PER" comment=""/>
+    <ORG id="T2" start="86" end="104" text="Partido Arnulfista" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="107" end="109" text="PA" TYPE="ORG" comment=""/>
+    <PER id="T4" start="251" end="271" text="Arnulfo Arias Madrid" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

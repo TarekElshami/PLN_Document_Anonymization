@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>España calificó de &quot; miserable &quot; que se debata sobre ese asunto , &quot; cuando cada uno tiene que saber cuáles son sus competencias , lo que incluye a los ayuntamientos y a la Administración central &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="España" TYPE="PER" comment=""/>
+    <ORG id="T2" start="173" end="187" text="Administración" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

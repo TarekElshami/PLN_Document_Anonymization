@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>British Petroleum ( BP ) subió esta madrugada un peseta el precio del gasóleo de automoción y el de las gasolinas sin plomo , mientras que el de la súper tradicional se mantiene en el máximo de 148,9 pesetas fijado el 20 de mayo cuando incrementó su precio una peseta , informó hoy a EFE la compañía .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="1" end="18" text="British Petroleum" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="21" end="23" text="BP" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="285" end="288" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

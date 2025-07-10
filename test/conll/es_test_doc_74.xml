@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , el gobernador del Banco de Inglaterra , Eddie George , añadió que una intervención sólo afectaría si el mercado estuviera a punto de cambiar de tendencia .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="53" text="Banco de Inglaterra" TYPE="ORG" comment=""/>
+    <PER id="T2" start="56" end="68" text="Eddie George" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por último , Valentín dijo que el nombramiento de Rubén Moreno como presidente ejecutivo del Insalud y secretario general de Gestión. Coordinación Sanitaria &quot; sigue poniendo de manifiesto las intenciones de la ministra con el Insalud &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="22" text="Valentín" TYPE="PER" comment=""/>
+    <PER id="T2" start="51" end="63" text="Rubén Moreno" TYPE="PER" comment=""/>
+    <ORG id="T3" start="94" end="101" text="Insalud" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="126" end="157" text="Gestión. Coordinación Sanitaria" TYPE="MISC" comment=""/>
+    <ORG id="T5" start="227" end="234" text="Insalud" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

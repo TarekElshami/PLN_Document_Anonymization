@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Federación de Cooperativas Agrarias de Catalunya ( FCAC ) ha decidido ampliar en 43 millones el capital de la empresa Olis de Catalunya , que comercializa bajo la marca Oleastrum el aceite de las denominaciones de origen Garrigues y Siurana .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="52" text="Federación de Cooperativas Agrarias de Catalunya" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="55" end="59" text="FCAC" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="122" end="139" text="Olis de Catalunya" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="173" end="182" text="Oleastrum" TYPE="MISC" comment=""/>
+    <MISC id="T5" start="225" end="234" text="Garrigues" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="237" end="244" text="Siurana" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

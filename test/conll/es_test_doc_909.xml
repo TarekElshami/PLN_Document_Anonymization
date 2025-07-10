@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por contra Roberto Taboada , portavoz del PSOE , exculpó tanto a Carlota Alvarez como a la Policía Local de cualquier responsabilidad , que achacó a &quot; los concejales de Cultura y Tráfico por no haber solucionado a tiempo el choque de intereses que generó el traslado del cuerpo policial y su parque móvil al Auditorio &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="12" end="27" text="Roberto Taboada" TYPE="PER" comment=""/>
+    <ORG id="T2" start="43" end="47" text="PSOE" TYPE="ORG" comment=""/>
+    <PER id="T3" start="66" end="81" text="Carlota Alvarez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="92" end="105" text="Policía Local" TYPE="ORG" comment=""/>
+    <MISC id="T5" start="170" end="177" text="Cultura" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="180" end="187" text="Tráfico" TYPE="MISC" comment=""/>
+    <LOC id="T7" start="309" end="318" text="Auditorio" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

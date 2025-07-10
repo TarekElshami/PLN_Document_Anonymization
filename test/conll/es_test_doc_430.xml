@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , criticó la repetición de las titulaciones , a excepción de una en el campus oscense , así como la ausencia de licenciaturas e ingenierías superiores en Huesca y Teruel .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="162" end="168" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="171" end="177" text="Teruel" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

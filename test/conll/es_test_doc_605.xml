@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los dos ocupantes del aparato , identificados como Héctor Calderón Hernández y Julio Fernando Arango Barrero , murieron calcinados , según el portavoz de la PNC Faustino Sánchez .</TEXT>
+  <TAGS>
+    <PER id="T1" start="52" end="77" text="Héctor Calderón Hernández" TYPE="PER" comment=""/>
+    <PER id="T2" start="80" end="109" text="Julio Fernando Arango Barrero" TYPE="PER" comment=""/>
+    <ORG id="T3" start="158" end="161" text="PNC" TYPE="ORG" comment=""/>
+    <PER id="T4" start="162" end="178" text="Faustino Sánchez" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

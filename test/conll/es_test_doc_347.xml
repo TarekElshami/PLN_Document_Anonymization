@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esas consideraciones están recogidas en una declaración leída por el presidente de turno del Consejo de Seguridad , el embajador chino Wang Yingfan .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="94" end="114" text="Consejo de Seguridad" TYPE="ORG" comment=""/>
+    <PER id="T2" start="136" end="148" text="Wang Yingfan" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Padua ( Italia ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="6" text="Padua" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="9" end="15" text="Italia" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="29" end="32" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

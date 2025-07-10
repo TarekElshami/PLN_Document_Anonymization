@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Gobierno vasco y la Diputación alavesa han dado hoy el visto bueno a este plan , por medio del cual los firmantes se comprometen a participar en la definición , desarrollo y ejecución de políticas activas de empleo , a coordinarse entre ellos , y a crear un órgano de encuentro denominado Consejo Vasco de Empleo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="12" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="24" end="34" text="Diputación" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="293" end="316" text="Consejo Vasco de Empleo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

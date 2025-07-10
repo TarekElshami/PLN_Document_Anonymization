@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Nuevo Mercado español no se dejó llevar por el pesimismo que recorría el otro lado del Atlántico y al cierre el Ibex-NM ganó un 1,37 por ciento , que lo dejaron en 7.170,90 enteros .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="17" text="Nuevo Mercado" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="91" end="100" text="Atlántico" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="116" end="123" text="Ibex-NM" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

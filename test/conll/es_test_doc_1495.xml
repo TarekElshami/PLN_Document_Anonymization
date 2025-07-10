@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El entrenador del Real Valladolid , Gregorio Manzano , no seguirá siendo el técnico de este club , según informó el técnico jiennense después de reunirse esta tarde con quien será el próximo presidente de la entidad , Ignacio Lewin .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="34" text="Real Valladolid" TYPE="ORG" comment=""/>
+    <PER id="T2" start="37" end="53" text="Gregorio Manzano" TYPE="PER" comment=""/>
+    <PER id="T3" start="219" end="232" text="Ignacio Lewin" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

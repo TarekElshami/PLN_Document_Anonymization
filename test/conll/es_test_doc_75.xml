@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El gobernador del Banco de Inglaterra añadió que esperaba que el ministro de Economía no se dejara caer en la tentación de gastar el dinero de la subasta de telefonía móvil con ese fin y lo usara sin embargo para reducir deuda .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="38" text="Banco de Inglaterra" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="78" end="86" text="Economía" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

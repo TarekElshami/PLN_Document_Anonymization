@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Nuevas : - LIBANO - ISRAEL / RETIRADA - Beirut - Intensos bombardeos , que han causado al menos cuatro heridos , acompañan la retirada de los últimos soldados israelíes que evacúan el sur de Líbano tras 22 años de ocupación de la zona .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="12" end="18" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="21" end="27" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="41" end="47" text="Beirut" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="192" end="198" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

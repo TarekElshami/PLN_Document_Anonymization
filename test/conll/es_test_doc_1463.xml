@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La localidad de Daroca contará desde el próximo viernes con un museo dedicado de forma monográfica al mundo de la pastelería , el primero de esta especialidad gastronómica que se inaugura en Aragón .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="23" text="Daroca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="192" end="198" text="Aragón" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

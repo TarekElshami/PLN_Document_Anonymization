@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , Alvarado trasladó al ministro información de los trabajos que está desarrollando la Consejería sobre el Plan Integral de Abastecimiento de Agua para Extremadura , que prevé las necesidades de la comunidad en un horizonte de 25 años y que estará acabado a finales de este año .</TEXT>
+  <TAGS>
+    <PER id="T1" start="10" end="18" text="Alvarado" TYPE="PER" comment=""/>
+    <ORG id="T2" start="94" end="104" text="Consejería" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="114" end="170" text="Plan Integral de Abastecimiento de Agua para Extremadura" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

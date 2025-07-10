@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Angeles Montolio ( ESP ) a Lisa Raymond ( USA , 4 ) por 5-7 , 6-3 y 6-0 . sigue Copenhague , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="17" text="Angeles Montolio" TYPE="PER" comment=""/>
+    <LOC id="T2" start="20" end="23" text="ESP" TYPE="LOC" comment=""/>
+    <PER id="T3" start="28" end="40" text="Lisa Raymond" TYPE="PER" comment=""/>
+    <LOC id="T4" start="43" end="46" text="USA" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="81" end="91" text="Copenhague" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="103" end="106" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

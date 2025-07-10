@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Hasta el momento , según la Guardia Civil , han aparecido dos víctimas de esta organización , el albañil herido y un hermano de éste , que trabaja repartiendo publicidad para una discoteca de la Playa de Palma .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="29" end="42" text="Guardia Civil" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="196" end="210" text="Playa de Palma" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

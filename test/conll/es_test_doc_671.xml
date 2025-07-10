@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro boliviano sostuvo que el plan de eliminación de las plantaciones de coca ilegal , iniciado en 1997 , no será modificado y señaló que el Gobierno espera que en diciembre de 2001 se cumpla el eslogan de &quot; coca cero &quot; lanzado por el presidente Hugo Banzer .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="149" end="157" text="Gobierno" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="214" end="227" text="&quot; coca cero &quot;" TYPE="MISC" comment=""/>
+    <PER id="T3" start="254" end="265" text="Hugo Banzer" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Speight y varios hombres armados mantienen detenidos en el Parlamento desde hace cuatro días al primer ministro , Mehendra Chaudhry , a su Gobierno , a varios diputados y a personal de la Cámara Baja .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Speight" TYPE="PER" comment=""/>
+    <ORG id="T2" start="60" end="70" text="Parlamento" TYPE="ORG" comment=""/>
+    <PER id="T3" start="115" end="132" text="Mehendra Chaudhry" TYPE="PER" comment=""/>
+    <ORG id="T4" start="140" end="148" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="189" end="200" text="Cámara Baja" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

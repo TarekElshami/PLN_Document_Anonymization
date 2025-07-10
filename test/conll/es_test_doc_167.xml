@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Se han intensificado los enfrentamientos en todas las zonas en las que actúan nuestras Fuerzas Armadas en el sur del Líbano , por lo que se ha ordenado a los habitantes del lindante norte de Israel que vuelvan a los refugios antiaéreos &quot; , dijo hoy el comandante de la zona norte del Ejército israelí , el general Gabi Ashkenazi .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="90" end="105" text="Fuerzas Armadas" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="120" end="126" text="Líbano" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="194" end="200" text="Israel" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="287" end="295" text="Ejército" TYPE="ORG" comment=""/>
+    <PER id="T5" start="317" end="331" text="Gabi Ashkenazi" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

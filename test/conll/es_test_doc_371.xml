@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al final de la reunión del &quot; quinteto &quot; , centrada en problemas de reintegración entre los aliados más fieles de Rusia , Putin anunció la decisión conjunta de convertir la Unión Aduanera en una &quot; organización económica con estatus internacional &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="114" end="119" text="Rusia" TYPE="LOC" comment=""/>
+    <PER id="T2" start="122" end="127" text="Putin" TYPE="PER" comment=""/>
+    <ORG id="T3" start="173" end="187" text="Unión Aduanera" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

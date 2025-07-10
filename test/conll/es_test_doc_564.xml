@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El proyecto , cuyo coste total asciende a algo más de 47 millones de pesetas , está financiado también por el Ministerio de Trabajo. Asuntos Sociales con cerca de 25 millones de pesetas , y por la Consejería de Educación con cinco millones de pesetas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="111" end="150" text="Ministerio de Trabajo. Asuntos Sociales" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="198" end="221" text="Consejería de Educación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

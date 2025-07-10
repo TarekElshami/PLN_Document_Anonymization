@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Otro de los numerosos choques se produjo en la aldea de Kile , en el sur de la &quot; zona de seguridad &quot; , donde soldados israelíes se enfrentaron con armas con civiles libaneses que intentaron robar armamento y otros objetos que habían abandonado milicianos del ESL .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="57" end="61" text="Kile" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="260" end="263" text="ESL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

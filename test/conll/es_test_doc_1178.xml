@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las autoridades brasileñas enviaron hoy un equipo de investigadores a la reserva indígena de Vale do Guaporé , en el estado de Mato Grosso , para determinar las circunstancias de un enfrentamiento registrado entre madereros y colonos en el que murió un indio y otros 15 resultaron heridos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="94" end="109" text="Vale do Guaporé" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="128" end="139" text="Mato Grosso" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El coordinador de Turismo de Portugal en España recordó que desde que comenzó INTUR , su país ha estado presente en esta feria , que , según afirmó , está consolidando su espacio dentro del mercado de turismo interior español .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="19" end="26" text="Turismo" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="30" end="38" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="42" end="48" text="España" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="79" end="84" text="INTUR" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

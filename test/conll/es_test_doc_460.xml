@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los demás tendrán que valorar y juzgar lo que he hecho &quot; , dijo Edu García , quien añadió que le gustaría que el Elche se dirigiera a él ante de escuchar otras ofertas .</TEXT>
+  <TAGS>
+    <PER id="T1" start="65" end="75" text="Edu García" TYPE="PER" comment=""/>
+    <ORG id="T2" start="114" end="119" text="Elche" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

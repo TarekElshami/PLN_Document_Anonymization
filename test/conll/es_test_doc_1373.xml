@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ese mismo día , Luxemburgo dará a conocer la lista de jugadores que actúan en clubes brasileños y que integrarán la plantilla que viajará a Lima .</TEXT>
+  <TAGS>
+    <PER id="T1" start="17" end="27" text="Luxemburgo" TYPE="PER" comment=""/>
+    <LOC id="T2" start="141" end="145" text="Lima" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

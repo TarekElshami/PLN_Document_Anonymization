@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ganador de la zona de Oceanía , donde Australia es amplio favorito , deberá disputar una eliminatoria con el quinto clasificado de Sudamérica para Corea-Japón 2002 .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="26" end="33" text="Oceanía" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="42" end="51" text="Australia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="135" end="145" text="Sudamérica" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="151" end="167" text="Corea-Japón 2002" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

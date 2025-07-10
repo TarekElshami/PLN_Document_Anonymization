@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El jefe de Prensa de la PNC , Gerson López , por su parte , manifestó que la dotación policial enviada al lugar del siniestro intenta confirmar sus sospechas de que el aparato llevaba cocaína .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="12" end="28" text="Prensa de la PNC" TYPE="ORG" comment=""/>
+    <PER id="T2" start="31" end="43" text="Gerson López" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

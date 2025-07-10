@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Policía le intervino tres tarjetas oro de los bancos United Overseas , Commonwealth y Public , en las que figuraba como titular un ciudadano francés , titular también del permiso de conducir que llevaba el detenido .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="11" text="Policía" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="57" end="72" text="United Overseas" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="75" end="87" text="Commonwealth" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="90" end="96" text="Public" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los dos mandatarios aludieron a la situación en Yugoslavia y apostaron por estrechar las relaciones con ella , pero sólo después de que abandone el poder el presidente de ese país , Slobodan Milosevic .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="49" end="59" text="Yugoslavia" TYPE="LOC" comment=""/>
+    <PER id="T2" start="183" end="201" text="Slobodan Milosevic" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

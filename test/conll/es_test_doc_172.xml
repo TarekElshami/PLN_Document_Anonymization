@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La aviación israelí bombardeó hoy en numerosas ocasiones el sur del Líbano , en algunos casos contra objetivos de guerrilleros libaneses y en otros para destruir tanques que abandonaron los milicianos del ESL y evitar que caigan en manos del Hizbulá .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="69" end="75" text="Líbano" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="206" end="209" text="ESL" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="243" end="250" text="Hizbulá" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

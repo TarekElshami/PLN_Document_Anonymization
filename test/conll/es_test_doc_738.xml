@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Gil Lázaro , en declaraciones a EFE , se refería así a las manifestaciones de González a la revista mexicana &quot; Proceso &quot; , en las que calificaba al Gobierno de José María Aznar de &quot; políticamente irresponsable &quot; y de haber provocado &quot; la fractura político-social más seria desde la transición en torno al fenómeno del terrorismo .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="11" text="Gil Lázaro" TYPE="PER" comment=""/>
+    <ORG id="T2" start="33" end="36" text="EFE" TYPE="ORG" comment=""/>
+    <PER id="T3" start="79" end="87" text="González" TYPE="PER" comment=""/>
+    <ORG id="T4" start="110" end="121" text="&quot; Proceso &quot;" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="149" end="157" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T6" start="161" end="177" text="José María Aznar" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

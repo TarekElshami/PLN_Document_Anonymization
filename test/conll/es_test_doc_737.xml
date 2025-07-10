@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El portavoz de Interior del PP en el Congreso , Ignacio Gil Lázaro , rechazó hoy las críticas del ex presidente del Gobierno Felipe González a la política antiterrorista del PP y , tras destacar su responsabilidad y respeto a la ley , pidió a González que reflexione sobre su propia actuación .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="24" text="Interior" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="29" end="31" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="38" end="46" text="Congreso" TYPE="ORG" comment=""/>
+    <PER id="T4" start="49" end="67" text="Ignacio Gil Lázaro" TYPE="PER" comment=""/>
+    <ORG id="T5" start="117" end="125" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T6" start="126" end="141" text="Felipe González" TYPE="PER" comment=""/>
+    <ORG id="T7" start="175" end="177" text="PP" TYPE="ORG" comment=""/>
+    <LOC id="T8" start="244" end="252" text="González" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

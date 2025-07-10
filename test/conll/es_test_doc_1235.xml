@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En el mercado de divisas , el euro se recupera lentamente y el Banco Central Europeo ( BCE ) fijó un cambio oficial de 0,9111 dólares y 97,300 yenes .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="64" end="85" text="Banco Central Europeo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="88" end="91" text="BCE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

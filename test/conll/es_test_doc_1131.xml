@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por tercera vez , el diputado de ERC Josep Huguet presentará mañana ante el pleno del Parlament la propuesta republicana para que la Generalitat instrumente una ayuda anual de 645 millones de pesetas para los beneficiarios de las pensiones no contributivas y de las asistenciales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="37" text="ERC" TYPE="ORG" comment=""/>
+    <PER id="T2" start="38" end="50" text="Josep Huguet" TYPE="PER" comment=""/>
+    <ORG id="T3" start="87" end="96" text="Parlament" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="134" end="145" text="Generalitat" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

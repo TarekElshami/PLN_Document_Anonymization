@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La bolsa de Londres cerró hoy, martes , a la baja y su índice FTSE 100 perdió 51,3 puntos para quedar en 6.086,8 puntos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="13" end="20" text="Londres" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="63" end="71" text="FTSE 100" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

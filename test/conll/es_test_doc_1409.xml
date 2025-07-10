@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alfred Gusenbauer , jefe del principal partido de Austria - SPOE - , consideró &quot; absolutamente positiva &quot; la noticia de Guterres y opinó que es mérito de los socialdemócratas el que &quot; haya movimiento en esta cuestión &quot; dado que el presidente del Parlamento federal austriaco , su correligionario Heinz Fischer , &quot; se desplazó ayer a Lisboa para hablar con Guterres &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="18" text="Alfred Gusenbauer" TYPE="PER" comment=""/>
+    <LOC id="T2" start="51" end="58" text="Austria" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="61" end="65" text="SPOE" TYPE="ORG" comment=""/>
+    <PER id="T4" start="121" end="129" text="Guterres" TYPE="PER" comment=""/>
+    <ORG id="T5" start="247" end="257" text="Parlamento" TYPE="ORG" comment=""/>
+    <PER id="T6" start="297" end="310" text="Heinz Fischer" TYPE="PER" comment=""/>
+    <LOC id="T7" start="334" end="340" text="Lisboa" TYPE="LOC" comment=""/>
+    <PER id="T8" start="357" end="365" text="Guterres" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

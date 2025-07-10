@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según informó hoy la Jefatura Superior de Policía , J. A. A. fue acusado de la violación y asesinato de una joven estudiante de música , a la que en septiembre de 1987 recogió en su coche en la carretera entre San Antonio e Ibiza .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="22" end="50" text="Jefatura Superior de Policía" TYPE="ORG" comment=""/>
+    <PER id="T2" start="53" end="61" text="J. A. A." TYPE="PER" comment=""/>
+    <LOC id="T3" start="211" end="222" text="San Antonio" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="225" end="230" text="Ibiza" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

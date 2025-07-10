@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un 18 por ciento considera que la principal amenaza para el país es la guerrilla y los grupos paramilitares y de delincuentes de Colombia que operan en la zona selvática panameña fronteriza del Darién , el 16 por ciento la violencia en general , el 12 por ciento el narcotráfico y el 8 por ciento una posible toma del Canal .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="130" end="138" text="Colombia" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="195" end="201" text="Darién" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="319" end="324" text="Canal" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

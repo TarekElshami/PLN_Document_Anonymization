@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ya en el verano de 1998 , cuando el mayor de los hermanos Laudrup colgó las botas después de los mundiales de Francia y de jugar 104 partidos internacionales para Dinamarca , se alzaron voces pidiendo la Cruz de Caballero para el veterano futbolista , y la Corte ha respondido ahora concendiendo a Michael la prestigiosa medalla .</TEXT>
+  <TAGS>
+    <PER id="T1" start="59" end="66" text="Laudrup" TYPE="PER" comment=""/>
+    <LOC id="T2" start="111" end="118" text="Francia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="164" end="173" text="Dinamarca" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="205" end="222" text="Cruz de Caballero" TYPE="MISC" comment=""/>
+    <ORG id="T5" start="258" end="263" text="Corte" TYPE="ORG" comment=""/>
+    <PER id="T6" start="299" end="306" text="Michael" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 19.30 GMT ) Transmitidas : - ISRAEL - LIBANO / ENFRENTAMIENTOS - Jerusalén - En la primera jornada de evacuación israelí del sur del Líbano se produjeron choques con víctimas .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="32" end="38" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="41" end="47" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="68" end="77" text="Jerusalén" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="136" end="142" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por ello la pretensión del decano del Colegio de Ingenieros Técnicos de Minas de Asturias es conseguir que la próxima edición de este Simposium anual tenga carácter internacional y recordó que España es , tras Italia , la segunda potencia comercializadora de la roca .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="39" end="90" text="Colegio de Ingenieros Técnicos de Minas de Asturias" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="135" end="144" text="Simposium" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="194" end="200" text="España" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="211" end="217" text="Italia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Celrá ( Gerona ) , 23 may ( EFECOM ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="6" text="Celrá" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="9" end="15" text="Gerona" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="29" end="35" text="EFECOM" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

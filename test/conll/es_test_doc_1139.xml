@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los tres tránsfugas que dejaron al Gobierno de Melilla en minoría tras abandonarlo y pasarse al grupo mixto tendrán que compartir despacho con sus antiguos compañeros del Ejecutivo , ya que por falta de espacio se instalarán en las dependencias del grupo del presidente Mustafa Aberchan ( CM ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="36" end="55" text="Gobierno de Melilla" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="172" end="181" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <PER id="T3" start="271" end="287" text="Mustafa Aberchan" TYPE="PER" comment=""/>
+    <ORG id="T4" start="290" end="292" text="CM" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

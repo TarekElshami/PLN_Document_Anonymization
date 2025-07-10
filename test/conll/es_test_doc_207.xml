@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Si al final vence el Madrid me lo tomaría bien porque al fin. al cabo es mi hermano y le deseo lo mejor &quot; , indicó Luis Helguera .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="22" end="28" text="Madrid" TYPE="ORG" comment=""/>
+    <PER id="T2" start="116" end="129" text="Luis Helguera" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Romario , que en 1995 , cuando militaba en el Flamengo , discutió públicamente con Luxemburgo - entonces técnico de ese club y quien , tras el enfrentamiento dejó la institución - , se mostró más obediente esta vez y reconoció que &quot; realmente sería muy difícil &quot; participar en el encuentro ante Inglaterra .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Romario" TYPE="PER" comment=""/>
+    <ORG id="T2" start="47" end="55" text="Flamengo" TYPE="ORG" comment=""/>
+    <PER id="T3" start="84" end="94" text="Luxemburgo" TYPE="PER" comment=""/>
+    <ORG id="T4" start="296" end="306" text="Inglaterra" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

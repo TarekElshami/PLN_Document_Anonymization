@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un diario ruso opinó ayer que el próximo paso de Rusia será reafirmar su influencia en los transcaucásicos Azerbaiyán y Georgia , para seguir presente en esta región y no quedar al margen en la explotación de los recursos energéticos del mar Caspio .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="50" end="55" text="Rusia" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="108" end="118" text="Azerbaiyán" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="121" end="128" text="Georgia" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="239" end="249" text="mar Caspio" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

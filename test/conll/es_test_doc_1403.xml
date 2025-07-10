@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La vicecanciller federal austriaca y jefa del Partido Liberal ( FPOE ) , Susanne Riess-Passer , saludó , al igual que los líderes de los partidos de oposición Verde y socialdemócrata SPOE , las consultas del primer ministro portugués , Antonio Guterres , sobre el bloqueo diplomático contra Austria por sus socios en la UE .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="47" end="62" text="Partido Liberal" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="65" end="69" text="FPOE" TYPE="ORG" comment=""/>
+    <PER id="T3" start="74" end="94" text="Susanne Riess-Passer" TYPE="PER" comment=""/>
+    <ORG id="T4" start="160" end="165" text="Verde" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="184" end="188" text="SPOE" TYPE="ORG" comment=""/>
+    <PER id="T6" start="237" end="253" text="Antonio Guterres" TYPE="PER" comment=""/>
+    <ORG id="T7" start="292" end="299" text="Austria" TYPE="ORG" comment=""/>
+    <ORG id="T8" start="321" end="323" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

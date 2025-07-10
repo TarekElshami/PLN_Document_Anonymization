@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al referirse al lugar de concentración , el hotel Príncipe Felipe y su entorno , Flores apuntó que &quot; es un lugar maravilloso e idóneo para preparar un partido del calibre que tendrá el que se dispute el sábado &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="45" end="66" text="hotel Príncipe Felipe" TYPE="LOC" comment=""/>
+    <PER id="T2" start="82" end="88" text="Flores" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

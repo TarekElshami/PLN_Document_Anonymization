@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La mujer , de 75 años , acompañada por un hijo y otro familiar , retornó a su vivienda habitual en El Rimadero ( Sotrondio ) , donde de momento residirá sola , como era su deseo , hasta que el Juzgado de Menores de Oviedo decida el destino de sus tres nietos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="100" end="111" text="El Rimadero" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="114" end="123" text="Sotrondio" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="194" end="222" text="Juzgado de Menores de Oviedo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

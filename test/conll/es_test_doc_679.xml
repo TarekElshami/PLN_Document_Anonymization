@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ministro de Gobierno dijo que esos cultivos son defendidos por los sindicatos campesinos con &quot; un discurso político de protección a actos delictivos y que nos quiere llevar a la confrontación &quot; con las fuerzas del orden pero que &quot; el Gobierno no permitirá &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="4" end="24" text="Ministro de Gobierno" TYPE="PER" comment=""/>
+    <ORG id="T2" start="238" end="246" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta propuesta fue explicada hoy en San Sebastián .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="37" end="50" text="San Sebastián" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

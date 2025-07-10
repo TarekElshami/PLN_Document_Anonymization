@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ES/rb2305001854 Casares ( Málaga ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="17" end="24" text="Casares" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="27" end="33" text="Málaga" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="47" end="50" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

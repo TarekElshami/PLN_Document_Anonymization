@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Eléctricas 650,23 +7,76 Bancos 1.465,64 +21,98 Químicas 975,10 -13,26 Cementos, Const.. Inmob. 664,81 +6,26 Metalurgia 312,58 +2,67 Alimentación, Agrics.. For. 458,48 +4,25 Textiles. Papeleras 170,28 +2,21 Comercio. Finanzas 384,93 +4,82 Servicios. Varios 2.596,25 -11,85 En total se han contratado 292 clases de acciones de las que 112 suben , 140 bajan y 40 no varían .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="1" end="11" text="Eléctricas" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="25" end="31" text="Bancos" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="48" end="56" text="Químicas" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="71" end="95" text="Cementos, Const.. Inmob." TYPE="MISC" comment=""/>
+    <MISC id="T5" start="109" end="119" text="Metalurgia" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="133" end="160" text="Alimentación, Agrics.. For." TYPE="MISC" comment=""/>
+    <MISC id="T7" start="174" end="193" text="Textiles. Papeleras" TYPE="MISC" comment=""/>
+    <MISC id="T8" start="207" end="225" text="Comercio. Finanzas" TYPE="MISC" comment=""/>
+    <MISC id="T9" start="239" end="256" text="Servicios. Varios" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

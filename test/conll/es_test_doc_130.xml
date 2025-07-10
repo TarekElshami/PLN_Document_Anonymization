@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Granada , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="8" text="Granada" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="20" end="23" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

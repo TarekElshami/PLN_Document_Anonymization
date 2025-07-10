@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Asociación &quot; Sancho Ramírez &quot; de Jaca ( Huesca ) ha puesto en marcha un concurso de fotografía y dibujo sobre la &quot; Arquitectura popular en el Pirineo Aragonés &quot; , con el objetivo de llamar la atención sobre el patrimonio para que sea protegido , conservado y difundido .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="33" text="Asociación &quot; Sancho Ramírez &quot;" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="37" end="41" text="Jaca" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="44" end="50" text="Huesca" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="117" end="164" text="&quot; Arquitectura popular en el Pirineo Aragonés &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

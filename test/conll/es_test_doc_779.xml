@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>ES/rb2305001858 Padua ( Italia ) , 23 may .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="1" end="16" text="ES/rb2305001858" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="17" end="22" text="Padua" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="25" end="31" text="Italia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

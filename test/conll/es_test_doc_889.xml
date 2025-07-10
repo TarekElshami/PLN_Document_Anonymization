@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Cientos de médicos de EEUU llevan a cabo un boicot contra los productos del laboratorio Merck , como forma de presionar a la empresa para que no se oponga a una iniciativa legal sobre los derechos de negociación colectiva de los profesionales de la salud .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="23" end="27" text="EEUU" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="89" end="94" text="Merck" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La mayoría absoluta necesaria para la elección de nuevo alcalde requiere al menos votos de seis de los once integrantes de la Corporación que se distribuye entre los 5 ediles de IU , 4 del Grupo Mixto procedente del GIL , el único del GIL que es Herrera y Ledesma , elegido por el grupo independiente local PSIC y ahora afiliado a PP .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="127" end="138" text="Corporación" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="179" end="181" text="IU" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="190" end="201" text="Grupo Mixto" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="217" end="220" text="GIL" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="236" end="239" text="GIL" TYPE="ORG" comment=""/>
+    <PER id="T6" start="247" end="254" text="Herrera" TYPE="PER" comment=""/>
+    <PER id="T7" start="257" end="264" text="Ledesma" TYPE="PER" comment=""/>
+    <ORG id="T8" start="308" end="312" text="PSIC" TYPE="ORG" comment=""/>
+    <ORG id="T9" start="332" end="334" text="PP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

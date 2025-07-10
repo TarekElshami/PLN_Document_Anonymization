@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Valentín ha presentado además una pregunta para que sea incluida en la sesión de control al Ejecutivo del miércoles 31 de mayo sobre las medidas que tiene previstas el Gobierno para resolver el problema de las listas de espera .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Valentín" TYPE="PER" comment=""/>
+    <ORG id="T2" start="93" end="102" text="Ejecutivo" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="169" end="177" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

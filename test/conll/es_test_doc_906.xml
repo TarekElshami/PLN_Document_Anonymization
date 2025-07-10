@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sobre la actitud de la gerente , Luis Bará , concejal de Cultura dijo que &quot; se trata de una chiquillada &quot; e interpretó que &quot; otras quejas de Carlota Alvarez sobre aspectos de funcionamiento del Palacio de Cultura , están fuera de contexto &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="34" end="43" text="Luis Bará" TYPE="PER" comment=""/>
+    <MISC id="T2" start="58" end="65" text="Cultura" TYPE="MISC" comment=""/>
+    <PER id="T3" start="142" end="157" text="Carlota Alvarez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="195" end="213" text="Palacio de Cultura" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

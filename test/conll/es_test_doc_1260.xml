@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El boxeo de Colombia ya se ganó tres cupos para Sydney 2000 en los dos torneos clasificatorios anteriores , en poder de Francisco Calderón , José Cruz y Andrés Ledesma .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="13" end="21" text="Colombia" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="49" end="60" text="Sydney 2000" TYPE="MISC" comment=""/>
+    <PER id="T3" start="121" end="139" text="Francisco Calderón" TYPE="PER" comment=""/>
+    <PER id="T4" start="142" end="151" text="José Cruz" TYPE="PER" comment=""/>
+    <PER id="T5" start="154" end="168" text="Andrés Ledesma" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Organización Mundial del Comercio ( OMC ) dio hoy, martes , a Chile de plazo hasta el 21 de marzo de 2001 para modificar su legislación sobre impuestos a las bebidas alcohólicas que fue denunciada por la Unión Europea y declarada ilegal .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="37" text="Organización Mundial del Comercio" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="40" end="43" text="OMC" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="66" end="71" text="Chile" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="208" end="221" text="Unión Europea" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

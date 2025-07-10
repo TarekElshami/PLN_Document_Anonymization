@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Algunos empleados de Merck dijeron al periódico que el boicot ha tenido un efecto visible en las ventas de la compañía .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="22" end="27" text="Merck" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

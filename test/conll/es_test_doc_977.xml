@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por todo ello , el presidente de EA acusó hoy al PP de &quot; no tener ideas , ni proyecto , ni presupuesto &quot; en la Diputación alavesa , institución que presiden los &quot; populares &quot; junto a UA , así como de &quot; ir en contra de los intereses de los alaveses &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="36" text="EA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="50" end="52" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="112" end="122" text="Diputación" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="184" end="186" text="UA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El secretario general de CCOO , José María Fidalgo , se entrevistará mañana con el presidente de la Confederación Española de Organizaciones Empresariales ( CEOE ) , José María Cuevas , a quien presentará las conclusiones del VII Congreso Confederal del sindicato , según fuentes de CCOO .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="26" end="30" text="CCOO" TYPE="ORG" comment=""/>
+    <PER id="T2" start="33" end="51" text="José María Fidalgo" TYPE="PER" comment=""/>
+    <ORG id="T3" start="101" end="155" text="Confederación Española de Organizaciones Empresariales" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="158" end="162" text="CEOE" TYPE="ORG" comment=""/>
+    <PER id="T5" start="167" end="184" text="José María Cuevas" TYPE="PER" comment=""/>
+    <ORG id="T6" start="227" end="250" text="VII Congreso Confederal" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="284" end="288" text="CCOO" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

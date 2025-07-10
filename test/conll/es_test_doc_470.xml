@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El dirigente socialista gaditano destacó que le parece &quot; preocupante &quot; que , como presidente del PSOE de Cádiz , &quot; no goce de la confianza del consejero &quot; y subrayó que es el &quot; único &quot; delegado en Cádiz que cesa en el cargo a pesar del ser el presidente provincial del partido .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="98" end="111" text="PSOE de Cádiz" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="198" end="203" text="Cádiz" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

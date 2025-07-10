@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Hoy el teniente de diputado general de Alava , Carlos Samaniego ( PP ) precisó sin embargo que , a su juicio , este plan &quot; está cojo , ya que no se considera al Inem como un agente activo , y debería contemplarse su colaboración &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="40" end="45" text="Alava" TYPE="LOC" comment=""/>
+    <PER id="T2" start="48" end="64" text="Carlos Samaniego" TYPE="PER" comment=""/>
+    <ORG id="T3" start="67" end="69" text="PP" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="162" end="166" text="Inem" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

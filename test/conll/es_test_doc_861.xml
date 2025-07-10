@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La detención del supuesto responsable del robo se produjo después de que los agentes le trasladaran a dependencias policiales para comprobar su identidad porque carecía de todo tipo de documentos que la acreditaran , informó hoy el Cuerpo Nacional de Policía de Valladolid .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="233" end="259" text="Cuerpo Nacional de Policía" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="263" end="273" text="Valladolid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

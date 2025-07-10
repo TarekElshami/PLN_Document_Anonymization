@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Dicha concentración se hace para preparar el partido final de la Copa del Rey que disputará el próximo sábado ante el Atlético de Madrid .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="66" end="78" text="Copa del Rey" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="119" end="137" text="Atlético de Madrid" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

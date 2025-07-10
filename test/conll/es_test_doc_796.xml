@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Mauro Gerosa ( ITA - Amica ) m. t. 15 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="13" text="Mauro Gerosa" TYPE="PER" comment=""/>
+    <LOC id="T2" start="16" end="19" text="ITA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="22" end="27" text="Amica" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

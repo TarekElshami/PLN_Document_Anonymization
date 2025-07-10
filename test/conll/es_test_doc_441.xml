@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La situación física de Dueñas es la misma en estos momentos que durante la serie ante el equipo de Julio Lamas , ya que la solución al problema sólo pasa por un largo periodo de reposo que ni el club ni el jugador pueden permitirse en estos momentos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="24" end="30" text="Dueñas" TYPE="PER" comment=""/>
+    <PER id="T2" start="100" end="111" text="Julio Lamas" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

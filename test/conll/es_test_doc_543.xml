@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Michael Laudrup , el futbolista danés retirado , parece encontrarse más a gusto en el terreno de juego que en los salones de palacio , como demostró cuando acudió en la capital danesa a recibir una bien merecida Cruz de Caballero de la Orden de Dannebrog , de manos de la reina Margarita II .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Michael Laudrup" TYPE="PER" comment=""/>
+    <MISC id="T2" start="213" end="255" text="Cruz de Caballero de la Orden de Dannebrog" TYPE="MISC" comment=""/>
+    <PER id="T3" start="273" end="291" text="reina Margarita II" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

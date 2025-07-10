@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Llauradó , el más antiguo opositor a la gestión de José Luis Núñez como presidente del FC Barcelona , ya fue precandidato en las últimas elecciones celebradas en el club en 1997 , aunque finalmente se retiró para apoyar la candidatura de Angel Fernández .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Llauradó" TYPE="PER" comment=""/>
+    <PER id="T2" start="52" end="67" text="José Luis Núñez" TYPE="PER" comment=""/>
+    <ORG id="T3" start="88" end="100" text="FC Barcelona" TYPE="ORG" comment=""/>
+    <PER id="T4" start="239" end="254" text="Angel Fernández" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

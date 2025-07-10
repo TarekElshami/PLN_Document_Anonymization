@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El recorrido , que se estima pueda completarse en un tiempo de cuatro horas , contempla un sprint especial en la BI-3717 a la altura de Etxebarri ( km 18 ) y tres metas volantes en Gordexola ( km 56,3 ) , Orduña ( km 80 ) , y el Ayuntamiento de Orozko ( km 117,5 ) .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="114" end="121" text="BI-3717" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="137" end="146" text="Etxebarri" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="182" end="191" text="Gordexola" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="206" end="212" text="Orduña" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="230" end="252" text="Ayuntamiento de Orozko" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

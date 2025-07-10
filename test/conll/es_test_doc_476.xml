@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Enedina Iglesias , la vecina de Sotrondio que la pasado semana denunció haber sido objeto de malos tratos por parte de sus tres nietos para robarle el dinero de su pensión , fue dada de alta hoy en el Hospital Valle del Nalón , en Langreo , donde se encontraba ingresada para recuperarse de las agresiones y la afectación psíquica que le produjo la situación .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="17" text="Enedina Iglesias" TYPE="PER" comment=""/>
+    <LOC id="T2" start="33" end="42" text="Sotrondio" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="202" end="226" text="Hospital Valle del Nalón" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="232" end="239" text="Langreo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Después de permanecer casi dos horas encerrada en el vehículo , decidió deponer su actitud a petición del portavoz municipal del PSOE , Roberto Taboada , quien se desplazó hasta las instalaciones de la concesionaria de la grúa para mediar .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="130" end="134" text="PSOE" TYPE="ORG" comment=""/>
+    <PER id="T2" start="137" end="152" text="Roberto Taboada" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

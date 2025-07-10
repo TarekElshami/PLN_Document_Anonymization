@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Roberto Dueñas , pívot del Barcelona , sigue sin mejorar de la lesión en la espalda que mermó notablemente su participación en las semifinales de la ACB en las que su equipo se enfrentó al Tau , a sólo tres días del primer partido de la final .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="15" text="Roberto Dueñas" TYPE="PER" comment=""/>
+    <ORG id="T2" start="28" end="37" text="Barcelona" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="150" end="153" text="ACB" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="190" end="193" text="Tau" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

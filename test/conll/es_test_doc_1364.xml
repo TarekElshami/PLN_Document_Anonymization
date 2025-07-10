@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Romario , quien sufrió la contusión en el encuentro en que su equipo , el Vasco da Gama , cayó 1-0 ante el Fluminense , quedó excluido del equipo brasileño que se medirá en amistosos hoy con Gales en Cardiff y el próximo sábado con Inglaterra en Londres .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Romario" TYPE="PER" comment=""/>
+    <ORG id="T2" start="75" end="88" text="Vasco da Gama" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="108" end="118" text="Fluminense" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="192" end="197" text="Gales" TYPE="ORG" comment=""/>
+    <LOC id="T5" start="201" end="208" text="Cardiff" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="233" end="243" text="Inglaterra" TYPE="LOC" comment=""/>
+    <ORG id="T7" start="247" end="254" text="Londres" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

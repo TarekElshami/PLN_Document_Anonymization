@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Siempre que una plantilla cambia de entrenador , ésta suele aumentar su rendimiento y , respetando a Antic , pienso que el Atlético está saliendo beneficiado con la llegada de Zambrano &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="102" end="107" text="Antic" TYPE="PER" comment=""/>
+    <ORG id="T2" start="124" end="132" text="Atlético" TYPE="ORG" comment=""/>
+    <PER id="T3" start="177" end="185" text="Zambrano" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

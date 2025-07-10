@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Guardia Civil ha montado un dispositivo de vigilancia en un grupo de viviendas sociales construidas por la Junta en Arévalo ante el riesgo de ser ocupadas de manera ilegal después de que una familia intentara habitar uno de los pisos , que hubo de ser precintado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="17" text="Guardia Civil" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="111" end="116" text="Junta" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="120" end="127" text="Arévalo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

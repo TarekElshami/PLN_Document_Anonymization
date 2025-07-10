@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En la misma se degustarán caldos de la indicación geográfica &quot; Vinos de la Tierra de Castilla &quot; y otros de distintos países y se presentará un nuevo producto denominado &quot; caja de aromas &quot; , que recoge las principales variedades de vinos de Castilla-La Mancha .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="62" end="96" text="&quot; Vinos de la Tierra de Castilla &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="241" end="259" text="Castilla-La Mancha" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

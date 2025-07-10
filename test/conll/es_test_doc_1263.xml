@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Unas 150 personas , según la Policía Local , asistieron hoy a los dos funerales por las almas de José Pérez Cequera , de 69 años , y Andrés Hiniesta , de 89 , fallecidos ayer en una explosión de gas en Ecija ( Sevilla ) provocada presuntamente por un hombre que se quiso suicidar .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="30" end="43" text="Policía Local" TYPE="ORG" comment=""/>
+    <PER id="T2" start="98" end="116" text="José Pérez Cequera" TYPE="PER" comment=""/>
+    <PER id="T3" start="134" end="149" text="Andrés Hiniesta" TYPE="PER" comment=""/>
+    <LOC id="T4" start="203" end="208" text="Ecija" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="211" end="218" text="Sevilla" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

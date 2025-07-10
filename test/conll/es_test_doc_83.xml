@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Para UGT de Madrid , la decisión de la UE aleja a los ciudadanos del proyecto de construcción europea al tiempo que defiende a &quot; grupos de presión y de capital &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="6" end="9" text="UGT" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="13" end="19" text="Madrid" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="40" end="42" text="UE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

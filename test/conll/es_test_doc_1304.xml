@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente de Nicaragua , Arnoldo Alemán , pidió hoy en Washington que su país deje de ser &quot; el pobre más rico en estudios millonarios &quot; por parte de los organismos internacionales , y destacó que ya es hora de que se pase de las palabras a las obras .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="18" end="27" text="Nicaragua" TYPE="LOC" comment=""/>
+    <PER id="T2" start="30" end="44" text="Arnoldo Alemán" TYPE="PER" comment=""/>
+    <LOC id="T3" start="60" end="70" text="Washington" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

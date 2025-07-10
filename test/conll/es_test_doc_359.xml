@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El diplomático ghaneano se refería así a la escalada de la violencia registrada ante el repliegue apresurado de Israel y la huida y entrega de los milicianos del ESL .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="113" end="119" text="Israel" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="163" end="166" text="ESL" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

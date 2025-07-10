@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Chamorro indicó que , del total de titulaciones ofertadas por la Universidad de Zaragoza , el 71 por ciento se concentran en los campus de Zaragoza , el 16 por ciento se imparten en Huesca y el 13 por ciento en Teruel .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Chamorro" TYPE="PER" comment=""/>
+    <ORG id="T2" start="66" end="89" text="Universidad de Zaragoza" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="140" end="148" text="Zaragoza" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="183" end="189" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="212" end="218" text="Teruel" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

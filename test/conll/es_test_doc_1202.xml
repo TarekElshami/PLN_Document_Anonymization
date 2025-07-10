@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Si se normalizaran las relaciones y los serbios abandonasen su idea de la Gran Serbia , las minorías serbias en Croacia y las croatas en Serbia podrían desempeñar el papel de puentes entre los dos Estados &quot; , opinó el primer ministro croata .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="77" end="88" text="Gran Serbia" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="115" end="122" text="Croacia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="140" end="146" text="Serbia" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="200" end="207" text="Estados" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

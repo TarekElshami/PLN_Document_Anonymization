@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ello no impidió al ex jugador del Barcelona y del Real Madrid fotografiarse orgulloso , vestido de frac y con su flamante medalla en la solapa , después de haber conversado con Margarita II , como manda la tradición .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="35" end="44" text="Barcelona" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="51" end="62" text="Real Madrid" TYPE="ORG" comment=""/>
+    <PER id="T3" start="178" end="190" text="Margarita II" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

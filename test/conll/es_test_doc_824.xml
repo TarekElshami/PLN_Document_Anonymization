@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las comisiones de Comunicación Social de las conferencias episcopales de España y Portugal se reúnen desde hoy en el Real Monasterio de Guadalupe bajo el lema &quot; Iglesia. Medios de Comunicación &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="19" end="38" text="Comunicación Social" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="74" end="80" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="83" end="91" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="118" end="146" text="Real Monasterio de Guadalupe" TYPE="LOC" comment=""/>
+    <MISC id="T5" start="160" end="195" text="&quot; Iglesia. Medios de Comunicación &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

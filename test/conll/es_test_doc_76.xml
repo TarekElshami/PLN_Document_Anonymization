@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Asimismo , el experto Charles Goodhart , a punto de abandonar el Comité de Política Monetaria , dijo que una intervención no tendría más que un leve impacto sobre el valor del euro .</TEXT>
+  <TAGS>
+    <PER id="T1" start="23" end="39" text="Charles Goodhart" TYPE="PER" comment=""/>
+    <ORG id="T2" start="66" end="94" text="Comité de Política Monetaria" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

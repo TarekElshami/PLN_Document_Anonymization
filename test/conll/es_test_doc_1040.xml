@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>LIBANO - ISRAEL LIBERADOS PRISIONEROS LIBANESES DE LA CARCEL DE JIAM Beirut ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="7" text="LIBANO" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="10" end="16" text="ISRAEL" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="55" end="69" text="CARCEL DE JIAM" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="70" end="76" text="Beirut" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="79" end="82" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

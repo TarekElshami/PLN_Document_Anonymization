@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Asociación de la Prensa de Valladolid ( APV ) ha convocado la quinta edición del Premio Nacional de Periodismo Miguel Delibes , cuyo objetivo es fomentar el buen uso del idioma en los medios de comunicación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="41" text="Asociación de la Prensa de Valladolid" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="44" end="47" text="APV" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="85" end="129" text="Premio Nacional de Periodismo Miguel Delibes" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

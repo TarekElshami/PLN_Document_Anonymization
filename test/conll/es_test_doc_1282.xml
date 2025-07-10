@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Blanco , ante la pregunta de dónde se encontraba Coll , respondió que estaba &quot; demasiado ocupado &quot; escribiendo su propia biografía .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Blanco" TYPE="PER" comment=""/>
+    <PER id="T2" start="50" end="54" text="Coll" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>León explicó que la administración regional entregó el pasado mes de febrero las llaves de veinticinco viviendas de promoción pública pertenecientes a la segunda fase del denominado &quot; Grupo San Victorino II &quot; , quedando pendientes de entrega otros catorce pisos .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="5" text="León" TYPE="PER" comment=""/>
+    <MISC id="T2" start="183" end="209" text="&quot; Grupo San Victorino II &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

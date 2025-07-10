@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Palacio Municipal de Deportes de Badalona acogerá mañana a un total de 123 parejas de la localidad dentro de la XIV edición de las Bodas de Oro , que organiza el ayuntamiento para homenajear a estos matrimonios que cumplen cincuenta años de casados .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="4" end="45" text="Palacio Municipal de Deportes de Badalona" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="135" end="147" text="Bodas de Oro" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

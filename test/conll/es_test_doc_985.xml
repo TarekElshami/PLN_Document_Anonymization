@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las petroleras que operan en España señalan , que en condiciones como las actuales , la &quot; única solución &quot; para frenar la escalada de precios del combustible , es que &quot; el Gobierno baje los impuestos que gravan la venta de estos productos &quot; , indicaron a EFE fuentes del sector .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="30" end="36" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="173" end="181" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="256" end="259" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

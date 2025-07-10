@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Preguntado sobre si hay sospechas respecto a un posible acuerdo para fijar los precios entre las petroleras , Montoro dijo que &quot; eso lo están investigando las autoridades de Defensa de la Competencia &quot; , aunque precisó que &quot; no se puede presumir nada hasta que acaben las investigaciones &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="111" end="118" text="Montoro" TYPE="PER" comment=""/>
+    <ORG id="T2" start="175" end="200" text="Defensa de la Competencia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El representante o &quot; comisionado &quot; del lehendakari , José Mari Muñoa , presentó hoy en una conferencia de prensa este simposio europeo , que será inaugurado por el diputado general de Guipúzcoa , Román Sudupe , y clausurado por el lehendakari , Juan José Ibarretxe .</TEXT>
+  <TAGS>
+    <PER id="T1" start="54" end="69" text="José Mari Muñoa" TYPE="PER" comment=""/>
+    <LOC id="T2" start="185" end="194" text="Guipúzcoa" TYPE="LOC" comment=""/>
+    <PER id="T3" start="197" end="209" text="Román Sudupe" TYPE="PER" comment=""/>
+    <PER id="T4" start="246" end="265" text="Juan José Ibarretxe" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

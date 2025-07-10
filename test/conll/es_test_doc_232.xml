@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta pregunta será contestada por el presidente de Aragón en el pleno que la Cámara celebrará esta semana , dentro de la sesión de control al Ejecutivo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="52" end="58" text="Aragón" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="78" end="84" text="Cámara" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="143" end="152" text="Ejecutivo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

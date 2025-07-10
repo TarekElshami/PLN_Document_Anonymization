@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Nueva Delhi , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="12" text="Nueva Delhi" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="24" end="27" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

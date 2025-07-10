@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La cotización del dólar en el mercado de divisas londinense fue hoy, martes , la siguiente : DIVISA HOY ANTERIOR ============================================================= Euro 1,1075 1,1057 Libra 0,6783 0,6706 Yen 106,77 107,13 EFE pa-c Torrelavega , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="233" end="236" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="242" end="253" text="Torrelavega" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="265" end="268" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La popularidad de la presidenta de Panamá , Mireya Moscoso , ha caído del 32 al. por ciento en los últimos cinco meses , según una encuesta elaborada por la consultora &quot; CID/Gallup &quot; para el diario &quot; El Panamá América &quot; , que hoy publica sus resultados .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="36" end="42" text="Panamá" TYPE="LOC" comment=""/>
+    <PER id="T2" start="45" end="59" text="Mireya Moscoso" TYPE="PER" comment=""/>
+    <ORG id="T3" start="169" end="183" text="&quot; CID/Gallup &quot;" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="199" end="220" text="&quot; El Panamá América &quot;" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

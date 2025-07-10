@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>A pesar de que la inversión ha corrido totalmente a cargo de la familia Segura , los promotores del Museo han solicitado una ayuda financiera al ADRI de Daroca-Calamocha que cuenta con fondos de la Unión Europea para impulsar proyectos e iniciativas de desarrollo rural como éste .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="73" end="79" text="Segura" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="101" end="106" text="Museo" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="146" end="170" text="ADRI de Daroca-Calamocha" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="199" end="212" text="Unión Europea" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

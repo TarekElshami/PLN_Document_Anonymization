@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>A su juicio , desde la década de los 80 la situación en Europa es &quot; muy diferente &quot; , ya que &quot; las regiones son más potentes , cuentan con más competencias &quot; , y &quot; son más numerosas , incluso en países tan jacobinos o centralistas , como Portugal o Francia &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="57" end="63" text="Europa" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="239" end="247" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="250" end="257" text="Francia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En un plazo de unos 5 meses , está prevista la nueva infraestructura de aprovisionamiento para Foixá , Parlavá , Rupiá y Ultramort y para antes de finales de año se llevará a cabo una iniciativa pionera en Vilamacolum , que consistirá en la creación de una planta de tratamiento experimental de eliminación de nitratos de aguas destinadas al consumo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="96" end="101" text="Foixá" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="104" end="111" text="Parlavá" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="114" end="119" text="Rupiá" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="122" end="131" text="Ultramort" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="207" end="218" text="Vilamacolum" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

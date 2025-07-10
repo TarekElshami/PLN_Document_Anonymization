@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Responsables de Xunta Moza realizaron durante los últimos meses una campaña entre los escolares de los cuatro cursos de la ESO , con conferencias , charlas y proyecciones de vídeo , en todos los Institutos del concejo y posteriormente recogieron firmas de apoyo a la implantación del asturiano como asignatura optativa en todos los centros , obteniendo el respaldo del 77% de los alumnos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="17" end="27" text="Xunta Moza" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="124" end="127" text="ESO" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="196" end="206" text="Institutos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

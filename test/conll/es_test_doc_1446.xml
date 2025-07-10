@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las tres mujeres subieron al vehículo y el individuo dejó primero a las dos amigas en la zona de Portazgo , donde residen , y a continuación condujo el coche hasta una zona solitaria en Entrevías donde , a pesar de las protestas de la mujer , paró el coche .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="98" end="106" text="Portazgo" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="187" end="196" text="Entrevías" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

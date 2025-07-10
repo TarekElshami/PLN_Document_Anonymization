@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Además , en España , el presidente del Tribunal de la Competencia , Amadeo Petitbó , también se refirió esta semana a la necesidad de que se amplíe la competencia en el sector petrolero para contrarrestar el alza del precio en los carburantes .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="13" end="19" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="40" end="66" text="Tribunal de la Competencia" TYPE="ORG" comment=""/>
+    <PER id="T3" start="69" end="83" text="Amadeo Petitbó" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

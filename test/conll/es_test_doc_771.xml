@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según anunció hoy el director de organización , Florentino Martínez , la carrera partirá a las nueve de la mañana del barrio de San Antonio de Etxebarri y , tras un trayecto de 160 kilómetros que discurrirá por tierras vizcaínas y alavesas , llegará a su meta en la calle Nagusia de Basauri .</TEXT>
+  <TAGS>
+    <PER id="T1" start="49" end="68" text="Florentino Martínez" TYPE="PER" comment=""/>
+    <LOC id="T2" start="129" end="153" text="San Antonio de Etxebarri" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="267" end="280" text="calle Nagusia" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="284" end="291" text="Basauri" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ecija ( Sevilla ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="6" text="Ecija" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="9" end="16" text="Sevilla" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="30" end="33" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

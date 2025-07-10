@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El índice Dax de la bolsa de Fráncfort estuvo sometido hoy de nuevo a los altibajos de Wall Street y cerró hoy al alza con una ganancia de 14,73 puntos o el 0,21 por ciento para situarse en los 6.927,69 puntos .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="11" end="14" text="Dax" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="30" end="39" text="Fráncfort" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="88" end="99" text="Wall Street" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

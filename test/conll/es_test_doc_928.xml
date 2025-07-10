@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 17.30 GMT ) BOLSA - FRANCFORT - Fráncfort ( RFA ) - El temor a nuevas subidas de los tipos de interés ha hundido también al &quot; Neuer Markt &quot; , el primer mercado europeo de nuevas tecnologías , que acumula ya una caída del 30 por ciento desde el pasado marzo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="23" end="32" text="FRANCFORT" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="35" end="44" text="Fráncfort" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="47" end="50" text="RFA" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="127" end="142" text="&quot; Neuer Markt &quot;" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

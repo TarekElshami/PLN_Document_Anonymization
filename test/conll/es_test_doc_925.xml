@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>TOLEDO - Lima - El candidato opositor Alejandro Toledo explica hoy a la prensa extranjera su estrategia política frente a la segunda vuelta electoral del próximo domingo , a la que ha anunciado no tiene intención de presentarse .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="TOLEDO" TYPE="PER" comment=""/>
+    <PER id="T2" start="39" end="55" text="Alejandro Toledo" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

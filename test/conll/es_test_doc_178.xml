@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Porque nosotros somos aliados de Israel , como este país lo es de EEUU .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="34" end="40" text="Israel" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="67" end="71" text="EEUU" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

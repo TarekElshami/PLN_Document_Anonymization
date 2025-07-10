@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Allí vive la hermana del asesinado primer ministro laborista Isaac Rabin , Raquel , que dijo a EFE : &quot; Tengo que ser optimista , y , por supuesto , yo me quedo , donde vivo hace más de 50 años y fui una de las fundadoras del ' kibutz ' &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="62" end="73" text="Isaac Rabin" TYPE="PER" comment=""/>
+    <PER id="T2" start="76" end="82" text="Raquel" TYPE="PER" comment=""/>
+    <ORG id="T3" start="96" end="99" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

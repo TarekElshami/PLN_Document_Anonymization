@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En la reunión celebrada hoy estuvieron presentes los alcaldes de Inca , Pere Rotger , y de Mahón , Arturo Bagur , la directora general de deportes del Govern balear , Joana María Petrus , y los presidentes de los dos equipos mallorquín y menorquín , Sebastián Penya y José Luis Sintes , respectivamente , junto al presidente de Sa Nostra , Miguel Capellá .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="66" end="70" text="Inca" TYPE="LOC" comment=""/>
+    <PER id="T2" start="73" end="84" text="Pere Rotger" TYPE="PER" comment=""/>
+    <LOC id="T3" start="92" end="97" text="Mahón" TYPE="LOC" comment=""/>
+    <PER id="T4" start="100" end="112" text="Arturo Bagur" TYPE="PER" comment=""/>
+    <ORG id="T5" start="152" end="158" text="Govern" TYPE="ORG" comment=""/>
+    <PER id="T6" start="168" end="186" text="Joana María Petrus" TYPE="PER" comment=""/>
+    <PER id="T7" start="251" end="266" text="Sebastián Penya" TYPE="PER" comment=""/>
+    <PER id="T8" start="269" end="285" text="José Luis Sintes" TYPE="PER" comment=""/>
+    <ORG id="T9" start="329" end="338" text="Sa Nostra" TYPE="ORG" comment=""/>
+    <PER id="T10" start="341" end="355" text="Miguel Capellá" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

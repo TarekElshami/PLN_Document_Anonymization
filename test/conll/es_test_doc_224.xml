@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras el consejo de Gobierno , Imaz recordó que la fórmula del diálogo entre todos los partidos del Parlamento &quot; es la que mantiene el lehendakari desde la creación de este Gobierno , ante la incomprensión de muchas personas , fundamentalmente del PP &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="28" text="Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T2" start="31" end="35" text="Imaz" TYPE="PER" comment=""/>
+    <ORG id="T3" start="100" end="110" text="Parlamento" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="173" end="181" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="248" end="250" text="PP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

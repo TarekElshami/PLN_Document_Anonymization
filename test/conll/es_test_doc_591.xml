@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La firma Finarte España presentó hoy la exposición &quot; Goya frente al muro &quot; , un conjunto de fotografías que reflejan el trabajo que Teresa Grasa y Carlos Barboza hicieron para restaurar más de seiscientos metros cuadrados de las pinturas murales del artista aragonés .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="10" end="24" text="Finarte España" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="52" end="75" text="&quot; Goya frente al muro &quot;" TYPE="MISC" comment=""/>
+    <PER id="T3" start="133" end="145" text="Teresa Grasa" TYPE="PER" comment=""/>
+    <PER id="T4" start="148" end="162" text="Carlos Barboza" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

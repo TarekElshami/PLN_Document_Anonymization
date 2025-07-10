@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alvarado hizo estas declaraciones tras el encuentro que mantuvo con Matas , que calificó de &quot; muy cordial &quot; , y en el que , según explicó , encontró al ministro &quot; muy receptivo &quot; sobre todos los temas planteados .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Alvarado" TYPE="PER" comment=""/>
+    <PER id="T2" start="69" end="74" text="Matas" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

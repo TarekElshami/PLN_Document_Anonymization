@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Hacienda , Cristóbal Montoro , pidió hoy que &quot; nadie se aproveche de las circunstancias &quot; ante la subida de los carburantes , a la vez que apostó por aumentar la competencia en la distribución de gasolinas y gasóleo en España como manera de garantizar que no haya posiciones de abuso .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="24" text="Hacienda" TYPE="MISC" comment=""/>
+    <PER id="T2" start="27" end="44" text="Cristóbal Montoro" TYPE="PER" comment=""/>
+    <LOC id="T3" start="235" end="241" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

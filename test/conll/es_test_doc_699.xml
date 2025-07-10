@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La coinfección de sida y leishmaniosis afecta a todo el mundo y , por ejemplo en Latinoamérica el mayor número de casos se ha señalado en Brasil .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="82" end="95" text="Latinoamérica" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="139" end="145" text="Brasil" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

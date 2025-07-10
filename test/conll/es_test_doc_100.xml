@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En Montevideo el cantante supervisó la grabación de &quot; Llamada de Carnaval &quot; de Pedro Ferreira con la participación de los músicos uruguayos Fernando&quot;Lobo&quot;Núñez ( tamboriles ) , Daniel Lasca ( violín ) y Hugo Fattoruso ( producción ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="4" end="14" text="Montevideo" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="53" end="76" text="&quot; Llamada de Carnaval &quot;" TYPE="MISC" comment=""/>
+    <PER id="T3" start="80" end="94" text="Pedro Ferreira" TYPE="PER" comment=""/>
+    <PER id="T4" start="141" end="160" text="Fernando&quot;Lobo&quot;Núñez" TYPE="PER" comment=""/>
+    <PER id="T5" start="178" end="190" text="Daniel Lasca" TYPE="PER" comment=""/>
+    <PER id="T6" start="204" end="218" text="Hugo Fattoruso" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

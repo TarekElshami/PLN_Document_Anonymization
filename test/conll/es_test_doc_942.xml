@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Para cualquier consulta hasta las 19.30 GMT pueden llamar a Paloma Caballero al teléfono de Madrid 91 3467304 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="61" end="77" text="Paloma Caballero" TYPE="PER" comment=""/>
+    <LOC id="T2" start="93" end="99" text="Madrid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

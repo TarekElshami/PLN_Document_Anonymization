@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Joao Sebastiao destacó que España aporta el 75 por ciento del turismo extranjero que llega a Portugal y de esta cantidad de visitantes , prácticamente la mitad proceden de Madrid y la zona centro .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="15" text="Joao Sebastiao" TYPE="PER" comment=""/>
+    <LOC id="T2" start="28" end="34" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="94" end="102" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="173" end="179" text="Madrid" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

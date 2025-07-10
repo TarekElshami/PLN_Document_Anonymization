@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Agregó que España insiste en la UE &quot; sobre la necesidad de aumentar el crecimiento de Europa y creemos que esa es una de las asignaturas pendientes de los europeos &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="12" end="18" text="España" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="33" end="35" text="UE" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="87" end="93" text="Europa" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

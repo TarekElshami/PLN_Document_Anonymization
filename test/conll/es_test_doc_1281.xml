@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Antonio Fraguas &quot; Forges &quot; dijo que &quot; esta obra supone un ejercicio de literatura tan profundo que demuestra que la Facultad de Ciencias de la Información puede ser capaz de instruir a los periodistas para que escriban bien &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Antonio Fraguas" TYPE="PER" comment=""/>
+    <PER id="T2" start="17" end="27" text="&quot; Forges &quot;" TYPE="PER" comment=""/>
+    <ORG id="T3" start="117" end="155" text="Facultad de Ciencias de la Información" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

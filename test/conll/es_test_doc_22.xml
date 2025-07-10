@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Farina ha decidido incluir en la escuadra de los Socceroos a la dupla del club Sydney Olympic , los argentinos nacionalizados Gabriel Méndez y Pablo Cardozo , quienes han sido dos de las grandes figuras de la actual liga nacional de este país .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Farina" TYPE="PER" comment=""/>
+    <ORG id="T2" start="50" end="59" text="Socceroos" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="80" end="94" text="Sydney Olympic" TYPE="ORG" comment=""/>
+    <PER id="T4" start="127" end="141" text="Gabriel Méndez" TYPE="PER" comment=""/>
+    <PER id="T5" start="144" end="157" text="Pablo Cardozo" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

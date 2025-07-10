@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El concejal y portavoz del PSE-EE en el Ayuntamiento guipuzcoano de Bergara , Alvaro Esparza , ha presentado hoy la dimisión de su cargo ante &quot; las reiteradas amenazas de muerte &quot; que , según aseguró hoy , está recibiendo en los últimos meses &quot; por parte del entorno de ETA &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="28" end="34" text="PSE-EE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="41" end="53" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="69" end="76" text="Bergara" TYPE="LOC" comment=""/>
+    <PER id="T4" start="79" end="93" text="Alvaro Esparza" TYPE="PER" comment=""/>
+    <ORG id="T5" start="271" end="274" text="ETA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

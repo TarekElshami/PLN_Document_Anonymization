@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La delegada en Cádiz de la Consejería de Asuntos Sociales , Prudencia Rebollo , dijo hoy que su departamento &quot; no tiene competencias &quot; para costear los entierros de los inmigrantes fallecidos en las costas gaditanas cuando intentan entrar en España .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="16" end="21" text="Cádiz" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="28" end="58" text="Consejería de Asuntos Sociales" TYPE="ORG" comment=""/>
+    <PER id="T3" start="61" end="78" text="Prudencia Rebollo" TYPE="PER" comment=""/>
+    <LOC id="T4" start="243" end="249" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según Marcos , el propio González de Vega &quot; es la persona cualificada para determinar la urgencia de cada caso &quot; y &quot; es inadmisible situar las causas de estos fallecimientos como ajenas a los criterios técnicos &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="7" end="13" text="Marcos" TYPE="PER" comment=""/>
+    <PER id="T2" start="26" end="42" text="González de Vega" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

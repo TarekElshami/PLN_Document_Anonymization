@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Racan y su colega magiar , Viktor Orban , coincidieron en impulsar los proyectos ya iniciados para construir una autopista entre Budapest y Rijeka , así como para modernizar y tender vías férreas que unan Budapest con Zagreb y con el puerto adriático .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Racan" TYPE="PER" comment=""/>
+    <PER id="T2" start="28" end="40" text="Viktor Orban" TYPE="PER" comment=""/>
+    <LOC id="T3" start="130" end="138" text="Budapest" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="141" end="147" text="Rijeka" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="206" end="214" text="Budapest" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="219" end="225" text="Zagreb" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

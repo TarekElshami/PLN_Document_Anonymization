@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Un total de 223 funcionarios de la docencia no universitaria de Castilla-La Mancha se acogerán este año a la jubilación anticipada voluntaria ofrecida por la Consejería de Educación , según informó hoy este departamento del Gobierno regional a través de una nota de prensa .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="65" end="83" text="Castilla-La Mancha" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="159" end="182" text="Consejería de Educación" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="225" end="233" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

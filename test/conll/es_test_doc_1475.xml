@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los 220 millones de acciones procedentes de la ampliación de capital del Banco Bilbao Vizcaya Argentaria ( BBVA ) , que le reportarán fondos para financiar su expansión en Latinoamérica y proyectos de la &quot; nueva economía &quot; , comenzarán a negociarse en la bolsa a partir de mañana, miércoles .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="74" end="105" text="Banco Bilbao Vizcaya Argentaria" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="108" end="112" text="BBVA" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="173" end="186" text="Latinoamérica" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

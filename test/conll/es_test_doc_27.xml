@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Otro ausente será el defensa Ned Zelic ( 1860 Munich , Alemania ) , quien renunció a la selección australiana después de los partidos ante el equipo Sub-23 de Brasil , por desacuerdos con Frank Farina , el que se negó a incluirlo en el segundo encuentro jugado en Melbourne .</TEXT>
+  <TAGS>
+    <PER id="T1" start="30" end="39" text="Ned Zelic" TYPE="PER" comment=""/>
+    <LOC id="T2" start="47" end="53" text="Munich" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="56" end="64" text="Alemania" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="150" end="166" text="Sub-23 de Brasil" TYPE="ORG" comment=""/>
+    <PER id="T5" start="189" end="201" text="Frank Farina" TYPE="PER" comment=""/>
+    <LOC id="T6" start="265" end="274" text="Melbourne" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

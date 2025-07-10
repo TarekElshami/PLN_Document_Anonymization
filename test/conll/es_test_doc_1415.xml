@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La reunión se enmarca en la ronda de contactos que el secretario general de CCOO mantiene con las organizaciones políticas , empresariales e institucionales para informarles de los resultados del VII Congreso de CCOO que se celebró en abril y en el que Fidalgo fue elegido para sustituir a Antonio Gutiérrez al frente de la Secretaría General .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="77" end="81" text="CCOO" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="197" end="217" text="VII Congreso de CCOO" TYPE="MISC" comment=""/>
+    <PER id="T3" start="254" end="261" text="Fidalgo" TYPE="PER" comment=""/>
+    <PER id="T4" start="291" end="308" text="Antonio Gutiérrez" TYPE="PER" comment=""/>
+    <ORG id="T5" start="325" end="343" text="Secretaría General" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

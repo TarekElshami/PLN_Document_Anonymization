@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la presidenta del Consell menorquín &quot; con el primer sistema era mucho más fácil dar a entender al turista que se pagaba por visitar Menorca , por hacer turismo en la isla , en cambio ahora es un modelo en el que se abona según se pernocta &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="25" end="32" text="Consell" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="139" end="146" text="Menorca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El grupo de Chunta Aragonesista ( CHA ) en las Cortes de Aragón ha presentado una pregunta parlamentaria al presidente de Aragón , Marcelino Iglesias , para que explique en qué fecha está prevista la presentación de la Ley de Lenguas de Aragón , ante el &quot; enorme retraso &quot; que acumula .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="13" end="32" text="Chunta Aragonesista" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="35" end="38" text="CHA" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="48" end="64" text="Cortes de Aragón" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="123" end="129" text="Aragón" TYPE="LOC" comment=""/>
+    <PER id="T5" start="132" end="150" text="Marcelino Iglesias" TYPE="PER" comment=""/>
+    <MISC id="T6" start="220" end="244" text="Ley de Lenguas de Aragón" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

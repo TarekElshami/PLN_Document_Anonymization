@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los expertos del Banco de Inglaterra , encargados de decidir mensualmente sobre los tipos de interés , dijeron hoy al comité de Economía de la Cámara de los Comunes que la adquisición de euros apenas influiría en el valor de la libra ni en el del resto de divisas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="37" text="Banco de Inglaterra" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="129" end="165" text="Economía de la Cámara de los Comunes" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

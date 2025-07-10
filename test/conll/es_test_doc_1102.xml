@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las 3.500 entradas para acceder al pabellón para ver la final de París contra el Valencia iban a estar a disposición de los socios entre hoy. mañana, miércoles , pero el interés mostrado por los seguidores madridistas las ha agotado en la primera jornada de oferta .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="66" end="71" text="París" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="82" end="90" text="Valencia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

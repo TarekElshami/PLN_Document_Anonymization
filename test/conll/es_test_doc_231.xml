@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El portavoz de CHA en las Cortes de Aragón , Chesús Bernal , indica en esa iniciativa la necesidad de que se proporcione el marco jurídico específico para regular la cooficialidad del aragonés y del catalán , así como la efectividad de los derechos de las respectivas comunidades lingüísticas , de modo que &quot; se cumpla lo previsto en la disposición final segunda de la Ley de Patrimonio Cultural Aragonés .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="16" end="19" text="CHA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="27" end="43" text="Cortes de Aragón" TYPE="ORG" comment=""/>
+    <PER id="T3" start="46" end="59" text="Chesús Bernal" TYPE="PER" comment=""/>
+    <MISC id="T4" start="370" end="405" text="Ley de Patrimonio Cultural Aragonés" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

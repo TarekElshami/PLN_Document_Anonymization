@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Me gustaría que mi hermano metiera tres o cuatro goles , que fuera el mejor , pero que ganara el Valencia &quot; , señaló el pequeño de la saga , que reconoce que aunque las cosas no vayan por esos derroteros y que si es el Real Madrid el que vence prefiere ver también el lado positivo , que sería que tendría un hermano campeón de Europa .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="100" end="108" text="Valencia" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="222" end="233" text="Real Madrid" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="331" end="337" text="Europa" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según fuentes del Ayuntamiento , el consistorio se personará como acusación en el caso , que instruye el juez Víctor Manuel Escudero Rubio , que ha decretado el secreto del sumario .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="31" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <PER id="T2" start="111" end="139" text="Víctor Manuel Escudero Rubio" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Al respecto , David Defarranti , responsable de Latinoamérica en el Banco Mundial ( BM ) , dijo hoy a EFE que esa institución &quot; está optimista sobre los esfuerzos que se están haciendo &quot; en Nicaragua y que se continuará con la ayuda .</TEXT>
+  <TAGS>
+    <PER id="T1" start="15" end="31" text="David Defarranti" TYPE="PER" comment=""/>
+    <LOC id="T2" start="49" end="62" text="Latinoamérica" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="69" end="82" text="Banco Mundial" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="85" end="87" text="BM" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="103" end="106" text="EFE" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="191" end="200" text="Nicaragua" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

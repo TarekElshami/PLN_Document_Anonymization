@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En concreto , precisa que en Cádiz se ha sembrado ya cerca del 50 por ciento de la superficie prevista de arroz , de las que 2.000 hectáreas que se esperan en la actual campaña , y en Sevilla la superficie sembrada estará &quot; próxima a la de un año normal &quot; , a pesar de que se prevén dificultades con el agua de riego .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="30" end="35" text="Cádiz" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="185" end="192" text="Sevilla" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

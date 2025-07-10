@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El vicepresidente segundo del Parlamento andaluz y diputado por Málaga , Ildefonso Dell'Olmo ( PA ) , presentó hoy en el registro del Parlamento una pregunta escrita sobre la muerte de cuatro pacientes cardiacos que estaban en lista de espera en el Hospital Carlos Haya .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="31" end="41" text="Parlamento" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="65" end="71" text="Málaga" TYPE="LOC" comment=""/>
+    <PER id="T3" start="74" end="93" text="Ildefonso Dell'Olmo" TYPE="PER" comment=""/>
+    <ORG id="T4" start="96" end="98" text="PA" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="135" end="145" text="Parlamento" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="250" end="270" text="Hospital Carlos Haya" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

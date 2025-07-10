@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El futbolista ha sido descartado por el departamento médico de la CBF ( Confederación Brasileña de Fútbol ) y está excluido de la plantilla que disputará ambos amistosos &quot; , expresó Luxemburgo .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="67" end="70" text="CBF" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="73" end="106" text="Confederación Brasileña de Fútbol" TYPE="ORG" comment=""/>
+    <PER id="T3" start="183" end="193" text="Luxemburgo" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

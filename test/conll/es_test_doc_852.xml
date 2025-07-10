@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La marcha constará de cinco etapas con un recorrido total de 525 kilómetros , y se iniciará en Astorga a las 10.30 horas del próximo sábado 27 de mayo , informó hoy a Efe el presidente de la Asociación Deportiva de Trabajadores de Firestone , Pedro Lobeto .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="96" end="103" text="Astorga" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="168" end="171" text="Efe" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="192" end="241" text="Asociación Deportiva de Trabajadores de Firestone" TYPE="ORG" comment=""/>
+    <PER id="T4" start="244" end="256" text="Pedro Lobeto" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

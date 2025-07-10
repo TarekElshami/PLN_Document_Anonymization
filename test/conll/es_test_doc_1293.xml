@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Así se recoge en el acuerdo suscrito esta tarde y al que ha tenido acceso EFE , en el que se indica que ante la situación en la que se encuentra la empresa , en suspensión de pagos desde el 25 de abril , resulta &quot; imprescindible &quot; proponer a la Junta de Acreedores , convocada para el próximo 8 de junio , un convenio de liquidación .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="75" end="78" text="EFE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="246" end="265" text="Junta de Acreedores" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según informó la Junta , esta muestra hace un recorrido por el parque natural del Alto Tajo a través de paneles fotográficos en los que se explica su climatología , geología , fauna y flora , vitrinas que contienen muestras de minerales , plantas y fósiles de esta zona , así como una proyección audiovisual sobre los rincones más singulares de este espacio .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="23" text="Junta" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="64" end="92" text="parque natural del Alto Tajo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

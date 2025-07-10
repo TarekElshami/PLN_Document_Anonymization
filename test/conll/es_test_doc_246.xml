@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El subdelegado del Gobierno autonómico subrayó que esos entierros deben contemplarse &quot; dentro del problema de la inmigración en su integridad &quot; , y que la Junta de Andalucía &quot; no está dispuesta a escenificar ninguna pelea institucional &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="20" end="28" text="Gobierno" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="156" end="174" text="Junta de Andalucía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

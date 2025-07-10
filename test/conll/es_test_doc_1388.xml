@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En España , las petroleras que dominan el mercado ( Repsol , Cepsa y BP ) han realizado varias subidas de los precios de la gasolina este año que han provocado críticas de la opinión pública y de las asociaciones de consumidores .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="4" end="10" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="53" end="59" text="Repsol" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="62" end="67" text="Cepsa" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="70" end="72" text="BP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

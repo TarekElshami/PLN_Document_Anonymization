@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La exposición , organizada con el propósito de mostrar una faceta diferente de la obra de este pintor universal , reúne 34 imágenes que , de manera minuciosa , plasman el esfuerzo que este matrimonio de restauradores lleva hecho desde 1979 para devolver a su estado inicial las obras de Goya situadas en el Pilar de Zaragoza , en la Cartuja Aula Dei , en San Juan el Real en Calatayud y en la iglesia parroquial de Remolinos .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="288" end="292" text="Goya" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="308" end="325" text="Pilar de Zaragoza" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="334" end="350" text="Cartuja Aula Dei" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="356" end="372" text="San Juan el Real" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="376" end="385" text="Calatayud" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="416" end="425" text="Remolinos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

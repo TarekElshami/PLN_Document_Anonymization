@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Una misión empresarial de China visitará Colombia , Ecuador , Perú y Venezuela , en una gira destinada a promover las relaciones económicas y comerciales con los países miembros de la Comunidad Andina ( CAN ) , informó hoy en Lima el ente integrador andino .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="27" end="32" text="China" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="42" end="50" text="Colombia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="53" end="60" text="Ecuador" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="63" end="67" text="Perú" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="70" end="79" text="Venezuela" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="185" end="201" text="Comunidad Andina" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="204" end="207" text="CAN" TYPE="ORG" comment=""/>
+    <LOC id="T8" start="227" end="231" text="Lima" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Indicó que posteriormente la Administración la obligó a recuperar las horas de lactancia , modificando &quot; de forma ilegal &quot; su horario de trabajo , según la CIG .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="30" end="44" text="Administración" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="157" end="160" text="CIG" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

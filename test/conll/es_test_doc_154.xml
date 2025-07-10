@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según los datos de la Delegación del Gobierno , sólo la aduana de Beni Enzar ( Marruecos ) - la que registra mayor tránsito - es atravesada a diario por alrededor de 20.000 personas y 4.000 vehículos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="23" end="46" text="Delegación del Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="67" end="77" text="Beni Enzar" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="80" end="89" text="Marruecos" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los enfermos de sida se enfrentan a un nuevo riesgo debido una enfermedad originada por la picadura de un mosquito que agrava su estado y que tiene un importante incidencia en España , advirtió hoy, martes la Organización Mundial de la Salud ( OMS ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="177" end="183" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="210" end="242" text="Organización Mundial de la Salud" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="245" end="248" text="OMS" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

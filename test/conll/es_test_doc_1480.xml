@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La ampliación de capital es una de las mayores emprendidas entre la banca internacional y ha sido efectuada mediante una Oferta Pública de Suscripción ( OPS ) que comenzó el pasado día 8 .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="122" end="151" text="Oferta Pública de Suscripción" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="154" end="157" text="OPS" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

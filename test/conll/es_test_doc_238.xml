@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Rebollo explicó a los periodistas que la competencia en este asunto es de los ayuntamientos cuando los inmigrantes no han sido identificados y del Gobierno central cuando sí están identificados y corresponde repatriar sus cadáveres .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Rebollo" TYPE="PER" comment=""/>
+    <ORG id="T2" start="148" end="156" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

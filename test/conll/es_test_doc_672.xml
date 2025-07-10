@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En una asamblea celebrada el pasado fin de semana , los campesinos de Chapare demandaron el cese de la destrucción de la coca que el Gobierno considera ilícita , reclamaron más recursos para los planes de desarrollo alternativo y pidieron el fin de las violaciones de los derechos humanos de esa población .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="71" end="78" text="Chapare" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="134" end="142" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

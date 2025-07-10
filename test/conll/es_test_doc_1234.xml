@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Caso aparte fue el de Milán que logró una subida del 2,18 por ciento por los avances de Olivetti y Unicrédito , entre otros .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="23" end="28" text="Milán" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="89" end="97" text="Olivetti" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="100" end="110" text="Unicrédito" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

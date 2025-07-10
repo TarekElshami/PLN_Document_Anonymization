@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Entre los participantes , figuran equipos como el catalán Puertas Artevi o el madrileño Nico Mora .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="59" end="73" text="Puertas Artevi" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="89" end="98" text="Nico Mora" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

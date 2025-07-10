@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La Corporación de Torrelavega celebra este jueves Pleno de carácter ordinario con 45 puntos en el orden del día , entre ellos la bonificación de los cuotas del Impuesto de Bienes Inmuebles ( IAE ) a los comercios afectados por las obras de desvío de los arroyos Sorravides e Indiana .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="30" text="Corporación de Torrelavega" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="51" end="56" text="Pleno" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="161" end="189" text="Impuesto de Bienes Inmuebles" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="192" end="195" text="IAE" TYPE="MISC" comment=""/>
+    <MISC id="T5" start="263" end="273" text="Sorravides" TYPE="MISC" comment=""/>
+    <MISC id="T6" start="276" end="283" text="Indiana" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Civiles y combatientes de los grupos chiítas de la resistencia libanesa liberaron hoy a 144 prisioneros de la cárcel de Jiam , el principal centro de detención israelí en la zona ocupada del sur del Líbano .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="111" end="125" text="cárcel de Jiam" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="200" end="206" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

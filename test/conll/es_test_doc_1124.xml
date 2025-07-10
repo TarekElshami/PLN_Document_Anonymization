@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El alcalde de Jerez y vicepresidente del PA , Pedro Pacheco , criticó hoy el cese de Francisco Menacho como delegado del gobierno andaluz en Cádiz - acordado hoy en el Consejo de Gobierno andaluz - y dijo que &quot; Chaves se equivoca &quot; al prescindir de una persona &quot; muy valiosa &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="20" text="Jerez" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="42" end="44" text="PA" TYPE="ORG" comment=""/>
+    <PER id="T3" start="47" end="60" text="Pedro Pacheco" TYPE="PER" comment=""/>
+    <PER id="T4" start="86" end="103" text="Francisco Menacho" TYPE="PER" comment=""/>
+    <LOC id="T5" start="142" end="147" text="Cádiz" TYPE="LOC" comment=""/>
+    <ORG id="T6" start="169" end="188" text="Consejo de Gobierno" TYPE="ORG" comment=""/>
+    <PER id="T7" start="212" end="218" text="Chaves" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

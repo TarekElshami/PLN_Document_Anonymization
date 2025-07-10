@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El país con más enfermos dobles es España ( 835 ) , seguido de Italia ( 229 ) , Francia ( 259 ) y Portugal ( 117 ) y de ellos el 71,1 por ciento son toxicómanos por vía intravenosa .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="36" end="42" text="España" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="64" end="70" text="Italia" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="81" end="88" text="Francia" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="99" end="107" text="Portugal" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

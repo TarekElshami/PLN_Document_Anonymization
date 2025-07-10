@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Se han agotado hoy la entradas puestas gratuitamente por el Real Madrid a disposición de los socios para seguir en directo , a través de una pantalla gigante situada en el pabellón Raimundo Saporta , la final de la Liga de Campeones , ha informado el club a Efe .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="61" end="72" text="Real Madrid" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="173" end="198" text="pabellón Raimundo Saporta" TYPE="LOC" comment=""/>
+    <MISC id="T3" start="216" end="233" text="Liga de Campeones" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="259" end="262" text="Efe" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

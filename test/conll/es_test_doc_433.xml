@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , Floris expresó el deseo del campus oscense de &quot; integración &quot; en la Universidad de Zaragoza , aunque estimó que los centros de Huesca funcionan como &quot; academias delegadas de los campus de Zaragoza &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="16" end="22" text="Floris" TYPE="PER" comment=""/>
+    <ORG id="T2" start="84" end="107" text="Universidad de Zaragoza" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="143" end="149" text="Huesca" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="204" end="212" text="Zaragoza" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

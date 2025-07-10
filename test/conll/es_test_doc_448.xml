@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El fomento de prácticas y hábitos de respeto al medio ambiente en los 225 municipios y nueve pedanías de la provincia de Valladolid es el objetivo del Premio de Ecología instituido por la Diputación y dotado con medio millón de pesetas , informaron hoy fuentes de la organización .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="122" end="132" text="Valladolid" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="152" end="170" text="Premio de Ecología" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="189" end="199" text="Diputación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Ayuntamiento de Arévalo ha dado traslado a la Delegación Territorial de la Junta de la &quot; preocupación e inquietud &quot; ha causado esta circunstancia , que podría repetirse si la entrega de llaves no se produce de manera inmediata , por lo que la Guardia Civil y la Policía Local extreman la vigilancia en la zona .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="27" text="Ayuntamiento de Arévalo" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="50" end="84" text="Delegación Territorial de la Junta" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="247" end="260" text="Guardia Civil" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="266" end="279" text="Policía Local" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

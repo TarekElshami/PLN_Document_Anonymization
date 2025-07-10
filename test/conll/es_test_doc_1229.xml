@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Entre los valores más negociados que cerraron con recortes , Repsol bajó el 1,51 por ciento , Altadis el 2,68 por ciento ; Hidrocantábrico el 0,04 por ciento y Vallehermoso el 1,38 por ciento .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="62" end="68" text="Repsol" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="95" end="102" text="Altadis" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="124" end="139" text="Hidrocantábrico" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="161" end="173" text="Vallehermoso" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los tres partidos ante el equipo guaraní le servirán a los Socceroos como preparación para la Copa Oceanía , clasificatoria para la Copa Confederaciones de la Federación Internacional de Fútbol Asociado ( FIFA ) , que se disputará en Tahiti entre el 20. 28 de junio .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="60" end="69" text="Socceroos" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="95" end="107" text="Copa Oceanía" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="133" end="153" text="Copa Confederaciones" TYPE="MISC" comment=""/>
+    <ORG id="T4" start="160" end="203" text="Federación Internacional de Fútbol Asociado" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="206" end="210" text="FIFA" TYPE="ORG" comment=""/>
+    <LOC id="T6" start="235" end="241" text="Tahiti" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

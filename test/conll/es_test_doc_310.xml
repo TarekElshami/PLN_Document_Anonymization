@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>De los despedidos , 103 serán prejubilados , 23 se acogerán a las bajas incentivadas voluntarias , 50 serán recolocados en la nueva fábrica de Vitaminas &quot; Vitatene &quot; , otros 10 en empresas del Grupo Montedison en España y 10 en empresas relacionadas con Antibióticos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="144" end="166" text="Vitaminas &quot; Vitatene &quot;" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="194" end="210" text="Grupo Montedison" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="214" end="220" text="España" TYPE="LOC" comment=""/>
+    <ORG id="T4" start="255" end="267" text="Antibióticos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

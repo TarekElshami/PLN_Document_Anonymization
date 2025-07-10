@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El consejero de Agricultura. Medio Ambiente , Alejandro Alonso , inaugurará mañana , cuando se celebra el Día Europeo de los Parques Naturales , la exposición &quot; Parque Natural del Alto Tajo &quot; , que estará abierta hasta el próximo día 31 en el Palacio de Benacazón de Toledo .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="17" end="44" text="Agricultura. Medio Ambiente" TYPE="MISC" comment=""/>
+    <PER id="T2" start="47" end="63" text="Alejandro Alonso" TYPE="PER" comment=""/>
+    <MISC id="T3" start="160" end="192" text="&quot; Parque Natural del Alto Tajo &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="244" end="264" text="Palacio de Benacazón" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="268" end="274" text="Toledo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

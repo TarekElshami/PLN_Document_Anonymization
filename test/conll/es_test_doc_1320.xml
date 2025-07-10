@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Mientras , el secretario general de la OEA , César Gaviria , resaltó que en la reconstrucción nicaragüense y centroamericana se ha alcanzado una parte de las metas propuestas , y que los esfuerzos obtienen el éxito deseado .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="40" end="43" text="OEA" TYPE="ORG" comment=""/>
+    <PER id="T2" start="46" end="59" text="César Gaviria" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

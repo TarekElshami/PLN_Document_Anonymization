@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los bancos también contribuyeron a la ligera subida de los indicadores españoles , al ganar el BBVA un 2,46 por ciento y el BSCH un 0,50 por ciento .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="96" end="100" text="BBVA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="125" end="129" text="BSCH" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

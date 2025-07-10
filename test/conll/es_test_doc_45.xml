@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alvarez Rendueles destacó que , pese a la coyuntura adversa iniciada a mediados del año 1998 con la mayor caída de precios de la década propiciada principalmente por la crisis asiática , Aceralia supo &quot; lidiar &quot; la situación para mantenerse entre los primeros productores mundiales .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="18" text="Alvarez Rendueles" TYPE="PER" comment=""/>
+    <ORG id="T2" start="188" end="196" text="Aceralia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

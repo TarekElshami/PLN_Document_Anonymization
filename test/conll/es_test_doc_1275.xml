@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Blanco decidió escribir este libro , que se titula &quot; Tip, poeta del ingenio &quot; y que trata de su biografía y de la España comprendida entre las décadas que van de los años 40. los 90 , impulsada por la idea del propio Antonio Ozores , que un día dijo que estaría bien sacar a la luz la vida de este &quot; poeta del ingenio &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="7" text="Blanco" TYPE="PER" comment=""/>
+    <MISC id="T2" start="52" end="78" text="&quot; Tip, poeta del ingenio &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T3" start="115" end="121" text="España" TYPE="LOC" comment=""/>
+    <PER id="T4" start="218" end="232" text="Antonio Ozores" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

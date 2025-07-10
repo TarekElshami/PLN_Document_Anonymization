@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Seis boxeadores colombianos buscarán su cupo a los Juegos Olímpicos de Sydney 2000 , en el torneo clasificatorio que se realizará en Buenos Aires entre el 29 de mayo. el tres de junio próximo .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="52" end="83" text="Juegos Olímpicos de Sydney 2000" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="134" end="146" text="Buenos Aires" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

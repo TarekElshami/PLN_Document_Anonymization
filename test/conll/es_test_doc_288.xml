@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro de Agricultura, Pesca. Alimentación , Miguel Arias Cañete , asistirá mañana en el Teatro Real a la entrega de premios Viña de Madrid 2000 , organizado por el Consejo Regulador Vinos de Madrid con el fin &quot; de fomentar la competitividad entre las bodegas acogidas a la Denominación &quot; .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="48" text="Agricultura, Pesca. Alimentación" TYPE="MISC" comment=""/>
+    <PER id="T2" start="51" end="70" text="Miguel Arias Cañete" TYPE="PER" comment=""/>
+    <LOC id="T3" start="95" end="106" text="Teatro Real" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="123" end="150" text="premios Viña de Madrid 2000" TYPE="MISC" comment=""/>
+    <ORG id="T5" start="171" end="204" text="Consejo Regulador Vinos de Madrid" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="280" end="292" text="Denominación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

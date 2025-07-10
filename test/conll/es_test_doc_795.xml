@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Enrico Degano ( ITA - Panaria ) m. t. 14 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Enrico Degano" TYPE="PER" comment=""/>
+    <LOC id="T2" start="17" end="20" text="ITA" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="23" end="30" text="Panaria" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

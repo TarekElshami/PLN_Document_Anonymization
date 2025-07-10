@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>SIERRA LEONA - GOLPE ETIOPIA LANZA NUEVA OFENSIVA CONTRA ERITREA EN EL FRENTE CENTRAL Addis Abeba ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="13" text="SIERRA LEONA" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="22" end="29" text="ETIOPIA" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="58" end="65" text="ERITREA" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="87" end="98" text="Addis Abeba" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="101" end="104" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

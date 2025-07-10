@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El ministro español tiene previsto reunirse también con el presidente de la Reserva Federal , Alan Greenspan , y con el director del Fondo Monetario Internacional ( FMI ) , Horst Koehler , antes de trasladarse a Nueva York , en donde se reunirá el miércoles con los agregados comerciales españoles en EEUU , Canadá y México .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="77" end="92" text="Reserva Federal" TYPE="MISC" comment=""/>
+    <PER id="T2" start="95" end="109" text="Alan Greenspan" TYPE="PER" comment=""/>
+    <ORG id="T3" start="134" end="163" text="Fondo Monetario Internacional" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="166" end="169" text="FMI" TYPE="ORG" comment=""/>
+    <PER id="T5" start="174" end="187" text="Horst Koehler" TYPE="PER" comment=""/>
+    <LOC id="T6" start="213" end="223" text="Nueva York" TYPE="LOC" comment=""/>
+    <ORG id="T7" start="302" end="306" text="EEUU" TYPE="ORG" comment=""/>
+    <LOC id="T8" start="309" end="315" text="Canadá" TYPE="LOC" comment=""/>
+    <LOC id="T9" start="318" end="324" text="México" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta es la tercera avioneta que se precipita a tierra en menos de una semana en Guatemala .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="81" end="90" text="Guatemala" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

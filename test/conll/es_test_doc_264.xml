@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Estas jornadas cada vez tienen más interés por parte de los técnicos de La Rioja , tanto de la ciudad de Logroño como de las localidades se han inscrito para tal acontecimiento &quot; , añadió . efe Langreo , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="75" end="83" text="La Rioja" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="108" end="115" text="Logroño" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="193" end="196" text="efe" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="197" end="204" text="Langreo" TYPE="LOC" comment=""/>
+    <ORG id="T5" start="216" end="219" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

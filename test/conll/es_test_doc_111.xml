@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El mismo , de la firma Adidas y fabricado en Marruecos , será estrenado para España en la final de la Copa del Rey .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="24" end="30" text="Adidas" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="46" end="55" text="Marruecos" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="78" end="84" text="España" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="103" end="115" text="Copa del Rey" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

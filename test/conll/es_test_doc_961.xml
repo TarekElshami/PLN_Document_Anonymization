@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La OMS señala que la coinfección de leishmaniosis y VIH entraña problemas particulares a nivel de diagnóstico pues en las detecciones serológicas dan un 42,6 por ciento de resultados negativos en individuos que la sufren , ya que los enfermos seropositivos tienen problemas para producir anticuerpos contra nuevos agentes infecciosos .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="7" text="OMS" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="53" end="56" text="VIH" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

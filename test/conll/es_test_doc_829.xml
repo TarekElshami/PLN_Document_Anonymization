@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por la tarde , los distintos responsables de varios centros académicos como la Universidad Católica de Lisboa y Facultad de Ciencias de la Información de la Universidad Pontificia de Salamanca , que expusieron sus experiencias en la formación cristiana en la comunicación social , La jornada terminó con una visita guiada a los distintos museos y piezas artísticas de este conjunto histórico , Patrimonio de la Humanidad , a cargo de fray Sebastián García , archivero y bibliotecario del Real Monasterio .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="80" end="110" text="Universidad Católica de Lisboa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="113" end="151" text="Facultad de Ciencias de la Información" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="158" end="193" text="Universidad Pontificia de Salamanca" TYPE="ORG" comment=""/>
+    <MISC id="T4" start="395" end="421" text="Patrimonio de la Humanidad" TYPE="MISC" comment=""/>
+    <PER id="T5" start="435" end="456" text="fray Sebastián García" TYPE="PER" comment=""/>
+    <LOC id="T6" start="489" end="504" text="Real Monasterio" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , el Ejército del Sur del Líbano ( ESL ) , el aliado de Israel que contribuyó a defender la frontera norte de este país , había abandonado hasta media tarde de hoy la mayor parte ( 25 ) de las posiciones que tenía en la &quot; zona de seguridad &quot; , donde seguía controlando siete en la región este .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="46" text="Ejército del Sur del Líbano" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="49" end="52" text="ESL" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="70" end="76" text="Israel" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

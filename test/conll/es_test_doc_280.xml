@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Santander , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="10" text="Santander" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="22" end="25" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

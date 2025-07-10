@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Durante una reunión con los corresponsales de la prensa internacional , Fortún se refirió al plazo de un mes dado por los sindicatos de campesinos de Chapare , donde se cultiva la mayor cantidad de coca de Bolivia , para que las autoridades anulen el programa de erradicación de cocales .</TEXT>
+  <TAGS>
+    <PER id="T1" start="73" end="79" text="Fortún" TYPE="PER" comment=""/>
+    <LOC id="T2" start="151" end="158" text="Chapare" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="207" end="214" text="Bolivia" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

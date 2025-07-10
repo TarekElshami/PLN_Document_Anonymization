@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente de Venezuela , Hugo Chávez , pidió hoy la intervención del Gobierno estadounidense para que se solucionen los problemas técnicos que están poniendo en peligro la realización de las elecciones múltiples del 28 de mayo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="18" end="27" text="Venezuela" TYPE="LOC" comment=""/>
+    <PER id="T2" start="30" end="41" text="Hugo Chávez" TYPE="PER" comment=""/>
+    <ORG id="T3" start="74" end="82" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

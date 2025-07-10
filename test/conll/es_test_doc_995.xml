@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Montoro se refirió a la acusación de monopolio en los precios de la gasolina por parte de diferentes sectores de la sociedad , incluso a ello se ha referido la comisaria europea Loyola de Palacio , defendiendo una mayor liberalización .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Montoro" TYPE="PER" comment=""/>
+    <PER id="T2" start="179" end="196" text="Loyola de Palacio" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

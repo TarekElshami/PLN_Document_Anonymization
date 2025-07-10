@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras entrevistarse con el secretario estadounidense del Tesoro , Lawrence Summers , Rato dijo que la mejor forma de favorecer los intereses de los ciudadanos es facilitar que haya la mayor competencia y oferta en la gasolina .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="57" end="63" text="Tesoro" TYPE="MISC" comment=""/>
+    <PER id="T2" start="66" end="82" text="Lawrence Summers" TYPE="PER" comment=""/>
+    <PER id="T3" start="85" end="89" text="Rato" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

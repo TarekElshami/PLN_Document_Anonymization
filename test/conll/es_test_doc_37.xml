@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En este sentido , ASAJA pide al Gobierno la reducción del Impuesto Especial de Hidrocarburos ( IEH ) , que grava en 13,9 pesetas el litro , y considera que sólo en la provincia de Toledo se consumen al año 85 millones de litros de gasóleo agrícola al año con lo que tras la subida del último año las pérdidas rondan los 2.300 millones de pesetas .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="19" end="24" text="ASAJA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="33" end="41" text="Gobierno" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="59" end="93" text="Impuesto Especial de Hidrocarburos" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="96" end="99" text="IEH" TYPE="MISC" comment=""/>
+    <LOC id="T5" start="181" end="187" text="Toledo" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

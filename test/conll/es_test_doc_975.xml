@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El teniente de diputado general , Carlos Samaniego , aseguró hoy que existe un informe de los servicios jurídicos de la Diputación que se posiciona en contra del recurso , mientras que el presidente de EA afirmó que &quot; se ha presentado un argumento falso de la asesoría jurídica &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="35" end="51" text="Carlos Samaniego" TYPE="PER" comment=""/>
+    <ORG id="T2" start="121" end="131" text="Diputación" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="203" end="205" text="EA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

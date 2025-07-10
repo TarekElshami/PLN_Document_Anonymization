@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Ruano se vio sorprendida por una Medina que mostró una osadía impropia de su edad en la primera manga , ya que el 6-4 a favor de la valenciana dejaba a Ruano por detrás en el marcador y con una cierta sensación de impotencia ante el juego de sólido juego de Medina desde el fondo de la pista .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Ruano" TYPE="PER" comment=""/>
+    <PER id="T2" start="34" end="40" text="Medina" TYPE="PER" comment=""/>
+    <PER id="T3" start="153" end="158" text="Ruano" TYPE="PER" comment=""/>
+    <PER id="T4" start="259" end="265" text="Medina" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

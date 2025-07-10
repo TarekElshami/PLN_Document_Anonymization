@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Jaca ( Huesca ) , 23 may ( EFE ) .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="1" end="5" text="Jaca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="8" end="14" text="Huesca" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="28" end="31" text="EFE" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

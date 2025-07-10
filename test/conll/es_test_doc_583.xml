@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , Cristina Torrens , que llegaba de jugar la final en Amberes , y María Antonia Sánchez Lorenzo , que la semana pasada ganó el torneo de Oporto , cayeron esta vez a las primeras de cambio ante la canadiense Maureen Drake y la japonesa Ai Sugiyama respectivamente .</TEXT>
+  <TAGS>
+    <PER id="T1" start="16" end="32" text="Cristina Torrens" TYPE="PER" comment=""/>
+    <LOC id="T2" start="68" end="75" text="Amberes" TYPE="LOC" comment=""/>
+    <PER id="T3" start="80" end="109" text="María Antonia Sánchez Lorenzo" TYPE="PER" comment=""/>
+    <LOC id="T4" start="151" end="157" text="Oporto" TYPE="LOC" comment=""/>
+    <PER id="T5" start="221" end="234" text="Maureen Drake" TYPE="PER" comment=""/>
+    <PER id="T6" start="249" end="260" text="Ai Sugiyama" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

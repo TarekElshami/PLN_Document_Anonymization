@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Sobre este último particular , el 66 por ciento de los encuestados piensa que en Panamá hay menos seguridad después de que las tropas de Estados Unidos abandonaran el país en diciembre pasado , tras haberlo ocupado durante casi un siglo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="82" end="88" text="Panamá" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="138" end="152" text="Estados Unidos" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

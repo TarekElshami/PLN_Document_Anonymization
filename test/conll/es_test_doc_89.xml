@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Moneo , que se reunió con el Consejero de Fomento , José Luis González Vallvé , y con el alcalde de Avila , Agustín Díaz de Mera , poco antes de visitar la zona que será remodelada , destacó el propósito de &quot; recuperar el casco histórico &quot; en un proyecto que dará mayor relieve a la románica iglesia de San Pedro , situada frente a la Muralla , al dejar libre mayor espacio .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="6" text="Moneo" TYPE="PER" comment=""/>
+    <PER id="T2" start="30" end="50" text="Consejero de Fomento" TYPE="PER" comment=""/>
+    <PER id="T3" start="53" end="78" text="José Luis González Vallvé" TYPE="PER" comment=""/>
+    <LOC id="T4" start="101" end="106" text="Avila" TYPE="LOC" comment=""/>
+    <PER id="T5" start="109" end="129" text="Agustín Díaz de Mera" TYPE="PER" comment=""/>
+    <LOC id="T6" start="293" end="313" text="iglesia de San Pedro" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="336" end="343" text="Muralla" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

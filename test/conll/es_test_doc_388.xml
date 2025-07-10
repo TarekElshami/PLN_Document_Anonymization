@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Barón de Ley propondrá en la próxima Junta General Ordinaria. Extraordinaria a sus accionistas la aprobación de la fusión por absorción de las sociedades del grupo Rústicas Vitícolas , Rústicas de la Ribera del Duero , Rústicas de Navarra y Rioviejo .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="1" end="13" text="Barón de Ley" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="38" end="77" text="Junta General Ordinaria. Extraordinaria" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="165" end="183" text="Rústicas Vitícolas" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="186" end="217" text="Rústicas de la Ribera del Duero" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="220" end="239" text="Rústicas de Navarra" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="242" end="250" text="Rioviejo" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

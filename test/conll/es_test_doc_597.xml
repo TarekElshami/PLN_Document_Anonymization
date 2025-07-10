@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Con estas imágenes , según afirmó Carlos Barboza durante la presentación , &quot; el espectador accede a la versatilidad de Goya en el dominio de las técnicas &quot; , ya que contempla cuadros realizados al fresco , u óleos sobre lienzo clavados a tabla como el &quot; San Agustín &quot; , de San Juan el Real .</TEXT>
+  <TAGS>
+    <PER id="T1" start="35" end="49" text="Carlos Barboza" TYPE="PER" comment=""/>
+    <PER id="T2" start="120" end="124" text="Goya" TYPE="PER" comment=""/>
+    <MISC id="T3" start="253" end="268" text="&quot; San Agustín &quot;" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="274" end="290" text="San Juan el Real" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La educadora del centro El Segre de Lleida fue apuñalada el pasado 15 de mayo por un alumno cuando impartía una clase de hostelería en una de las aulas del centro .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="25" end="33" text="El Segre" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="37" end="43" text="Lleida" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Desde ASAJA sabíamos que la Administración no tenía derecho a cobrarlo , que era injusto , y por eso presentamos el contencioso &quot; , destacó Juárez .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="9" end="14" text="ASAJA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="31" end="45" text="Administración" TYPE="ORG" comment=""/>
+    <PER id="T3" start="143" end="149" text="Juárez" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

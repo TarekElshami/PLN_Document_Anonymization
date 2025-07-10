@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La selección australiana de fútbol ( Socceroos ) se enfrentará a la de Paraguay en tres encuentros amistosos que se disputarán el próximo mes de junio en las ciudades de Sydney , Brisbane y Melbourne .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="47" text="Socceroos" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="72" end="80" text="Paraguay" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="171" end="177" text="Sydney" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="180" end="188" text="Brisbane" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="191" end="200" text="Melbourne" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alfonso Ussía declaró que &quot; Pilar Blanco ha hecho un análisis de una persona estupenda , y en ningún momento se trata de un libro oportunista , sino de un libro con sentimiento que alcanza el grado de extraordinario &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Alfonso Ussía" TYPE="PER" comment=""/>
+    <PER id="T2" start="29" end="41" text="Pilar Blanco" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

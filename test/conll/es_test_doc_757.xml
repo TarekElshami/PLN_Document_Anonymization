@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según la misma fuente , BP , que controla el 10 por ciento de las estaciones de servicio abiertas en España , no descartó la posibilidad de nuevas subidas para los próximos días .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="25" end="27" text="BP" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="102" end="108" text="España" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

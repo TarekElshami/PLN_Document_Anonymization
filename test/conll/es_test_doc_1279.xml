@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El humorista Antonio Mingote , se refirió a &quot; Tip, poeta del ingenio &quot; como &quot; un verdadero y merecido homenaje a Luis Sánchez Polack &quot; , además de que constituye &quot; un documento histórico , el de la historia de Madrid durante la etapa de Tip &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="14" end="29" text="Antonio Mingote" TYPE="PER" comment=""/>
+    <MISC id="T2" start="45" end="71" text="&quot; Tip, poeta del ingenio &quot;" TYPE="MISC" comment=""/>
+    <PER id="T3" start="114" end="133" text="Luis Sánchez Polack" TYPE="PER" comment=""/>
+    <LOC id="T4" start="211" end="217" text="Madrid" TYPE="LOC" comment=""/>
+    <PER id="T5" start="238" end="241" text="Tip" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 19.00 GMT ) EEUU - MUSICA - Nueva York - El Jazz Lincoln Center presenta hoy su proyecto para un nuevo centro de jazz en el corazón de Manhattan que ha sido diseñado por el arquitecto argentino Rafael Viñoly y cuyo coste asciende a 103 millones de dólares .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="15" end="19" text="EEUU" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="31" end="41" text="Nueva York" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="47" end="66" text="Jazz Lincoln Center" TYPE="ORG" comment=""/>
+    <LOC id="T4" start="138" end="147" text="Manhattan" TYPE="LOC" comment=""/>
+    <PER id="T5" start="197" end="210" text="Rafael Viñoly" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

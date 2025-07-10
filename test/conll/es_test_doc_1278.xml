@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Del Olmo recordó la intervención de Tip al interpretar a uno de los personajes que mejor sabía imitar , el de &quot; Madame Chochet &quot; , que tras la lectura de este libro , ha podido analizar que a quien verdaderamente Tip quería personificar era a la propia Marujita Díaz .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="9" text="Del Olmo" TYPE="PER" comment=""/>
+    <PER id="T2" start="37" end="40" text="Tip" TYPE="PER" comment=""/>
+    <MISC id="T3" start="111" end="129" text="&quot; Madame Chochet &quot;" TYPE="MISC" comment=""/>
+    <PER id="T4" start="214" end="217" text="Tip" TYPE="PER" comment=""/>
+    <PER id="T5" start="254" end="267" text="Marujita Díaz" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

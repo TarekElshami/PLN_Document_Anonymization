@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La promoción , que comenzó ayer en Salamanca , y tras Valladolid se presentará en Vitoria , Bilbao y Santander , pretende dar a conocer la amplia gama de actividades que esta zona de Portugal presenta para el visitante , que van desde el turismo de playa , al golf , el de tipo cultural , o el religioso , con el enclave de Fátima .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="36" end="45" text="Salamanca" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="55" end="65" text="Valladolid" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="83" end="90" text="Vitoria" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="93" end="99" text="Bilbao" TYPE="LOC" comment=""/>
+    <LOC id="T5" start="102" end="111" text="Santander" TYPE="LOC" comment=""/>
+    <LOC id="T6" start="184" end="192" text="Portugal" TYPE="LOC" comment=""/>
+    <LOC id="T7" start="325" end="331" text="Fátima" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

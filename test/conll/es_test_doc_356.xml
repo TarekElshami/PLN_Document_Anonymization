@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>También insta a las partes a que &quot; velen por la seguridad de la población civil y cooperen plenamente con Naciones Unidas en sus esfuerzos encaminados a estabilizar la situación , restablezcan la paz y la seguridad internacional y ayuden al Gobierno del Líbano a lograr la restitución de su autoridad efectiva en la zona tras la confirmación del retiro &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="107" end="122" text="Naciones Unidas" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="242" end="261" text="Gobierno del Líbano" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

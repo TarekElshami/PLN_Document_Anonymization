@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esta iniciativa , dirigida a todos los públicos , está organizada por la Consejería de Medio Ambiente del Ayuntamiento de Castro .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="74" end="102" text="Consejería de Medio Ambiente" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="107" end="129" text="Ayuntamiento de Castro" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

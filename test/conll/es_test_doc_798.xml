@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Steven De Jongh ( HOL - Rabobank ) m. t. 17 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Steven De Jongh" TYPE="PER" comment=""/>
+    <LOC id="T2" start="19" end="22" text="HOL" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="25" end="33" text="Rabobank" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

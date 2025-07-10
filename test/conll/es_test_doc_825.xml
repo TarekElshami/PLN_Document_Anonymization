@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En la reunión participan los presidentes de ambas comisiones , Joao Alves , obispo de Coimbra y José Sáncbez González , obispo de Sigüenza-Guadalajara , con sus respectivos vocales .</TEXT>
+  <TAGS>
+    <PER id="T1" start="64" end="74" text="Joao Alves" TYPE="PER" comment=""/>
+    <LOC id="T2" start="87" end="94" text="Coimbra" TYPE="LOC" comment=""/>
+    <PER id="T3" start="97" end="118" text="José Sáncbez González" TYPE="PER" comment=""/>
+    <LOC id="T4" start="131" end="151" text="Sigüenza-Guadalajara" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

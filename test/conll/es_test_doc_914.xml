@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Según el PA , el diputado pidió saber qué medidas tiene previstas la Junta para frenar &quot; este tipo de deficiencias &quot; , además de preguntar a la Consejería de Salud si &quot; es consciente &quot; de los perjuicios que &quot; sufren &quot; los ciudadanos andaluces y malagueños , por los &quot; escasos recursos &quot; con los que cuenta esta especialidad de la sanidad pública .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="10" end="12" text="PA" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="70" end="75" text="Junta" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="145" end="164" text="Consejería de Salud" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

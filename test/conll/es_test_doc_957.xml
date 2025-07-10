@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por una parte , la LV hace más rápida la manifestación del sida y reduce la esperanza de vida de las personas infectadas por el Virus de Inmunodeficiencia Humana ( VIH ) , y por la otra el VIH favorece la propagación de ese tipo de leishmaniosis .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="20" end="22" text="LV" TYPE="MISC" comment=""/>
+    <MISC id="T2" start="129" end="162" text="Virus de Inmunodeficiencia Humana" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="165" end="168" text="VIH" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="190" end="193" text="VIH" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

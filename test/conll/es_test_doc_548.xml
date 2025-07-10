@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>&quot; Ese tipo de audiencias está fuera de mi control , pero lo que creo es que el pobre Laudrup estaba un poco confuso y entró en Palacio por un patio que no era , para llamar a una puerta que no correspondía .</TEXT>
+  <TAGS>
+    <PER id="T1" start="86" end="93" text="Laudrup" TYPE="PER" comment=""/>
+    <LOC id="T2" start="128" end="135" text="Palacio" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

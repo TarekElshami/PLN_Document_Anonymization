@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El otro hotel es el NH Florida , un cuatro estrellas que responde al perfil de hotel urbano , situado cerca de las calles Florida y Córdoba , en pleno centro de la capital argentina ; dispone de 162 habitaciones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="21" end="31" text="NH Florida" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="123" end="130" text="Florida" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="133" end="140" text="Córdoba" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

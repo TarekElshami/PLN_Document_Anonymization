@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Otro asunto clave de la reunión de mañana será la nueva estrategia &quot; antiterrorista &quot; de Rusia , que ayer amenazó con lanzar un ataque preventivo contra las bases de extremistas islámicos que funcionan en Afganistán al amparo del régimen integrista talibán .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="90" end="95" text="Rusia" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="206" end="216" text="Afganistán" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

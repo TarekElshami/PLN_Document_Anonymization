@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El decano del Colegio de Ingenieros Técnicos de Minas de Asturias. Galicia , Luis Carlos Pérez Vilaboa , presentó hoy el III Simposium sobre la roca industrial y ornamental que el municipio de Mieres acogerá la próxima semana y que este año versará sobre la prevención de riesgos laborales en el sector minero .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="15" end="75" text="Colegio de Ingenieros Técnicos de Minas de Asturias. Galicia" TYPE="ORG" comment=""/>
+    <PER id="T2" start="78" end="103" text="Luis Carlos Pérez Vilaboa" TYPE="PER" comment=""/>
+    <MISC id="T3" start="122" end="135" text="III Simposium" TYPE="MISC" comment=""/>
+    <LOC id="T4" start="194" end="200" text="Mieres" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

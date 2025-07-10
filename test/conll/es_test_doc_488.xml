@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En este sentido , adelantó que &quot; ya existen varios empresarios de la comarca del Caudal , y también de Oviedo , cuyos proyectos de explotación han sido remitidos a la Dirección General de Minas para intentar el aprovechamiento de los grandes yacimientos de roca que existen en la región &quot; .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="70" end="88" text="comarca del Caudal" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="104" end="110" text="Oviedo" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="168" end="194" text="Dirección General de Minas" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

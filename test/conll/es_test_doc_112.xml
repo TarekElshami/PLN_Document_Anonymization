@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tras el entrenamiento , el propio Flores habló de las características del nuevo balón y dijo que &quot; es totalmente diferente al que se utiliza en la Liga .</TEXT>
+  <TAGS>
+    <PER id="T1" start="35" end="41" text="Flores" TYPE="PER" comment=""/>
+    <MISC id="T2" start="148" end="152" text="Liga" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

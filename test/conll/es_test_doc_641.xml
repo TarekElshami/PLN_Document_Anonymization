@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El único concejal del PP , Diego Ledesma , que rompió su pacto con IU , aseguró hoy a Efe que Herrera le hizo llegar que estaba dispuesto a apoyarle , pese. que el edil del GIL se inclinó ayer por Izquierda Unida .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="23" end="25" text="PP" TYPE="ORG" comment=""/>
+    <PER id="T2" start="28" end="41" text="Diego Ledesma" TYPE="PER" comment=""/>
+    <ORG id="T3" start="68" end="70" text="IU" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="87" end="90" text="Efe" TYPE="ORG" comment=""/>
+    <PER id="T5" start="95" end="102" text="Herrera" TYPE="PER" comment=""/>
+    <ORG id="T6" start="174" end="177" text="GIL" TYPE="ORG" comment=""/>
+    <ORG id="T7" start="198" end="213" text="Izquierda Unida" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

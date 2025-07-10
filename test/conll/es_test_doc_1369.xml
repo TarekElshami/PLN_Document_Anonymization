@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En declaraciones reproducidas hoy por el diario Jornal do Brasile , el ariete se dijo &quot; feliz &quot; por las declaraciones de Luxemburgo en las que el seleccionador señaló que &quot; si Romario está bien , podría ser convocado &quot; para enfrentarse a Perú .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="49" end="66" text="Jornal do Brasile" TYPE="ORG" comment=""/>
+    <PER id="T2" start="122" end="132" text="Luxemburgo" TYPE="PER" comment=""/>
+    <PER id="T3" start="177" end="184" text="Romario" TYPE="PER" comment=""/>
+    <ORG id="T4" start="239" end="243" text="Perú" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

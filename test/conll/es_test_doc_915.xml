@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El vicepresidente del Parlamento señaló que la mala negociación de los traspasos de las competencias en materia sanitaria , que Andalucía asumió en 1984 , es la causa más importante del déficit presupuestario , origen de la crisis en el sistema sanitario andaluz .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="23" end="33" text="Parlamento" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="129" end="138" text="Andalucía" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

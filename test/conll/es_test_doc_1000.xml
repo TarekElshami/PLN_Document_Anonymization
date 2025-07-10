@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El grupo parlamentario Socialista ha reclamado al Gobierno , entre otras medidas , la fijación de precios máximos a los carburantes para detener la creciente escalada de los precios y sostiene que todos los ciudadanos sospechan que se practica de manera concertada por las grandes distribuidoras .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="34" text="Socialista" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="51" end="59" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

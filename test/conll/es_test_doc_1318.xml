@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su lado , el presidente del BID , Enrique Iglesias , reafirmó la voluntad de esa institución de continuar cooperando en el impulso del desarrollo y la reconstrucción de Nicaragua .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="33" end="36" text="BID" TYPE="ORG" comment=""/>
+    <PER id="T2" start="39" end="55" text="Enrique Iglesias" TYPE="PER" comment=""/>
+    <LOC id="T3" start="174" end="183" text="Nicaragua" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

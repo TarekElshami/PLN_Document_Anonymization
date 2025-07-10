@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Imaz resaltó el respeto que le merecen al ejecutivo vasco &quot; las ideas y los sueños de Agustín Ibarrola &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="5" text="Imaz" TYPE="PER" comment=""/>
+    <PER id="T2" start="87" end="103" text="Agustín Ibarrola" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

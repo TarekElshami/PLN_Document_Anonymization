@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Tropas leales al Gobierno de Sierra Leona frustraron el lunes un intento de golpe de Estado de simpatizantes de la antigua junta militar , informaron hoy a un grupo de periodistas fuentes próximas a las fuerzas de seguridad .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="18" end="26" text="Gobierno" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="30" end="42" text="Sierra Leona" TYPE="LOC" comment=""/>
+    <ORG id="T3" start="86" end="92" text="Estado" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

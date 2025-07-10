@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En esta reunión , que dará comienzo a las 10,00 horas en la sede de la Diputación de Palencia , el titular de esta institución , Enrique Martín , dará a conocer su decisión de abandonar la presidencia de la Mesa del Pacto por el Empleo , para dar un nuevo giro a este organismo bajo la propuesta de hacer rotatorios sus cargos , informaron hoy a Efe fuentes sindicales .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="72" end="94" text="Diputación de Palencia" TYPE="ORG" comment=""/>
+    <PER id="T2" start="130" end="144" text="Enrique Martín" TYPE="PER" comment=""/>
+    <ORG id="T3" start="208" end="236" text="Mesa del Pacto por el Empleo" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="347" end="350" text="Efe" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

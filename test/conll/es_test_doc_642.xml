@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , el coordinador provincial de IU en Málaga , Rafael Rodríguez , manifestó a Efe que confía en que se cumpla el acuerdo con el PP para la elección del nuevo alcalde en el pleno de mediodía de mañana y que así lo espera también la dirección provincial popular .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="45" end="47" text="IU" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="51" end="57" text="Málaga" TYPE="LOC" comment=""/>
+    <PER id="T3" start="60" end="76" text="Rafael Rodríguez" TYPE="PER" comment=""/>
+    <ORG id="T4" start="91" end="94" text="Efe" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="141" end="143" text="PP" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

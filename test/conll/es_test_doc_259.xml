@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El sábado a partir de las 10.00 horas , en las instalaciones mundial 82 , José Manuel Ochotorena , realizará un entrenamiento práctico para porteros , y a partir de las 11.45 tendrá luchar una sesión de trabajo con diversos ejercicios físicos , técnicos y tácticos a cargo de Azcargorta .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="48" end="72" text="instalaciones mundial 82" TYPE="LOC" comment=""/>
+    <PER id="T2" start="75" end="97" text="José Manuel Ochotorena" TYPE="PER" comment=""/>
+    <PER id="T3" start="277" end="287" text="Azcargorta" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

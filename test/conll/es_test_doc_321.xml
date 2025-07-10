@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Una de las novedades de esta edición es que la pareja que compartirá la mesa presidencial con la alcaldesa de Badalona , Maite Arqué , y la concejal de Servicios Personales , Roser Castillo , será elegida al azar , por sorteo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="111" end="119" text="Badalona" TYPE="LOC" comment=""/>
+    <PER id="T2" start="122" end="133" text="Maite Arqué" TYPE="PER" comment=""/>
+    <MISC id="T3" start="153" end="173" text="Servicios Personales" TYPE="MISC" comment=""/>
+    <PER id="T4" start="176" end="190" text="Roser Castillo" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

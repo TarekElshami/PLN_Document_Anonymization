@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El canciller federal y jefe del Partido Popular ( OEVP ) , Wolfgang Schuessel , no ha ofrecido aún su postura respecto a estos contactos para decidir si se mantienen las sanciones impuestas contra el Gobierno de Viena por la participación en él del FPOE , que dirigía hasta este mes el populista de derechas Joerg Haider .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="33" end="48" text="Partido Popular" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="51" end="55" text="OEVP" TYPE="ORG" comment=""/>
+    <PER id="T3" start="60" end="78" text="Wolfgang Schuessel" TYPE="PER" comment=""/>
+    <ORG id="T4" start="201" end="218" text="Gobierno de Viena" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="250" end="254" text="FPOE" TYPE="ORG" comment=""/>
+    <PER id="T6" start="309" end="321" text="Joerg Haider" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Recordó , asimismo , que durante un mes el PSOE ha tenido abierto &quot; de par en par &quot; el Sistema de Control Contable de la Junta ( SICAL ) , y &quot; ahora dicen que les estamos negando información quizá por que lo único que han encontrado es transparencia &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="44" end="48" text="PSOE" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="88" end="127" text="Sistema de Control Contable de la Junta" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="130" end="135" text="SICAL" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

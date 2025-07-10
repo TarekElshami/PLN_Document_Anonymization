@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La final de la Liga de Campeones que disputarán mañana el Valencia y el Real Madrid supondrá también un enfrentamiento en la distancia entre los hermanos Helguera , Iván y Luis , del conjunto madrileño y del Real Zaragoza , respectivamente , como si de un duelo fratricida se tratara .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="16" end="33" text="Liga de Campeones" TYPE="MISC" comment=""/>
+    <ORG id="T2" start="59" end="67" text="Valencia" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="73" end="84" text="Real Madrid" TYPE="ORG" comment=""/>
+    <PER id="T4" start="155" end="163" text="Helguera" TYPE="PER" comment=""/>
+    <PER id="T5" start="166" end="170" text="Iván" TYPE="PER" comment=""/>
+    <PER id="T6" start="173" end="177" text="Luis" TYPE="PER" comment=""/>
+    <ORG id="T7" start="209" end="222" text="Real Zaragoza" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

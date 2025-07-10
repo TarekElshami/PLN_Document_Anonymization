@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En línea con lo manifestado por los hoteleros menorquines , Joana Barceló , explica que este modelo &quot; será complicado de aplicar en Menorca por el número de plazas que existen fuera del alta legalizada .</TEXT>
+  <TAGS>
+    <PER id="T1" start="61" end="74" text="Joana Barceló" TYPE="PER" comment=""/>
+    <LOC id="T2" start="133" end="140" text="Menorca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

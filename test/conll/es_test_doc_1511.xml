@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>La misión oriental , integrada por 35 empresarios de diversos sectores productivos y comerciales de Pekín , llegará presidida por el vicepresidente del Consejo Chino para el Fomento del Comercio Internacional , Liu Wenjie .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="101" end="106" text="Pekín" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="153" end="209" text="Consejo Chino para el Fomento del Comercio Internacional" TYPE="ORG" comment=""/>
+    <PER id="T3" start="212" end="222" text="Liu Wenjie" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

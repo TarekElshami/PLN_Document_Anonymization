@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Dos representantes de la empresa estatal GIF , encargada de la construcción del AVE , pidieron hoy en una reunión con el presidente de la Diputación , Jesús Alique , que se amplíe en tres días el plazo para depositar los avales por la cantidad total de 118 millones de pesetas que la Diputación fijó como fianza .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="42" end="45" text="GIF" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="81" end="84" text="AVE" TYPE="MISC" comment=""/>
+    <ORG id="T3" start="139" end="149" text="Diputación" TYPE="ORG" comment=""/>
+    <PER id="T4" start="152" end="164" text="Jesús Alique" TYPE="PER" comment=""/>
+    <ORG id="T5" start="285" end="295" text="Diputación" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , el presidente de la Confederación Española de Organizaciones Empresariales ( CEOE ) , José María Cuevas , instó hoy al Gobierno a analizar el papel que juega la fiscalidad de los productos energéticos &quot; y que grava como está gravando un producto tan importante para la economía española &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="36" end="90" text="Confederación Española de Organizaciones Empresariales" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="93" end="97" text="CEOE" TYPE="ORG" comment=""/>
+    <PER id="T3" start="102" end="119" text="José María Cuevas" TYPE="PER" comment=""/>
+    <ORG id="T4" start="135" end="143" text="Gobierno" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

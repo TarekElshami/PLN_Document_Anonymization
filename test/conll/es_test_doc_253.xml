@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Alto Tajo , que es el último parque natural que se ha declarado en Castilla-La Mancha , cuenta con una superficie de más de 105.000 hectáreas que abarca a 37 municipios de las provincias de Guadalajara y Cuenca , y con más de 120 especies de vertebrados y unas 1.500 de flora .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="4" end="13" text="Alto Tajo" TYPE="LOC" comment=""/>
+    <LOC id="T2" start="71" end="89" text="Castilla-La Mancha" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="194" end="205" text="Guadalajara" TYPE="LOC" comment=""/>
+    <LOC id="T4" start="208" end="214" text="Cuenca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

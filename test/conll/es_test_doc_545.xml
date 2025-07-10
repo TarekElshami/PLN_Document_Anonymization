@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Pero mientras la mayoría de los invitados accedía a palacio por la puerta principal , Michael Laudrup se introdujo por una entrada lateral , privando así al público del exterior de contemplar a uno de los deportistas más apreciados de todos los tiempos en Dinamarca .</TEXT>
+  <TAGS>
+    <PER id="T1" start="87" end="102" text="Michael Laudrup" TYPE="PER" comment=""/>
+    <LOC id="T2" start="257" end="266" text="Dinamarca" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

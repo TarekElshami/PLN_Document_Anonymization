@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El presidente provincial de la Asociación de Jóvenes Agricultores ( ASAJA ) en Toledo , Manuel Juárez , destacó hoy , en rueda de prensa , que el Tribunal Supremo falló el mes pasado a favor de esta asociación agraria que presentó un contencioso contra la Administración central por considerar que no se debían pagar estas &quot; jornadas reales &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="32" end="66" text="Asociación de Jóvenes Agricultores" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="69" end="74" text="ASAJA" TYPE="ORG" comment=""/>
+    <LOC id="T3" start="80" end="86" text="Toledo" TYPE="LOC" comment=""/>
+    <PER id="T4" start="89" end="102" text="Manuel Juárez" TYPE="PER" comment=""/>
+    <ORG id="T5" start="147" end="163" text="Tribunal Supremo" TYPE="ORG" comment=""/>
+    <ORG id="T6" start="257" end="271" text="Administración" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

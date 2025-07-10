@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Investigaciones posteriores permitieron averiguar que la documentación y el décimo de lotería intervenidos habían sido sustraídos hace unos días , junto a otros efectos , de un coche que estaba aparcado en una calle de Valladolid , hecho por el que su propietario había formulado denuncia en la Comisaría de Policía .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="220" end="230" text="Valladolid" TYPE="LOC" comment=""/>
+    <ORG id="T2" start="296" end="316" text="Comisaría de Policía" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

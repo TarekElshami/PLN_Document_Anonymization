@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Pronosticó que los estados no desaparecerán antes de 20 años , pero opinó que mientras tanto muchas competencias que hasta ahora han sido &quot; símbolo del Estado Nación &quot; recaerán en la Unión Europea o en las regiones .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="153" end="166" text="Estado Nación" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="184" end="197" text="Unión Europea" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

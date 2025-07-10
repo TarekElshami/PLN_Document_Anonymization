@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En un intento por despejar las dudas del Grupo Consultivo y de las instituciones crediticias internacionales sobre corrupción y gobernabilidad , el presidente de Nicaragua subrayó que la convivencia en un ambiente de estabilidad política , de paz y del goce pleno de todos los derechos y libertades ciudadanas , es una realidad en su país .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="42" end="58" text="Grupo Consultivo" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="163" end="172" text="Nicaragua" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

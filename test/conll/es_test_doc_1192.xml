@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>En su primera visita oficial a Hungría desde que accedió al cargo en febrero pasado y que concluyó hoy , el socialdemócrata Racan respaldó la propuesta magiar de ampliar el puerto adriático croata de Rijeka para que pueda funcionar como puerto matriz para los barcos húngaros .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="32" end="39" text="Hungría" TYPE="LOC" comment=""/>
+    <PER id="T2" start="125" end="130" text="Racan" TYPE="PER" comment=""/>
+    <LOC id="T3" start="201" end="207" text="Rijeka" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

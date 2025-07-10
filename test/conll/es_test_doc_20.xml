@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El seleccionador australiano , el ex internacional Frank Farina , dijo que la serie de tres partidos ante Paraguay serán una preparación excelente con miras a la Copa Oceanía y , además , &quot; un adelanto &quot; de los que puede ser la eliminatoria Oceanía-Sudamérica por una plaza para la Copa del Mundo del 2002 .</TEXT>
+  <TAGS>
+    <PER id="T1" start="52" end="64" text="Frank Farina" TYPE="PER" comment=""/>
+    <ORG id="T2" start="107" end="115" text="Paraguay" TYPE="ORG" comment=""/>
+    <MISC id="T3" start="163" end="175" text="Copa Oceanía" TYPE="MISC" comment=""/>
+    <MISC id="T4" start="242" end="260" text="Oceanía-Sudamérica" TYPE="MISC" comment=""/>
+    <MISC id="T5" start="283" end="297" text="Copa del Mundo" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

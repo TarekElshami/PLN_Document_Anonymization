@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>El Consistorio vizcaíno reacondicionará la instalación deportiva y abrirá su uso a todos los jóvenes futbolistas de Amorebieta .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="4" end="15" text="Consistorio" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="117" end="127" text="Amorebieta" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

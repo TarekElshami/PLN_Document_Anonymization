@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Alvarez Basso , que se halla embarazada de cinco meses , admitió que el incidente &quot; podría traerme repercusiones laborales &quot; , porque es empleada municipal , pero aseguró que lo hizo por &quot; defender los derechos de las personas que trabajan conmigo en el Palacio de la Cultura , donde nos encontramos además con problemas de gestión &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="14" text="Alvarez Basso" TYPE="PER" comment=""/>
+    <LOC id="T2" start="255" end="276" text="Palacio de la Cultura" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

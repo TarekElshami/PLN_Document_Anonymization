@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Por su parte , Canal Sur Televisión ha sido merecedora del galardón por el reportaje Precaución obras , del espacio ' los Reporteros ' .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="16" end="36" text="Canal Sur Televisión" TYPE="ORG" comment=""/>
+    <MISC id="T2" start="86" end="102" text="Precaución obras" TYPE="MISC" comment=""/>
+    <MISC id="T3" start="117" end="135" text="' los Reporteros '" TYPE="MISC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

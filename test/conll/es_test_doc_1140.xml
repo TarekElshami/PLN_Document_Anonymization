@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los diputados del grupo mixto tenían previsto utilizar hoy como despacho la antesala de la Presidencia después de haber pedido una oficina en reiteradas ocasiones , pero antes de que se instalaran Aberchan les ofreció compartir el despacho de Coalición por Melilla , lo que aceptaron de inmediato .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="92" end="103" text="Presidencia" TYPE="ORG" comment=""/>
+    <PER id="T2" start="198" end="206" text="Aberchan" TYPE="PER" comment=""/>
+    <ORG id="T3" start="244" end="265" text="Coalición por Melilla" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

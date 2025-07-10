@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Los parlamentarios del PSE-EE en la Cámara vasca han querido expresar con esta reunión su &quot; solidaridad y apoyo a los compañeros que en distintas agrupaciones , sobre todo en municipios pequeños , vienen sufriendo el acoso del terrorismo de ETA y de su entorno político &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="24" end="30" text="PSE-EE" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="37" end="43" text="Cámara" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="242" end="245" text="ETA" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

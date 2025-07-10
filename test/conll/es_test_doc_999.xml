@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Preguntado por la posibilidad de que Cepsa y Repsol tengan un acuerdo para determinar los precios de los carburantes , Mariano Rajoy señaló que &quot; eso tendrán que decirlo los organismos y el tribunal de Defensa de la Competencia , y espero que lo hagan &quot; .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="38" end="43" text="Cepsa" TYPE="ORG" comment=""/>
+    <ORG id="T2" start="46" end="52" text="Repsol" TYPE="ORG" comment=""/>
+    <PER id="T3" start="120" end="133" text="Mariano Rajoy" TYPE="PER" comment=""/>
+    <ORG id="T4" start="203" end="228" text="Defensa de la Competencia" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

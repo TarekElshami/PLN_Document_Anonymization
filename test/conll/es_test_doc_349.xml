@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Esa resolución , aprobada en 1978 , ordena la completa e incondicional retirada del Ejército de Israel de la franja de unos mil kilómetros cuadrados que ocupa en el sur del Líbano .</TEXT>
+  <TAGS>
+    <ORG id="T1" start="85" end="103" text="Ejército de Israel" TYPE="ORG" comment=""/>
+    <LOC id="T2" start="174" end="180" text="Líbano" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Las jornadas se iniciaran el viernes en el Hotel Ciudad de Logroño , con la presentación del libro ' Orientaciones Educativas para el desarrollo del deporte escolar ' , a cargo de Javier Arana , y Daniel Lapresa , autores de este trabajo .</TEXT>
+  <TAGS>
+    <LOC id="T1" start="44" end="67" text="Hotel Ciudad de Logroño" TYPE="LOC" comment=""/>
+    <MISC id="T2" start="100" end="167" text="' Orientaciones Educativas para el desarrollo del deporte escolar '" TYPE="MISC" comment=""/>
+    <PER id="T3" start="181" end="193" text="Javier Arana" TYPE="PER" comment=""/>
+    <PER id="T4" start="198" end="212" text="Daniel Lapresa" TYPE="PER" comment=""/>
+  </TAGS>
+</MEDDOCAN>

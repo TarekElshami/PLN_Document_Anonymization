@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Vilaboa manifestó además la importancia de este crecimiento del sector que aseguró &quot; va muy parejo al fuerte boom urbanístico que se detecta en Mieres como consecuencia de la ampliación del campus universitario , dado que cada nueva vivienda edificada lleva consigo 40 toneladas de material de cantera &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="8" text="Vilaboa" TYPE="PER" comment=""/>
+    <LOC id="T2" start="145" end="151" text="Mieres" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>

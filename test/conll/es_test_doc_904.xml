@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>Carlota Alvarez explicó que su decisión &quot; no fue por rabieta &quot; sino &quot; justificada por la reclamación de cuatro plazas de aparcamiento autorizado para personal del Palacio de Congresos , que el Ayuntamiento nos retiró a raíz del traslado de la Policía Municipal a los bajos del Auditorio &quot; .</TEXT>
+  <TAGS>
+    <PER id="T1" start="1" end="16" text="Carlota Alvarez" TYPE="PER" comment=""/>
+    <ORG id="T2" start="164" end="184" text="Palacio de Congresos" TYPE="ORG" comment=""/>
+    <ORG id="T3" start="194" end="206" text="Ayuntamiento" TYPE="ORG" comment=""/>
+    <ORG id="T4" start="244" end="261" text="Policía Municipal" TYPE="ORG" comment=""/>
+    <ORG id="T5" start="278" end="287" text="Auditorio" TYPE="ORG" comment=""/>
+  </TAGS>
+</MEDDOCAN>

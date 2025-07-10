@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDDOCAN>
+  <TEXT>( 18.30 GMT ) INTERPARLAMENTARIA - Alejandría ( Egipto ) - La Conferencia Interparlamentaria Euromediterránea , el único foro en el que actualmente se sientan juntos árabes e israelíes , analizó hoy el proceso de paz de Oriente Medio . por Javier Martín EEUU - SALUD - Nueva Orleans ( EEUU ) - El diagnóstico del cáncer puede mejorarse con dos nuevas pruebas presentadas en la reunión de la Sociedad de Oncología Clínica de EEUU que servirán para predecir qué peligro corren los enfermos de morir .</TEXT>
+  <TAGS>
+    <MISC id="T1" start="15" end="33" text="INTERPARLAMENTARIA" TYPE="MISC" comment=""/>
+    <LOC id="T2" start="36" end="46" text="Alejandría" TYPE="LOC" comment=""/>
+    <LOC id="T3" start="49" end="55" text="Egipto" TYPE="LOC" comment=""/>
+    <MISC id="T4" start="63" end="110" text="Conferencia Interparlamentaria Euromediterránea" TYPE="MISC" comment=""/>
+    <LOC id="T5" start="221" end="234" text="Oriente Medio" TYPE="LOC" comment=""/>
+    <PER id="T6" start="241" end="254" text="Javier Martín" TYPE="PER" comment=""/>
+    <LOC id="T7" start="255" end="259" text="EEUU" TYPE="LOC" comment=""/>
+    <LOC id="T8" start="270" end="283" text="Nueva Orleans" TYPE="LOC" comment=""/>
+    <LOC id="T9" start="286" end="290" text="EEUU" TYPE="LOC" comment=""/>
+    <ORG id="T10" start="392" end="421" text="Sociedad de Oncología Clínica" TYPE="ORG" comment=""/>
+    <LOC id="T11" start="425" end="429" text="EEUU" TYPE="LOC" comment=""/>
+  </TAGS>
+</MEDDOCAN>
