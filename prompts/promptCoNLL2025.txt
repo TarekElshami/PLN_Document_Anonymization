@@ -1,0 +1,60 @@
+--- METADATA ---
+fecha: 11/07/2025
+problemas LLama3.2:1B:
+    -
+problemas Llama3.3:
+
+problemas comunes:
+-----------------
+
+Tarea:
+Dado un texto clínico, identifica y anota **todas las entidades nombradas** siguiendo las directrices **estrictas** para reconocimiento de entidades.
+
+🎯 Objetivos:
+1. Detectar **ABSOLUTAMENTE TODAS Y CADA UNA de las menciones** de entidades nombradas, sin omitir ninguna, incluso si se repiten o son semánticamente equivalentes.
+2. Etiquetarlas usando esta sintaxis: <ETIQUETA>texto</ETIQUETA>
+3. Extraer dichas entidades agrupadas por tipo en un JSON válido.
+
+CATEGORÍAS DE ETIQUETAS (USA SOLO ESTAS, NO INVENTES NINGUNA)
+
+CARDINAL: Números cardinales no temporales, sin unidad explícita (e.g., "1000", "tres"). No incluye edades, dosis ni fechas.
+DATE: Fechas del calendario o expresiones temporales ancladas (e.g., "5 de junio de 2023", "enero de 2020", "hace dos semanas").
+EVENT: Eventos específicos reconocibles (e.g., "Olimpiadas", "Navidad", "Día Mundial de la Salud").
+FAC: Instalaciones físicas con nombre propio (e.g., "Hospital Clínico San Carlos", "Torre de Comunicaciones").
+GPE: Entidades geopolíticas como países, ciudades, regiones o provincias (e.g., "Madrid", "España", "Cataluña").
+LANGUAGE: Nombres de idiomas (e.g., "español", "francés", "alemán").
+LAW: Leyes, normas o documentos jurídicos con nombre propio (e.g., "Ley Orgánica 15/1999", "Reglamento General de Protección de Datos").
+LOC: Ubicaciones físicas no administrativas (e.g., "el desierto del Sáhara", "cordillera de los Andes").
+MONEY: Cantidades monetarias completas (valor + unidad) (e.g., "100 euros", "$250", "3.000 dólares").
+NORP: Grupos étnicos, nacionales, religiosos o políticos (e.g., "católicos", "musulmanes", "socialistas", "argentinos").
+ORDINAL: Números ordinales (e.g., "primero", "segunda", "4.º").
+ORG: Nombres oficiales de organizaciones, públicas o privadas (e.g., "OMS", "Ministerio de Sanidad", "Universidad de Harvard").
+PERCENT: Porcentajes explícitos (e.g., "25%", "el 90 por ciento").
+PERSON: Nombres propios de personas, incluyendo nombre completo, parcial o apodos (e.g., "María López", "Antonio", "Dr. House").
+PRODUCT: Productos con nombre comercial o reconocible (e.g., "Aspirina", "iPhone", "Vacuna Comirnaty").
+QUANTITY: Cantidades explícitas con unidad física o médica (e.g., "500 ml", "dos litros", "3 mg").
+TIME: Expresiones horarias o momentos del día (e.g., "a las 9:00", "mediodía", "de madrugada").
+WORK_OF_ART: Títulos de obras creativas (e.g., "Mona Lisa", "Don Quijote", "Bohemian Rhapsody").
+
+## 🧾 Reglas de anotación (CRÍTICAS)
+
+1. **NUNCA incluir prefijos/claves dentro de las etiquetas:** No incluir "Sr.", "Nº", "Moneda:", "Idioma:", etc. Solo el valor puro.
+2. Identificar y anotar **TODAS LAS APARICIONES** de cada entidad. No omitas ninguna, incluso si se repiten.
+3. No incluir espacios ni signos de puntuación innecesarios dentro de las etiquetas.
+4. Múltiples palabras que constituyen una sola entidad deben etiquetarse juntas, siempre que la entidad sea la misma.
+5. Usa el contexto para clasificar correctamente cada entidad.
+6. **Si no hay entidades**, devuelve el JSON con `"entidades": {{}}`.
+7. **No generes etiquetas nuevas ni marques datos que no figuren en la lista.**
+
+✅ Salida esperada (formato obligatorio)
+ÚNICAMENTE un **JSON válido**, sin explicaciones, sin formato de bloque de código ni comentarios. Estructura esperada:
+{{
+  "texto_anotado": "Texto con etiquetas <ETIQUETA>...</ETIQUETA> ya insertadas",
+  "entidades": {{
+    "ETIQUETA1": ["valor1", "valor2", ...],
+    "ETIQUETA2": ["valor1", ...]
+  }}
+}}
+
+El texto que debes analizar es este:
+"{texto_clinico}"

@@ -76,7 +76,7 @@ def process_all_prompts():
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
 
-    prompt_files = ['promptCoNLL.txt']
+    prompt_files = ['promptCoNLL2025.txt']
 
     # Verificar que los archivos de prompt existen
     missing_prompts = []
