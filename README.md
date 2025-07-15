@@ -25,6 +25,5 @@
 | PhysioNet | 2007 | 2,434 notas | Inglés | NER | Sí |
 | MIMIC-IV | 2023 | 331,794 | Inglés | Datos ya anonimizados | Sí |
 | ai4privacy/phi-masking-100k | 2025 | 100000| 8 idiomas (inglés, español) | NER, necesita licencia | Sí |
-|  NorskRegnesentral
-text-anonymization-benchmark  | 2022 | 1,268 | inglés | NER | NO |
+|  NorskRegnesentral text-anonymization-benchmark  | 2022 | 1,268 | inglés | NER | NO |
 
