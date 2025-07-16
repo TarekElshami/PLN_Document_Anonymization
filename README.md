@@ -22,3 +22,10 @@
 | CADEC                              | 2015        | Desconocido                   | Inglés                                                                    | Reacciones adversas a medicamentos  | Sí     |
 | QUAERO French Medical Corpus       | 2014    | 832                   | Francés                                                                   | Anatomía, Químicos y Fármacos, Dispositivos                        | Sí     |
 | Medical Wikipedia Data             | 2016        | 1177                   | Sueco                                                                     | trastornos, fármacos, anatomía              | Sí     |
+| PhysioNet* | 2007 | 2,434 notas | Inglés | NER | Sí |
+| <s>MIMIC-IV<s>| <s>2023<s> | <s>331,794<s> | <s>Inglés<s> | <s>Datos ya anonimizados<s> | <s>Sí<s> |
+| ai4privacy/phi-masking-100k* | 2025 | 100000| 8 idiomas (inglés, español) | NER, necesita licencia | Sí |
+|  NorskRegnesentral text-anonymization-benchmark  | 2022 | 1,268 | inglés | NER | NO |
+
+MIMIC-IV descartado porque los datos ya vienen anonimizados
+* dataset médico que debemos usar
