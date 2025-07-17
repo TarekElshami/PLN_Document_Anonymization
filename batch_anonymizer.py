@@ -72,11 +72,11 @@ def save_processed_files(state):
 # --- Procesamiento Principal ---
 def process_all_prompts():
     state = load_processed_files()
-    input_files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.xml')]
+    input_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(('.xml', '.txt'))]
     if MAX_FILES is not None:
         input_files = input_files[:MAX_FILES]
 
-    prompt_files = ['promptCoNLL2025.txt']
+    prompt_files = ['prompt12.txt']
 
     # Verificar que los archivos de prompt existen
     missing_prompts = []

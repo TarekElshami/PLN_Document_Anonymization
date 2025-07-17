@@ -402,8 +402,14 @@ class LLMClient:
 def process_llm_request(input_file_path, output_dir, ollama_port, model_name, prompt_text, use_grammar, context_size):
     try:
         # Leer el archivo de entrada
-        tree = ET.parse(input_file_path)
-        original_text = tree.find('.//TEXT').text or ""
+        if input_file_path.endswith('.txt'):
+            # Procesar archivo de texto plano
+            with open(input_file_path, 'r', encoding='utf-8') as f:
+                original_text = f.read()
+        else:
+            # Procesar archivo XML (comportamiento original)
+            tree = ET.parse(input_file_path)
+            original_text = tree.find('.//TEXT').text or ""
 
         # Update MODEL_CONTEXT_LIMITS for the current run
         MODEL_CONTEXT_LIMITS[model_name] = context_size
