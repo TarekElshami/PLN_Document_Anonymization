@@ -350,6 +350,22 @@ class LLMClient:
                     logger.warning(
                         f"Error parseando JSON en fragmento {idx + 1} (intento {retries + 1}/{self.max_retries}): {parse_error}")
                     logger.warning(f"Respuesta cruda del modelo:\n{llm_output}")
+
+                    # Intentar extraer JSON buscando las llaves
+                    try:
+                        first_brace = llm_output.find('{')
+                        last_brace = llm_output.rfind('}')
+
+                        if first_brace != -1 and last_brace != -1 and first_brace < last_brace:
+                            json_candidate = llm_output[first_brace:last_brace + 1]
+                            parsed = ast.literal_eval(json_candidate)
+                            logger.info(f"JSON extraído exitosamente entre llaves en fragmento {idx + 1}.")
+                            break
+                        else:
+                            logger.warning(f"No se encontraron llaves válidas en la respuesta del fragmento {idx + 1}.")
+                    except Exception as extract_error:
+                        logger.warning(f"Error extrayendo JSON entre llaves: {extract_error}")
+
                     retries += 1
                     if retries < self.max_retries:
                         logger.info(f"Reintentando procesar fragmento {idx + 1} en {2 ** retries} segundos...")
